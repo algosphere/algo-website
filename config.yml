@@ -1,0 +1,32 @@
+baseURL: "https://algosphere.github.io/"
+languageCode: "en"
+defaultContentLanguage: "en"
+title: "Algosphere Alliance"
+canonifyURLs: true
+disableLiveReload: true
+metaDataFormat: yaml
+enableRobotsTXT: true
+params:
+  description: "Algosphere Alliance for the alleviation of suffering"
+  author: "Algosphere"
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: false
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xHTML: false
+  tableOfContents:
+    startLevel: 1
+    endLevel: 5
+footnoteReturnLinkContents: "↑"
