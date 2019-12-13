@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <main class="container-fluid">
+    <article>
+      <h1>{{ .Title }}</h1><br>
+        {{ .Content }}
+    </article>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}
