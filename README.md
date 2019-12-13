@@ -1,3 +1,5 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/algosphere/algo-website/build)
+
 # Versions
  - Hugo `0.61.0`
  - Bootstrap `4.4.1`
