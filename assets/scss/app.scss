@@ -1,4 +1,4 @@
-$body-bg: #f8f9fa;
+$body-bg: #f8f9fa; /* $gray-100 */
 
 @import "bootstrap/bootstrap";
 
@@ -9,7 +9,7 @@ header .container-fluid,
 .nav-main .container-fluid,
 main .container-fluid,
 footer .container-fluid {
-  max-width: 1200px;
+  max-width: map-get($container-max-widths, "xl");
 }
 
 /************************************************************
@@ -17,6 +17,7 @@ footer .container-fluid {
 ************************************************************/
 header {
   background-color: $white;
+  padding: 0.5rem 1rem;
 }
 
 /************************************************************

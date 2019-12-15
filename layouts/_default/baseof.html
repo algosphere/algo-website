@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   {{ partial "head" . }}
 </head>
 <body>
   {{ partial "header" . }}
-  {{ partial "nav-main" . }}
+  {{ partial "nav" . }}
   {{ block "main" . }}{{ end }}
   {{ partial "footer" . }}
   {{ partial "scripts" . }}

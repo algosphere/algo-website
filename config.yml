@@ -3,7 +3,7 @@ languageCode: "en"
 defaultContentLanguage: "en"
 title: "Algosphere Alliance"
 canonifyURLs: true
-disableFastRender: false
+disableFastRender: true
 disableLiveReload: false
 metaDataFormat: yaml
 enableRobotsTXT: true

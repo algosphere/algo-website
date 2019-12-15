@@ -1,0 +1,31 @@
+{
+  "name": "algosphere.org",
+  "version": "1.0.0",
+  "description": "Algosphere website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algosphere/algo-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algosphere/algo-website/issues"
+  },
+  "homepage": "https://github.com/algosphere/algo-website",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-imgconv": "^0.6.4",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-replace": "^0.6.1",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0"
+  }
+}
