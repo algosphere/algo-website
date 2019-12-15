@@ -3,6 +3,7 @@
 # Versions
  - Hugo `0.61.0`
  - Bootstrap `4.4.1`
+ - Bootstrap Icons `1.0.0-alpha2`
 
 # To develop locally
 - Install [Hugo](https://gohugo.io/)
@@ -11,7 +12,7 @@
 - Clone the repo and run `hugo server` from root
 
 # Caveats
-- Goldmark (the new Hugo Markdown renderer) currently does not handle accentuated anchor words in headings/tables of content, see [#56](https://github.com/yuin/goldmark/issues/56). Temporarily fix by specifying anchors IDs like so: `# Title with àccent {#title-with-accent}`.
+- Goldmark currently does not handle unicode characters in auto heading IDs, temporarily fix by specifying anchors IDs like so: `# Title with àccent {#title-with-accent}`. See [#6616](https://github.com/gohugoio/hugo/issues/6616).
 
 # Workshop
 - [Workshop: Algosphere Alliance’s website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)
