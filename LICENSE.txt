@@ -1,14 +1,17 @@
 /************************************************************
-                CODE/BOOTSTRAP/GULP/TRAVIS
+                CODE/BOOTSTRAP/ICONS/GULP/TRAVIS
 ************************************************************/
 
 The MIT License (MIT)
 
 Code
-Copyright (c) Victor Massé
+Copyright (c) Algosphere
 
 "Bootstrap"
 Copyright (c) 2011-2016 Twitter, Inc.
+
+"Bootstrap Icons"
+Copyright (c) 2019 The Bootstrap Authors
 
 "gulp"
 Copyright (c) 2013-2017 Blaine Bublitz <blaine.bublitz@gmail.com>,

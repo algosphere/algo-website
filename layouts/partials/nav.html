@@ -11,8 +11,8 @@
         {{ end }}
       </div>
       <div class="nav-right navbar-nav">
-        <a class="btn btn-info d-block d-md-none" href="mailto:victor.dhamma@gmail.com" role="button">Contact <i class="material-icons">mail_outline</i></a>
-        <a class="btn btn-info d-none d-md-block" href="mailto:victor.dhamma@gmail.com" role="button" target="_blank">Contact <i class="material-icons">mail_outline</i></a>
+        <a class="btn btn-info d-block d-md-none" href="mailto:victor.dhamma@gmail.com" role="button">{{ ( resources.Get "icons/envelope.svg").Content | safeHTML }} Contact</a>
+        <a class="btn btn-info d-none d-md-block" href="mailto:victor.dhamma@gmail.com" role="button" target="_blank">{{ ( resources.Get "icons/envelope.svg").Content | safeHTML }} Contact</a>
       </div>
     </div>
   </div>
