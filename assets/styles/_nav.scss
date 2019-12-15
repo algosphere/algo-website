@@ -1,0 +1,30 @@
+.navbar {
+  margin-bottom: 3.5rem;
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .btn {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    @include media-breakpoint-up(md) {
+      margin: initial;
+    }
+  }
+}
+
+.navbar-toggler {
+  margin-right: 0 !important;
+}
+
+.navbar-nav {
+  padding-top: 0.25rem;
+}
+
+@include media-breakpoint-up(md) {
+  .navbar-nav {
+    padding-top: initial;
+  }
+}

@@ -1,0 +1,13 @@
+#top-btn {
+  display: none;
+  position: fixed;
+  bottom: 4.1rem;
+  right: .5rem;
+
+  @include media-breakpoint-up(md) {
+    display: none;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+  }
+}

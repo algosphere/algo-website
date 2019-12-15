@@ -1,0 +1,39 @@
+#social {
+  text-align: center;
+
+  a, button {
+    margin-left: 0.25rem;
+    font-weight: 600;
+  }
+
+  svg {
+    width: 1rem;
+    vertical-align: sub;
+    fill: #fff;
+  }
+
+  .discord {
+    color: #fff;
+    background-color: #7289DA;
+    border-color: #7289DA;
+    font-family: $font-family-monospace;
+
+    &:hover {
+      color: #fff;
+      background-color: lighten($color: #7289DA, $amount: 5);
+      border-color: lighten($color: #7289DA, $amount: 5);
+    }
+  }
+
+  .github {
+    color: #fff;
+    background-color: #171515;
+    border-color: #171515;
+
+    &:hover {
+      color: #fff;
+      background-color: lighten($color: #171515, $amount: 20);
+      border-color: lighten($color: #171515, $amount: 20);
+    }
+  }
+}

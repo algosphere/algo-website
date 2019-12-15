@@ -1,4 +1,4 @@
-{{ $mainCSS := resources.Get "scss/app.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
+{{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
 {{ if not .Site.IsServer }}
   {{ $mainCSS = $mainCSS | minify | fingerprint }}
 {{ end }}
@@ -33,3 +33,5 @@
       vertical-align: text-bottom;
     }
 </style>
+
+<!-- Fonts -->
