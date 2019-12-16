@@ -9,7 +9,7 @@
   {{ if .Site.IsServer }}
     a[href*="//"]:not([href*="localhost"]):not(.no-external-icon)::after
   {{ else }}
-    a[href*="//"]:not([href*="inwardmovement.github.io"]):not(.no-external-icon)::after
+    a[href*="//"]:not([href*="/algosphere.org"]):not(.no-external-icon)::after
   {{ end }}
     {
       content: 'launch';
@@ -33,5 +33,3 @@
       vertical-align: text-bottom;
     }
 </style>
-
-<!-- Fonts -->
