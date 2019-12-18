@@ -3,8 +3,8 @@
  - Bootstrap `4.4.1`
 
 ## CI/CD
-![build develop](https://github.com/algosphere/algo-website/workflows/build-develop/badge.svg?branch=develop) ![deploy preview](https://github.com/algosphere/algo-website/workflows/deploy-preview/badge.svg?branch=develop)  
-![build master](https://github.com/algosphere/algo-website/workflows/build-master/badge.svg?branch=master) ![deploy production](https://github.com/algosphere/algo-website/workflows/deploy-production/badge.svg?branch=master) 
+![build develop](https://github.com/algosphere/algo-website/workflows/build-develop/badge.svg?branch=develop) ![deploy preview](https://github.com/algosphere/algo-website/workflows/deploy-preview/badge.svg?branch=develop) [preview.algosphere.org](https://preview.algosphere.org/)  
+![build master](https://github.com/algosphere/algo-website/workflows/build-master/badge.svg?branch=master) ![deploy production](https://github.com/algosphere/algo-website/workflows/deploy-production/badge.svg?branch=master) [algosphere.org](https://algosphere.org/)  
 
 ## To develop locally
 - Install [Hugo](https://gohugo.io/)
