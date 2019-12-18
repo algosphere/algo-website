@@ -1,9 +1,6 @@
 ### CI/CD
-![build status on branch develop](https://github.com/algosphere/algo-website/workflows/build/badge.svg?branch=develop) *(develop)*  
-![deploy status on branch develop](https://github.com/algosphere/algo-website/workflows/deploy/badge.svg?branch=develop) *(develop)*  
-
-![build status on branch master](https://github.com/algosphere/algo-website/workflows/build/badge.svg?branch=master) *(master)*  
-![deploy status on branch master](https://github.com/algosphere/algo-website/workflows/deploy/badge.svg?branch=master) *(master)*  
+![build develop](https://github.com/algosphere/algo-website/workflows/build-develop/badge.svg?branch=develop) ![deploy preview](https://github.com/algosphere/algo-website/workflows/deploy-preview/badge.svg?branch=develop)  
+![build master](https://github.com/algosphere/algo-website/workflows/build-master/badge.svg?branch=master) ![deploy production](https://github.com/algosphere/algo-website/workflows/deploy-production/badge.svg?branch=master)  
 
 ### Versions
  - Hugo `0.61.0`
