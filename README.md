@@ -1,6 +1,6 @@
 ### CI status
-![CI status on branch develop](https://github.com/algosphere/algo-website/workflows/ci/badge.svg?branch=develop) *(develop)*  
-![CI status on branch master](https://github.com/algosphere/algo-website/workflows/ci/badge.svg?branch=master) *(master)*  
+![CI status on branch develop](https://github.com/algosphere/algo-website/workflows/CI/badge.svg?branch=develop) *(develop)*  
+![CI status on branch master](https://github.com/algosphere/algo-website/workflows/CI/badge.svg?branch=master) *(master)*  
 
 ### Versions
  - Hugo `0.61.0`
