@@ -1,4 +1,7 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/algosphere/algo-website/build)
+![test img shield](https://img.shields.io/github/workflow/status/algosphere/algo-website/build)
+![test gh develop](https://github.com/algosphere/algo-website/workflows/ci/badge.svg?branch=develop)
+![test gh master](https://github.com/algosphere/algo-website/workflows/ci/badge.svg?branch=master)
+
 
 # Versions
  - Hugo `0.61.0`
