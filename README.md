@@ -4,16 +4,14 @@
  - Bootstrap Icons `1.0.0-alpha2`
  - Material Icons `3.0.1`
  - Node.js `12.14.0`
- - npm `6.13.4`
- - gulp.js `4.0.2`
 
 ## CI/CD
 ![build develop](https://github.com/algosphere/algo-website/workflows/build-develop/badge.svg?branch=develop) ![deploy preview](https://github.com/algosphere/algo-website/workflows/deploy-preview/badge.svg?branch=develop) [preview.algosphere.org](https://preview.algosphere.org/)  
 ![build master](https://github.com/algosphere/algo-website/workflows/build-master/badge.svg?branch=master) ![deploy production](https://github.com/algosphere/algo-website/workflows/deploy-production/badge.svg?branch=master) [algosphere.org](https://algosphere.org/)  
 
 ## To develop locally
-- Install [Hugo](https://gohugo.io/)
-- Install the `12.14.0` version of [Node.js via nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- Install the corresponding version of [Hugo](https://gohugo.io/)
+- Install the corresponding version of [Node.js via nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
   - On Windows:
     - Install [nvm-windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
     - Run `nvm install 12.14.0` (in an Admin shell)

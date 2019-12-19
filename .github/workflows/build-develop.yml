@@ -1,1 +1,8 @@
 name: build-develop
+
+on:
+  push:
+    branches:
+      - develop
+  schedule:
+    - cron:  '0 0 * * *'
