@@ -6,8 +6,8 @@
  - Node.js `12.14.0`
 
 ## CI/CD
-![CI/CD develop](https://github.com/algosphere/algo-website/workflows/CI/CD%20develop/badge.svg?branch=develop) ![deploy preview](https://github.com/algosphere/algo-website/workflows/ci-cd-develop/badge.svg?branch=develop) [preview.algosphere.org](https://preview.algosphere.org/)  
-![CI/CD master](https://github.com/algosphere/algo-website/workflows/build-master/badge.svg?branch=master) ![deploy production](https://github.com/algosphere/algo-website/workflows/ci-cd-develop/badge.svg?branch=master) [algosphere.org](https://algosphere.org/)  
+![deploy preview](https://github.com/algosphere/algo-website/workflows/ci-cd-develop/badge.svg?branch=develop) [preview.algosphere.org](https://preview.algosphere.org/)  
+![deploy production](https://github.com/algosphere/algo-website/workflows/ci-cd-develop/badge.svg?branch=master) [algosphere.org](https://algosphere.org/)  
 
 ## To develop locally
 - Install the corresponding version of [Hugo](https://gohugo.io/)
