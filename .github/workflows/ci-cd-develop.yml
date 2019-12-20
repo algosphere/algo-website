@@ -1,4 +1,4 @@
-name: CI/CD develop
+name: ci-cd-develop
 
 on:
   push:
@@ -13,7 +13,7 @@ env:
   HUGO_VERSION: '0.61.0'
 
 jobs:
-  build:
+  build-deploy:
     name: Build
     runs-on: windows-latest
     steps:
@@ -40,13 +40,8 @@ jobs:
     - name: Post-formatting
       run: gulp
       if: success()
-  deploy:
-    name: Deploy
-    runs-on: ubuntu-latest
-    steps:
     - uses: actions/checkout@v2
-    - run: |
-        git checkout preview
-        rm -rf *
-        git merge develop
+      with:
+        ref: preview
+    - run: git merge develop
       if: success()
