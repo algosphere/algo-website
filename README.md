@@ -20,7 +20,8 @@
     - Install [nvm](https://github.com/nvm-sh/nvm#installation-and-update)
     - Run `nvm install [Node.js version]`
     - Run `nvm use [Node.js version]`
-- Install [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g postcss-cli autoprefixer`
+- Install dependencies: `npm i`
+- Install [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g gulp-cli postcss-cli autoprefixer`
 - Clone the repo and run `hugo server` from root
 
 ## Caveats
