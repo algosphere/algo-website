@@ -12,34 +12,26 @@ env:
   NODE_VERSION: '12.14.0'
   HUGO_VERSION: '0.61.0'
   
-jobs:
-  test-env:
-    name: Test environment variables
-    runs-on: windows-latest
-    steps:
-    - run: echo 6. ${{ env.NODE_VERSION }}
-    - run: echo "6. ${{ env.NODE_VERSION }}"
-      
-        
+jobs:   
   build-deploy:
     name: Build and deploy
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Setup Node.js 12.14.0
+    - name: Setup Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
       with:
-        node-version: '12.14.0'
+        node-version: ${{ env.NODE_VERSION }}
       if: success()
     - name: Install dependencies
       run: |
         npm ci
         npm i -g gulp-cli postcss-cli autoprefixer netlify-cli
       if: success()
-    - name: Setup Hugo 0.61.0
+    - name: Setup Hugo ${{ env.HUGO_VERSION }}
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.61.0'
+        hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
       if: success()
     - name: Build site
