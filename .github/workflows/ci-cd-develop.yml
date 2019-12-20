@@ -17,11 +17,8 @@ jobs:
     name: Test environment variables
     runs-on: windows-latest
     steps:
-    - run: echo 1. NODE_VERSION
-    - run: echo 2. $NODE_VERSION
-    - run: echo 3. env.NODE_VERSION
-    - run: echo 4. $env.NODE_VERSION
     - run: echo 6. ${{ env.NODE_VERSION }}
+    - run: echo "6. ${{ env.NODE_VERSION }}"
       
         
   build-deploy:
