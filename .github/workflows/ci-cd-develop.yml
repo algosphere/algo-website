@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - run: |
-        echo "1. NODE_VERSION"  
+        echo "2. $NODE_VERSION"  
         
   build-deploy:
     name: Build and deploy
