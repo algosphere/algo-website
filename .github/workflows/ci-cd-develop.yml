@@ -9,10 +9,8 @@ on:
 
 env:
   CI: true
-  NODE_VERSION: 12.14.0
-  HUGO_VERSION: 0.61.0
-  NODE_VERSION_quotes: '12.14.0'
-  HUGO_VERSION_quotes: '0.61.0'
+  NODE_VERSION_: '12.14.0'
+  HUGO_VERSION: '0.61.0'
   
 jobs:
   test-env:
@@ -20,14 +18,12 @@ jobs:
     runs-on: windows-latest
     steps:
     - run: |
-        echo a1. NODE_VERSION
-        echo a2. $NODE_VERSION
-        echo a3. ${{ NODE_VERSION }}
-        echo a4. ${{ env.NODE_VERSION }}
-        echo b1. NODE_VERSION_quotes
-        echo b2. $NODE_VERSION_quotes
-        echo b3. ${{ NODE_VERSION_quotes }}
-        echo b4. ${{ env.NODE_VERSION_quotes }}        
+        echo 1. NODE_VERSION
+        echo 2. $NODE_VERSION
+        echo 3. env.NODE_VERSION
+        echo 4. $env.NODE_VERSION  
+        echo 5. ${{ NODE_VERSION }}
+        echo 6. ${{ env.NODE_VERSION }}     
         
   build-deploy:
     name: Build and deploy
