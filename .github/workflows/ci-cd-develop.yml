@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - run: |
-        echo "1. NODE_VERSION"
+        # echo "1. NODE_VERSION"
         echo "2. $NODE_VERSION"
         echo "3. env.NODE_VERSION"
         echo "4. $env.NODE_VERSION"  
