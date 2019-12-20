@@ -9,10 +9,26 @@ on:
 
 env:
   CI: true
-  NODE_VERSION: '12.14.0'
-  HUGO_VERSION: '0.61.0'
-
+  NODE_VERSION: 12.14.0
+  HUGO_VERSION: 0.61.0
+  NODE_VERSION_quotes: '12.14.0'
+  HUGO_VERSION_quotes: '0.61.0'
+  
 jobs:
+  test-env:
+    name: Test environment variables
+    runs-on: windows-latest
+    steps:
+    - run: |
+        echo a1. NODE_VERSION
+        echo a2. $NODE_VERSION
+        echo a3. ${{ NODE_VERSION }}
+        echo a4. ${{ env.NODE_VERSION }}
+        echo b1. NODE_VERSION_quotes
+        echo b2. $NODE_VERSION_quotes
+        echo b3. ${{ NODE_VERSION_quotes }}
+        echo b4. ${{ env.NODE_VERSION_quotes }}        
+        
   build-deploy:
     name: Build and deploy
     runs-on: windows-latest
