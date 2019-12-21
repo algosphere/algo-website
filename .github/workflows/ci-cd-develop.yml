@@ -11,6 +11,8 @@ env:
   CI: true
   NODE_VERSION: '12.14.0'
   HUGO_VERSION: '0.61.0'
+  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  NETLIFY_SITE_ID: 'c97298da-938f-4084-9307-c7135a92f98a'
 
 jobs:
   build-and-deploy:
@@ -36,4 +38,9 @@ jobs:
       if: success()
     - name: Build site
       run: npm run build-dev
+      if: success()
+    - name: Deploy site
+      uses: netlify/actions/cli@master
+      with:
+        args: "deploy --prod --dir public"
       if: success()
