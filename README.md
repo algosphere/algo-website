@@ -21,8 +21,8 @@
     - Run `nvm install [Node.js version]`
     - Run `nvm use [Node.js version]`
 - Install dependencies: `npm i`
-- Install [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g postcss-cli autoprefixer`
-- Clone the repo and run `hugo server` from root
+- Install [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g gulp-cli postcss-cli autoprefixer`
+- Clone the repo and run `npm start` from root
 
 ## Caveats
 - Goldmark currently does not handle unicode characters in auto heading IDs, temporarily fix by specifying anchors IDs like so: `# Title with àccent {#title-with-accent}`. See [#6616](https://github.com/gohugoio/hugo/issues/6616).

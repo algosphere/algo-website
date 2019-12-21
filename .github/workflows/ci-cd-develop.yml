@@ -11,9 +11,9 @@ env:
   CI: true
   NODE_VERSION: '12.14.0'
   HUGO_VERSION: '0.61.0'
-  
-jobs:   
-  build-deploy:
+
+jobs:
+  build-and-deploy:
     name: Build and deploy
     runs-on: windows-latest
     steps:
@@ -35,8 +35,5 @@ jobs:
         extended: true
       if: success()
     - name: Build site
-      run: hugo
-      if: success()
-    - name: Post-formatting
-      run: gulp
+      run: npm run build-dev
       if: success()
