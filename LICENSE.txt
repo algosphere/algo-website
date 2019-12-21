@@ -1,5 +1,5 @@
 /************************************************************
-                CODE/BOOTSTRAP/ICONS/GULP/TRAVIS
+                CODE/BOOTSTRAP/BOOTSTRAP-ICONS/GULP
 ************************************************************/
 
 The MIT License (MIT)
@@ -16,9 +16,6 @@ Copyright (c) 2019 The Bootstrap Authors
 "gulp"
 Copyright (c) 2013-2017 Blaine Bublitz <blaine.bublitz@gmail.com>,
 Eric Schoffstall <yo@contra.io> and other contributors
-
-"Travis CI"
-Copyright (c) 2012 Travis CI team <contact@travis-ci.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -544,7 +541,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 
 /************************************************************
-                       HUGO/OPEN SANS/MATERIAL ICONS
+                       HUGO/MATERIAL ICONS
 ************************************************************/
 
 Apache License

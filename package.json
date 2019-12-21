@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "hugo server -DEF --i18n-warnings --minify",
-    "build-dev": "hugo -DEF --i18n-warnings --minify && gulp",
+    "build-dev": "hugo -DEF -b https://preview.algosphere.org/ --i18n-warnings --minify && gulp",
     "build-prod": "hugo --i18n-warnings --minify && gulp"
   },
   "repository": {

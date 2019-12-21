@@ -1,8 +1,6 @@
 ## Versions
  - Hugo `0.61.0`
  - Bootstrap `4.4.1`
- - Bootstrap Icons `1.0.0-alpha2`
- - Material Icons `3.0.1`
  - Node.js `12.14.0`
 
 ## CI/CD
