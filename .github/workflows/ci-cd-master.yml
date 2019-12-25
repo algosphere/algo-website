@@ -20,4 +20,5 @@ jobs:
     name: Build & deploy
     runs-on: ubuntu-18.04
     steps:
-    - run: echo No Netlify Site ID provided
+    - name: Nothing to do
+      run: echo No Netlify Site ID provided
