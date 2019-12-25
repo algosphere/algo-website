@@ -25,6 +25,7 @@
 ## Caveats
 - Goldmark currently does not handle unicode characters in auto heading IDs: temporarily fix by specifying anchors IDs like so: `# Title with àccent {#title-with-accent}`. See [#6616](https://github.com/gohugoio/hugo/issues/6616).
 - Using `{{ .Content | .RenderString }}` (in templates) in replacement of `{{ .Inner | markdownify }} (in shortcodes) ` causes markup to break: temporarily fix by removing indentation in shortcodes. See [questions-about-renderstring](https://discourse.gohugo.io/t/questions-about-renderstring/).
+- Scheduled CI/CD is only possible on default branch for now, that's why the default branch is currently set to *master* (it should be *develop*). See [Scheduled-workflows-custom-branch-workaround](https://github.community/t5/GitHub-Actions/Scheduled-workflows-custom-branch-workaround/m-p/41975).
 
 ## Related documents
 - [Workshop: Algosphere Alliance’s website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)
