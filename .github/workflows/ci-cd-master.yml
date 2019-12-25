@@ -11,7 +11,7 @@ env:
   CI: true
   NODE_VERSION: '12.14.0'
   HUGO_VERSION: '0.61.0'
-  NETLIFY_SITE_ID: ''
+  NETLIFY_SITE_ID: 'b44a9bd9-b9f6-423c-87e5-0e68297e4304'
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
 
@@ -20,5 +20,34 @@ jobs:
     name: Build & deploy
     runs-on: ubuntu-18.04
     steps:
-    - name: Nothing to do
-      run: echo No Netlify Site ID provided
+    - uses: actions/checkout@v2
+    - name: Setup Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+      if: success()
+    - name: Install dependencies
+      run: |
+        npm ci
+        npm i -g gulp-cli postcss-cli autoprefixer
+      if: success()
+    - name: Setup Hugo ${{ env.HUGO_VERSION }}
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: ${{ env.HUGO_VERSION }}
+        extended: true
+      if: success()
+    - name: Build site
+      run: npm run build-prod
+      if: success()
+    - name: Deploy site
+      uses: netlify/actions/cli@master
+      with:
+        args: "deploy --prod --dir public"
+      if: success()
+    - name: Notify Discord on failure
+      uses: rjstone/discord-webhook-notify@v1
+      if: failure()
+      with:
+        text: CI/CD failed
+        webhookUrl: ${{ env.DISCORD_WEBHOOK }}
