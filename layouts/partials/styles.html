@@ -7,29 +7,29 @@
 <!-- External links -->
 <style>
   {{ if (getenv "CI") }}
-    a[href*="//"]:not([href*="/algosphere.org"]):not(.no-external-icon)::after
+    a[href*="//"]:not([href*="/algosphere.org"]):not([href*="/preview.algosphere.org"]):not(.no-external-icon)::after
   {{ else }}
     a[href*="//"]:not([href*="localhost"]):not(.no-external-icon)::after
   {{ end }}
-  {
-    content: 'launch';
-    padding-left: 4px;
-    position: inline-block;
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-    /* display: inline-block; prevent nbsp bypass */
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: 'liga';
-    vertical-align: text-bottom;
-  }
+      {
+        content: 'launch';
+        padding-left: 4px;
+        position: inline-block;
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        /* display: inline-block; prevent nbsp bypass */
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga';
+        vertical-align: text-bottom;
+      }
 </style>
