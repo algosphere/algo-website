@@ -1,0 +1,23 @@
+name: ci-cd-master
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron:  '10 0 * * *'
+
+env:
+  CI: true
+  NODE_VERSION: '12.14.0'
+  HUGO_VERSION: '0.61.0'
+  NETLIFY_SITE_ID: ''
+  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+
+jobs:
+  build-and-deploy:
+    name: Build & deploy
+    runs-on: ubuntu-18.04
+    steps:
+    - run: echo No Netlify Site ID provided
