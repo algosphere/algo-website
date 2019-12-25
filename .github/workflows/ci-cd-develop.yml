@@ -20,7 +20,7 @@ jobs:
     name: Build & deploy
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: bctions/checkout@v2
     - name: Setup Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
       with:
@@ -38,7 +38,7 @@ jobs:
         extended: true
       if: success()
     - name: Build site
-      run: npm run error
+      run: npm run build-dev
       if: success()
     - name: Deploy site
       uses: netlify/actions/cli@master
@@ -49,4 +49,5 @@ jobs:
       uses: rjstone/discord-webhook-notify@v1
       if: failure()
       with:
+        text: CI/CD failed
         webhookUrl: ${{ env.DISCORD_WEBHOOK }}
