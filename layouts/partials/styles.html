@@ -1,5 +1,6 @@
 {{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
-{{ if not .Site.IsServer }}
+{{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
+{{ if (getenv "CI") }}
   {{ $mainCSS = $mainCSS | minify | fingerprint }}
 {{ end }}
 <link rel="stylesheet" href="{{ $mainCSS.Permalink }}" integrity="{{ $mainCSS.Data.Integrity }}">
