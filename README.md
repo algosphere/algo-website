@@ -23,7 +23,8 @@
 - Clone the repo and run `npm start` from root
 
 ## Caveats
-- Goldmark currently does not handle unicode characters in auto heading IDs, temporarily fix by specifying anchors IDs like so: `# Title with àccent {#title-with-accent}`. See [#6616](https://github.com/gohugoio/hugo/issues/6616).
+- Goldmark currently does not handle unicode characters in auto heading IDs: temporarily fix by specifying anchors IDs like so: `# Title with àccent {#title-with-accent}`. See [#6616](https://github.com/gohugoio/hugo/issues/6616).
+- Using `{{ .Content | .RenderString }}` (in templates) in replacement of `{{ .Inner | markdownify }} (in shortcodes) ` causes markup to break: temporarily fix by removing indentation in shortcodes. See [questions-about-renderstring](https://discourse.gohugo.io/t/questions-about-renderstring/).
 
 ## Related documents
 - [Workshop: Algosphere Alliance’s website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)

@@ -1,26 +1,10 @@
 {{ define "main" }}
-  <main class="container home">
+  <main class="container-fluid">
     <article>
-      <div class="presentation">
-        <div class="photo">
-          {{ with .Params.images }}
-            {{ range first 1 . }}
-              {{ $photo := print "/img/" . }}
-              <img src="data:image/png;base64,{{ (resources.Get $photo ).Content | base64Encode }}" class="rounded" alt="Photo">
-            {{ end }}
-          {{ end }}
-        </div>
-        <div class="text"><br>
-          <h1>{{ .Params.customTitle }}</h1>
-          <p>{{ .Params.presentation }}</p>
-        </div>
-      </div>
-      <div class="home-box-container">
+      <h1>{{ .Title }}</h1><br>
+      {{ .Page.TableOfContents }}
+      <br><br>
         {{ .Content }}
-      </div>
-      <hr class="w-25">
-      {{ partial "social" . }}
-      <hr class="w-25">
     </article>
   </main>
   {{ partial "top-btn" . }}

@@ -4,8 +4,8 @@
   "description": "Algosphere website",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "hugo server -DEF --i18n-warnings --minify",
-    "build-dev": "hugo -DEF -b https://preview.algosphere.org/ --i18n-warnings --minify && gulp",
+    "start": "hugo server -DEF --i18n-warnings",
+    "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --baseURL https://preview.algosphere.org/ --i18n-warnings && gulp",
     "build-prod": "hugo --i18n-warnings --minify && gulp"
   },
   "repository": {

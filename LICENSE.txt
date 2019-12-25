@@ -1,21 +1,45 @@
-/************************************************************
-                CODE/BOOTSTRAP/BOOTSTRAP-ICONS/GULP
-************************************************************/
+Here are the licenses for this project's code, content and main dependencies.
 
-The MIT License (MIT)
+The main dependencies are:
+- Hugo (https://gohugo.io/)
+- Bootstrap (https://getbootstrap.com/)
+- Bootstrap Icons (https://icons.getbootstrap.com/)
+- Material Icons (https://material.io/resources/icons/)
+- Node.js (https://nodejs.org/)
+- gulp-cli (https://www.npmjs.com/package/gulp-cli)
+- PostCSS CLI (https://github.com/postcss/postcss-cli)
+- Autoprefixer (https://github.com/postcss/autoprefixer)
+- Netlify (https://www.netlify.com/)
+
+Secondary dependencies's licenses are in their respective directories.
+
+---
+
+Code, Bootstrap, Bootstrap Icons, gulp-cli, PostCSS CLI, Autoprefixer, Netlify are under the MIT License:
 
 Code
 Copyright (c) Algosphere
 
 "Bootstrap"
-Copyright (c) 2011-2016 Twitter, Inc.
+Copyright (c) Twitter, Inc.
+Copyright (c) The Bootstrap Authors
 
 "Bootstrap Icons"
-Copyright (c) 2019 The Bootstrap Authors
+Copyright (c) The Bootstrap Authors
 
-"gulp"
-Copyright (c) 2013-2017 Blaine Bublitz <blaine.bublitz@gmail.com>,
-Eric Schoffstall <yo@contra.io> and other contributors
+"gulp-cli"
+Copyright (c) Blaine Bublitz, Eric Schoffstall and other contributors
+
+"PostCSS CLI"
+Copyright (c) Michael Ciniawsky
+
+"Autoprefixer"
+Copyright Andrey Sitnik <andrey@sitnik.ru>
+
+"Netlify"
+Copyright (c) Netlify <team@netlify.com>
+
+The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -35,10 +59,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+---
 
-/************************************************************
-                          CONTENT
-************************************************************/
+Content is under the CC BY 4.0 license:
 
 Attribution 4.0 International
 
@@ -436,113 +459,9 @@ public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
 
+---
 
-/************************************************************
-                          FONTS
-************************************************************/
-
------------------------------------------------------------
-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
------------------------------------------------------------
-
-"Caveat"
-Copyright 2015 Google Inc. All Rights Reserved.
-
-"Dancing Script"
-Copyright 2016 The Dancing Script Project Authors (impallari@gmail.com),
-with Reserved Font Name 'Dancing Script'.
-
-"Uncial Antiqua"
-Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI)
-(astigma@astigmatic.com), with Reserved Font Names "Uncial Antiqua"
-
-PREAMBLE
-The goals of the Open Font License (OFL) are to stimulate worldwide
-development of collaborative font projects, to support the font creation
-efforts of academic and linguistic communities, and to provide a free and
-open framework in which fonts may be shared and improved in partnership
-with others.
-
-The OFL allows the licensed fonts to be used, studied, modified and
-redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded,
-redistributed and/or sold with any software provided that any reserved
-names are not used by derivative works. The fonts and derivatives,
-however, cannot be released under any other type of license. The
-requirement for fonts to remain under this license does not apply
-to any document created using the fonts or their derivatives.
-
-DEFINITIONS
-"Font Software" refers to the set of files released by the Copyright
-Holder(s) under this license and clearly marked as such. This may
-include source files, build scripts and documentation.
-
-"Reserved Font Name" refers to any names specified as such after the
-copyright statement(s).
-
-"Original Version" refers to the collection of Font Software components as
-distributed by the Copyright Holder(s).
-
-"Modified Version" refers to any derivative made by adding to, deleting,
-or substituting -- in part or in whole -- any of the components of the
-Original Version, by changing formats or by porting the Font Software to a
-new environment.
-
-"Author" refers to any designer, engineer, programmer, technical
-writer or other person who contributed to the Font Software.
-
-PERMISSION & CONDITIONS
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of the Font Software, to use, study, copy, merge, embed, modify,
-redistribute, and sell modified and unmodified copies of the Font
-Software, subject to the following conditions:
-
-1) Neither the Font Software nor any of its individual components,
-in Original or Modified Versions, may be sold by itself.
-
-2) Original or Modified Versions of the Font Software may be bundled,
-redistributed and/or sold with any software, provided that each copy
-contains the above copyright notice and this license. These can be
-included either as stand-alone text files, human-readable headers or
-in the appropriate machine-readable metadata fields within text or
-binary files as long as those fields can be easily viewed by the user.
-
-3) No Modified Version of the Font Software may use the Reserved Font
-Name(s) unless explicit written permission is granted by the corresponding
-Copyright Holder. This restriction only applies to the primary font name as
-presented to the users.
-
-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
-Software shall not be used to promote, endorse or advertise any
-Modified Version, except to acknowledge the contribution(s) of the
-Copyright Holder(s) and the Author(s) or with their explicit written
-permission.
-
-5) The Font Software, modified or unmodified, in part or in whole,
-must be distributed entirely under this license, and must not be
-distributed under any other license. The requirement for fonts to
-remain under this license does not apply to any document created
-using the Font Software.
-
-TERMINATION
-This license becomes null and void if any of the above conditions are
-not met.
-
-DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.
-
-
-/************************************************************
-                       HUGO/MATERIAL ICONS
-************************************************************/
+Hugo, Material Icons are under the Apache license:
 
 Apache License
 Version 2.0, January 2004
@@ -698,9 +617,9 @@ or additional liability.
 
 END OF TERMS AND CONDITIONS
 
-/************************************************************
-                          Node.js
-************************************************************/
+---
+
+Node.js is licensed for use as follows:
 
 """
 Copyright Node.js contributors. All rights reserved.
@@ -755,7 +674,30 @@ The externally maintained libraries used by Node.js are:
 
 - Acorn, located at deps/acorn, is licensed as follows:
   """
-    Copyright (C) 2012-2017 by various contributors (see AUTHORS)
+    Copyright (C) 2012-2018 by various contributors (see AUTHORS)
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+  """
+
+- Acorn plugins, located at deps/acorn-plugins, is licensed as follows:
+  """
+    Copyright (C) 2017-2018 by Adrian Heine
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
@@ -778,7 +720,7 @@ The externally maintained libraries used by Node.js are:
 
 - c-ares, located at deps/cares, is licensed as follows:
   """
-    Copyright (c) 2007 - 2016, Daniel Stenberg with many contributors, see AUTHORS
+    Copyright (c) 2007 - 2018, Daniel Stenberg with many contributors, see AUTHORS
     file.
 
     Copyright 1998 by the Massachusetts Institute of Technology.
@@ -793,39 +735,12 @@ The externally maintained libraries used by Node.js are:
     purpose.  It is provided "as is" without express or implied warranty.
   """
 
-- HTTP Parser, located at deps/http_parser, is licensed as follows:
-  """
-    http_parser.c is based on src/http/ngx_http_parse.c from NGINX copyright
-    Igor Sysoev.
-
-    Additional changes are licensed under the same terms as NGINX and
-    copyright Joyent, Inc. and other Node contributors. All rights reserved.
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to
-    deal in the Software without restriction, including without limitation the
-    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-    sell copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-    IN THE SOFTWARE.
-  """
-
 - ICU, located at deps/icu-small, is licensed as follows:
   """
     COPYRIGHT AND PERMISSION NOTICE (ICU 58 and later)
 
-    Copyright © 1991-2017 Unicode, Inc. All rights reserved.
-    Distributed under the Terms of Use in http://www.unicode.org/copyright.html
+    Copyright © 1991-2019 Unicode, Inc. All rights reserved.
+    Distributed under the Terms of Use in https://www.unicode.org/copyright.html.
 
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of the Unicode data files and any associated documentation
@@ -1207,6 +1122,35 @@ The externally maintained libraries used by Node.js are:
      #    by ICANN or the IETF Trust on the database or the code.  Any person
      #    making a contribution to the database or code waives all rights to
      #    future claims in that contribution or in the TZ Database.
+
+    6. Google double-conversion
+
+    Copyright 2006-2011, the V8 project authors. All rights reserved.
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+        * Neither the name of Google Inc. nor the names of its
+          contributors may be used to endorse or promote products derived
+          from this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   """
 
 - libuv, located at deps/uv, is licensed as follows:
@@ -1283,9 +1227,35 @@ The externally maintained libraries used by Node.js are:
         n° 289016). Three clause BSD license.
   """
 
+- llhttp, located at deps/llhttp, is licensed as follows:
+  """
+    This software is licensed under the MIT License.
+
+    Copyright Fedor Indutny, 2018.
+
+    Permission is hereby granted, free of charge, to any person obtaining a
+    copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to permit
+    persons to whom the Software is furnished to do so, subject to the
+    following conditions:
+
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+    NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+    USE OR OTHER DEALINGS IN THE SOFTWARE.
+  """
+
 - OpenSSL, located at deps/openssl, is licensed as follows:
   """
-    Copyright (c) 1998-2017 The OpenSSL Project.  All rights reserved.
+    Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions
@@ -1385,8 +1355,13 @@ The externally maintained libraries used by Node.js are:
         This code is copyrighted by Sun Microsystems Inc. and released
         under a 3-clause BSD license.
 
-      - Valgrind client API header, located at third_party/valgrind/valgrind.h
-        This is release under the BSD license.
+      - Valgrind client API header, located at src/third_party/valgrind/valgrind.h
+        This is released under the BSD license.
+
+      - The Wasm C/C++ API headers, located at third_party/wasm-api/wasm.{h,hh}
+        This is released under the Apache license. The API's upstream prototype
+        implementation also formed the basis of V8's implementation in
+        src/wasm/c-api.cc.
 
     These libraries have their own licenses; we recommend you read them,
     as their terms may differ from the terms below.
@@ -1420,6 +1395,17 @@ The externally maintained libraries used by Node.js are:
     THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  """
+
+- SipHash, located at deps/v8/src/third_party/siphash, is licensed as follows:
+  """
+    SipHash reference C implementation
+
+    Copyright (c) 2016 Jean-Philippe Aumasson <jeanphilippe.aumasson@gmail.com>
+
+    To the extent possible under law, the author(s) have dedicated all
+    copyright and related and neighboring rights to this software to the public
+    domain worldwide. This software is distributed without any warranty.
   """
 
 - zlib, located at deps/zlib, is licensed as follows:
@@ -1709,27 +1695,107 @@ The externally maintained libraries used by Node.js are:
     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   """
 
-- marked, located at tools/doc/node_modules/marked, is licensed as follows:
+- inspector_protocol, located at tools/inspector_protocol, is licensed as follows:
   """
-    Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
+    // Copyright 2016 The Chromium Authors. All rights reserved.
+    //
+    // Redistribution and use in source and binary forms, with or without
+    // modification, are permitted provided that the following conditions are
+    // met:
+    //
+    //    * Redistributions of source code must retain the above copyright
+    // notice, this list of conditions and the following disclaimer.
+    //    * Redistributions in binary form must reproduce the above
+    // copyright notice, this list of conditions and the following disclaimer
+    // in the documentation and/or other materials provided with the
+    // distribution.
+    //    * Neither the name of Google Inc. nor the names of its
+    // contributors may be used to endorse or promote products derived from
+    // this software without specific prior written permission.
+    //
+    // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    // "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    // LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    // A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+    // OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    // SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+    // LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    // DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    // THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  """
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+- jinja2, located at tools/inspector_protocol/jinja2, is licensed as follows:
+  """
+    Copyright (c) 2009 by the Jinja Team, see AUTHORS for more details.
 
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
+    Some rights reserved.
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    THE SOFTWARE.
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are
+    met:
+
+        * Redistributions of source code must retain the above copyright
+          notice, this list of conditions and the following disclaimer.
+
+        * Redistributions in binary form must reproduce the above
+          copyright notice, this list of conditions and the following
+          disclaimer in the documentation and/or other materials provided
+          with the distribution.
+
+        * The names of the contributors may not be used to endorse or
+          promote products derived from this software without specific
+          prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  """
+
+- markupsafe, located at tools/inspector_protocol/markupsafe, is licensed as follows:
+  """
+    Copyright (c) 2010 by Armin Ronacher and contributors.  See AUTHORS
+    for more details.
+
+    Some rights reserved.
+
+    Redistribution and use in source and binary forms of the software as well
+    as documentation, with or without modification, are permitted provided
+    that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+
+    * The names of the contributors may not be used to endorse or
+      promote products derived from this software without specific
+      prior written permission.
+
+    THIS SOFTWARE AND DOCUMENTATION IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+    CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+    NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+    OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE AND DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+    DAMAGE.
   """
 
 - cpplint.py, located at tools/cpplint.py, is licensed as follows:
@@ -1812,7 +1878,7 @@ The externally maintained libraries used by Node.js are:
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   """
 
-- gtest, located at deps/gtest, is licensed as follows:
+- gtest, located at test/cctest/gtest, is licensed as follows:
   """
     Copyright 2008, Google Inc.
     All rights reserved.
@@ -1871,32 +1937,6 @@ The externally maintained libraries used by Node.js are:
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   """
 
-- remark-cli, located at tools/remark-cli, is licensed as follows:
-  """
-    (The MIT License)
-
-    Copyright (c) 2014-2016 Titus Wormer <tituswormer@gmail.com>
-    Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    THE SOFTWARE.
-  """
-
 - node-inspect, located at deps/node-inspect, is licensed as follows:
   """
     Copyright Node.js contributors. All rights reserved.
@@ -1918,4 +1958,194 @@ The externally maintained libraries used by Node.js are:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
     IN THE SOFTWARE.
+  """
+
+- large_pages, located at src/large_pages, is licensed as follows:
+  """
+     Copyright (C) 2018 Intel Corporation
+
+     Permission is hereby granted, free of charge, to any person obtaining a copy
+     of this software and associated documentation files (the "Software"),
+     to deal in the Software without restriction, including without limitation
+     the rights to use, copy, modify, merge, publish, distribute, sublicense,
+     and/or sell copies of the Software, and to permit persons to whom
+     the Software is furnished to do so, subject to the following conditions:
+
+     The above copyright notice and this permission notice shall be included
+     in all copies or substantial portions of the Software.
+
+     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+     OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+     THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+     OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+     ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+     OR OTHER DEALINGS IN THE SOFTWARE.
+  """
+
+- caja, located at lib/internal/freeze_intrinsics.js, is licensed as follows:
+  """
+     Adapted from SES/Caja - Copyright (C) 2011 Google Inc.
+     Copyright (C) 2018 Agoric
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+  """
+
+- brotli, located at deps/brotli, is licensed as follows:
+  """
+    Copyright (c) 2009, 2010, 2013-2016 by the Brotli Authors.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+  """
+
+- HdrHistogram, located at deps/histogram, is licensed as follows:
+  """
+    The code in this repository code was Written by Gil Tene, Michael Barker,
+    and Matt Warren, and released to the public domain, as explained at
+    http://creativecommons.org/publicdomain/zero/1.0/
+
+    For users of this code who wish to consume it under the "BSD" license
+    rather than under the public domain or CC0 contribution text mentioned
+    above, the code found under this directory is *also* provided under the
+    following license (commonly referred to as the BSD 2-Clause License). This
+    license does not detract from the above stated release of the code into
+    the public domain, and simply represents an additional license granted by
+    the Author.
+
+    -----------------------------------------------------------------------------
+    ** Beginning of "BSD 2-Clause License" text. **
+
+     Copyright (c) 2012, 2013, 2014 Gil Tene
+     Copyright (c) 2014 Michael Barker
+     Copyright (c) 2014 Matt Warren
+     All rights reserved.
+
+     Redistribution and use in source and binary forms, with or without
+     modification, are permitted provided that the following conditions are met:
+
+     1. Redistributions of source code must retain the above copyright notice,
+        this list of conditions and the following disclaimer.
+
+     2. Redistributions in binary form must reproduce the above copyright notice,
+        this list of conditions and the following disclaimer in the documentation
+        and/or other materials provided with the distribution.
+
+     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+     AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+     ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+     LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+     CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+     SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+     INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+     CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     THE POSSIBILITY OF SUCH DAMAGE.
+  """
+
+- node-heapdump, located at src/heap_utils.cc, is licensed as follows:
+  """
+    ISC License
+
+    Copyright (c) 2012, Ben Noordhuis <info@bnoordhuis.nl>
+
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted, provided that the above
+    copyright notice and this permission notice appear in all copies.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+    ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+    ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+    === src/compat.h src/compat-inl.h ===
+
+    ISC License
+
+    Copyright (c) 2014, StrongLoop Inc.
+
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted, provided that the above
+    copyright notice and this permission notice appear in all copies.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+    ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+    ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  """
+
+- rimraf, located at lib/internal/fs/rimraf.js, is licensed as follows:
+  """
+    The ISC License
+
+    Copyright (c) Isaac Z. Schlueter and Contributors
+
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted, provided that the above
+    copyright notice and this permission notice appear in all copies.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+    ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+    ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+    IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  """
+
+- uvwasi, located at deps/uvwasi, is licensed as follows:
+  """
+    MIT License
+
+    Copyright (c) 2019 Colin Ihrig and Contributors
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
   """
