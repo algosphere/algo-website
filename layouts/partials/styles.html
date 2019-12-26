@@ -8,7 +8,7 @@
 <!-- External links -->
 <style>
   {{ if (getenv "CI") }}
-    a[href*="//"]:not([href*="/algosphere.org"]):not([href*="/preview.algosphere.org"]):not(.no-external-icon)::after
+    a[href*="//"]:not([href*="/algosphere.org"]):not([href*="/preview-algo-website.netlify.com/"]):not(.no-external-icon)::after
   {{ else }}
     a[href*="//"]:not([href*="localhost"]):not(.no-external-icon)::after
   {{ end }}
