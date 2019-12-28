@@ -2,8 +2,8 @@
 <meta name="description" content="{{ .Site.Params.description }}">
 {{ hugo.Generator }}
 {{ with (getenv "CI") }}
-  <meta name="version" content="{{ substr (getenv "TRAVIS_COMMIT") 0 7 }}">
-  <meta name="changelog" content="{{ getenv "TRAVIS_COMMIT_MESSAGE" }}">
+  <meta name="version" content="{{ substr (getenv "GITHUB_SHA") 0 7 }}">
+  <meta name="changelog" content="{{ getenv "GITHUB_COMMIT_MESSAGE" }}">
 {{ end }}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
