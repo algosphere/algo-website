@@ -6,7 +6,8 @@
   "scripts": {
     "start": "hugo server -DEF --i18n-warnings",
     "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --baseURL https://preview-algo-website.netlify.com/ --i18n-warnings && gulp dev",
-    "build-prod": "hugo --i18n-warnings && gulp prod"
+    "build-prod": "hugo --i18n-warnings && gulp prod",
+    "deploy": "netlify deploy --prod --dir public"
   },
   "repository": {
     "type": "git",
