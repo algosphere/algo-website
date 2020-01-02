@@ -14,15 +14,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-// MENU RECUEILS FIX
-$('#recueils-collapse')
-  .on('show.bs.collapse', function () {
-    this.style.display = "contents";
-})
-  .on('hide.bs.collapse', function () {
-    this.style.display = "none";
-  })
-
 // ENABLE POPOVERS
 $(function () {
   $('[data-toggle="popover"]').popover()
@@ -32,17 +23,3 @@ $(function () {
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
-
-// DISCORD COPY
-function copyDiscord(discordTag) {
-  navigator.clipboard.writeText(discordTag).then(function() {
-    /* success */
-    $('button.discord').tooltip('show');
-      setTimeout(function(){
-        $('button.discord').tooltip('hide')
-      }, 2000);
-  }, function() {
-    /* fail */
-  });
-}
-
