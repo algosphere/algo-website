@@ -6,4 +6,4 @@
 {{ if not .Site.IsServer }}
   {{ $mainJS = $mainJS | minify | fingerprint }}
 {{ end }}
-<script src="{{ $mainJS.Permalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
+<script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
