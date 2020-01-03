@@ -14,7 +14,6 @@ env:
   NETLIFY_SITE_ID: 'b44a9bd9-b9f6-423c-87e5-0e68297e4304'
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_WEBSITE }}
   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  GITHUB_COMMIT_MESSAGE: ${{ github.event.commits[0].message }}
 
 jobs:
   build-and-deploy:
