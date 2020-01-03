@@ -9,7 +9,7 @@ disableLiveReload: true
 metaDataFormat: yaml
 enableRobotsTXT: true
 params:
-  description: "Algosphere Alliance for the alleviation of suffering"
+  description: "for the alleviation of suffering"
   author: "Algosphere"
 markup:
   goldmark:

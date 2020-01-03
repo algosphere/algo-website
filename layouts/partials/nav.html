@@ -1,6 +1,6 @@
 <nav class="nav-main navbar navbar-expand-md navbar-light bg-white shadow-sm" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><!-- img -->{{ .Site.Title }}</a>
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="data:image/png;base64,{{ (resources.Get "/images/logo.jpg" ).Content | base64Encode }}" width="30" class="d-inline-block align-top" style="margin-right: 8px;" alt="logo">{{ .Site.Title }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav mr-auto">

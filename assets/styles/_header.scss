@@ -1,4 +1,21 @@
 header {
   background-color: $white;
   padding: .5rem 1rem;
+
+  & .container-fluid {
+    display: flex;
+    justify-content: space-between;
+
+    & .brand {
+      display: flex;
+
+      & img {
+
+      }
+    }
+
+    & .meta {
+      text-align: right;
+    }
+  }
 }
