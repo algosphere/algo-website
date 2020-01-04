@@ -1,15 +1,22 @@
 <header>
   <div class="container-fluid">
     <div class="brand">
-      <img src="" alt="logo">
-      <div class="text">
-        <h1>titre</h1>
-        <h2>description</h2>
-      </div>
+      <a href="/">
+        <img src="{{ (resources.Get "/images/logo.jpg").RelPermalink }}" width="100" height="99" alt="logo">
+        <div class="text font-comfortaa">
+          <h2>{{ .Site.Title }}</h2>
+          <h5>{{ .Site.Params.description }}</h5>
+        </div>
+      </a>
     </div>
     <div class="meta">
-      <p>lang</p>
-      <p>search</p>
+      <div class="nav-item dropdown">
+        <button class="btn btn-outline-dark dropdown-toggle" id="navbarLanguageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">translate</i> English</button>
+          <div class="dropdown-menu" aria-labelledby="navbarLanguageDropdown">
+            <a class="dropdown-item" href="#">Français</a>
+          </div>
+      </div>
+      <input class="form-control" type="text" placeholder="Search">
     </div>
   </div>
 </header>

@@ -1,6 +1,6 @@
-<nav class="nav-main navbar navbar-expand-md navbar-light bg-white shadow-sm" aria-label="Main navigation">
+<nav class="nav-main navbar navbar-expand-lg navbar-light bg-white shadow-sm" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="data:image/png;base64,{{ (resources.Get "/images/logo.jpg" ).Content | base64Encode }}" width="30" class="d-inline-block align-top" style="margin-right: 8px;" alt="logo">{{ .Site.Title }}</a>
+    <a class="navbar-brand font-comfortaa" href="/"><img src="data:image/png;base64,{{ (resources.Get "/images/logo.jpg").Content | base64Encode }}" width="30" height="29" alt="logo">{{ .Site.Title }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav mr-auto">
@@ -10,10 +10,19 @@
             <a class="nav-item nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
         {{ end }}
       </div>
-      <div class="nav-right navbar-nav">
-        <a class="btn btn-info d-block d-md-none" href="mailto:victor.dhamma@gmail.com" role="button">{{ ( resources.Get "icons/envelope.svg").Content | safeHTML }} Contact</a>
-        <a class="btn btn-info d-none d-md-block" href="mailto:victor.dhamma@gmail.com" role="button" target="_blank">{{ ( resources.Get "icons/envelope.svg").Content | safeHTML }} Contact</a>
+      <div class="navbar-nav nav-right">
+        <a class="btn btn-info" href="" role="button">Participer {{ ( resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML }}</a>
       </div>
+      <div class="meta">
+        <div class="nav-item dropdown">
+          <button class="btn btn-outline-dark dropdown-toggle" id="navbarLanguageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">translate</i> English</button>
+            <div class="dropdown-menu" aria-labelledby="navbarLanguageDropdown">
+              <a class="dropdown-item" href="#">Français</a>
+            </div>
+        </div>
+        <input class="form-control" type="text" placeholder="Search">
+      </div>
+    </div>
     </div>
   </div>
 </nav>

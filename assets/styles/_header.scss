@@ -1,21 +1,39 @@
 header {
+  display: none;
   background-color: $white;
   padding: .5rem 1rem;
 
-  & .container-fluid {
+  .container-fluid {
     display: flex;
     justify-content: space-between;
 
-    & .brand {
+    .brand a {
       display: flex;
+      color: $body-color;
 
-      & img {
+      img {
+        margin-right: 1rem;
+        vertical-align: top;
+      }
 
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
     }
 
-    & .meta {
+    .meta {
+      display: flex;
       text-align: right;
+      flex-direction: column;
+      justify-content: space-around;
     }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  header {
+    display: block;
   }
 }

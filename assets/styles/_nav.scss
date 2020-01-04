@@ -1,30 +1,51 @@
-.navbar {
+.nav-main {
   margin-bottom: 3.5rem;
 
   .navbar-brand {
     padding: 0;
-  }
 
-  .btn {
-    margin-top: 8px;
-    margin-bottom: 8px;
-
-    @include media-breakpoint-up(md) {
-      margin: initial;
+    img {
+      margin-right: .5rem;
+      vertical-align: top;
     }
   }
-}
 
-.navbar-toggler {
-  margin-right: 0 !important;
-}
+  .navbar-toggler {
+    margin-right: 0 !important;
+  }
 
-.navbar-nav {
-  padding-top: 0.25rem;
-}
-
-@include media-breakpoint-up(md) {
   .navbar-nav {
-    padding-top: initial;
+    padding-top: 0.25rem;
+
+  }
+
+  // .btn {
+  //   margin-top: .5rem;
+  //   margin-bottom: .5rem;
+  // }
+
+  .meta {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-main {
+    .navbar-brand {
+      display: none;
+    }
+
+    .navbar-nav {
+      padding-top: initial;
+    }
+
+    .btn {
+      margin: initial;
+    }
+
+    .meta {
+      display: none;
+    }
   }
 }
