@@ -14,19 +14,16 @@
     margin-right: 0 !important;
   }
 
-  .navbar-nav {
-    padding-top: 0.25rem;
-
+  .nav-right > *,
+  .meta > * {
+    margin-top: .5rem;
   }
-
-  // .btn {
-  //   margin-top: .5rem;
-  //   margin-bottom: .5rem;
-  // }
 
   .meta {
     display: flex;
     flex-direction: column;
+    margin-top: .5rem;
+    text-align: right;
   }
 }
 
@@ -36,16 +33,14 @@
       display: none;
     }
 
-    .navbar-nav {
-      padding-top: initial;
-    }
-
-    .btn {
-      margin: initial;
+    .nav-right > *,
+    .meta > * {
+      margin-top: initial;
     }
 
     .meta {
       display: none;
+      margin-top: initial;
     }
   }
 }
