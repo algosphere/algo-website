@@ -32,3 +32,35 @@ markup:
     startLevel: 1
     endLevel: 5
 footnoteReturnLinkContents: "↑"
+menu:
+  main:
+  - identifier: blog1
+    name: Accueil
+    title: blog section
+    url: /blog/
+    weight: -110
+  - identifier: blog2
+    name: Blog
+    title: blog section
+    url: /blog/
+    weight: -110
+  - identifier: blog3
+    name: Blog
+    title: blog section
+    url: /blog/
+    weight: -110
+  - identifier: blog4
+    name: Blog
+    title: blog section
+    url: /blog/
+    weight: -110
+  - identifier: blog5
+    name: Blog
+    title: blog section
+    url: /blog/
+    weight: -110
+  - identifier: blog6
+    name: Blog
+    title: blog section
+    url: /blog/
+    weight: -110
