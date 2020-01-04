@@ -7,30 +7,26 @@
 
 <!-- External links -->
 <style>
-  {{ if (getenv "CI") }}
-    a[href^="http"]:not([href^="{{ .Site.BaseURL }}"]):not(.no-external-icon)::after
-  {{ else }}
-    a[href^="http"]:not([href^="http://localhost"]):not(.no-external-icon)::after
-  {{ end }}
-      {
-        content: 'launch';
-        padding-left: 4px;
-        position: inline-block;
-        font-family: 'Material Icons';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 18px;
-        /* display: inline-block; prevent nbsp bypass */
-        line-height: 1;
-        text-transform: none;
-        letter-spacing: normal;
-        word-wrap: normal;
-        white-space: nowrap;
-        direction: ltr;
-        -webkit-font-smoothing: antialiased;
-        text-rendering: optimizeLegibility;
-        -moz-osx-font-smoothing: grayscale;
-        font-feature-settings: 'liga';
-        vertical-align: text-bottom;
-      }
+  a[href^="http"]:not([href^="{{ (urls.Parse .Page.Permalink).Scheme }}://{{ (urls.Parse .Page.Permalink).Host }}"]):not(.no-external-icon)::after
+    {
+      content: 'launch';
+      padding-left: 4px;
+      position: inline-block;
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 18px;
+      /* display: inline-block; prevent nbsp bypass */
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      -moz-osx-font-smoothing: grayscale;
+      font-feature-settings: 'liga';
+      vertical-align: text-bottom;
+    }
 </style>
