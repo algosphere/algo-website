@@ -15,9 +15,11 @@ function htmlDev() {
     .pipe(replace(' ?', '&#160;?'))
     .pipe(replace(' %', '&#160;%'))
     .pipe(replace(' €', '&#160;€'))
-    .pipe(replace(' <i', '&#160;<i'))
+    .pipe(replace(' <i ', '&#160;<i '))
+    .pipe(replace(' <i>', '&#160;<i>'))
     .pipe(replace('</i> ', '</i>&#160;'))
-    .pipe(replace(' <svg', '&#160;<svg'))
+    .pipe(replace(' <svg ', '&#160;<svg '))
+    .pipe(replace(' <svg>', '&#160;<svg>'))
     .pipe(replace('</svg> ', '</svg>&#160;'))
     .pipe(beautify({
       indent_size: 2,
@@ -39,9 +41,11 @@ function htmlProd() {
     .pipe(replace(' ?', '&#160;?'))
     .pipe(replace(' %', '&#160;%'))
     .pipe(replace(' €', '&#160;€'))
-    .pipe(replace(' <i', '&#160;<i'))
+    .pipe(replace(' <i ', '&#160;<i '))
+    .pipe(replace(' <i>', '&#160;<i>'))
     .pipe(replace('</i> ', '</i>&#160;'))
-    .pipe(replace(' <svg', '&#160;<svg'))
+    .pipe(replace(' <svg ', '&#160;<svg '))
+    .pipe(replace(' <svg>', '&#160;<svg>'))
     .pipe(replace('</svg> ', '</svg>&#160;'))
     .pipe(dest('public'))
 }
