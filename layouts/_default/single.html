@@ -2,6 +2,7 @@
   <main class="container-fluid">
     <article>
       <h1>{{ .Title }}</h1><br>
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
         {{ .Content }}
     </article>
   </main>
