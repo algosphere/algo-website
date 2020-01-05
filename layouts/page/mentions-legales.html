@@ -1,11 +1,10 @@
 {{ define "main" }}
-  <main class="container mentions-legales">
-    <article>
+  <main>
+    <div class="container-fluid">
       <h1>{{ .Title }}</h1><br>
       {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
-      <br><br>
         {{ .Content }}
-    </article>
+    </div>
   </main>
   {{ partial "top-btn" . }}
 {{ end }}
