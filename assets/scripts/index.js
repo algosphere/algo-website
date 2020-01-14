@@ -3,9 +3,9 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("top-btn").style.display = "block";
+    document.querySelector(".top-btn").style.display = "flex";
   } else {
-    document.getElementById("top-btn").style.display = "none";
+    document.querySelector(".top-btn").style.display = "none";
   }
 }
 
