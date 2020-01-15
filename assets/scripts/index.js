@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     document.querySelector(".top-btn").style.display = "flex";
   } else {
     document.querySelector(".top-btn").style.display = "none";
