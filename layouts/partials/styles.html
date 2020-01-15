@@ -1,6 +1,6 @@
 {{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
 {{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
-{{ if (getenv "CI") }}
+{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
   {{ $mainCSS = $mainCSS | minify | fingerprint }}
 {{ end }}
 <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}" integrity="{{ $mainCSS.Data.Integrity }}">

@@ -1,7 +1,7 @@
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta name="description" content="{{ .Site.Params.description }}">
 {{ hugo.Generator }}
-{{ with (getenv "CI") }}
+{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
   <meta name="version" content="{{ substr (getenv "GITHUB_SHA") 0 7 }}">
 {{ end }}
 <meta charset="utf-8">

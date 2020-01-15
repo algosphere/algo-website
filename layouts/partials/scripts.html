@@ -3,7 +3,7 @@
 {{ $bootstrap := resources.Get "scripts/bootstrap.js" }}
 {{ $index := resources.Get "scripts/index.js" }}
 {{ $mainJS := slice $jquery $popper $bootstrap $index | resources.Concat "main.js" }}
-{{ if not .Site.IsServer }}
+{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
   {{ $mainJS = $mainJS | minify | fingerprint }}
 {{ end }}
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
