@@ -1,8 +1,19 @@
 footer {
-  color: $white;
+  color: $gray-500;
   background-color: $gray-900;
   position: absolute;
   bottom: 0;
   width: 100%;
   margin-bottom: 0;
+
+  .footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-sub {
+    display: flex;
+    justify-content: center;
+  }
 }
