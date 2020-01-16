@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main>
     <div class="container-fluid">
-      <h1>{{ .Title }}</h1><br>
+      <h1 class="page-title">{{ .Title }}</h1 class="page-title"><br>
         <ul>
           {{ range .Data.Pages }}
             <li><a href="{{.Permalink}}">{{.Title}}</a></li>
