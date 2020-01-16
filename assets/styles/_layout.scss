@@ -1,8 +1,12 @@
 header .container-fluid,
 .nav-main .container-fluid,
+nav[aria-label="breadcrumb"] .container-fluid, {
+  max-width: map-get($container-max-widths, "xl");
+}
+
 main .container-fluid,
 footer .container-fluid {
-  max-width: map-get($container-max-widths, "xl");
+  max-width: map-get($container-max-widths, "md");
 }
 
 main {

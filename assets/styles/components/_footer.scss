@@ -9,7 +9,8 @@ footer {
     text-align: center;
 
     > div {
-      padding: 2em;
+      padding-top: 2em;
+      padding-bottom: 2em;
     }
   }
 
@@ -19,7 +20,8 @@ footer {
     color: $gray-600;
 
     > div {
-      padding: 1.5em;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
 
       a {
         color: $gray-500;
@@ -36,12 +38,13 @@ footer {
   footer {
     .footer-main {
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       text-align: initial;
       align-items: initial;
 
       > div {
-        padding: 2.5em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
       }
     }
   }

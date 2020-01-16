@@ -1,0 +1,17 @@
+nav[aria-label="breadcrumb"] {
+  background-color: $gray-200;
+
+  .container-fluid {
+    padding: 0;
+
+    .breadcrumb {
+      border-radius: 0;
+      margin-bottom: 0;
+
+      .breadcrumb-item + .breadcrumb-item::before {
+        vertical-align: sub;
+        height: 1em
+      }
+    }
+  }
+}
