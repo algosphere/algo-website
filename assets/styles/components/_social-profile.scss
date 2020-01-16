@@ -1,6 +1,7 @@
-#social {
+.social-profile {
   margin-top: 0.5em;
   display: flex;
+  justify-content: center;
 
   a, button {
     display: flex;
@@ -61,5 +62,11 @@
       background-color: lighten($color: #171515, $amount: 20);
       border-color: lighten($color: #171515, $amount: 20);
     }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .social-profile {
+    justify-content: initial;
   }
 }
