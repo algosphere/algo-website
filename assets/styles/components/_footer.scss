@@ -20,6 +20,14 @@ footer {
 
     > div {
       padding: 1.5em;
+
+      a {
+        color: $gray-500;
+
+        &:hover {
+          color: $gray-400;
+        }
+      }
     }
   }
 }
