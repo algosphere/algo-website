@@ -12,6 +12,16 @@
     margin-right: 0 !important;
   }
 
+  .navbar-collapse {
+    justify-content: space-between;
+
+    .nav-left {
+      flex-grow: 1;
+      // justify-content: space-between;
+      // max-width: 500px;
+    }
+  }
+
   .nav-right > *,
   .meta > * {
     margin-top: .5rem;
@@ -32,6 +42,10 @@
   .nav-main {
     .navbar-brand {
       display: none;
+    }
+
+    .nav-link {
+      font-size: 1.1em;
     }
 
     .nav-right > *,

@@ -1,0 +1,48 @@
+.social-share {
+  margin-top: 3.5em;
+  display: flex;
+  justify-content: center;
+
+  a, button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+  }
+
+  svg {
+    width: 1rem;
+    fill: #fff;
+    margin-right: .25em;
+  }
+
+  .twitter {
+    color: #fff;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+
+    &:hover {
+      color: #fff;
+      background-color: darken($color: #1DA1F2, $amount: 8);
+      border-color: darken($color: #1DA1F2, $amount: 8);
+    }
+  }
+
+  .facebook {
+    color: #fff;
+    background-color: #4267b2;
+    border-color: #4267b2;
+
+    &:hover {
+      color: #fff;
+      background-color: #365899;
+      border-color: #365899;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .social-profile {
+    justify-content: initial;
+  }
+}
