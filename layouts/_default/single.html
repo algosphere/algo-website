@@ -4,6 +4,7 @@
       <h1 class="page-title">{{ .Title }}</h1 class="page-title"><br>
         {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
         {{ .Content }}
+        {{ partial "social-share" . }}
     </div>
   </main>
   {{ partial "top-btn" . }}

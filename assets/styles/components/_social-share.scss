@@ -1,13 +1,19 @@
 .social-share {
-  margin-top: 3.5em;
+  margin-top: 2.5em;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 
   a, button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.5em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   svg {
@@ -42,7 +48,12 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .social-profile {
-    justify-content: initial;
+  .social-share {
+    flex-direction: row;
+    margin-top: 3.5em;
+
+    a, button {
+      margin-bottom: 0;
+    }
   }
 }

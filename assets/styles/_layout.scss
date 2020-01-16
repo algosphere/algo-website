@@ -12,5 +12,11 @@ footer .container-fluid {
 main {
   flex-grow: 1;
   margin-top: 3.5rem;
-  margin-bottom: 5em;
+  margin-bottom: 2.5em;
+}
+
+@include media-breakpoint-up(lg) {
+  main {
+    margin-bottom: 5em;
+  }
 }

@@ -9,8 +9,11 @@ footer {
     text-align: center;
 
     > div {
-      padding-top: 2em;
-      padding-bottom: 2em;
+      padding-top: 2.5em;
+
+      &:last-child {
+        padding-bottom: 2.5em;
+      }
     }
   }
 
@@ -43,7 +46,6 @@ footer {
       align-items: initial;
 
       > div {
-        padding-top: 2.5em;
         padding-bottom: 2.5em;
       }
     }
