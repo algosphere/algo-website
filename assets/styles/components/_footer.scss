@@ -1,20 +1,39 @@
 footer {
   color: $gray-500;
   background-color: $gray-900;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 0;
 
   .footer-main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    > div {
+      padding: 2em;
+    }
   }
 
   .footer-sub {
     display: flex;
     justify-content: center;
     color: $gray-600;
+
+    > div {
+      padding: 1.5em;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  footer {
+    .footer-main {
+      flex-direction: row;
+      justify-content: space-around;
+      text-align: initial;
+
+      > div {
+        padding: 2.5em;
+      }
+    }
   }
 }

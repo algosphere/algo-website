@@ -11,6 +11,8 @@ enableRobotsTXT: true
 params:
   description: "for the alleviation of suffering"
   author: "Algosphere"
+  twitter: "algosphere"
+  facebook: "algosphere"
 markup:
   goldmark:
     extensions:

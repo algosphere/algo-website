@@ -5,33 +5,8 @@ footer .container-fluid {
   max-width: map-get($container-max-widths, "xl");
 }
 
-/*
-article {
-  grid-area: content;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-
-  p {
-    margin-bottom: 1.25rem;
-  }
+main {
+  flex-grow: 1;
+  margin-top: 3.5rem;
+  margin-bottom: 5em;
 }
-
-.home article {
-  max-width: none;
-}
-
-@include media-breakpoint-up(md) {
-  article {
-    padding-right: 15px;
-    padding-left: 15px;
-    max-width: 600px;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .article article {
-    max-width: 655px;
-  }
-}
- */

@@ -1,22 +1,48 @@
 #social {
-  text-align: center;
+  margin-top: 0.5em;
+  display: flex;
 
   a, button {
-    margin-left: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
     font-weight: 600;
   }
 
   svg {
     width: 1rem;
-    vertical-align: sub;
     fill: #fff;
+  }
+
+  .twitter {
+    color: #fff;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+
+    &:hover {
+      color: #fff;
+      background-color: darken($color: #1DA1F2, $amount: 8);
+      border-color: darken($color: #1DA1F2, $amount: 8);
+    }
+  }
+
+  .facebook {
+    color: #fff;
+    background-color: #4267b2;
+    border-color: #4267b2;
+
+    &:hover {
+      color: #fff;
+      background-color: #365899;
+      border-color: #365899;
+    }
   }
 
   .discord {
     color: #fff;
     background-color: #7289DA;
     border-color: #7289DA;
-    font-family: $font-family-monospace;
 
     &:hover {
       color: #fff;
