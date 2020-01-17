@@ -1,22 +1,22 @@
-header .container-fluid,
+.header .container-fluid,
 .nav-main .container-fluid,
 nav[aria-label="breadcrumb"] .container-fluid, {
   max-width: map-get($container-max-widths, "xl");
 }
 
-main .container-fluid,
-footer .container-fluid {
+.main .container-fluid,
+.footer .container-fluid {
   max-width: map-get($container-max-widths, "md");
 }
 
-main {
+.main {
   flex-grow: 1;
   margin-top: 3.5rem;
   margin-bottom: 2.5em;
 }
 
 @include media-breakpoint-up(lg) {
-  main {
+  .main {
     margin-bottom: 5em;
   }
 }

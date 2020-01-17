@@ -1,4 +1,4 @@
-footer {
+.footer {
   color: $gray-500;
   background-color: $gray-900;
 
@@ -38,7 +38,7 @@ footer {
 }
 
 @include media-breakpoint-up(lg) {
-  footer {
+  .footer {
     .footer-main {
       flex-direction: row;
       justify-content: space-between;
