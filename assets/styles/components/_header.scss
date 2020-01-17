@@ -1,39 +1,59 @@
-header {
+.header {
   display: none;
   background-color: $white;
-  padding: .5rem 1rem;
+  padding-top: .5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 
   .container-fluid {
     display: flex;
     justify-content: space-between;
 
-    .brand {
+    .header-brand {
       display: flex;
       color: $body-color;
 
-      img {
-        margin-right: 1rem;
-        vertical-align: top;
+      .brand-image-link {
+        display: flex;
+        align-items: center;
       }
 
-      .text {
+      .brand-image {
+        margin-right: 1rem;
+      }
+
+      .brand-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        .brand-title {
+          margin-bottom: .2em;
+          text-decoration: underline solid rgba(0, 0, 0, 0.1) .2em;
+        }
+
+        .brand-subtitle {
+          margin: 0;
+        }
       }
     }
 
-    .meta {
+    .header-meta {
       display: flex;
       text-align: right;
       flex-direction: column;
       justify-content: space-around;
+
+      > * {
+        padding-bottom: .75em;
+      }
     }
   }
 }
 
 @include media-breakpoint-up(lg) {
-  header {
+  .header {
     display: block;
   }
 }
