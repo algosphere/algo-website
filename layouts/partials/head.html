@@ -1,9 +1,10 @@
+<meta name="environment" content="{{ with (getenv "PRODUCTION") }}PRODUCTION{{ end }}{{ with (getenv "PREVIEW") }}PREVIEW{{ end }}{{ with .Site.IsServer }}DEVELOPMENT{{ end }}">
+{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
+<meta name="version" content="{{ substr (getenv "GITHUB_SHA") 0 7 }}">
+{{ end }}
+{{ hugo.Generator }}
 <meta name="author" content="{{ .Site.Params.author }}">
 <meta name="description" content="{{ .Site.Params.description }}">
-{{ hugo.Generator }}
-{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
-  <meta name="version" content="{{ substr (getenv "GITHUB_SHA") 0 7 }}">
-{{ end }}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {{ template "_internal/opengraph.html" . }}
