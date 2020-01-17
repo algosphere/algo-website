@@ -1,6 +1,11 @@
 .nav-main {
   .navbar-brand {
     padding: 0;
+    color: #88b1db;
+
+    &:hover {
+      color: #88b1db;
+    }
 
     img {
       margin-right: .5rem;
@@ -17,7 +22,11 @@
       // max-width: 500px;
 
       a {
-        color: #0056b3;
+        color: #db8888;
+
+        &:hover {
+          color: darken($color: #db8888, $amount: 15);
+        }
       }
     }
   }
