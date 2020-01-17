@@ -8,9 +8,15 @@ nav[aria-label="breadcrumb"] {
       border-radius: 0;
       margin-bottom: 0;
 
+      .breadcrumb-item {
+        a {
+          color: $gray-600;
+        }
+      }
+
       .breadcrumb-item + .breadcrumb-item::before {
         vertical-align: sub;
-        height: 1em
+        height: 1em;
       }
     }
   }
