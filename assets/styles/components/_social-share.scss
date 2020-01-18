@@ -8,8 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: .5em;
     margin-bottom: .5em;
+    margin-right: auto;
+    margin-left: auto;
 
     &:last-child {
       margin-bottom: 0;
@@ -54,6 +55,8 @@
 
     a, button {
       margin-bottom: 0;
+      margin-right: .5em;
+      margin-left: 0;
     }
   }
 }
