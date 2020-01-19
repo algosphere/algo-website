@@ -45,9 +45,12 @@
 
     .header-meta {
       display: flex;
-      text-align: right;
       flex-direction: column;
-      justify-content: space-around;
+      align-items: end;
+
+      .dropdown-menu-right {
+        margin-right: -1px;
+      }
 
       > * {
         padding-bottom: .75em;
