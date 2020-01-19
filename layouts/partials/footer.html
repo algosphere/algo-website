@@ -6,6 +6,17 @@
       {{ partial "social-profile" . }}
     </div>
     <div>
+      <h3>AlgoNews</h3>
+      <p class="lead">A collaborative quarterly on the alleviation of suffering</p>
+      <form>
+        <div class="form-group">
+          <label for="staticEmail2" class="sr-only">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+    <div>
       <h3>Support us</h3>
       <a class="btn btn-success no-external-icon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7WH6CJ4LQH4L"target="_blank" role="button">{{ (resources.Get "icons/heart-fill.svg").Content | safeHTML }} Donate</a>
     </div>

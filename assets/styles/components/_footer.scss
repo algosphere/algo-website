@@ -15,6 +15,19 @@
         padding-bottom: 2.5em;
       }
     }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .form-group {
+        margin-bottom: .5em;
+      }
+
+      input {
+        text-align: center;
+      }
+    }
   }
 
   .footer-sub {
@@ -45,9 +58,35 @@
       text-align: initial;
       align-items: initial;
 
+      form {
+        flex-direction: row;
+
+        .form-group {
+          margin-bottom: 0;
+        }
+
+        > * + * {
+          margin-left: .5em;
+        }
+
+        input {
+          text-align: initial;
+        }
+      }
+
       > div {
         padding-bottom: 2.5em;
       }
+
+/*       .standout {
+        position: relative;
+        top: -5em;
+        padding-left: 2em;
+        padding-right: 2em;
+        background-color: $gray-900;
+        border: 1px solid $body-bg;
+        // border-radius: .25em;
+      } */
     }
   }
 }

@@ -1,11 +1,11 @@
 .header .container-fluid,
 .nav-main .container-fluid,
-nav[aria-label="breadcrumb"] .container-fluid, {
+nav[aria-label="breadcrumb"] .container-fluid,
+.footer .container-fluid {
   max-width: map-get($container-max-widths, "xl");
 }
 
-.main .container-fluid,
-.footer .container-fluid {
+.main .container-fluid {
   max-width: map-get($container-max-widths, "md");
 }
 
@@ -17,6 +17,6 @@ nav[aria-label="breadcrumb"] .container-fluid, {
 
 @include media-breakpoint-up(lg) {
   .main {
-    margin-bottom: 5em;
+    margin-bottom: 10em;
   }
 }

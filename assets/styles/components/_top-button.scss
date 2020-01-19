@@ -17,7 +17,7 @@
     fill: #5f6368;
   }
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(lg) {
     bottom: 5rem;
     right: 5rem;
   }
