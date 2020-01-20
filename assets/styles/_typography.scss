@@ -12,6 +12,14 @@ a.abbr {
   cursor: help;
 }
 
+.page-title {
+  text-align: center;
+  // display-4:
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .article {
   h2 {
     font-size: 1.5rem;
@@ -37,10 +45,18 @@ a.abbr {
     font-size: 1rem;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: 2.5rem;
+  @for $i from 1 through 6 {
+    h#{$i} {
+      margin-top: 2.5rem;
 
-    &:first-child {
+      &:first-child {
+        margin-top: initial;
+      }
+    }
+  }
+
+  @for $i from 1 through 6 {
+    h#{$i} + h#{$i + 1} {
       margin-top: initial;
     }
   }

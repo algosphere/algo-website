@@ -1,7 +1,7 @@
 ---
 title: "Home"
 description: "description"
-toc: true
+toc: false
 draft: false
 summary: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus."
 ---
