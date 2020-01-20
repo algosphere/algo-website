@@ -12,108 +12,36 @@ a.abbr {
   cursor: help;
 }
 
-/* h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.75rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.25rem;
-}
-
-h5 {
-  font-size: 1rem;
-} */
-
-/*
-p + h1,
-p + h2,
-p + h3,
-p + h4,
-p + h5,
-p + h6 {
-  margin-top: 2.5rem;
-}
-
-dl + h1,
-dl + h2,
-dl + h3,
-dl + h4,
-dl + h5,
-dl + h6 {
-  margin-top: 2.5rem;
-}
-
-ul + h1,
-ul + h2,
-ul + h3,
-ul + h4,
-ul + h5,
-ul + h6 {
-  margin-top: 2.5rem;
-}
-
-article {
-  h1 {
-    font-size: 2rem;
-  }
-
+.article {
   h2 {
-    font-size: 1.75rem;
-  }
-
-  h3 {
     font-size: 1.5rem;
   }
 
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+
   h4 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    font-style: italic;
   }
 
   h5 {
     font-size: 1rem;
+    color: $secondary;
   }
-}
 
-.article {
-  h1 {
-    font-weight: 300;
+  h6 {
+    font-size: 1rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2.5rem;
 
     &:first-child {
-      text-align: center;
-      font-weight: initial;
+      margin-top: initial;
     }
   }
-
-  h2 {
-    font-size: 1.06rem;
-    font-weight: 600;
-  }
-
-  h3 {
-    font-size: 1.06rem;
-    font-style: italic;
-  }
 }
-
-.mentions-legales {
-  h1 {
-    font-weight: 300;
-
-    &:first-of-type {
-      font-weight: initial;
-    }
-  }
-
-  h2 {
-    font-size: 1.25rem;
-  }
-}
-*/

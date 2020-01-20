@@ -2,8 +2,11 @@
   <main class="main">
     <div class="container-fluid">
       <h1 class="page-title">{{ .Title }}</h1><br>
-        {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
-        {{ .Content }}
+      {{ with .Params.summary }}<p class="lead">{{ . }}</p>{{ if $.Params.toc }}{{ else }}<br>{{ end }}{{ end }}
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
+        <article class="article">
+          {{ .Content }}
+        </article>
         {{ partial "social-share" . }}
     </div>
   </main>
