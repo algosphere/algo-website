@@ -1,0 +1,13 @@
+.form-group {
+  position: relative;
+}
+
+.invalid-tooltip {
+  position: initial;
+}
+
+@include media-breakpoint-up(lg) {
+  .invalid-tooltip {
+    position: absolute;
+  }
+}

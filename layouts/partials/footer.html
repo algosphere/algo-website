@@ -8,13 +8,7 @@
     <div>
       <h3>AlgoNews</h3>
       <p class="lead">A collaborative quarterly on the alleviation of suffering</p>
-      <form>
-        <div class="form-group">
-          <label for="staticEmail2" class="sr-only">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
-        </div>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
-      </form>
+      {{ partial "newsletter-form" . }}
     </div>
     <div>
       <h3>Support us</h3>
