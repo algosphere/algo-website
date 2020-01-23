@@ -2,7 +2,7 @@
   <main class="main">
     <div class="container-fluid">
       <h1 class="page-title">{{ .Title }}</h1><br>
-      {{ with .Summary }}<p class="lead">{{ . }}</p>
+      {{ with .Params.summary }}<p class="lead">{{ . }}</p>
         {{ if ne $.Params.toc true }}<br>{{ end }}
       {{ end }}
       {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}

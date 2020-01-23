@@ -1,7 +1,6 @@
 baseURL: "https://algo-website.netlify.com/"
 languageCode: "en"
 defaultContentLanguage: "en"
-title: "Algosphere Alliance"
 canonifyURLs: false
 relativeURLs: true
 disableFastRender: true

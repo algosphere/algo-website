@@ -1,5 +1,5 @@
 ---
-title: "Mentions légales"
+title: "Legals"
 description: "Nos mentions légales"
 layout: mentions-legales
 toc: true
