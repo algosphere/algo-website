@@ -9,7 +9,6 @@ disableLiveReload: true
 metaDataFormat: yaml
 enableRobotsTXT: true
 params:
-  description: "for the alleviation of suffering"
   author: "Algosphere"
   twitter: "algosphere"
   facebook: "algosphere"
@@ -35,35 +34,32 @@ markup:
     startLevel: 1
     endLevel: 5
 footnoteReturnLinkContents: "↑"
-menu:
-  main:
-  - identifier: blog1
-    name: Accueil
-    title: blog section
-    url: /blog/
-    weight: -110
-  - identifier: blog2
-    name: Blog
-    title: blog section
-    url: /blog/
-    weight: -110
-  - identifier: blog3
-    name: Blog
-    title: blog section
-    url: /blog/
-    weight: -110
-  - identifier: blog4
-    name: Blog
-    title: blog section
-    url: /blog/
-    weight: -110
-  - identifier: blog5
-    name: Blog
-    title: blog section
-    url: /blog/
-    weight: -110
-  - identifier: blog6
-    name: Blog
-    title: blog section
-    url: /blog/
-    weight: -110
+languages:
+  en:
+    languageName: English
+    weight: 1
+    contentDir: content/en
+    title: Algosphere Alliance
+    params:
+      description: "for the alleviation of suffering"
+    menu:
+      main:
+      - identifier: blog1
+        name: Home
+        title: blog section
+        url: /blog/
+        weight: 1
+  fr:
+    languageName: Français
+    weight: 2
+    contentDir: content/fr
+    title: Alliance Algosphère
+    params:
+      description: "pour l'allègement de la souffrance"
+    menu:
+      main:
+      - identifier: blog1
+        name: Accueil
+        title: blog section
+        url: /blog/
+        weight: 1
