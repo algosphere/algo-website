@@ -1,13 +1,12 @@
 {{ define "main" }}
   <main class="main">
     <div class="container-fluid">
-      <h1 class="page-title">{{ .Title }}</h1 class="page-title"><br>
+      <h1 class="page-title">{{ .Title }}</h1><br>
         <ul>
           {{ range .Data.Pages }}
             <li><a href="{{.Permalink}}">{{.Title}}</a></li>
           {{ end }}
         </ul>
-        {{ partial "social-share" . }}
     </div>
   </main>
   {{ partial "top-btn" . }}
