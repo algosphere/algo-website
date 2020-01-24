@@ -4,13 +4,6 @@
 {{ $index := resources.Get "scripts/index.js" }}
 {{ $mainJS := slice $jquery $popper $bootstrap $index | resources.Concat "main.js" }}
 {{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
-  {{ $mainJS = $mainJS | minify }}
+  {{ $mainJS = $mainJS | minify | fingerprint }}
 {{ end }}
-{{ if .Site.IsServer }}
-  <script src="{{ $mainJS.RelPermalink }}"></script>
-{{ else if or (getenv "PRODUCTION") (getenv "PREVIEW") }}
-<!-- Inline scripts -->
-  <script>
-    {{ $mainJS.Content | safeJS }}
-  </script>
-{{ end }}
+<script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
