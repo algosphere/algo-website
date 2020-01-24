@@ -59,12 +59,12 @@ languages:
         url: /positions/
         weight: 3
       - identifier: positions-fundamental
-        name: Fundamental positions
+        name: Fundamental
         url: /positions-fundamental
         weight: 1
         parent: positions
       - identifier: positions-specific
-        name: Specific positions
+        name: Specific
         url: /positions-specific/
         weight: 2
         parent: positions
