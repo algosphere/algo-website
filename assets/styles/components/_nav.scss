@@ -18,15 +18,27 @@
 
     .nav-left {
       flex-grow: 1;
+      flex-wrap: wrap;
       // justify-content: space-between;
       // max-width: 500px;
 
       a {
         color: #db8888;
 
-        &:hover {
+        &:hover,
+        &:focus {
           color: darken($color: #db8888, $amount: 15);
         }
+
+        &.active {
+          color: #db8888;
+          font-weight: 600;
+          text-decoration: underline solid rgba(0, 0, 0, 0.1) 0.2em;
+        }
+      }
+
+      .dropdown-toggle::after {
+        vertical-align: 0.15em;
       }
     }
   }
@@ -54,7 +66,7 @@
     }
 
     .nav-link {
-      font-size: 1.1em;
+      font-size: 1.05em;
     }
 
     .nav-right > *,

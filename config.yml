@@ -46,11 +46,44 @@ languages:
       description: "for the alleviation of suffering"
     menu:
       main:
-      - identifier: blog1
+      - identifier: home
         name: Home
-        title: blog section
-        url: /blog/
+        url: /
         weight: 1
+      - identifier: vision
+        name: Vision
+        url: /vision/
+        weight: 2
+      - identifier: positions
+        name: Positions
+        url: /positions/
+        weight: 3
+      - identifier: positions-fundamental
+        name: Fundamental positions
+        url: /positions-fundamental
+        weight: 1
+        parent: positions
+      - identifier: positions-specific
+        name: Specific positions
+        url: /positions-specific/
+        weight: 2
+        parent: positions
+      - identifier: algonews
+        name: AlgoNews
+        url: /algonews/
+        weight: 4
+      - identifier: organisations
+        name: Organisations
+        url: /organisations/
+        weight: 5
+      - identifier: the-alliance-in-images
+        name: The Alliance in images
+        url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
+        weight: 6
+      - identifier: governance
+        name: Governance
+        url: /governance/
+        weight: 7
   fr:
     languageName: Français
     weight: 2
@@ -60,8 +93,11 @@ languages:
       description: "pour l'allègement de la souffrance"
     menu:
       main:
-      - identifier: blog1
+      - identifier: home
         name: Accueil
-        title: blog section
-        url: /blog/
+        url: /
         weight: 1
+      - identifier: vision
+        name: Vision
+        url: /vision/
+        weight: 2
