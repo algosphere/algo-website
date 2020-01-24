@@ -101,3 +101,21 @@ languages:
         name: Vision
         url: /vision/
         weight: 2
+
+  es:
+    languageName: Español
+    weight: 3
+    contentDir: content/es
+    title: Alianza Algosfera
+    params:
+      description: "para el alivio del sufrimiento"
+    menu:
+      main:
+      - identifier: home
+        name: Inicio
+        url: /
+        weight: 1
+      - identifier: vision
+        name: Vision
+        url: /vision/
+        weight: 2

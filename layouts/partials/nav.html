@@ -1,6 +1,6 @@
 <nav class="nav-main navbar navbar-expand-lg navbar-light bg-white" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand font-comfortaa" href="/"><img src="data:image/png;base64,{{ (resources.Get "/images/logo.jpg").Content | base64Encode }}" width="30" height="29" alt="logo">{{ .Site.Title }}</a>
+    <a class="navbar-brand font-comfortaa" href="{{ "/" | relLangURL }}"><img src="data:image/png;base64,{{ (resources.Get "/images/logo.jpg").Content | base64Encode }}" width="30" height="29" alt="logo">{{ .Site.Title }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav nav-left">
@@ -25,12 +25,7 @@
         <a class="btn btn-primary" href="" role="button">Participer {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
       </div>
       <div class="navbar-nav meta">
-        <div class="nav-item dropdown">
-          <button class="btn btn-light dropdown-toggle" id="navbarLanguageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">translate</i> English</button>
-            <div class="dropdown-menu" aria-labelledby="navbarLanguageDropdown">
-              <a class="dropdown-item" href="#">Français</a>
-            </div>
-        </div>
+        {{ partial "i18n-switcher" . }}
         <input class="form-control" type="text" placeholder="Search">
       </div>
     </div>

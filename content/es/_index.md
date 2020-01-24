@@ -1,9 +1,8 @@
 ---
-title: "Vision"
+title: "Inicio"
 description: "description"
-translationKey: "vision"
+translationKey: "home"
 toc: false
 draft: false
 ---
-
 

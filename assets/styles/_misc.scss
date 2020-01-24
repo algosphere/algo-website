@@ -28,3 +28,10 @@ iframe {
   width: 100%;
   height: 380px;
 }
+
+a.dropdown-item.active,
+a.dropdown-item:active,
+.dropdown a.dropdown-item.active,
+.dropdown a.dropdown-item:active {
+  background-color: #88b1db;
+}
