@@ -1,4 +1,4 @@
-<meta name="environment" content="{{ with (getenv "PRODUCTION") }}PRODUCTION{{ end }}{{ with (getenv "PREVIEW") }}PREVIEW{{ end }}{{ with .Site.IsServer }}DEVELOPMENT{{ end }}">
+<meta name="environment" content="{{ with (getenv "PRODUCTION") }}PRODUCTION{{ end }}{{ with (getenv "PREVIEW") }}PREVIEW{{ end }}{{ with .Site.IsServer }}SERVER{{ end }}">
 {{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
 <meta name="version" content="{{ substr (getenv "GITHUB_SHA") 0 7 }}">
 {{ end }}

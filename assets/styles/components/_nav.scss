@@ -19,8 +19,7 @@
     .nav-left {
       flex-grow: 1;
       flex-wrap: wrap;
-      // justify-content: space-between;
-      // max-width: 500px;
+      justify-content: center;
 
       a,
       .dropdown a {
@@ -74,6 +73,13 @@
 
     .nav-link {
       font-size: 1.05em;
+      padding-left: .75em !important;
+      padding-right: .75em !important;
+    }
+
+    .nav-right {
+      display: ruby;
+      margin-left: 1em;
     }
 
     .nav-right > *,

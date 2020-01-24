@@ -1,9 +1,11 @@
 {{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
 {{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
-{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
-  {{ $mainCSS = $mainCSS | minify | fingerprint }}
+{{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
+  {{ $mainCSS = $mainCSS | minify }}
 {{ end }}
-<link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}" integrity="{{ $mainCSS.Data.Integrity }}">
+{{ with .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+{{ end }}
 
 <!-- External links -->
 <style>
@@ -29,4 +31,9 @@
       font-feature-settings: 'liga';
       vertical-align: text-bottom;
     }
+
+  {{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
+  <!-- Inline styles -->
+    {{ $mainCSS.Content | safeCSS }}
+  {{ end }}
 </style>
