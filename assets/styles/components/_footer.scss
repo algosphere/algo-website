@@ -45,7 +45,8 @@
 
   .footer-sub {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     color: $gray-600;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -56,6 +57,10 @@
       &:hover {
         color: $gray-400;
       }
+    }
+
+    .dot {
+      display: none;
     }
   }
 }
@@ -92,6 +97,20 @@
 
       > div {
         padding-top: 0;
+        max-width: 500px;
+      }
+    }
+
+    .footer-sub {
+      flex-direction: row;
+      justify-content: center;
+
+      .dot {
+        display: block;
+
+        &:last-of-type {
+          display: none;
+        }
       }
     }
   }

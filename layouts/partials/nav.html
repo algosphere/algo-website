@@ -6,13 +6,13 @@
       <div class="navbar-nav nav-left">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
+        {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) ($currentPage.IsMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}
           {{ if .HasChildren }}
             <div class="dropdown">
-              <a class="nav-item nav-link dropdown-toggle{{ if or ($isCurrent) ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+              <a class="nav-item nav-link dropdown-toggle{{ if $isCurrent }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 {{ range .Children }}
-                  <a class="dropdown-item{{ if or ($isCurrent) ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                   {{ end }}
               </div>
             </div>
@@ -22,11 +22,11 @@
         {{ end }}
       </div>
       <div class="navbar-nav nav-right">
-        <a class="btn btn-primary" href="" role="button">Participer {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
+        <a class="btn btn-primary" href="" role="button">{{ i18n "take-part" }} {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
       </div>
       <div class="navbar-nav meta">
-        {{ partial "i18n-switcher" . }}
-        <input class="form-control" type="text" placeholder="Search">
+        {{ partial "language-switcher" . }}
+        {{ partial "search-form" . }}
       </div>
     </div>
   </div>

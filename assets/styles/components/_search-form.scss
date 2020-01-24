@@ -1,0 +1,14 @@
+.search {
+  position: relative;
+
+  .icon {
+    position: absolute;
+    left: .5em;
+    top: .4em;
+    color: #495057;
+  }
+
+  input {
+    padding-left: 2.2em;
+  }
+}

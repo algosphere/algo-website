@@ -84,6 +84,11 @@ languages:
         name: Governance
         url: /governance/
         weight: 7
+      footer:
+      - identifier: legal-notices
+        name: Legal notices
+        url: /legal-notices/
+        weight: 1
   fr:
     languageName: Français
     weight: 2
@@ -101,6 +106,11 @@ languages:
         name: Vision
         url: /vision/
         weight: 2
+      footer:
+      - identifier: mentions-legales
+        name: Mentions légales
+        url: /mentions-legales/
+        weight: 1
 
   es:
     languageName: Español

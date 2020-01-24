@@ -1,9 +1,9 @@
 <form action="https://algosphere.us3.list-manage.com/subscribe/post?u=1afe9a7389db4168c6e36a2b0&amp;id=4b4bebdc25" method="post" class="needs-validation" target="_blank" novalidate>
   <div class="form-group">
     <label for="newsletter-email" class="sr-only">Email</label>
-    <input type="email" class="form-control" id="newsletter-email" name="EMAIL" placeholder="Your email" required>
+    <input type="email" class="form-control" id="newsletter-email" name="EMAIL" placeholder="{{ i18n "your-email" }}" required>
     <div class="invalid-tooltip">
-      Please enter an email address.
+      {{ i18n "email-validation" }}
     </div>
   </div>
   <div id="mce-responses" class="clear">
@@ -11,7 +11,7 @@
     <div class="response" id="mce-success-response" style="display:none"></div>
   </div>
   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1afe9a7389db4168c6e36a2b0_4b4bebdc25" tabindex="-1" value=""></div>
-  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary" style="width: 100%;"></div>
+  <div class="clear"><input type="submit" value="{{ i18n "subscribe" }}" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary" style="width: 100%;"></div>
   <script>
     // Form validation
     (function() {

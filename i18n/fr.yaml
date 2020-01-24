@@ -1,0 +1,24 @@
+- id: share
+  translation: "Partager"
+- id: subscribe
+  translation: "S'abonner"
+- id: your-email
+  translation: "Votre email"
+- id: email-validation
+  translation: "Veuillez entrer une adresse email"
+- id: donate
+  translation: "Faire un don"
+- id: algonews-slogan
+  translation: "Une revue trimestrielle collaborative sur l'allègement de la souffrance"
+- id: contact-us
+  translation: "Nous contacter"
+- id: support-us
+  translation: "Nous soutenir"
+- id: search
+  translation: "Rechercher"
+- id: take-part
+  translation: "Participer"
+- id: 404-title
+  translation: "Page non trouvée"
+- id: 404-description
+  translation: "La page demandée n'existe pas"

@@ -1,23 +1,25 @@
 <footer class="footer">
   <div class="container-fluid footer-main">
     <div>
-      <h3>Contact us</h3>
+      <h3>{{ i18n "contact-us" }}</h3>
       <a class="btn btn-info" href="mailto:algosphere@gmail.com" role="button" target="_blank">{{ (resources.Get "icons/envelope.svg").Content | safeHTML }} algosphere@gmail.com</a><br>
       {{ partial "social-profile" . }}
     </div>
     <div>
       <h3>AlgoNews</h3>
-      <p class="lead">A collaborative quarterly on the alleviation of suffering</p>
+      <p class="lead">{{ i18n "algonews-slogan" }}</p>
       {{ partial "newsletter-form" . }}
     </div>
     <div>
-      <h3>Support us</h3>
-      <a class="btn btn-success no-external-icon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7WH6CJ4LQH4L"target="_blank" role="button">{{ (resources.Get "icons/heart-fill.svg").Content | safeHTML }} Donate</a>
+      <h3>{{ i18n "support-us" }}</h3>
+      <a class="btn btn-success no-external-icon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7WH6CJ4LQH4L"target="_blank" role="button">{{ (resources.Get "icons/heart-fill.svg").Content | safeHTML }} {{ i18n "donate" }}</a>
     </div>
   </div>
   <div class="container-fluid footer-sub">
-    <div>
-      <a href="mentions-legales">mentions</a>
-    </div>
+    {{ $currentPage := . }}
+      {{ range .Site.Menus.footer }}
+        <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
+        <span class="dot">•</span>
+      {{ end }}
   </div>
 </footer>
