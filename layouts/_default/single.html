@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <h1 class="page-title">{{ .Title }}</h1><br>
       {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
-      <article class="article">
+      <article class="article DocSearch-content">
         {{ .Content }}
       </article>
       {{ partial "social-share" . }}
