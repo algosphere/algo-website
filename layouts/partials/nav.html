@@ -6,7 +6,12 @@
       <div class="navbar-nav nav-left">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) ($currentPage.IsMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}
+        {{ $langURL := .URL | relLangURL }}
+        {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq $langURL $currentPage.RelPermalink) (eq .Identifier $.Section) ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+
+        <p>eq [{{ $langURL }}] [{{ $currentPage.RelPermalink }}]</p>
+        <p> = {{ (eq $langURL $currentPage.RelPermalink) }}</p>
+
           {{ if .HasChildren }}
             <div class="dropdown">
               <a class="nav-item nav-link dropdown-toggle{{ if $isCurrent }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
