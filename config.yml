@@ -60,7 +60,7 @@ languages:
         weight: 3
       - identifier: positions-fundamental
         name: Fundamental
-        url: /positions-fundamental
+        url: /positions/positions-fundamental/
         weight: 1
         parent: positions
       - identifier: positions-specific
