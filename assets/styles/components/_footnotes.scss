@@ -1,7 +1,13 @@
-/* .footnotes {
-  margin-top: 5rem;
+.footnotes {
+  font-size: .9em;
 
-  br {
-    display: none;
+  .footnote-backref {
+    visibility: hidden;
+
+    &::before {
+      content: "↑";
+      font-size: 1.1em;
+      visibility: visible;
+    }
   }
-} */
+}

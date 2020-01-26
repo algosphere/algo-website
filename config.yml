@@ -60,21 +60,21 @@ languages:
         weight: 3
       - identifier: positions-fundamental
         name: Fundamental
-        url: /positions/positions-fundamental/
+        url: /positions/fundamental/
         weight: 1
         parent: positions
       - identifier: positions-specific
         name: Specific
-        url: /positions-specific/
+        url: /positions/specific/
         weight: 2
         parent: positions
       - identifier: algonews
         name: AlgoNews
         url: /algonews/
         weight: 4
-      - identifier: organisations
-        name: Organisations
-        url: /organisations/
+      - identifier: organizations
+        name: Organizations
+        url: /organizations/
         weight: 5
       - identifier: the-alliance-in-images
         name: The Alliance in images

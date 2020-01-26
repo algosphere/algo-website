@@ -1,0 +1,4 @@
+<blockquote class="blockquote">
+  {{ .Inner | markdownify }}
+  {{ with .Get 0 }}<footer class="blockquote-footer">{{ . | markdownify }}</footer>{{ end }}
+</blockquote>
