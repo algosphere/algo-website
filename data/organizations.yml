@@ -1,0 +1,8 @@
+- name: "ORG 1"
+  description: "desc org 1"
+  url: "https://twitter.com"
+  weight: 1
+- name: "ORG 2"
+  description: "desc org 2"
+  url: "https://google.com"
+  weight: 2
