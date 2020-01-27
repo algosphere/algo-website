@@ -33,9 +33,6 @@ markup:
     startLevel: 1
     endLevel: 5
 footnoteReturnLinkContents: "↑"
-taxonomies:
-  category:
-  tag:
 languages:
   en:
     languageName: English
