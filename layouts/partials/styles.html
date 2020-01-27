@@ -3,7 +3,9 @@
 {{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
   {{ $mainCSS = $mainCSS | minify }}
 {{ end }}
-<link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+{{ with .Site.IsServer }}
+  <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+{{ end }}
 
 <!-- External links -->
 <style>
@@ -29,4 +31,9 @@
       font-feature-settings: 'liga';
       vertical-align: text-bottom;
     }
+
+  {{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
+  <!-- Inline styles -->
+    {{ $mainCSS.Content | safeCSS }}
+  {{ end }}
 </style>
