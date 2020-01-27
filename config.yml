@@ -33,6 +33,9 @@ markup:
     startLevel: 1
     endLevel: 5
 footnoteReturnLinkContents: "↑"
+disableKinds:
+- taxonomy
+- taxonomyTerm
 languages:
   en:
     languageName: English

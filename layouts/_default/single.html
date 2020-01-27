@@ -1,8 +1,19 @@
 {{ define "main" }}
   <main class="main">
     <div class="container-fluid">
-      <h1 class="page-title">{{ .Title }}</h1><br>
-      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
+      {{ if .Params.titlePart1 }}
+        <h1 class="page-title">{{ .Params.titlePart1 }}</h1>
+        <h2 class="page-subtitle">{{ .Params.titlePart2 }}</h2>
+      {{ else }}
+        <h1 class="page-title">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+          <h2 class="page-subtitle">{{ . }}</h2>
+        {{ end }}
+      {{ end }}
+      <br>
+      {{ with .Params.toc }}
+        {{ $.TableOfContents }}<br><br>
+      {{ end }}
       <article class="article DocSearch-content">
         {{ .Content }}
       </article>
