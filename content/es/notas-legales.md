@@ -1,6 +1,6 @@
 ---
-title: "Mentions légales"
-description: "Nos mentions légales"
+title: "Notas legales"
+description: "Nuestras Notas legales"
 translationKey: "legal-notices"
 toc: true
 ---

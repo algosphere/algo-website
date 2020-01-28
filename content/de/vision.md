@@ -1,6 +1,6 @@
 ---
 title: "Vision"
-description: "La vision de l'Alliance Algosphère"
+description: "Die Vision der Bündnis Algosphäre"
 translationKey: "vision"
 toc: true
 draft: false

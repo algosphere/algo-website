@@ -1,6 +1,6 @@
 ---
-title: "Constitution"
-description: "The Alliance's Constitution"
+title: "Grundsatzerklärung"
+description: "Grundsatzerklärung der Bündnis Algosphäre"
 translationKey: "constitution"
 toc: false
 draft: false

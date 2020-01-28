@@ -1,6 +1,6 @@
 ---
-title: "Constitution"
-description: "The Alliance's Constitution"
+title: "Constitución"
+description: "La Constitución de la Alianza Algosfera"
 translationKey: "constitution"
 toc: false
 draft: false

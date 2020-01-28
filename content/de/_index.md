@@ -1,6 +1,6 @@
 ---
-title: "Accueil"
-description: "Alliance Algosphère pour l'allègement de la souffrance"
+title: "Startseite"
+description: "Bündnis Algosphäre zur linderung des leidens"
 translationKey: "home"
 toc: true
 draft: false

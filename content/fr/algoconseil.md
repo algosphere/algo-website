@@ -1,6 +1,6 @@
 ---
-title: "AlgoConsulting"
-description: "The Consulting branch of the Algosphere Alliance"
+title: "AlgoConseil"
+description: "La branche Conseil de l'Alliance Algosphère"
 translationKey: "algoconsulting"
 toc: false
 draft: false
