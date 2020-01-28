@@ -61,13 +61,13 @@ languages:
       - identifier: positions-fundamental
         name: Fundamental
         url: /positions/fundamental/
-        weight: 1
         parent: positions
+        weight: 1
       - identifier: positions-specific
         name: Specific
         url: /positions/specific/
-        weight: 2
         parent: positions
+        weight: 2
       - identifier: algonews
         name: AlgoNews
         url: /algonews/
@@ -80,10 +80,24 @@ languages:
         name: AlgoConsulting
         url: /algoconsulting/
         weight: 6
+      - identifier: governance
+        name: Governance
+        url: /governance/
+        weight: 7
+      - identifier: constitution
+        name: Constitution
+        url: /governance/constitution/
+        parent: governance
+        weight: 1
+      - identifier: faq
+        name: FAQ
+        url: /governance/faq/
+        parent: governance
+        weight: 2
       - identifier: the-alliance-in-images
         name: The Alliance in images
         url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-        weight: 7
+        weight: 8
       footer:
       - identifier: legal-notices
         name: Legal notices
