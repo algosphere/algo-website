@@ -76,13 +76,13 @@ languages:
         name: Organizations
         url: /organizations/
         weight: 5
+      - identifier: algoconsulting
+        name: Algoconsulting
+        url: /algoconsulting/
+        weight: 6
       - identifier: the-alliance-in-images
         name: The Alliance in images
         url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-        weight: 6
-      - identifier: governance
-        name: Governance
-        url: /governance/
         weight: 7
       footer:
       - identifier: legal-notices

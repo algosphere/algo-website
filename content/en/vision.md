@@ -37,7 +37,7 @@ The Alliance's main organizational activity consists in promoting the value of a
 What is the key motivating principle for spreading this value? Aside from our natural sense of empathy, our *individual conscience* has the ability to look beyond itself in order to recognize that any suffering experienced anywhere is a part of *our own* suffering.
 
 {{< quote "Nelson Mandela, *Long Walk to Freedom*" >}}
-  The chains on any one of my people were the chains on all of them, the chains on all of my people were the chains on me.
+  "The chains on any one of my people were the chains on all of them, the chains on all of my people were the chains on me."
 {{< /quote >}}
 
 "*We are them*": Just as our conscience extends to all sentient beings, it is humble enough to recognize that each of us is a being that suffers, that causes suffering and that uses suffering to certain ends.

@@ -2,15 +2,23 @@
 title: "AlgoNews"
 description: "A collaborative quarterly on the alleviation of suffering"
 translationKey: "algonews"
+layout: single
 toc: false
 draft: false
 ---
 
-<p class="text-center"><em>A collaborative quarterly on the alleviation of suffering</em></p>
+<p class="lead text-center"><em>A collaborative quarterly on the alleviation of suffering</em></p>
 
+---
 {{< alert "warning text-center" >}}
   Its content does not necessarily reflect the official position of the Algosphere Alliance
 {{< /alert >}}
+
+{{< alert "info text-center" >}}
+  You may have a look at the [issue under preparation](https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit)
+{{< /alert >}}
+
+<br>
 
 # 2019
 - [AlgoNews - 2019 Vol. 6, No. 4](https://docs.google.com/document/d/1qrC8202nwQEGcaT5zj-zsIpvdmCmwME1xIUX3GVEbyU/edit)

@@ -57,7 +57,7 @@ a.abbr {
     h#{$i} {
       margin-top: 2.5rem;
 
-      &:first-child {
+      &:first-of-type {
         margin-top: initial;
       }
     }

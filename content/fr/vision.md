@@ -5,5 +5,3 @@ translationKey: "vision"
 toc: false
 draft: false
 ---
-
-
