@@ -1,0 +1,6 @@
+<div class="media media-image-left">
+  <img src="{{ .Get 0 }}" alt="{{ .Get 1 }}" class="img-thumbnail">
+  <div class="media-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

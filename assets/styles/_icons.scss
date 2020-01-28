@@ -2,3 +2,8 @@ svg.bi {
   font-size: 1.4em;
   vertical-align: bottom;
 }
+
+h1 a::after,
+h2 a::after {
+  vertical-align: middle !important;
+}
