@@ -77,7 +77,7 @@ languages:
         url: /organizations/
         weight: 5
       - identifier: algoconsulting
-        name: Algoconsulting
+        name: AlgoConsulting
         url: /algoconsulting/
         weight: 6
       - identifier: the-alliance-in-images
