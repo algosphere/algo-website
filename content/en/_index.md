@@ -27,6 +27,6 @@ Every individual in the world is considered to have the status of "invitee" of t
 Organizations can become allies through a similar process, but they do not have the right to make decisions.
 
 # Official communications
-The Algosphere's only official vehicle for external communications is its website. Individual allies may not speak officially on behalf of the Algosphere, although [designated spokespeople](/mandates) may be named for specific issues on a case-by-case basis. The Algosphere publishes a collaborative newsletter called the *AlgoNews* that gives allies and invitees a space to express their own ideas and opinions about various issues, without necessarily reflecting the Alliance's official positions.
+The Algosphere's only official vehicle for external communications is its website. Individual allies may not speak officially on behalf of the Algosphere, although [designated spokespeople](mandates) may be named for specific issues on a case-by-case basis. The Algosphere publishes a collaborative newsletter called the *AlgoNews* that gives allies and invitees a space to express their own ideas and opinions about various issues, without necessarily reflecting the Alliance's official positions.
 
 [^1]: The name "Algosphere" was created from the two Greek roots for domain ("sphere") and suffering ("algo"). The Alliance's logo represents the world (the Earth) surrounded by neurons and synapses, which symbolise both suffering and a circle of mutual aid.

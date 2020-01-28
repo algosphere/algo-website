@@ -6,52 +6,52 @@ toc: true
 draft: false
 ---
 
-# Goal
-Numerous people and organizations throughout the world have been working for years in many different areas to alleviate suffering. But they generally operate independently, without strong links that would allow them to provide each other with support and become more effective.
+# Zielsetzung
+Viele Menschen bzw. Organisationen versuchen weltweit zur Linderung des Leidens beizutragen, und zwar auf vielen Gebieten. Jedoch arbeiten sie meist unkoordiniert, ohne brauchbare Verbindungen, die ihnen eine gegenseitige Unterstützung gewährleisten und sie stärker machen könnten.
 
-The desire to alleviate suffering appears to be widely shared across the globe, and so there must be deep-seated reasons why practically no society has made it its ethical priority over thousands of years of history.
+Wenn der Wunsch nach einer Linderung des Leidens weltweit so eine breite Zustimmung findet, so lässt  es sich notwendig nur aus  tief liegenden Gründen erklären, dass in der tausendjährigen Geschichte der Menschheit fast keine Gesellschaft daraus eine ethische Priorität  gemacht habe.
 
-Our proposition is to *organize* the alleviation of suffering, steadily and sustainably.
+Wir setzen uns zum Zweck, die Linderung der Leiden tragfähig und dauerhaft zu *organisieren*.
 
-# An Alliance as cornerstone
-The cornerstone of this organization is an Alliance that will spearhead and coordinate efforts.
+# Unsere Grundlage ist ein Bündnis
+Grundlage dieser Organisation ist ein Bündnis, die jene starten und koordinieren soll.
 
-*The alleviation of suffering in the world* is this Alliance's ethical priority.
+Ethische Priorität dieses Bündnisses ist die *Linderung der Leiden weltweit*.
 
-This priority applies to all beings capable of suffering, whether human or not. As commonly understood, the word suffering refers to an unpleasant subjective state that one wishes to avoid. All forms of suffering are taken into consideration, whether of physical or mental origin, with a primary focus on the most intense suffering.
+Diese Priorität gilt für alle Wesen, die Schmerz empfinden können, ob Menschenwesen oder andere. Vorrang haben die intensivsten Leid. Die gängige Bedeutung für Schmerz ist: unangenehmer subjektiver Zustand, dem man ausweichen möchte ; all seine unterschiedlichen Aspekte werden in Betracht gezogen, ganz gleich, ob dessen  Herkunft psychisch oder körperlich ist.
 
-The Alliance is open to studying any proposal that aims to alleviate suffering, without prejudice. It values diversity in the approaches taken.
+Das Bündnis ist für jede Lösung offen, die auf eine Linderung der Leiden abzielt   und lehnt prinzipiell keine ab von vornherein. Sie begünstigt eine vielseitige Annäherung des Problems.
 
-Any individual who considers the alleviation of suffering in the world to be an ethical priority is invited to join the Alliance. In addition, any organization that views the alleviation of suffering in the world as its own ethical priority is also invited to join.
+Jede/r, in deren /dessen Augen die Linderung des Leidens weltweit prioritär ist, wird aufgefordert, unserem Bündnis beizutreten. Ebenfalls gilt das für jede Organisation, die besagte Linderung als  ihre ethische Priorität betrachtet.
 
-The welcome and initiation of each new ally are given special attention.
+Aufnahme und Begleitung jeder/s neuen Verbündeten sind Gegenstand einer besonderen Aufmerksamkeit.
 
-The Alliance's [decision-making procedures](/constitution) are not frozen, but can be modified and adapted over time by the allies themselves, coauthors of the Alliance.
+[Die Entscheidungsprozesse des Bündnisses](/de/fuehrung/grundsatzerklaerung)  sind nicht in Stein gemeißelt, sondern werden im Laufe der Zeit von den Verbündeten selber als MitgestalterInnen des Bündnisses ausgearbeitet und dauernd angepasst.
 
-# Three areas of focus
-## Culture
-The most important source of support for the allies is cultural: the greater the degree to which a culture of alleviation of suffering is spread globally, the more effective each ally's actions will be, whichever their field.
+# Drei Orientierungen
+## Die Kulturebene
+Der Grundpfeiler, der die Verbündeten verbindet und unterstützt ist das kulturelle Band:  Je weltweit verbreiteter und allgemein geteilter eine Kultur der Schmerzenslinderung, desto effizienter die Handlungen jeder/s Alliierten auf ihrem/seinem  eigenen Gebiet.
 
-The Alliance's main organizational activity consists in promoting the value of alleviating suffering so that it is increasingly integrated into decision-making throughout the world, in both public and private spheres.
+Die Graswurzelorganisationen sollen diesen Wert der Schmerzenslinderung vorantreiben, damit die privat oder  öffentlich gefassten Entscheidungen weltweit diesen Wert immer weiter integrieren.
 
-What is the key motivating principle for spreading this value? Aside from our natural sense of empathy, our *individual conscience* has the ability to look beyond itself in order to recognize that any suffering experienced anywhere is a part of *our own* suffering.
+Was könnte aber einen motivieren, sich für diesen Wert einzusetzen?  Über unser/e bloß  angeborenes Einfühlungsvermögen ist unser Verstand fähig, sich selbst so weit zu übertreffen, dass wir jedes Leid, ganz gleich, wem es zustößt, Teil *unseres eigenen* Leiden ist.
 
-{{< quote "Nelson Mandela, *Long Walk to Freedom*" >}}
-  "The chains on any one of my people were the chains on all of them, the chains on all of my people were the chains on me."
+{{< quote "Nelson Mandela, *Der lange Weg zur Freiheit*" >}}
+  "Die Ketten, die einer von uns trug, wurden von allen getragen, die Ketten, die alle trugen, wurden von mir getragen."
 {{< /quote >}}
 
-"*We are them*": Just as our conscience extends to all sentient beings, it is humble enough to recognize that each of us is a being that suffers, that causes suffering and that uses suffering to certain ends.
+"*We are them*": während dieses Denkvermögen sich auf alle Wesen erstreckt, sie Schmerzempfinden können, , kann es trotzdem demütig wahrnehmen, dass jede/r von uns ein leidendes und Leid zufügendes Wesen, das das Leid  auch zu bestimmten Zwecken benutzen kann.
 
-The principle of *extended consciousness* is the keystone to a culture of alleviation of suffering.
+Dieser „ausgedehnte Verstand“ ist der Schlussstein zu einer Kultur des Schmerzenslinderung.
 
-## Knowledge
-The Alliance favors the emergence of a new discipline focused on the phenomenon of suffering.
+## Wissensebene
+Das Bündnis soll d dazu beitragen, ein neues Forschungsgebiet mit Fokus auf die Erscheinung „Schmerz und Leid“ ins Leben zu rufen.
 
-The primary mission of such a discipline is to map out suffering and provide the necessary tools to measure it and thereby prioritize actions, facilitate decision-making and evaluate results.
+Erste Aufgabe einer solchen Forschung ist, eine „Kartografie der Leiden“ zu etablieren und die Messinstrumente zu schaffen, die zur Ausrichtung der Handlung, der zu treffenden Erscheinungen und der Bewertung der Resultate nötig  sind.
 
-## Concrete action
-Existing organizations that alleviate suffering, both public and private, are already doing tremendous work. The Alliance supports their actions, including by encouraging allies to become involved in such organizations.
+## Konkrete Ebene
+Die schon vorhandenen Organisationen, die sich für die Linderung der privaten oder öffentlichen Leiden einsetzen, verrichten schon eine riesige Arbeit. Das Bündnis ermutigt sie, in dieser Richtung weiter zu gehen, und hinsichtlich dessen fordert sie insbesondere die Verbündeten, mit solchen Organisationen zusammen zu arbeiten.
 
-For forms of suffering that are currently neglected, the Alliance aims to initiate new activities or organizations capable of addressing them.
+Mit Blick auf die immer noch bei Seite gelassenen Leiden ruft die Bündnis zur Schaffung neuer Aktivitäten bzw. Organisationen zu ihrer Linderung auf.
 
-Attending to one's own suffering is a starting point for alleviating suffering in the world. The Alliance values prevention and personal autonomy.
+Indem man zuallererst das eigene Leiden berücksichtigt, fängt man an, das Leiden weltweit zu lindern.  Das Bündnis hebt die Vorbeugung sowie die Autonomie hervor.

@@ -6,37 +6,37 @@ toc: true
 draft: false
 ---
 
-# What can the Alliance do for me personally?
-Above all, the Alliance identifies and connects people motivated by the *ethical priority of alleviating suffering in the world*.
+# Was darf ich mir  für mein Teil von Algosphäre erhoffen?
+Vorrangig ist das Bündnis auf der Suche nach Menschen, die die Linderung des Leidens weltweit *als ethische Priorität in Betracht ziehen und setzt jene in Verbindung*.
 
-Starting with this global network of allies, anyone can develop ideas or projects that interest them, or contribute to such projects, and receive the Alliance’s support.
+Mithilfedieses weltweiten Verbündetennetzes kann jeder die Ideen und Projekte entwickeln, die ihn interessieren, oder zu dieser Entwicklung beitragen mit der Unterstützung des ganzen Bündnisses.
 
-# How are decisions made, who decides?
-The Alliance is a *global direct democracy*, superseding international borders.
+# Wie werden Entschlüsse gefasst, wer sind die EntscheidungsträgerInnen?
+Das Bündnis ist eine *weltweite direkte Demokratie*, die über die nationalen Grenzen hinausgreift.
 
-Every individual has the same decision-making power as any other.
+Jede/r ist im gleichen Maße entscheidungsberechtigt.
 
-There are no bosses, presidents, representatives, board of directors or head office.
+Es sind keine Führer, Vorsitzenden, VertreterInnen, kein Vorstand oder Büro vorhanden.
 
-Decisions are made by consent, which means taking the time to discuss any objection that may be raised.
+Die Entscheidungen werden per Zustimmung getroffen, d.h. man nimmt sich Zeit, jeden Einwand nachzuprüfen und zu besprechen.
 
-# What are the obligations and constraints of becoming an ally? Are there dues?
-*The only condition* to respect in order to become an ally: share the Alliance’s ethical principle, which gives priority to alleviating suffering in the world.
+# Welche sind meine Pflichten und  Zwänge als Verbündete/r? welchen Beitrag muss ich zahlen?
+*Einzige Verpflichtung der Verbündeten* ist, dass sie die Ethik des Bündnisses teilen: Priorität ist die Linderung des Leiden weltweit.
 
-*There are no other obligations*, no dues, no constraints to work as a volunteer: the Alliance is free of charge, and an ally is free to do as he or she pleases.
+*Keine andere Verpflichtung*: kein Beitrag, man muss auch keine ehrenamtliche Arbeit leisten, im Bündnis ist alles kostenlos. Ein Verbündeter tut, was er will.
 
-# Practically speaking, how does it work?
-The Alliance is organized exclusively around *centers of interest*.
+# Wie funktioniert das praktisch?
+Das Bündnis ist ausschließlich nach *Interessezentren* organisiert.
 
-Every ally is free to propose a new center of interest or to participate in an existing center of interest. The participants in a center of interest do as they like in an entirely decentralized manner. If it is necessary for moving things forward, they can ask for the approval of the parent center of interest, or ask for the approval of the Alliance itself.
+Es steht jedem/r Verbündeten völlig frei, ein neues Interessezentrum vorzuschlagen oder sich an einem schon Vorhandenen zu beteiligen. Die TeilnehmerInnen an einem bestimmten Interessezentrum machen dort, was sie wollen und handelnvöllig dezentral.  Wenn nötig können sie sich die Zustimmung des verwandten Interessezentrums sichern oder gar jene des Bündnisses beantragen.
 
-For example, it is likely that a project would at some point, in order to reach its potential, require an official communication on the part of the Alliance. And any public communication by the Alliance --- via its website --- must be approved by the entire Alliance.
+Zum Beispiel wird vermutlich jedes Projekt das eine oder andere Mal eine offizielle Mitteilung des Bündnisses brauchen, um sich ganz entfalten zu können. Und jede öffentliche Mitteilung des Bündnisses -- über ihre Webseite -- erfordert die Zustimmung des ganzen Bündnisses.
 
-# Since the Alliance doesn’t have any internationally recognized legal status, how can it have impact in the real world?
-The Alliance itself is simply a place for the exchange of ideas and development of projects among a large group of people.
+# Da das Bündnis keinen international anerkannten juristischen Status besitzt, wie kann es in der realen Welt handeln?
+Im Bündnis werden an sich nur Ideen zusammengebracht und Projekte ausgearbeitet.
 
-When a project arrives at the execution stage within the legal system (creation of structures, cash flows…), it is sufficient to create the ad hoc entity in the relevant country, if it does not already exist.
+Ist ein Projekt auf juristischer Ebene umsetzungsreif (wenn Strukturen oder Geldflüsse erforderlich sind, usw.) braucht man nur die entsprechende Einrichtung im betroffenen Lande ins Leben zu rufen, wenn es nicht bereits vorhanden ist.
 
-If a close connection to the Alliance is desirable, the creation of an entity should necessarily include allies within the management.
+Soll besagte Einrichtung am besten dem Bündnis sehr nahe stehen, so müssten dabei Verbündete in ihrer Leitung vorhanden sein; das muss bei deren Schaffung berücksichtigt werden.
 
-This is the case, for example, for structures administering funds on behalf of the Alliance, such as the [Algosphere Agency](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970), which is in charge of payments for services associated with the Alliance’s website.
+Es ist u.a. der Fall bei Strukturen, die auf Rechnung des Bündnisses Gelder verwalten, wie z.B. die [Algosphäre-Agentur](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970&V_TOKEN=1381977666108&crpNm=agence%20algosph%E8re&crpNmbr=&bsNmbr=), die die Dienstleistungen im Zusammenhang mit der Webseite bezahlt.

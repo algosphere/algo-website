@@ -6,52 +6,52 @@ toc: true
 draft: false
 ---
 
-# Goal
-Numerous people and organizations throughout the world have been working for years in many different areas to alleviate suffering. But they generally operate independently, without strong links that would allow them to provide each other with support and become more effective.
+# Objetivo
+Numerosas personas y organizaciones de todo el mundo trabajan desde hace tiempo para el alivio del sufrimiento en diversos campos. Sin embargo, lo hacen generalmente de manera dispersa, sin establecer vínculos que podrían servirles de apoyo mutuo y hacerlas más fuertes en su cometido.
 
-The desire to alleviate suffering appears to be widely shared across the globe, and so there must be deep-seated reasons why practically no society has made it its ethical priority over thousands of years of history.
+Aunque el deseo de aliviar el sufrimiento parece ampliamente extendido por todo el mundo, deben existir razones profundas que expliquen por qué ninguna sociedad, o casi ninguna, lo ha convertido en su prioridad ética en el transcurso de miles de años de historia.
 
-Our proposition is to *organize* the alleviation of suffering, steadily and sustainably.
+Nuestra propuesta consiste en organizar el alivio del sufrimiento de una manera sólida y duradera.
 
-# An Alliance as cornerstone
-The cornerstone of this organization is an Alliance that will spearhead and coordinate efforts.
+# La base: una Alianza
+La base de esta organización es una Alianza que se encargue de su impulso y coordinación.
 
-*The alleviation of suffering in the world* is this Alliance's ethical priority.
+*El alivio del sufrimiento en el mundo* es la prioridad ética de esta Alianza.
 
-This priority applies to all beings capable of suffering, whether human or not. As commonly understood, the word suffering refers to an unpleasant subjective state that one wishes to avoid. All forms of suffering are taken into consideration, whether of physical or mental origin, with a primary focus on the most intense suffering.
+Esta prioridad se extiende a todos los seres sensibles al sufrimiento, humanos o no. Se ocupa, primero, del sufrimiento más intenso. El sufrimiento, considerado comúnmente como un estado subjetivo desagradable que el sujeto desea evitar, es abordado en todos sus aspectos, tanto si su origen es físico como mental.
 
-The Alliance is open to studying any proposal that aims to alleviate suffering, without prejudice. It values diversity in the approaches taken.
+La Alianza está abierta al estudio de todas las soluciones que busquen aliviar el sufrimiento, sin excluir ninguna *a priori*. Privilegia la multiplicidad de enfoques.
 
-Any individual who considers the alleviation of suffering in the world to be an ethical priority is invited to join the Alliance. In addition, any organization that views the alleviation of suffering in the world as its own ethical priority is also invited to join.
+Está invitada a unirse cualquier persona que considere que el alivio del sufrimiento en el mundo es una prioridad ética. Está invitada, igualmente, cualquier organización que considere dicho alivio como su prioridad ética.
 
-The welcome and initiation of each new ally are given special attention.
+La acogida y el acompañamiento de cada nuevo aliado serán objeto de una atención particular.
 
-The Alliance's [decision-making procedures](/constitution) are not frozen, but can be modified and adapted over time by the allies themselves, coauthors of the Alliance.
+[Los procesos de decisión de la Alianza](/es/gobernancia/constitucion) no son fijos, sino que los propios aliados, coautores de la Alianza, los elaboran y adaptan con el tiempo.
 
-# Three areas of focus
-## Culture
-The most important source of support for the allies is cultural: the greater the degree to which a culture of alleviation of suffering is spread globally, the more effective each ally's actions will be, whichever their field.
+# Tres orientaciones
+## Cultura
+El principal vínculo para apoyar a los aliados es el vínculo cultural: cuanto más se extienda globalmente por el mundo la cultura de alivio del sufrimiento, más eficaz será la acción de cada aliado en su campo particular.
 
-The Alliance's main organizational activity consists in promoting the value of alleviating suffering so that it is increasingly integrated into decision-making throughout the world, in both public and private spheres.
+La acción organizadora de base consiste en promover este valor de alivio del sufrimiento para que las decisiones tomadas en todo el mundo, públicas o privadas, se integren cada vez más.
 
-What is the key motivating principle for spreading this value? Aside from our natural sense of empathy, our *individual conscience* has the ability to look beyond itself in order to recognize that any suffering experienced anywhere is a part of *our own* suffering.
+¿Qué podría impulsar a promover este valor? Por encima de nuestra empatía natural, nuestra *conciencia individual* tiene la capacidad de ir más allá hasta llegar a ver que cada sufrimiento padecido por cualquiera de nosotros es una parte de *nuestro propio* sufrimiento.
 
-{{< quote "Nelson Mandela, *Long Walk to Freedom*" >}}
-  "The chains on any one of my people were the chains on all of them, the chains on all of my people were the chains on me."
+{{< quote "Nelson Mandela, *El largo camino hacia la libertad*" >}}
+  "Las cadenas que tenía que soportar cualquier miembro de mi pueblo eran las mismas que nos ataban a todos. Las cadenas que ataban a mi pueblo eran las cadenas que me ataban a mí."
 {{< /quote >}}
 
-"*We are them*": Just as our conscience extends to all sentient beings, it is humble enough to recognize that each of us is a being that suffers, that causes suffering and that uses suffering to certain ends.
+*"We are them"*: al mismo tiempo que se extiende a todos los seres sensibles, esta conciencia es lo bastante humilde como para reconocer que cada uno de nosotros es un ser que sufre, que hace sufrir y que utiliza el sufrimiento para ciertos fines.
 
-The principle of *extended consciousness* is the keystone to a culture of alleviation of suffering.
+Esta *conciencia expandida* es la piedra angular de una cultura de alivio del sufrimiento.
 
-## Knowledge
-The Alliance favors the emergence of a new discipline focused on the phenomenon of suffering.
+## Conocimiento
+La Alianza favorece la aparición de una nueva disciplina que tiene por objeto el fenómeno del sufrimiento.
 
-The primary mission of such a discipline is to map out suffering and provide the necessary tools to measure it and thereby prioritize actions, facilitate decision-making and evaluate results.
+La primera misión de esta disciplina es crear una cartografía del sufrimiento y proporcionar los instrumentos de medida necesarios para orientar la acción, explicar las decisiones y evaluar los resultados.
 
-## Concrete action
-Existing organizations that alleviate suffering, both public and private, are already doing tremendous work. The Alliance supports their actions, including by encouraging allies to become involved in such organizations.
+## Acción concreta
+Las organizaciones que se dedican a aliviar específicamente el sufrimiento, públicas o privadas, están haciendo un trabajo considerable. La Alianza alienta su acción, sobre todo invitando a cada aliado a implicarse en la organización que haya elegido.
 
-For forms of suffering that are currently neglected, the Alliance aims to initiate new activities or organizations capable of addressing them.
+En lo referente al sufrimiento que sigue desatendido, la Alianza promueve nuevas actividades u organizaciones capaces de aliviarlo.
 
-Attending to one's own suffering is a starting point for alleviating suffering in the world. The Alliance values prevention and personal autonomy.
+Ocupándonos primero de nuestro propio sufrimiento, empezamos a aliviar el sufrimiento en el mundo. La Alianza valora la prevención y la autonomía.

@@ -6,37 +6,37 @@ toc: true
 draft: false
 ---
 
-# What can the Alliance do for me personally?
-Above all, the Alliance identifies and connects people motivated by the *ethical priority of alleviating suffering in the world*.
+# ¿Qué puede aportarme personalmente la alianza?
+Ante todo, la alianza identifica y pone en contacto a personas motivadas por *la prioridad ética que otorgan al alivio del sufrimiento en el mundo*.
 
-Starting with this global network of allies, anyone can develop ideas or projects that interest them, or contribute to such projects, and receive the Alliance’s support.
+A partir de esta red mundial de aliados, cada uno puede desarrollar las ideas o proyectos que le interesen, o contribuir a determinados temas, con el apoyo global de la alianza.
 
-# How are decisions made, who decides?
-The Alliance is a *global direct democracy*, superseding international borders.
+# ¿Cómo se toman las decisiones, quién decide?
+La alianza es una *democracia directa mundial*, que transciende las fronteras de las naciones.
 
-Every individual has the same decision-making power as any other.
+Todos tienen el mismo poder de decisión que los demás.
 
-There are no bosses, presidents, representatives, board of directors or head office.
+No hay jefes, ni presidentes, ni representantes, ni consejo de administración, ni oficinas.
 
-Decisions are made by consent, which means taking the time to discuss any objection that may be raised.
+Las decisiones se toman mediante consentimiento, es decir, dedicando tiempo a debatir sobre cualquier objeción que se pueda plantear.
 
-# What are the obligations and constraints of becoming an ally? Are there dues?
-*The only condition* to respect in order to become an ally: share the Alliance’s ethical principle, which gives priority to alleviating suffering in the world.
+# ¿Aliarme a qué me obliga, cuáles son las imposiciones, cuál es la cotización?
+Hay que respetar *una única condición* para convertirse en aliado: compartir la ética de la alianza, que tiene como prioridad el alivio del sufrimiento en el mundo.
 
-*There are no other obligations*, no dues, no constraints to work as a volunteer: the Alliance is free of charge, and an ally is free to do as he or she pleases.
+*No hay otras obligaciones,* ni cotización, ni ninguna obligación de voluntariado: en el seno de la alianza todo es gratis. Un aliado es libre de hacer lo que quiera.
 
-# Practically speaking, how does it work?
-The Alliance is organized exclusively around *centers of interest*.
+# ¿En la práctica, cómo funciona?
+La alianza se organiza exclusivamente por *centros de interés*.
 
-Every ally is free to propose a new center of interest or to participate in an existing center of interest. The participants in a center of interest do as they like in an entirely decentralized manner. If it is necessary for moving things forward, they can ask for the approval of the parent center of interest, or ask for the approval of the Alliance itself.
+Cada aliado tiene la libertad de proponer un nuevo centro de interés o de participar en un centro de interés ya existente. Los participantes en un centro de interés actúan libremente, de manera totalmente descentralizada. Si les resulta necesario para avanzar, pueden pedir la aprobación del centro del interés matriz, o incluso solicitar la aprobación de la propia alianza.
 
-For example, it is likely that a project would at some point, in order to reach its potential, require an official communication on the part of the Alliance. And any public communication by the Alliance --- via its website --- must be approved by the entire Alliance.
+Por ejemplo, es probable que un proyecto, en un momento dado, requiera para su completa existencia una comunicación oficial por parte de la alianza. Y cualquier comunicación pública de la alianza  --a través de su sitio de internet-- tiene que ser aprobada por toda la alianza.
 
-# Since the Alliance doesn’t have any internationally recognized legal status, how can it have impact in the real world?
-The Alliance itself is simply a place for the exchange of ideas and development of projects among a large group of people.
+# Puesto que la alianza no tiene ningún estatus jurídico reconocido internacionalmente, ¿cómo puede actuar en el mundo real?
+La misma alianza no es más que un punto de encuentro de ideas y de puesta en marcha de proyectos entre muchas personas.
 
-When a project arrives at the execution stage within the legal system (creation of structures, cash flows…), it is sufficient to create the ad hoc entity in the relevant country, if it does not already exist.
+Cuando un proyecto llega a su fase de puesta en marcha en el plano jurídico (creación de estructuras, flujo financiero...), basta con crear la entidad *ad hoc* en el país de que se trate, si no existe ya.
 
-If a close connection to the Alliance is desirable, the creation of an entity should necessarily include allies within the management.
+Si se desea una mayor proximidad de la alianza, la creación de esa entidad deberá involucrar a aliados obligatoriamente en los puestos de dirección.
 
-This is the case, for example, for structures administering funds on behalf of the Alliance, such as the [Algosphere Agency](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970), which is in charge of payments for services associated with the Alliance’s website.
+Es el caso, por ejemplo, de las estructuras que gestionan los fondos de la alianza, como la [Agencia Algosfera](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970&V_TOKEN=1381977666108&crpNm=agence%20algosph%E8re&crpNmbr=&bsNmbr=), que se encarga del pago de los servicios por el sitio de internet de la Alianza.

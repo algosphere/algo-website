@@ -6,22 +6,24 @@ toc: false
 draft: false
 ---
 
-The alleviation of suffering in the world is the Algosphere Alliance's ethical priority.
+El alivio del sufrimiento en el mundo es la prioridad ética de la Alianza Algosfera.
 
-Members' statutes:
+Estatus de los colaboradores:
 
-- The status of invitee allows anyone to participate in the Alliance's internal discussions. This status gives them the right to make proposals and discuss, but not to make decisions.
+- El estatus de invitado permite a cualquier persona participar en los debates internos de la Alianza. Este estatus le confiere poder de proposición y discusión, pero no poder de decisión.
 
-- Any individual can join the Alliance, the sole condition being that they consider the alleviation of suffering in the world to be an ethical priority. The status of "ally" gives them the right to make proposals, to discuss and to contribute to decision-making. It is the intention to offer a personalized initiation to each new ally.
+- Una persona física puede aliarse, la única condición requerida es que considere que el alivio del sufrimiento en el mundo es una prioridad ética. Este estatus de aliado le confiere poder de proposición, de discusión y de decisión. Está prevista una acogida personaliza para cada nuevo aliado.
 
-- An organization can join, the sole condition being that it considers the alleviation of suffering in the world to be its ethical priority. This status does not give it the right to make decisions.
+- Una organización puede aliarse, la única condición requerida es que tenga como prioridad ética el alivio del sufrimiento en el mundo. Este estatus no le confiere poder de decisión.
 
-Decisions within the Alliance are made through the consent of the allies. A proposal is adopted if it meets no objection. An objection is discussed until it is removed by the objector or until all agree to the objection, in which case the initial proposal must be modified or abandoned.
+Las decisiones en el seno de la Alianza se toman por consentimiento de los aliados. Una propuesta es adoptada si no encuentra objeciones. Cualquier objeción será discutida hasta que sea retirada por el objetor o hasta que todos den su consentimiento a esa objeción, en cuyo caso la propuesta inicial debe ser modificada o abandonada.
 
-In order to avoid any risk of decision-making paralysis within the Alliance, if an ally considers an objection that was unable to be removed through debate to be contrary to the interest of the Alliance, they can demand that the proposal against which the objection was raised be submitted to a simple majority vote of the participants or, for constitutional decisions, to a vote requiring a 2/3 majority.
+Para evitar cualquier riesgo de parálisis de la Alianza, si algún aliado considera que una objeción, que no ha sido retirada en el debate, va contra los intereses de la Alianza, puede pedir que la propuesta objeto de la objeción se vote por mayoría simple de los participantes. Sin embargo, en el caso de las decisiones constitucionales, la votación será por mayoría de ⅔ de los participantes.
 
-The Alliance's operational principle is [radical transparency](https://en.wikipedia.org/wiki/Radical_transparency).
+La Alianza tiene como principio de funcionamiento la [transparencia radical](https://en.wikipedia.org/wiki/Radical_transparency).
 
-The Alliance's communication committee is responsible for the administration of the Alliance's information system, including its Internet sites. As such, it has the mandate to decide on the presentation of information validated by the Alliance without requiring its prior accord: the Alliance can demand modifications a posteriori. This committee liaises with the [Algosphere Agency](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970), which is legally responsible for the Alliance's website [algosphere.org](https://algosphere.org/).
+El Consejo de Comunicación de la Alianza se encarga de la función de administrar su sistema de información, que comprende sus sitios de internet. En consecuencia,  tiene como cometido decidir la presentación de información aprobada por la Alianza sin su consentimiento previo: la Alianza podrá pedir modificaciones *a posteriori*. Este Consejo está vinculado a la [Agencia Algosfera](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970&V_TOKEN=1381977666108&crpNm=agence%20algosph%E8re&crpNmbr=&bsNmbr=), jurídicamente a cargo del sitio de la Alianza [algosphere.org](https://algosphere.org).
 
-The Alliance's webmaster is responsible for organizing communications about proposals made by the allies, objections, discussions and the formal validation process (information about the proposal, translation into the languages used within the Alliance, objection period, final decision).
+La función del webmaster del sitio de la Alianza es organizar la comunicación con las propuestas que realicen los aliados, las objeciones, los debates y el proceso de validación formal (información sobre la propuesta, traducción a las lenguas utilizadas en el seno de la Alianza, plazo para formular objeciones y decisión explícita).
+
+<small>*Traducido por María José Hernández Guerrero*</small>
