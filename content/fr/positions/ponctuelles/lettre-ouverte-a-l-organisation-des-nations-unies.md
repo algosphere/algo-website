@@ -7,151 +7,154 @@ draft: false
 ---
 
 {{< alert "success text-center" >}}
-  If you would like to support this open letter, please [register here](https://portal.algosphere.org/register).
+  Si vous souhaitez soutenir cette lettre ouverte, [inscrivez-vous ici](https://portal.algosphere.org/register)
 {{< /alert >}}
 
-<p style="text-align: right;"><mark>(Date to come after co-signatures)</mark></p>
+<p style="text-align: right;"><mark>(Date à venir suite à co-signatures)</mark></p>
 
-From the Algosphere Alliance
+De l’Alliance Algosphère
 
-To the attention of the United Nations,[^1]
-represented by Secretary General António Guterres
+À l’attention de l’Organisation des Nations unies,[^1]
+représentée par António Guterres, Secrétaire Général
 
-Copy:
-- Filippo Grandi, UN High Commissioner for Refugees
-- Alicia Bárcena Ibarra, UN Executive Secretary of the Economic Commission for Latin America and the - Caribbean
-- Irina Bokova, Director-General of UNESCO
-- Anthony Lake, Executive Director of UNICEF
-- Tedros Adhanom Ghebreyesus, Director-General of the WHO
+Copie :
+- Filippo Grandi, ONU, Haut Commissaire pour les Réfugiés
+- Alicia Bárcena Ibarra, ONU, Secrétaire Exécutive de la Commission économique pour l'Amérique latine et les Caraïbes
+- Irina Bokova, Directrice Générale de l'UNESCO
+- Anthony Lake, Directeur Exécutif de l'UNICEF
+- Tedros Adhanom Ghebreyesus, Directeur Général de l'OMS
 
 <table class="table">
   <tbody>
     <tr>
-      <th scope="row">Subject</th>
-      <td>Alleviation of suffering in the world: global universal income, world peace and a Universal Declaration of Rights expanded to include all sentient beings</td>
+      <th scope="row">Objet</th>
+      <td>Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles</td>
     </tr>
   </tbody>
 </table>
 
-Dear Mr Secretary General,
+Monsieur le Secrétaire Général,
 
-We, the undersigned organisations and individuals, envision a world where the alleviation of suffering is given the highest ethical priority. Recently, the United Nations High Commissioner for Refugees (UNHCR) decided to implement a basic income for refugees,[^2] a strategy that will have positive consequences for their precarious economic and social situation. In this letter, we advocate the implementation of a universal income[^3] for the entire world population, and explain why we believe this measure would have dramatic positive consequences --- not just economically, but for the structural alleviation of suffering and the furthering of some of the UN's own key objectives. We believe that approaching the subject of a universal income in synergy with other objectives offers opportunities to advance such central goals as world peace and fundamental rights. In this letter, we put the benefits of a global universal income into a larger context, and propose concrete steps that the UN can take to promote this approach.
+Nous, organisations et individus signataires, avons la vision d’un monde où l’allègement de la souffrance recevrait la plus haute priorité éthique. Récemment, le Haut Commissariat des Nations unies pour les réfugiés (HCR) a décidé de mettre en place un revenu de base pour les réfugiés,[^2] une stratégie qui aura des conséquences positives sur leur précaire situation économique et sociale. Dans la présente lettre, nous préconisons la mise en place du revenu universel[^3] à l’ensemble de la population mondiale et nous expliquons pourquoi nous pensons que cette mesure aurait des conséquences positives majeures – pas seulement sur le plan économique, mais pour l’allègement structurel de la souffrance et l’atteinte de certains objectifs clés de l’ONU. Nous pensons qu’aborder le sujet du revenu universel en synergie avec d’autres objectifs offre des opportunités de progrès pour des sujets aussi centraux que la paix mondiale ou les droits fondamentaux. Dans cette lettre, nous resituons les avantages du revenu universel mondial dans une perspective plus large et proposons des mesures concrètes que l’ONU pourrait prendre pour promouvoir cette approche.
 
-**Summary:**
+**Sommaire :**
 {{< toc >}}
 
-# 1. The potential benefits of a global universal income for social progress
-The Universal Declaration of Human Rights (UDHR) of 1948 can be seen as anticipating a universal income in several of the rights it encodes:
+# 1. Le potentiel progressiste du revenu universel mondial
+La Déclaration Universelle des Droits de l’Homme (DUDH) de 1948 peut être vue comme annonciatrice du revenu universel dans plusieurs de ses articles :
 
-- The Preamble refers to "freedom from want" as one of people's highest aspirations.
-- Article 22 states: "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co-operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality."
-- Article 25 states: "Everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services…"
+- Son préambule se réfère à un monde où les êtres humains seront « libérés de la misère ».
+- L'article 22 proclame : « *Toute personne, en tant que membre de la société, a droit à la sécurité sociale ; elle est fondée à obtenir la satisfaction des droits économiques, sociaux et culturels indispensables à sa dignité et au libre développement de sa personnalité, grâce à l'effort national et à la coopération internationale, compte tenu de l'organisation et des ressources de chaque pays.* »
+- L'article 25 précise : « *Toute personne a droit à un niveau de vie suffisant pour assurer sa santé, son bien-être et ceux de sa famille, notamment pour l'alimentation, l'habillement, le logement, les soins médicaux ainsi que pour les services sociaux nécessaires...* »
 
-There is little doubt that a universal income would be a powerful means to end people's worries about their material existence and that of those close to them. The many organisations that are now promoting a universal income have highlighted the numerous advantages, including:
+Il y a peu de doute qu’un revenu universel serait un puissant moyen de mettre fin aux soucis des individus à propos de leur existence matérielle ou de celle de leurs proches. Les multiples organisations qui promeuvent le revenu universel en ont souligné les nombreux avantages, notamment :
 
-- reduced poverty and economic precarity;
-- increased freedom, autonomy and innovation;
-- improved health and access to healthcare services;
-- reduced harm due to economic inequality;
-- emancipation of women;
-- emancipation of children;
-- increased access to knowledge acquisition;
-- increased self-confidence.
+- réduction de la pauvreté et de la précarité économique ;
+- accroissement de la liberté, de l'autonomie et de l'innovation ;
+- amélioration de la santé et de l'accès aux services de soin ;
+- réduction des dommages découlant des inégalités économiques ;
+- émancipation des femmes ;
+- émancipation des enfants ;
+- meilleur accès à l'acquisition de connaissances ;
+- amélioration de la confiance en soi.
 
-Furthermore, the introduction of a universal income would present two additional opportunities:
+En outre, l’introduction du revenu universel présente deux opportunités supplémentaires :
 
-**A) A universal income could be used to promote ethical consumption that would help reduce suffering.**
+**A) Le revenu universel pourrait être utilisé pour promouvoir une consommation éthique qui contribuerait à alléger les souffrances.**
 
-For example, as plant-based diets have been shown to reduce suffering in the world --- through a reduction in the cruelty and exploitation of non-human animals, as well as improved human health and a substantial reduction in greenhouse gas emissions and environmental degradation --- part of a universal income could be allocated for plant-based food consumption. Other similar forms of allocation could ensure that consumption is channeled towards products and services that minimise suffering and promote well-being.
+Par exemple, le régime alimentaire végétalien ayant démontré sa capacité à alléger la souffrance dans le monde – grâce à la réduction de la cruauté liée à l’exploitation des animaux non humains, à l’amélioration en parallèle de la santé humaine, à la réduction substantielle tant des émissions de gaz à effet de serre que de la dégradation de l’environnement –, une partie du revenu universel pourrait être allouée à la consommation d’aliments d’origine végétale. D’autres formes similaires d’allocation pourraient assurer que la consommation soit orientée vers des produits et services minimisant les souffrances et favorisant le bien-être.
 
-**B) The means chosen to finance a universal global income could have a major positive impact on the structure of the world economy.**
+**B) Le choix de la méthode de financement du revenu universel mondial pourrait avoir un impact positif majeur sur la structure de l’économie mondiale.**
 
-The primary mechanism that we propose could be termed "generational altruism":
+Le mécanisme central que nous proposons pourrait être qualifié d’*altruisme générationnel* :
 
-- Create an internationally managed world fund whose dividends would help pay for the universal income, similar to the sovereign wealth funds that already exist in different parts of the world, including in Alaska, Norway and Saudi Arabia;
-- Inject into the fund a percentage (e.g. 1%) of the capital returned to public control on the deaths of individuals;
-- Enlarge this fund over time through a progressive increase in this percentage; for example, with an annual increase of 1 percentage point, which would lead to 100% generational altruism after a century.
+- constituer un fonds mondial, sous gestion internationale, dont les dividendes contribueront à financer le revenu universel, à l'exemple des fonds souverains qui existent déjà dans différentes régions du monde, de l'Alaska à l'Arabie Saoudite en passant par la Norvège ;
+- alimenter ce fonds par un pourcentage du capital dont la collectivité se retrouve *de facto* dépositaire au décès des individus, 1 % par exemple ;
+- élargir ce fonds au fil du temps par une augmentation progressive de ce pourcentage, par exemple avec un accroissement annuel de 1 % : en un siècle serait atteint un *altruisme générationnel* à 100 %.
 
-This mechanism would have numerous benefits for humanity:
+Ce mécanisme présente de nombreux avantages pour l’humanité :
 
-- Increase global solidarity. Every individual would receive an income financed by the entire human community --- a form of global solidarity that would encourage closer ties between people and support world peace.
-- Reduce inequality and concentration of power. The institution of individual inheritance is, arguably, one of the primary causes of the economic problems and political corruption of democracies,[^4] through the steady increase in inequality that it generates over time, and the concentration of economic and political power in the hands of fewer and fewer people. This essential cause of humanity's problems is not directly related to capitalism, a free market economy or economic liberalism: these can exist with or without inheritance. The cause lies outside of the main economic explanations traditionally given and is deeply anchored in a more ancient, neglected ideology: the ideology of reproduction. The institution of inheritance, a hugely taboo subject that is surprisingly absent from public debates, electoral platforms and university economic courses, nonetheless corresponds to a public expenditure[^5] that is difficult to justify as being in the public interest.
-- Align the economy with the public interest. It would progressively put an end to a huge and unjustified public expenditure by eventually transferring most of the world's capital to the control of the international community, without putting into question individual private property. This would be an effective lever for putting an end to the sometimes dangerous cleft between the public interest and the logic of private capital, for example, with respect to environmental risks.
+- Accroissement de la solidarité mondiale. Chaque individu percevrait un revenu financé par tous les membres de la communauté humaine, forme mondiale de solidarité qui devrait favoriser le rapprochement des peuples et la paix mondiale.
+- Réduction des inégalités et de la concentration du pouvoir. L’institution de l’héritage individuel est, vraisemblablement, une cause essentielle des problèmes économiques et de la corruption politique des démocraties,[^4] par l’accroissement mécanique des inégalités qu’elle génère, avec la concentration du pouvoir économique et donc politique dans des mains de moins en moins nombreuses au fil des générations. Cette cause majeure des problèmes de l’humanité n’est pas directement reliée au capitalisme, à l’économie de marché ou au libéralisme économique : ceux-ci peuvent exister avec ou sans l’héritage. Cette cause échappe aux analyses économiques traditionnelles et trouve son origine dans une idéologie plus ancienne et négligée : l’idéologie de reproduction. L’institution de l’héritage, tabou majeur étonnamment absent des débats publics et des programmes électoraux, angle mort des enseignements universitaires en économie, correspond pourtant à une forme de dépense publique[^5] dont on est bien en peine de justifier l’intérêt pour la collectivité.
+- Alignement de l’économie sur l’intérêt général. Mettre progressivement fin à cette considérable et injustifiable dépense publique aurait pour effet à terme de transférer l’essentiel du capital mondial sous le contrôle de la communauté internationale, sans qu’il soit nécessaire de remettre en cause la propriété privée. Ce serait un levier privilégié pour mettre fin aux dangereux écarts entre l’intérêt général, de tous, et la logique propre au capital privé, par exemple en matière de risques environnementaux.
 
-With the inheritance of political power having come to an end, as was the case with absolute monarchies --- increasingly viewed as illegitimate over the centuries --- the inheritance of economic power would follow the same path, as it is another ancient institution that is also unjustifiable from the perspective of prioritising the alleviation of suffering.
+Après la fin de l’héritage du pouvoir politique typique des monarchies absolues, qui est apparu de plus en plus illégitime au fil des siècles, c’est l’héritage du pouvoir économique, ancienne institution tout aussi injustifiable au regard de l’allègement de la souffrance, qui prendrait le même chemin.
 
-# 2. Support for refugees as a current first step in the implementation of a global universal income
-Refugees represent one of the most vulnerable human populations. Since the adoption, under the auspices of the UN, of the Convention of 1951 concerning the status of refugees, an embryonic "universal global income" has been gradually put in place, even though it is not yet referred to with that term. Recent measures taken by the UN[^2] point to the discreet but deliberate implementation of a prototype of a universal income at the global level:
+# 2. Subvenir aux réfugiés, première étape en cours pour la mise en place du revenu universel mondial
+De toutes les populations humaines, celle des réfugiés est l’une des plus vulnérables. Depuis l’adoption de la Convention de 1951 relative au statut des réfugiés, sous l’égide de l’ONU, s’est mis en place un embryon de « revenu universel mondial », même s’il n’en porte pas encore le nom. Des avancées récentes de l’ONU[^2] attestent la mise en place discrète mais volontariste d’un prototype de revenu universel au niveau mondial :
 
-- through cash-based interventions since the 1980's in around 60 countries[^6] --- a demonstration that an income specifically for refugees has been put in place by the international community;
-- through the launching of a mid-term plan called the [UNHCR Strategy for the Institutionalisation of Cash-Based Interventions 2016-2020](http://www.unhcr.org/en-us/584131cd7),[^7] with the goal of expanding this universal income to the entire refugee population, within the framework of the [Policy on Cash-Based Interventions](http://www.unhcr.org/en-us/581363414)[^8] of October 2016.
+- via des interventions basées sur l’octroi de monnaie à partir des années 1980 dans une soixantaine de pays[^6]  – ce qui démontre qu’un revenu spécifique pour les réfugiés a été instauré par la collectivité internationale ;
+- via le lancement d’un véritable plan à moyen terme, nommé [ONU-HCR, stratégie 2016-2020 pour l’institutionnalisation des interventions basées sur la monnaie](http://www.unhcr.org/en-us/584131cd7),[^7] en vue de généraliser ce revenu universel à la population entière des réfugiés, dans le cadre de sa [Politique d’intervention basée sur la monnaie](http://www.unhcr.org/en-us/581363414)[^8] d’octobre 2016.
 
-The signatories of this letter affirm their support for these new steps that are being taken by the international community, and for the institutionalisation of this policy which began in January 2016.[^9] This initiative has great symbolic significance, showing that a universal global income is possible and is not merely a utopian vision.
+Les signataires de la présente lettre affirment leur soutien à cette nouvelle étape de la communauté internationale, et à l’institutionnalisation de cette politique qui a démarré en janvier 2016.[^9] Cette initiative a une haute portée symbolique, en montrant qu’un revenu universel mondial est possible, qu’il n’est pas qu’une vision utopique.
 
-This initiative also represents a valuable laboratory for testing the feasibility of various aspects of a universal global income; for example, the technology for identifying recipients, the protection of personal data, and steering the use of a universal income towards ethical consumption, such as through purchase vouchers.
+Cette initiative constitue aussi un laboratoire précieux pour tester divers points de la faisabilité du revenu universel mondial, par exemple la technologie d’identification de ses récipiendaires, la protection des données personnelles, ou l’orientation du revenu vers des usages éthiques via des bons d'achat.
 
-# 3. Next steps in implementing a global universal income
-The refugee population is not the only area where the UN has considered implementing a universal income. An example is this 2016 document from the Economic Commission for Latin America and the Caribbean, [Horizontes 2030: A igualdade no centro do desenvolvimento sustentável](http://repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf)[^10] (Horizons 2030: Equality at the heart of sustainable development), which states (page 76; our translation): "Today there is a better understanding by public and private actors of the importance of putting in place a minimum income for all citizens that will provide social stability in the face of the inevitable transition to automation and its strong negative impact on employment."
+# 3. Prochaines étapes de mise en place du revenu universel mondial
+La population des réfugiés n’est pas le seul champ de réflexion de l’ONU quant au déploiement du revenu universel. Un exemple est donné dans le document de 2016 de la Commission économique pour l’Amérique latine et les Caraïbes, [Horizontes 2030: A igualdade no centro do desenvolvimento sustentável](http://repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf)[^10] (Horizons 2030 : L’égalité au cœur du développement durable), qui affirme (page 76, notre traduction) :
 
-After the refugee population, it would be logical for the international community to progressively expand a global universal income to other most vulnerable populations in the world. We suggest that abandoned children (including orphans, street children and other children separated from their families) who lead a marginal existence should be given high priority:
+> « Aujourd’hui il y a une meilleure compréhension par les acteurs publics et privés de l’importance de mettre en place un revenu citoyen minimal qui procure une stabilité sociale face à l’inévitable transition robotique avec ses forts impacts négatifs sur l’emploi. »
 
-- Article 25 of the UDHR states: "Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection."
+Après la population des réfugiés, la logique voudrait que la communauté internationale élargisse progressivement le revenu universel mondial aux autres populations les plus vulnérables. Nous suggérons que les enfants « sans appartenance » (enfants des rues, orphelins ou séparés de leur famille), qui vivent dans la marginalité, se voient accorder une haute priorité :
 
-The services of the UN could be given the mission to implement a global universal income for every inhabitant of the planet, given the strong expertise already acquired by the administration. An exploratory study would be tremendously useful for determining the deployment strategy.
+L’article 25 de la DUDH stipule :
+> « La maternité et l’enfance ont droit à une aide et à une assistance spéciales. Tous les enfants, qu’ils soient nés dans le mariage ou hors mariage, jouissent de la même protection sociale. »
 
-# 4. Towards a state of perpetual peace[^11]
-We have suggested that a universal income eventually paid out to every human being regardless of where they live on the planet, financed primarily from dividends from the capital accumulated by humanity, should make global solidarity a concrete and realisable objective. By shaping a world where global resources are shared more equitably among the inhabitants of our planet, where no one is allowed to suffer unnecessarily, and where everyone has their basic needs covered and the means to live a life of happiness, greater trust may be established between peoples, and the tensions that can lead to armed conflict may be sharply reduced.
+Les services de l’ONU pourraient recevoir la mission de mettre en place le revenu universel mondial auprès de chaque habitant de la planète, vu l’expertise solide déjà acquise par cette administration. Une étude exploratoire serait extrêmement utile pour déterminer la stratégie de déploiement.
 
-A global culture of solidarity should thus facilitate the eventual achievement of a state of peace, which humanity has been seeking for millennia. Over the centuries, we have seen how a unified command structure for armed forces has risen progressively from one level to the next, willingly or by force, replacing local conflicts with peace, among groups of an increasingly large size: clans, tribes, villages, cities, principalities, kingdoms, nations and regional alliances. For humanity to achieve a state of perpetual peace, one final stage left in the process could be a unified command structure for all armed forces on the planet. Although clearly still at the idea stage, the day when the global community has one single command structure over all armed forces, the risks of war between nations and regions will disappear. The resultant shrinking of military budgets would allow a much more constructive use of global wealth than the senseless arms race that humanity has inflicted on itself: annual military expenditures[^12] are on the order of $1700 billion (USD), the equivalent of a global universal income of $230 per person.
+# 4. Vers un état de paix perpétuelle[^11]
+Nous avons suggéré qu’un revenu universel versé à chaque humain où que ce soit sur la planète, financé d’abord par les dividendes du capital accumulé par l’humanité dans le passé, devrait être de nature à rendre palpable la solidarité de tous pour chacun. En façonnant un monde où les ressources mondiales sont partagées plus équitablement entre les habitants de la planète, où personne n’est livré à des souffrances évitables, et où chacun dispose d’une couverture de ses besoins fondamentaux lui donnant les moyens d’une vie de bonheur, alors une plus grande confiance pourrait s’établir entre les peuples, et les tensions qui peuvent conduire à un conflit armé pourraient être considérablement réduites.
 
-But for every community to agree to transfer its military command structure to the control of a larger structure, it is necessary to create trust between all groups of humans; in other words, that all agree on a unique ethical priority. And what ultimate goal would achieve greater consensus than giving priority to the alleviation of suffering?
+Une telle culture de solidarité mondiale devrait faciliter l’avènement d’un état de paix que l’humanité recherche depuis des millénaires. Au cours des siècles, nous avons vu comment l’unité de commandement des forces armées est progressivement remontée de niveau en niveau, volontairement ou par la force, avec pour conséquence de pacifier des groupes de plus en plus vastes : clans, tribus, villages et villes, baronnies, royaumes, nations, alliances régionales. Pour que l’humanité atteigne un état de paix perpétuelle, il ne reste plus qu’à franchir la dernière étape d’une unité de commandement sur toutes les forces armées de la planète. Bien qu’encore au stade de l’idée, le jour où il n’existera plus qu’une seule unité de commandement de la communauté mondiale sur les forces armées, alors les risques de guerre entre nations et régions se dissiperont. La fonte des budgets militaires qui s’ensuivra permettra des usages plus constructifs que la stérile course à l’armement que l’humanité s’inflige à elle-même : les dépenses militaires annuelles[^12] sont de l’ordre de 1700 milliards de dollars (USD), soit l’équivalent annuel d’un revenu universel mondial de 230 dollars par habitant.
 
-For this reason, it is both important and urgent to focus on the drafting of a Universal Declaration of the Rights of Sentient Beings that gives explicit priority to the alleviation of suffering.[^13]
+Mais, pour que chaque collectivité accepte de transférer sa ligne de commandement militaire à une structure élargie, il faut que la confiance s’instaure entre les groupes humains, autrement dit que tous s’accordent sur une priorité éthique unique. Et quel but ultime est davantage consensuel que la priorité donnée à l’allègement de la souffrance ?
 
-# 5. Towards a Universal Declaration of Rights expanded to include all sentient beings
-Arriving at a clear ethical consensus is essential for the wellbeing of humanity. We suggest that the ideal place for such a consensus to be expressed is in an update of the UDHR: a Universal Declaration of the Rights of Sentient Beings in which the goal of alleviating suffering could be enshrined as the foundation of international law.
+D’où l’importance et l’urgence de s’atteler à la rédaction d’une Déclaration Universelle des Droits des Êtres Sensibles qui donne explicitement la priorité à l’allègement de la souffrance.[^13]
 
-In the coming years, the drafting of a new Universal Declaration of the Rights of Sentient Beings will become essential. The case is compelling. It would acknowledge the dramatic importance of the suffering of non-human animals, an issue that has gained growing attention as our society has become more conscious of the capacity of other species for emotions and suffering, and thus of their moral relevance. A new Universal Declaration could also take into account all the experience gained since WWII regarding fundamental rights. The principal improvement on the existing UDHR should be to clarify the ethical priority of humanity and to link it to humanity's other priorities, including happiness, liberty, solidarity and equality. Once again: what ultimate goal would achieve greater consensus than giving priority to the alleviation of suffering?
+# 5. Vers une Déclaration Universelle des Droits élargie à tous les êtres sensibles
+Convenir d’un cap éthique clair et consensuel est essentiel au bien-être de l’humanité. Nous suggérons que l’endroit idéal pour l’expression d’un tel consensus soit une mise à jour de la DUDH : une Déclaration Universelle des Droits des Êtres Sensibles dans laquelle l’allègement de la souffrance serait au fondement des lois au plan international.
 
-# 6. Concrete next steps
-The primary objective of this letter is to share an ambitious and, we believe, worthwhile vision of the future. The proposals made here would be the start of a larger program with a view to alleviating suffering. The signatories are ready to collaborate with the UN on concrete actions for implementation, as numerous obstacles will need to be identified and overcome in order to make this vision a reality. For example:
+Dans les années qui viennent, la rédaction d’une nouvelle Déclaration Universelle des Droits des Êtres Sensibles va devenir essentielle. Et même incontournable : il faudra bien prendre en compte l’importance critique de la souffrance des animaux non humains, une question qui suscite une attention croissante au fur et à mesure que nos sociétés deviennent plus conscientes de la capacité d’autres espèces à ressentir des émotions et à souffrir, donc de leur statut moral. Une nouvelle Déclaration Universelle serait également l’occasion d’intégrer l’expérience acquise depuis la Seconde Guerre mondiale en matière de droits fondamentaux. L’amélioration principale de la DUDH existante serait de clarifier la priorité éthique de l’humanité et de la relier à ses autres priorités, comme le bonheur, la liberté, la solidarité et l’égalité. Encore une fois : quel but ultime est davantage consensuel que la priorité donnée à l’allègement de la souffrance ?
 
-- *Global universal income*: What should the precise level and form be, and how should they be determined as a function of the various populations concerned? Should there be a single level for everyone on the planet?
-- *Transition away from inheritance*: What changes in behaviour would this bring about? Would individuals make sure not to hold any remaining capital the day they die? How could a transition be organised from the current economy based on stock management (capital: housing, vehicles, placements) to a future economy based on the management of flows (transformation of capital stocks to life income flows)? Would it be necessary to plan an exceptional system of transfers for SMEs, small heritages or other special cases?
-- *Perpetual peace*: How could we ensure that any future unified command structure for all armed forces would not represent a risk for democracy, as there would no longer be armed forces of other countries to counterbalance any tendency towards hegemonic power?
-- *Universal Declaration of the Rights of Sentient Beings*: How can we justify today the "right to marriage" written into the UDHR, a patriarchal invention that discriminates against single people?[^14] And isn't the term "dignity", proposed in 1948 as an ethical reference point for humanity, particularly ambiguous? We would recommend to form a pluridisciplinary project group to discuss the developments to take into consideration since the UDHR of 1948.
+# 6. Prochaines étapes
+L’objectif principal de cette lettre est de partager une vision ambitieuse du futur et, selon nous, digne d’intérêt. Les propositions faites ici sont le début d’un programme plus vaste en vue de l’allègement de la souffrance. Ses signataires sont prêts à collaborer avec l’ONU sur des actions concrètes de mise en oeuvre, car de nombreux obstacles devront être identifiés et levés pour faire de cette vision une réalité. Par exemple :
 
-We thank you for your attention and look forward to your thoughts regarding possible next steps.
+- *Revenu universel mondial* : quels devraient en être le niveau et le contenu précis, en quoi ceux-ci devraient dépendre de la diversité des populations ? Faut-il un même niveau pour tous partout sur la planète ?
+- *Transition vers la fin de l'héritage* : quels changements de comportement cela va-t-il entraîner ? Les individus vont-ils faire en sorte de ne plus détenir de capital au jour de leur mort ? Comment organiser cette transition d'une économie actuellement fondée sur la gestion de stocks (de capital : habitations, véhicules, placements) vers une économie future fondée sur la gestion de flux (transformation des stocks de capitaux en flux de revenus viagers) ? Faut-il prévoir un régime d'exception pour les transmissions de PME, les petits héritages ou autres cas particuliers ?
+- *Paix perpétuelle* : comment éviter qu'une future unité de commandement sur toutes les forces armées représente un risque pour la démocratie, alors qu'il n'y aura plus les forces armées des autres pays pour équilibrer toute tentation hégémonique ?
+- *Déclaration Universelle des Droits des Êtres Sensibles* : comment justifier de nos jours « le droit au mariage » de la DUDH, cette invention patriarcale discriminatoire à l'encontre des célibataires[^14] ? Quant au terme de « dignité » proposé en 1948 comme cap éthique de l'humanité, n'est-il pas particulièrement équivoque ? Nous recommandons de monter un groupe de projet pluridisciplinaire pour discuter des développements à prendre en compte depuis la DUDH de 1948.
 
-Sincerely,
+Nous vous remercions de votre attention et espérons vos réflexions en vue de prochaines étapes.
 
-Algosphere Alliance
+Cordialement,
 
-**Steering committee**
+Alliance Algosphère
+
+**Comité de pilotage**
 [ReCivitas Institute](http://www.recivitas.org/)
 [Organisation for the Prevention of Intense Suffering](http://www.preventsuffering.org/)
 
 ---
 
-**Co-signatories:**
+**Cosignataires :**
 
-**Individuals**
-(To come)
+**Personnalités**
+(À venir)
 
 **Organisations**
-(To come)
+(À venir)
 
-[^1]: URL of the open letter on Algosphere website: https://algosphere.org/positions/specific/open-letter-to-the-united-nations-from-the-algosphere-alliance
-[^2]: On the UN website, the page [unhcr.org/en-us/cash-based-interventions.html](https://www.unhcr.org/en-us/cash-based-interventions.html) provides extensive documentation.
-[^3]: Definition of universal revenue used here: an unconditional attribution to each individual, by the collectivity, from birth to death, of rights to available resources. The content of these rights could depend on the specific situation of each individual and be adapted in order to meet their needs. For example, the level of universal revenue could rise with a lower degree of autonomy: a baby is especially handicapped, from this perspective, and requires a high level of rights, including the parental obligation to meet its needs. One component of these rights could correspond to money, as long as this ancient tool has not been replaced, while another component could correspond to more direct rights to certain goods and services (health, nutrition, lodging, learning…). From this perspective, many countries that have put in place universal healthcare or education have *de facto* already established a form of universal income.
-[^4]: The most comprehensive demonstration of this harm was made in Thomas Piketty's 2013 work "Capital in the Twenty-First Century".
-[^5]: The collectivity puts in place the mechanisms for managing the capital left by an individual at their death, in the form of "rights of non-living persons", such as a testament. Without these institutional mechanisms, individual inheritance would arguably not be possible: the capital would remain in the hands of the state. It is therefore mistaken to refer to an inheritance "tax": inheritance is in reality a "public expenditure".
+[^1]: URL de la lettre ouverte sur le site Algosphere : https://algosphere.org/positions/specific/open-letter-to-the-united-nations-from-the-algosphere-alliance
+[^2]: Sur le site de l’ONU, la page [unhcr.org/en-us/cash-based-interventions.html](https://www.unhcr.org/en-us/cash-based-interventions.html) donne accès à une riche documentation.
+[^3]: Définition du revenu universel utilisée ici : attribution inconditionnelle à chaque individu, par la collectivité, de la naissance à la mort, de droits sur les ressources disponibles. Le contenu de ces droits peut dépendre de la situation particulière à chaque individu afin de s’ajuster à ses besoins. Par exemple le niveau du revenu universel pourrait être d’autant plus élevé que le niveau d’autonomie est faible : typiquement le nourrisson est particulièrement handicapé de ce point de vue et nécessite un haut niveau de droits, telle l’obligation parentale de subvenir à ses besoins. Une part des droits peut correspondre à de la monnaie, tant que cette ancienne technologie n’est pas remplacée, alors qu’une autre part peut correspondre à des droits plus directs sur certains biens ou services (santé, nutrition, habitat, formation…). De ce point de vue, bien des pays qui ont mis en place une couverture universelle en matière de santé ou d’éducation, ont *de facto* déjà mis en place un revenu universel.
+[^4]: La démonstration la plus exhaustive de cette nocivité a été faite dans "*Le Capital au XXIe siècle*", Thomas Piketty, 2013.
+[^5]: C’est la collectivité qui met en place des dispositifs de gestion du capital laissé par un individu à sa mort, sous la forme de « droits des personnes non-vivantes », à l’instar du testament. Sans ces dispositifs institutionnels, l’héritage individuel ne serait pas possible : le capital resterait entre les mains de la collectivité. C’est donc à tort que l’on parle de « taxe » sur les successions : l’héritage est en réalité une « dépense publique ».
 [^6]: [unhcr.org/581363414.pdf](http://www.unhcr.org/581363414.pdf), page 3
 [^7]: [unhcr.org/584131cd7.pdf](http://www.unhcr.org/584131cd7.pdf)
 [^8]: [unhcr.org/581363414.pdf](http://www.unhcr.org/581363414.pdf)
 [^9]: "UNHCR began the cash-based interventions institutionalisation process in January 2016, prior to the formal adoption of the Strategy on 10 October 2016. Implementation will run through 31 December 2020 and will be subject to periodic review and revision.", [unhcr.org/584131cd7.pdf](http://www.unhcr.org/584131cd7.pdf), page 19.
 [^10]: [repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf](http://repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf)
-[^11]: A term taken from the 1795 essay by Immanuel Kant "Perpetual Peace: A Philosophical Sketch". (Original title: *Zum ewigen Frieden. Ein philosophischer Entwurf*)
+[^11]: Intitulé emprunté au titre du livre *Vers la paix perpétuelle* (Titre original : *Zum ewigen Frieden. Ein philosophischer Entwurf*), Emmanuel Kant, 1795.
 [^12]: Source: [Trends in World Military Expenditure, 2015](http://books.sipri.org/files/FS/SIPRIFS1604.pdf) (books.sipri.org/files/FS/SIPRIFS1604.pdf), [Stockholm International Peace Research Institute](https://www.sipri.org/) (sipri.org).
-[^13]: See this [official position](/positions/fundamental) of the Algosphere Alliance (algosphere.org/positions/).
-[^14]: Recognising a right to marriage signifies the introduction of a legal distinction between those who are and who are not married, which in turn supports discrimination against single people. If, on the other hand, the right to marriage were not to introduce any such legal discrimination, it would be void of meaning. The subject of procreation is distinct from the subject of marriage --- one can be married and childless, and one can be single and have children --- and to the extent that the institution of marriage is intended to provide greater financial security for children, the issue could be more directly and efficiently addressed with a global universal income.
+[^13]: Voir cette [prise de position officielle](/fr/positions/structurelles/#droits-fondamentaux) de l’Alliance Algosphère (algosphere.org/fr/positions/structurelles/#droits-fondamentaux).
+[^14]: Reconnaître un droit au mariage signifie qu’on introduit une distinction juridique entre ceux qui sont ou non mariés, point d’appui de toute discrimination à l’encontre des célibataires. Si ce droit au mariage n’introduisait aucune discrimination juridique, alors il serait vide de contenu. La question procréative doit être distinguée de la question du mariage – par exemple on peut être marié sans enfant, et on peut être célibataire avec enfant -, et si l’objectif de l’institution du mariage était d’assurer une plus grande sécurité financière pour les enfants, il pourrait être plus directement et efficacement atteint avec un revenu universel mondial.

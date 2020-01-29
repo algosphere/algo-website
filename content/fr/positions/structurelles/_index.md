@@ -7,17 +7,17 @@ toc: true
 draft: false
 ---
 
-# Fundamental rights
-The Alliance wishes for an evolution of fundamental rights, inspired by the Universal Declaration of Human Rights of 1948, to explicitly take "suffering" into account, with the goal of making the alleviation of suffering the ethical priority of the international community.
+# Droits fondamentaux
+L’Alliance souhaite une évolution des droits fondamentaux, inspirés par la Déclaration universelle des droits de l’homme de 1948, vers la prise en compte explicite de la « souffrance », en vue de faire de l’allègement de la souffrance la priorité éthique de la communauté internationale.
 
-# Validation of knowledge
-The Alliance supports democratic, public institutions that validate knowledge.
+# Validation des connaissances
+L’Alliance soutient les dispositifs publics et démocratiques de validation des connaissances.
 
-These institutions have the mission to establish the collective degree of validity of information: data, proposals, arguments, hypotheses, theories, etc.
+Ces dispositifs ont pour mission d’établir le degré de validité collective des informations : données, propositions, arguments, hypothèses, théories, etc.
 
-Reasons:
-- Ignorance can be a major source of suffering for various reasons;
-- An individual is not always capable on their own to establish the value of information, and public institutions are necessary to assist them;
-- Discussion among individuals is only possible if there is a consensus on the relative value of arguments;
-- Collective decision-making through discussion creates less suffering than decisions not based on argumentation, taken for example through force;
-- Institutions that validate knowledge are more credible if public and democratic, as each member of the community will have confidence in them.
+Motivations :
+- l’ignorance peut être une source importante de souffrances pour différentes raisons ;
+- un individu n’est pas toujours en capacité d’établir seul la valeur d’une information et des dispositifs collectifs sont nécessaires pour l’y aider ;
+- la discussion entre individus n’est possible que s’il existe un consensus sur la valeur relative des arguments ;
+- la prise de décision collective par la discussion entraînerait moins de souffrances qu’une décision non argumentée, prise par exemple par la force et la contrainte ;
+- des dispositifs collectifs de validation des connaissances seront d’autant plus crédibles que publics et démocratiques, c’est-à-dire que chaque membre de la collectivité aura confiance en eux.

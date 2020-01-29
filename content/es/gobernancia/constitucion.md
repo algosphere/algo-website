@@ -22,7 +22,7 @@ Para evitar cualquier riesgo de parálisis de la Alianza, si algún aliado consi
 
 La Alianza tiene como principio de funcionamiento la [transparencia radical](https://en.wikipedia.org/wiki/Radical_transparency).
 
-El Consejo de Comunicación de la Alianza se encarga de la función de administrar su sistema de información, que comprende sus sitios de internet. En consecuencia,  tiene como cometido decidir la presentación de información aprobada por la Alianza sin su consentimiento previo: la Alianza podrá pedir modificaciones *a posteriori*. Este Consejo está vinculado a la [Agencia Algosfera](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970&V_TOKEN=1381977666108&crpNm=agence%20algosph%E8re&crpNmbr=&bsNmbr=), jurídicamente a cargo del sitio de la Alianza [algosphere.org](https://algosphere.org).
+El Consejo de Comunicación de la Alianza se encarga de la función de administrar su sistema de información, que comprende sus sitios de internet. En consecuencia,  tiene como cometido decidir la presentación de información aprobada por la Alianza sin su consentimiento previo: la Alianza podrá pedir modificaciones *a posteriori*. Este Consejo está vinculado a la [Agencia Algosfera](https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970), jurídicamente a cargo del sitio de la Alianza [algosphere.org](https://algosphere.org).
 
 La función del webmaster del sitio de la Alianza es organizar la comunicación con las propuestas que realicen los aliados, las objeciones, los debates y el proceso de validación formal (información sobre la propuesta, traducción a las lenguas utilizadas en el seno de la Alianza, plazo para formular objeciones y decisión explícita).
 

@@ -27,6 +27,6 @@ Se considera que todos los individuos de todo el mundo tienen estatus de "invita
 Las organizaciones pueden convertirse en aliadas a través de un proceso similar, pero no tienen derecho a tomar decisiones.
 
 # Comunicaciones Oficiales
-El único vehículo oficial de la Algosfera para la comunicación externa es su sitio web. Los aliados individuales no pueden hablar oficialmente en nombre de la Algosfera, aunque algunos pueden ser [designados como portavoces](mandates) para temas específicos, caso por caso. La Algosfera publica un boletín colaborativo llamado AlgoNews que proporciona a los aliados e invitados un espacio para expresar sus ideas y opiniones sobre diversos temas, sin reflejar necesariamente las posiciones oficiales de la Alianza.
+El único vehículo oficial de la Algosfera para la comunicación externa es su sitio web. Los aliados individuales no pueden hablar oficialmente en nombre de la Algosfera, aunque algunos pueden ser [designados como portavoces](/es/mandates) para temas específicos, caso por caso. La Algosfera publica un boletín colaborativo llamado AlgoNews que proporciona a los aliados e invitados un espacio para expresar sus ideas y opiniones sobre diversos temas, sin reflejar necesariamente las posiciones oficiales de la Alianza.
 
 [^1]: El nombre "Algosfera" se creó combinando dos raíces griegas: ámbito ("sfera") y sufrimiento ("álgos"). El logo de la Alianza representa el mundo (la Tierra) rodeado de neuronas y sinapsis que representan el sufrimiento al mismo tiempo que un círculo de apoyo mutuo.

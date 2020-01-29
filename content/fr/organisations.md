@@ -1,6 +1,6 @@
 ---
 title: "Organisations alliées"
-description: "Les organisations qui font partie de l'Alliance Algosphère"
+description: "Les organisations faisant partie de l'Alliance Algosphère"
 translationKey: "organizations"
 toc: false
 draft: false

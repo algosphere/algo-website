@@ -9,7 +9,7 @@ draft: false
 ---
 
 {{< alert "success text-center" >}}
-  If you would like to support this open letter, please [register here](https://portal.algosphere.org/register).
+  If you would like to support this open letter, please [register here](https://portal.algosphere.org/register)
 {{< /alert >}}
 
 <p style="text-align: right;"><mark>(Date to come after co-signatures)</mark></p>
@@ -46,8 +46,8 @@ We, the undersigned organisations and individuals, envision a world where the al
 The Universal Declaration of Human Rights (UDHR) of 1948 can be seen as anticipating a universal income in several of the rights it encodes:
 
 - The Preamble refers to "freedom from want" as one of people's highest aspirations.
-- Article 22 states: "Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co-operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality."
-- Article 25 states: "Everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services…"
+- Article 22 states: "*Everyone, as a member of society, has the right to social security and is entitled to realization, through national effort and international co-operation and in accordance with the organization and resources of each State, of the economic, social and cultural rights indispensable for his dignity and the free development of his personality.*"
+- Article 25 states: "*Everyone has the right to a standard of living adequate for the health and well-being of himself and of his family, including food, clothing, housing and medical care and necessary social services...*"
 
 There is little doubt that a universal income would be a powerful means to end people's worries about their material existence and that of those close to them. The many organisations that are now promoting a universal income have highlighted the numerous advantages, including:
 
@@ -68,11 +68,11 @@ For example, as plant-based diets have been shown to reduce suffering in the wor
 
 **B) The means chosen to finance a universal global income could have a major positive impact on the structure of the world economy.**
 
-The primary mechanism that we propose could be termed "generational altruism":
+The primary mechanism that we propose could be termed *generational altruism*:
 
 - Create an internationally managed world fund whose dividends would help pay for the universal income, similar to the sovereign wealth funds that already exist in different parts of the world, including in Alaska, Norway and Saudi Arabia;
 - Inject into the fund a percentage (e.g. 1%) of the capital returned to public control on the deaths of individuals;
-- Enlarge this fund over time through a progressive increase in this percentage; for example, with an annual increase of 1 percentage point, which would lead to 100% generational altruism after a century.
+- Enlarge this fund over time through a progressive increase in this percentage; for example, with an annual increase of 1 percentage point, which would lead to 100% *generational altruism* after a century.
 
 This mechanism would have numerous benefits for humanity:
 
@@ -93,11 +93,14 @@ The signatories of this letter affirm their support for these new steps that are
 This initiative also represents a valuable laboratory for testing the feasibility of various aspects of a universal global income; for example, the technology for identifying recipients, the protection of personal data, and steering the use of a universal income towards ethical consumption, such as through purchase vouchers.
 
 # 3. Next steps in implementing a global universal income
-The refugee population is not the only area where the UN has considered implementing a universal income. An example is this 2016 document from the Economic Commission for Latin America and the Caribbean, [Horizontes 2030: A igualdade no centro do desenvolvimento sustentável](http://repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf)[^10] (Horizons 2030: Equality at the heart of sustainable development), which states (page 76; our translation): "Today there is a better understanding by public and private actors of the importance of putting in place a minimum income for all citizens that will provide social stability in the face of the inevitable transition to automation and its strong negative impact on employment."
+The refugee population is not the only area where the UN has considered implementing a universal income. An example is this 2016 document from the Economic Commission for Latin America and the Caribbean, [Horizontes 2030: A igualdade no centro do desenvolvimento sustentável](http://repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf)[^10] (Horizons 2030: Equality at the heart of sustainable development), which states (page 76; our translation):
+
+> "Today there is a better understanding by public and private actors of the importance of putting in place a minimum income for all citizens that will provide social stability in the face of the inevitable transition to automation and its strong negative impact on employment."
 
 After the refugee population, it would be logical for the international community to progressively expand a global universal income to other most vulnerable populations in the world. We suggest that abandoned children (including orphans, street children and other children separated from their families) who lead a marginal existence should be given high priority:
 
-- Article 25 of the UDHR states: "Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection."
+Article 25 of the UDHR states:
+> "Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection."
 
 The services of the UN could be given the mission to implement a global universal income for every inhabitant of the planet, given the strong expertise already acquired by the administration. An exploratory study would be tremendously useful for determining the deployment strategy.
 
@@ -140,7 +143,7 @@ Algosphere Alliance
 **Individuals**
 (To come)
 
-**Organisations**
+**Organizations**
 (To come)
 
 [^1]: URL of the open letter on Algosphere website: https://algosphere.org/positions/specific/open-letter-to-the-united-nations-from-the-algosphere-alliance

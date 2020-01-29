@@ -7,30 +7,30 @@ toc: true
 draft: false
 ---
 
-# Appeal to open a public debate on the conditions for consent to circumcision
-The Alliance supports [this appeal](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) to open the debate.
+# Ouvrir un débat public sur les conditions du consentement à la circoncision
+L’Alliance soutient [cet appel](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) à ouvrir le débat.
 
-# Open Letter to the United Nations from Algosphere Alliance
-**Subject:** Alleviation of suffering in the world: global universal income, world peace and a Universal Declaration of Rights expanded to include all sentient beings
+# Lettre ouverte de l’Alliance Algosphère à l’Organisation des Nations unies
+**Objet:** Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles
 
-[Read](lettre-ouverte-a-l-organisation-des-nations-unies)
+[Lire plus](/fr/positions/ponctuelles/lettre-ouverte-a-l-organisation-des-nations-unies)
 
-# Another Perspective on Fish
+# Qui sont les poissons ?
 
 ![fish-campaign-logo](/images/fish-campaign.png)
 
-The Alliance supports the campaign "Another Perspective on Fish", launched internationally in 2017, in its aim to raise awareness of the hidden suffering of the vast populations of aquatic animals.
+L'Alliance soutient la campagne « Qui sont les poissons ? » lancée internationalement en 2017, sur son volet de sensibilisation aux souffrances invisibilisées des « sans voix » que sont les vastes populations aquatiques.
 
-The fact that aquatic animals have no voice can cause us to forget that they represent 97% of all animals killed for human food consumption. Their use as food causes suffering that is intense yet underrecognized. Despite the enormity of this suffering in proportion to total world suffering, it is not taken much into account: when we address animal suffering, we tend to think of land animals, and very little or not at all about aquatic animals. **Raising awareness of this blind spot in our compassion** is the main goal of the campaign "Another Perspective on Fishes". The question of aquatic animals is one of the biggest ethical issues of our time.
+Le fait que les animaux aquatiques soient privés de parole fait oublier qu'ils représentent 97% des animaux tués pour la nourriture humaine. Cette production animale se fait dans des souffrances aussi lourdes que méconnues. Malgré le poids de ces souffrances dans la cartographie mondiale de la souffrance, elles restent mal prises en compte : lorsque nous nous préoccupons de la souffrance animale, nous avons à l'esprit les animaux terrestres, très peu ou pas les animaux aquatiques. **La prise de conscience de cet angle mort de la compassion** est l'objet central de la campagne « Qui sont les poissons ? » : la question aquatique est l'un des enjeux éthiques les plus importants de notre temps.
 
-It is important to note that if the consumption of aquatic animals stops, this will have a major impact on people whose lives depend closely on this industry. It is therefore necessary to address not only the suffering of aquatic animals but also the potential suffering inflicted on humans, both producers and consumers, who would be affected by the end of fishing. We should strive in particular to find new occupations for these populations and new dietary solutions. Compassion takes into account the suffering of all, nonhuman and human, without discrimination. **Not taking into account the suffering of those affected by the fishing industry would also generate resistance to its abandonment and hinder the alleviation of the suffering of aquatic animals**.
+À noter que si la consommation d'animaux aquatiques cesse, cela aura un fort impact sur les humains dont la vie dépend étroitement de cette production. Il faut donc non seulement se préoccuper des souffrances aquatiques mais aussi des éventuelles souffrances infligées aux humains, producteurs et consommateurs, qui seront impactés par la fin de la pêche. Il faut tout particulièrement s'efforcer de trouver des solutions de reconversion pour ces populations, y compris dans les habitudes de consommation. La compassion doit avoir le souci des souffrances de tous, non-humains et humains, sans discrimination. **Ne pas prendre en compte la souffrance des humains concernés par la pêche, c'est aussi s'exposer à des résistances dans son abandon et freiner l'allègement des souffrances aquatiques**.
 
-Consequently, the Alliance does not support the demand of a [World Day for the End of Fishing](https://www.end-of-fishing.org/en/), which is one aspect of the campaign, even though the slogan "end of fishing" could be useful for raising awareness. This demand directly attacks the many populations on this planet who are involved in fishing and even threatens their survival. Such a demand is counterproductive, in the current context, because of the intense resistance based on "legitimate defense" that it will necessarily elicit.
+En conséquence, l'Alliance ne soutient pas la revendication d'une [Journée Mondiale pour la Fin de la Pêche](https://www.end-of-fishing.org/fr/) qui est un volet de cette campagne, bien que ce slogan de « la fin de la pêche » soit pédagogiquement susceptible d'éveiller les esprits. En effet, cette revendication agresse directement les nombreuses populations de la planète impliquées dans la pêche et les menace dans leur survie même. Une telle revendication est contre-productive, dans le contexte actuel, par l'intensité des résistances de « légitime défense » qu'elle va nécessairement susciter.
 
-More information :
+Plus d'information :
 
-Website: [Fish info](http://fish.info/) ([under construction](https://www.end-of-fishing.org/en/wdef-and-campaign/))
+Site Internet : [Fish info](http://fish.info/) ([en construction](https://www.end-of-fishing.org/fr/la-campagne-qui-sont-les-poissons/))
 
-Facebook : [Fish Liberation --- World campaign for aquatic animals](https://www.facebook.com/FishLiberation/)
+Facebook : [Fish Liberation -- World campaign for aquatic animals](https://www.facebook.com/FishLiberation/)
 
-[Taking part](https://www.end-of-fishing.org/en/taking-part-campaign/)
+[Comment participer](https://www.end-of-fishing.org/fr/participer-jmfp/)

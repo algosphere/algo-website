@@ -23,7 +23,7 @@ draft: false
 # 2019
 - [AlgoNews - 2019 Vol. 6, No. 4](https://docs.google.com/document/d/1qrC8202nwQEGcaT5zj-zsIpvdmCmwME1xIUX3GVEbyU/edit)
 - [AlgoNews - 2019 Vol. 6, No. 3](https://docs.google.com/document/d/1g_X5EmaY_2ZiA2I9kaob6_abhhMNYezyIMHqr50Wv2U/edit)
-  - [SELECTION: Animal Rebellion Turtle Island](2019-vol-6-no-3/animal-rebellion-turtle-island)
+  - [SELECTION: Animal Rebellion Turtle Island](/de/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island)
 - [AlgoNews - 2019 Vol. 6, No. 2](https://docs.google.com/document/d/1uyV1QX3hshRotqi_B3xzo8ilop89hPrvCX2voph6fbo/edit#)
 - [AlgoNews - 2019 Vol. 6, No. 1](https://docs.google.com/document/d/1_H629x9c68vBNV2G6Y96cmCh2toFgBmiOhtoOQHAW0Y/edit?usp=sharing)
 
