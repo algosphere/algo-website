@@ -40,7 +40,7 @@ Mais qu'est-ce qui pourrait motiver à promouvoir cette valeur ? Au-delà de not
   "Les fers que l'un d'entre nous portait, tous les portaient, les fers que tous portaient, je les portais."
 {{< /quote >}}
 
-« *We are them* » : en même temps qu'elle s'étend à tous les êtres sensibles, cette conscience reste assez humble pour reconnaître que chacun d'entre nous est un être qui souffre, qui fait souffrir et qui se sert de la souffrance à certaines fins.
+"*We are them*" : en même temps qu'elle s'étend à tous les êtres sensibles, cette conscience reste assez humble pour reconnaître que chacun d'entre nous est un être qui souffre, qui fait souffrir et qui se sert de la souffrance à certaines fins.
 
 Cette *conscience étendue* est la clé de voûte d'une culture d'allègement de la souffrance.
 

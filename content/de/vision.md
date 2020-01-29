@@ -42,12 +42,12 @@ Was könnte aber einen motivieren, sich für diesen Wert einzusetzen?  Über uns
 
 "*We are them*": während dieses Denkvermögen sich auf alle Wesen erstreckt, sie Schmerzempfinden können, , kann es trotzdem demütig wahrnehmen, dass jede/r von uns ein leidendes und Leid zufügendes Wesen, das das Leid  auch zu bestimmten Zwecken benutzen kann.
 
-Dieser „ausgedehnte Verstand“ ist der Schlussstein zu einer Kultur des Schmerzenslinderung.
+Dieser "ausgedehnte Verstand" ist der Schlussstein zu einer Kultur des Schmerzenslinderung.
 
 ## Wissensebene
-Das Bündnis soll d dazu beitragen, ein neues Forschungsgebiet mit Fokus auf die Erscheinung „Schmerz und Leid“ ins Leben zu rufen.
+Das Bündnis soll d dazu beitragen, ein neues Forschungsgebiet mit Fokus auf die Erscheinung "Schmerz und Leid" ins Leben zu rufen.
 
-Erste Aufgabe einer solchen Forschung ist, eine „Kartografie der Leiden“ zu etablieren und die Messinstrumente zu schaffen, die zur Ausrichtung der Handlung, der zu treffenden Erscheinungen und der Bewertung der Resultate nötig  sind.
+Erste Aufgabe einer solchen Forschung ist, eine "Kartografie der Leiden" zu etablieren und die Messinstrumente zu schaffen, die zur Ausrichtung der Handlung, der zu treffenden Erscheinungen und der Bewertung der Resultate nötig  sind.
 
 ## Konkrete Ebene
 Die schon vorhandenen Organisationen, die sich für die Linderung der privaten oder öffentlichen Leiden einsetzen, verrichten schon eine riesige Arbeit. Das Bündnis ermutigt sie, in dieser Richtung weiter zu gehen, und hinsichtlich dessen fordert sie insbesondere die Verbündeten, mit solchen Organisationen zusammen zu arbeiten.

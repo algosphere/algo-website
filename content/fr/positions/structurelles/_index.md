@@ -8,7 +8,7 @@ draft: false
 ---
 
 # Droits fondamentaux
-L’Alliance souhaite une évolution des droits fondamentaux, inspirés par la Déclaration universelle des droits de l’homme de 1948, vers la prise en compte explicite de la « souffrance », en vue de faire de l’allègement de la souffrance la priorité éthique de la communauté internationale.
+L’Alliance souhaite une évolution des droits fondamentaux, inspirés par la Déclaration universelle des droits de l’homme de 1948, vers la prise en compte explicite de la "souffrance", en vue de faire de l’allègement de la souffrance la priorité éthique de la communauté internationale.
 
 # Validation des connaissances
 L’Alliance soutient les dispositifs publics et démocratiques de validation des connaissances.

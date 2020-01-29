@@ -35,7 +35,7 @@ For example, it is likely that a project would at some point, in order to reach 
 # Since the Alliance doesn’t have any internationally recognized legal status, how can it have impact in the real world?
 The Alliance itself is simply a place for the exchange of ideas and development of projects among a large group of people.
 
-When a project arrives at the execution stage within the legal system (creation of structures, cash flows…), it is sufficient to create the ad hoc entity in the relevant country, if it does not already exist.
+When a project arrives at the execution stage within the legal system (creation of structures, cash flows...), it is sufficient to create the ad hoc entity in the relevant country, if it does not already exist.
 
 If a close connection to the Alliance is desirable, the creation of an entity should necessarily include allies within the management.
 
