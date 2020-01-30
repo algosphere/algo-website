@@ -2,6 +2,7 @@
   flex-direction: column;
   margin-top: 1em;
   margin-bottom: 1em;
+  align-items: center;
 
   div {
     min-width: 75%;
@@ -23,16 +24,19 @@
 @include media-breakpoint-up(lg) {
   .media {
     flex-direction: row;
+    align-items: flex-start;
 
     &.media-image-left {
       div {
-        padding-left: 1em;
+        margin-top: 0;
+        margin-left: 1em;
       }
     }
 
     &.media-image-right {
       div {
-        padding-right: 1em;
+        margin-right: 1em;
+        margin-bottom: 0;
       }
     }
   }

@@ -7,11 +7,11 @@ draft: false
 ---
 
 {{< lead >}}
-The AlgoConsulting branch of the Algosphere Alliance aims to support organizations that contribute to the alleviation of suffering by offering them all the services necessary for their functioning, particularly in terms of consulting, organization and information systems.
+La branche AlgoConseil de l’Alliance Algosphère vise à soutenir les organisations qui contribuent à l’allègement de la souffrance, en leur offrant tous les services utiles à leur fonctionnement, notamment en terme de Conseil, d’organisation et de système d’information.
 
-To be part of the AlgoConsulting branch, it is necessary to be an "ally" of Algosphere. Contact us to be listed on this page.
+Pour faire partie de la branche AlgoConseil, il est nécessaire d’être "allié" d’Algosphère. Contactez-nous pour figurer sur cette page.
 
-Here is the list of AlgoConsulting service providers:
+Voici la liste des prestataires AlgoConseil :
 {{< /lead >}}
 
 ---

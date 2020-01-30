@@ -144,7 +144,7 @@ Algosphere Alliance
 **Organizations**
 (To come)
 
-[^1]: URL of the open letter on Algosphere website: https://algosphere.org/positions/specific/open-letter-to-the-united-nations-from-the-algosphere-alliance
+[^1]: URL of the open letter on Algosphere website: https://algosphere.org/positions#open-letter-to-the-united-nations
 [^2]: On the UN website, the page [unhcr.org/en-us/cash-based-interventions.html](https://www.unhcr.org/en-us/cash-based-interventions.html) provides extensive documentation.
 [^3]: Definition of universal revenue used here: an unconditional attribution to each individual, by the collectivity, from birth to death, of rights to available resources. The content of these rights could depend on the specific situation of each individual and be adapted in order to meet their needs. For example, the level of universal revenue could rise with a lower degree of autonomy: a baby is especially handicapped, from this perspective, and requires a high level of rights, including the parental obligation to meet its needs. One component of these rights could correspond to money, as long as this ancient tool has not been replaced, while another component could correspond to more direct rights to certain goods and services (health, nutrition, lodging, learning...). From this perspective, many countries that have put in place universal healthcare or education have *de facto* already established a form of universal income.
 [^4]: The most comprehensive demonstration of this harm was made in Thomas Piketty's 2013 work "Capital in the Twenty-First Century".
@@ -156,5 +156,5 @@ Algosphere Alliance
 [^10]: [repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf](http://repositorio.cepal.org/bitstream/handle/11362/40118/S1600753_pt.pdf)
 [^11]: A term taken from the 1795 essay by Immanuel Kant "Perpetual Peace: A Philosophical Sketch". (Original title: *Zum ewigen Frieden. Ein philosophischer Entwurf*)
 [^12]: Source: [Trends in World Military Expenditure, 2015](http://books.sipri.org/files/FS/SIPRIFS1604.pdf) (books.sipri.org/files/FS/SIPRIFS1604.pdf), [Stockholm International Peace Research Institute](https://www.sipri.org/) (sipri.org).
-[^13]: See this [official position](/positions/fundamental) of the Algosphere Alliance (algosphere.org/positions/).
+[^13]: See this [official position](https://algosphere.org/positions#fundamental-rights) of the Algosphere Alliance (algosphere.org/positions#fundamental-rights).
 [^14]: Recognising a right to marriage signifies the introduction of a legal distinction between those who are and who are not married, which in turn supports discrimination against single people. If, on the other hand, the right to marriage were not to introduce any such legal discrimination, it would be void of meaning. The subject of procreation is distinct from the subject of marriage --- one can be married and childless, and one can be single and have children --- and to the extent that the institution of marriage is intended to provide greater financial security for children, the issue could be more directly and efficiently addressed with a global universal income.

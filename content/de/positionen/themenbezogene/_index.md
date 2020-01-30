@@ -16,7 +16,6 @@ The Alliance supports [this appeal](https://www.droitaucorps.com/appeal-to-open-
 [Read](/de/positionen/themenbezogene/open-letter-to-the-united-nations-from-the-algosphere-alliance)
 
 # Another Perspective on Fish
-
 ![fish-campaign-logo](/images/fish-campaign.png)
 
 The Alliance supports the campaign "Another Perspective on Fish", launched internationally in 2017, in its aim to raise awareness of the hidden suffering of the vast populations of aquatic animals.
