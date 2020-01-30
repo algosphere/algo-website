@@ -13,7 +13,7 @@ The Alliance supports [this appeal](https://www.droitaucorps.com/appeal-to-open-
 # Open Letter to the United Nations from Algosphere Alliance
 **Subject:** Alleviation of suffering in the world: global universal income, world peace and a Universal Declaration of Rights expanded to include all sentient beings
 
-[Read](/de/positionen/themenbezogene/open-letter-to-the-united-nations-from-the-algosphere-alliance)
+[Read](/de/positionen/themenbezogene/open-letter-to-the-united-nations)
 
 # Another Perspective on Fish
 ![fish-campaign-logo](/images/fish-campaign.png)
