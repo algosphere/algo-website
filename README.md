@@ -20,6 +20,7 @@
     - Run `nvm use [Node.js version]`
 - Install dependencies: `npm i`
 - Install [Netlify CLI](https://docs.netlify.com/cli/get-started/), [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g netlify-cli gulp-cli postcss-cli autoprefixer`
+- On Windows: set `HUGO_DISABLEALIASES` environment variable to `true` and restrat computer.
 - Clone the repo and run `npm start` from root
 
 ## Related documents

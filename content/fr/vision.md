@@ -2,6 +2,7 @@
 title: "Vision"
 description: "La vision de l'Alliance Algosphère"
 translationKey: "vision"
+aliases: ["/?page_id=929"]
 toc: true
 draft: false
 ---
