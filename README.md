@@ -1,5 +1,5 @@
 ## Versions
- - Hugo `0.63.2`
+ - Hugo `0.64.0`
  - Bootstrap `4.4.1`
  - Node.js `12.14.0`
 
