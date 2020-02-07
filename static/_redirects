@@ -1,9 +1,44 @@
 /discord    https://discord.gg/uW9X7jC
 
 # 404 pages for translations
-/de/* /de/404.html 404
-/es/* /es/404.html 404
-/fr/* /fr/404.html 404
+/de/*   /de/404.html 404
+/es/*   /es/404.html 404
+/fr/*   /fr/404.html 404
 
 # old website
-/ page_id=925   /vision
+/ page_id=925       /vision
+/ page_id=1051      /mandates
+/ page_id=955       /positions/fundamental
+/ page_id=2031      /positions/specific
+/ page_id=2863      /algonews
+/ page_id=156       /governance/constitution
+/ page_id=386       /governance/faq
+/ page_id=913       /organizations
+/ p=2819            /algonews/2019-vol-6-no-3/animal-rebellion-turtle-island
+/ page_id=2217      /positions/specific/open-letter-to-the-united-nations
+/fr/ page_id=929    /fr/vision
+/fr/ page_id=1098   /fr/mandats
+/fr/ page_id=959    /fr/positions/structurelles
+/fr/ page_id=2020   /fr/positions/ponctuelles
+/fr/ page_id=2875   /fr/algonews
+/fr/ page_id=219    /fr/gouvernance/constitution
+/fr/ page_id=390    /fr/gouvernance/faq
+/fr/ page_id=1790   /fr/organisations
+/fr/ p=2836         /fr/algonews/2019-vol-6-no-3/rebellion-animale-ile-de-la-tortue
+/fr/ page_id=2248   /fr/positions/ponctuelles/lettre-ouverte-a-l-organisation-des-nations-unies
+/es/ page_id=939    /es/vision
+/es/ page_id=1778   /es/principios/estructurales
+/es/ page_id=2116   /es/principios/especificos
+/es/ page_id=2879   /es/algonews
+/es/ page_id=543    /es/gobernancia/constitucion
+/es/ page_id=545    /es/gobernancia/faq
+/es/ page_id=1793   /es/organizaciones
+/es/ p=2916         /es/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island
+/de/ page_id=944    /de/vision
+/de/ page_id=1777   /de/positionen/grundsaetzliche
+/de/ page_id=2053   /de/positionen/themenbezogene
+/de/ page_id=2877   /de/algonews
+/de/ page_id=592    /de/fuehrung/grundsatzerklaerung
+/de/ page_id=594    /de/fuehrung/faq
+/de/ page_id=1792   /de/organisationen
+/de/ p=2915         /de/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island
