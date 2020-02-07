@@ -1,10 +1,5 @@
 /discord    https://discord.gg/uW9X7jC
 
-# 404 pages for translations
-/de/*   /de/404.html 404
-/es/*   /es/404.html 404
-/fr/*   /fr/404.html 404
-
 # old website
 / page_id=925       /vision
 / page_id=1051      /mandates
@@ -42,3 +37,8 @@
 /de/* page_id=594    /de/fuehrung/faq
 /de/* page_id=1792   /de/organisationen
 /de/* p=2915         /de/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island
+
+# 404 pages for translations
+/de/*   /de/404.html 404
+/es/*   /es/404.html 404
+/fr/*   /fr/404.html 404
