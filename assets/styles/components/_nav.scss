@@ -36,10 +36,6 @@
           text-decoration: underline solid rgba(0, 0, 0, 0.1) 0.2em;
         }
 
-        &.dropdown-toggle::after {
-          vertical-align: 0.15em;
-        }
-
         &.dropdown-item.active,
         &.dropdown-item:active {
           color: #fff;
