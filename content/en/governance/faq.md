@@ -1,6 +1,6 @@
 ---
-title: "FAQ"
-description: "Frequently Asked Questions about Algosphere Alliance"
+title: "Frequently Asked Questions"
+description: "Frequently Asked Questions about the Algosphere Alliance"
 translationKey: "faq"
 toc: true
 draft: false
