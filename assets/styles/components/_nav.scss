@@ -55,10 +55,15 @@
     }
   }
 
-  .nav-right > *,
-  .meta > * {
-    margin-top: .5rem;
+  .nav-right {
+    flex-shrink: 0;
+
+    > *,
+    > * {
+      margin-top: .5rem;
+    }
   }
+
 
   .meta {
     display: flex;
@@ -84,7 +89,6 @@
     }
 
     .nav-right {
-      display: ruby;
       margin-left: 1em;
     }
 
