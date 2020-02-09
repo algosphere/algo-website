@@ -3,6 +3,10 @@
     padding: 0;
     color: #88b1db;
     font-family: 'Comfortaa', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(0, 0, 0, 0.1);
+    text-decoration-thickness: .2em;
 
     &:hover {
       color: #88b1db;
@@ -34,7 +38,10 @@
         &.active {
           color: #db8888;
           font-weight: 600;
-          text-decoration: underline solid rgba(0, 0, 0, 0.1) 0.2em;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-color: rgba(0, 0, 0, 0.1);
+          text-decoration-thickness: .2em;
         }
 
         &.dropdown-item.active,

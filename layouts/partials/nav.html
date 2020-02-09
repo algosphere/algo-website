@@ -1,6 +1,6 @@
 <nav class="nav-main navbar navbar-expand-lg navbar-light bg-white" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ "/" | relLangURL }}"><img src="{{ (resources.Get "/images/logo.jpg") }}" width="30" height="29" alt="logo">{{ .Site.Title }}</a>
+    <a class="navbar-brand" href="{{ "/" | relLangURL }}"><img src="{{ (resources.Get "/images/logo.jpg").RelPermalink }}" width="30" height="29" alt="logo">{{ .Site.Title }}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav nav-left">

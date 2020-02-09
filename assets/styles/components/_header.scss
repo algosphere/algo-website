@@ -32,7 +32,10 @@
 
         .brand-title {
           margin-bottom: .2em;
-          text-decoration: underline solid rgba(0, 0, 0, 0.1) .2em;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-color: rgba(0, 0, 0, 0.1);
+          text-decoration-thickness: .2em;
         }
 
         .brand-subtitle {
