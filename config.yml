@@ -24,7 +24,7 @@ markup:
     parser:
       attribute: true
       autoHeadingID: true
-      autoHeadingIDType: github
+      autoHeadingIDType: blackfriday
     renderer:
       hardWraps: true
       unsafe: true
