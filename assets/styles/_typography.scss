@@ -12,18 +12,10 @@ a.abbr {
   cursor: help;
 }
 
-.page-title {
-  text-align: center;
-  // display-4:
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
+.page-title,
 .page-subtitle {
   text-align: center;
-  // display-4:
-  font-size: 2rem;
+  // display-4 (no font-size on mobile):
   font-weight: 300;
   line-height: 1.2;
 }
@@ -67,5 +59,15 @@ a.abbr {
     h#{$i} + h#{$i + 1} {
       margin-top: initial;
     }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .page-title {
+    font-size: 3.5rem;
+  }
+
+  .page-subtitle {
+    font-size: 2rem;
   }
 }
