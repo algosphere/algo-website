@@ -8,9 +8,9 @@ draft: false
 ---
 
 # Ouvrir un débat public sur les conditions du consentement à la circoncision
-L’Alliance soutient [cet appel](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) à ouvrir le débat.
+L'Alliance soutient [cet appel](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) à ouvrir le débat.
 
-# Lettre ouverte de l’Alliance Algosphère à l’Organisation des Nations unies
+# Lettre ouverte de l'Alliance Algosphère à l'Organisation des Nations unies
 **Objet:** Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles
 
 [Lire plus](/fr/positions/ponctuelles/lettre-ouverte-a-l-organisation-des-nations-unies)
