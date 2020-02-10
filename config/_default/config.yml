@@ -1,4 +1,3 @@
-baseURL: "https://algo-website.netlify.com/"
 languageCode: "en"
 defaultContentLanguage: "en"
 canonifyURLs: false
