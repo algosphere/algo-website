@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "hugo server -DEF --i18n-warnings",
-    "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment preview --i18n-warnings && gulp dev",
+    "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --baseURL https://preview-algo-website.netlify.com/ --i18n-warnings && gulp dev",
     "build-prod": "hugo --i18n-warnings && gulp prod",
     "deploy": "netlify deploy --prod --dir public"
   },
