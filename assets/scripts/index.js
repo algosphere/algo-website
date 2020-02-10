@@ -23,3 +23,12 @@ $(function () {
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+// ENABLE ALGOLIA IN PRODUCTION
+docsearch({
+  appId: 'XZCW5SV74J',
+  apiKey: '1b54af473834a2fb2fd988b6f4070480',
+  indexName: 'production',
+  inputSelector: '.algolia-docsearch',
+  debug: false,
+});

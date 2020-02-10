@@ -1,5 +1,6 @@
 {{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
-{{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
+{{ $algoliaCSS := resources.Get "styles/algolia/docsearch.css" }}
+{{ $mainCSS = slice $mainCSS $algoliaCSS | resources.Concat "main.css" }}
 {{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
   {{ $mainCSS = $mainCSS | minify }}
 {{ end }}

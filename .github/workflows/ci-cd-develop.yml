@@ -12,10 +12,6 @@ env:
   NETLIFY_SITE_ID: 'c97298da-938f-4084-9307-c7135a92f98a'
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_WEBSITE }}
   DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  ALGOLIA_APPLICATION_ID: ${{ secrets. ALGOLIA_APPLICATION_ID }}
-  ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-  ALGOLIA_INDEX: 'preview'
-  ALGOLIA_CONFIG: 'algolia-config-dev.json'
 
 jobs:
   build-and-deploy:
