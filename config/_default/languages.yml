@@ -1,0 +1,28 @@
+de:
+  languageName: Deutsch
+  weight: 1
+  contentDir: content/de
+  title: Bündnis Algosphäre
+  params:
+    description: "zur linderung des leidens"
+en:
+  languageName: English
+  weight: 2
+  contentDir: content/en
+  title: Algosphere Alliance
+  params:
+    description: "for the alleviation of suffering"
+es:
+  languageName: Español
+  weight: 3
+  contentDir: content/es
+  title: Alianza Algosfera
+  params:
+    description: "para el alivio del sufrimiento"
+fr:
+  languageName: Français
+  weight: 4
+  contentDir: content/fr
+  title: Alliance Algosphère
+  params:
+    description: "pour l'allègement de la souffrance"

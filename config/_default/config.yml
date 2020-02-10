@@ -1,0 +1,37 @@
+baseURL: "https://algo-website.netlify.com/"
+languageCode: "en"
+defaultContentLanguage: "en"
+canonifyURLs: false
+relativeURLs: true
+disableFastRender: true
+disableLiveReload: true
+metaDataFormat: yaml
+rssLimit: 10
+enableRobotsTXT: true
+disableKinds: ["taxonomy", "taxonomyTerm"]
+params:
+  author: "Algosphere Alliance"
+  twitter: "algosphere"
+  facebook: "algosphere"
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: false
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: blackfriday
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xHTML: false
+  tableOfContents:
+    startLevel: 1
+    endLevel: 5
+footnoteReturnLinkContents: "↑"
