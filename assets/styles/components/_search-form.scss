@@ -34,7 +34,15 @@
   }
 
   .dropdown-menu {
-    display: none;
+    display: block;
+
+    .dropdown-item {
+      white-space: initial;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
   }
 }
 
