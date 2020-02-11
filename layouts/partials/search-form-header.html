@@ -1,4 +1,4 @@
-<div class="search">
+<div class="search dropdown" aria-haspopup="true" aria-expanded="false">
   <div class="input-group">
     <label>
       <span class="icon-search">{{ (resources.Get "icons/search.svg").Content | safeHTML }}</span>
@@ -7,5 +7,14 @@
     <div class="input-group-append">
       <div class="input-group-text icon-clear" aria-label="Clear" role="button" onclick="clearSearchHeader()">{{ (resources.Get "icons/x.svg").Content | safeHTML }}</div>
     </div>
+  </div>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#"><h5>Result 1</h5>
+      <span>Lorem ipsum <mark>dolor</mark> sit amet consectetur adipisicing elit. Libero similique repellat explicabo accusantium atque commodi ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</span>
+    </a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Result 2</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Result 3</a>
   </div>
 </div>

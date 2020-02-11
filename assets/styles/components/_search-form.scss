@@ -32,4 +32,16 @@
     padding-left: 2.2em;
     padding-right: 2em;
   }
+
+  .dropdown-menu {
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .search {
+    .dropdown-menu {
+      width: 414px;
+    }
+  }
 }
