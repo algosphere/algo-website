@@ -25,6 +25,12 @@ $(function () {
 })
 
 // SEARCH
+$(document).ready(function() {
+  document.getElementById('search-input-header').value = '';
+  document.getElementById('search-input-nav').value = '';
+  $('.icon-clear').css('display', 'none');
+});
+
 $('#search-input-header').keyup(function() {
   if ($(this).val().length != 0) {
     $('.icon-clear').css('display', 'flex');
