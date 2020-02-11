@@ -23,3 +23,39 @@ $(function () {
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
+// SEARCH
+$('#search-input-header').keyup(function() {
+  if ($(this).val().length != 0) {
+    $('.icon-clear').css('display', 'flex');
+  } else {
+    $('.icon-clear').css('display', 'none');
+  }
+}).keyup();
+
+$('#search-input-nav').keyup(function() {
+  if ($(this).val().length != 0) {
+    $('.icon-clear').css('display', 'flex');
+  } else {
+    $('.icon-clear').css('display', 'none');
+  }
+}).keyup();
+
+function clearSearchHeader() {
+  document.getElementById('search-input-header').value = '';
+  $('.icon-clear').css('display', 'none');
+  $('#search-input-header').focus();
+}
+
+function clearSearchNav() {
+  document.getElementById('search-input-nav').value = '';
+  $('.icon-clear').css('display', 'none');
+  $('#search-input-nav').focus();
+}
+
+function onkeypressed(evt, input) {
+  var code = evt.charCode || evt.keyCode;
+  if (code == 27) {
+      input.value = '';
+  }
+}

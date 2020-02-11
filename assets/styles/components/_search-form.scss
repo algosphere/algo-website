@@ -1,15 +1,35 @@
 .search {
   position: relative;
 
-  .icon {
+  label {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .icon-search {
     position: absolute;
     left: .5em;
     top: .4em;
     color: #495057;
     z-index: 99;
+    cursor: text;
+  }
+
+  .icon-clear {
+      position: absolute;
+      right: 0;
+      color: #495057;
+      z-index: 99;
+      height: 100%;
+      border: none;
+      background-color: initial;
+      padding: 0;
+      padding-right: .5em;
+      display: none;
   }
 
   input {
     padding-left: 2.2em;
+    padding-right: 2em;
   }
 }

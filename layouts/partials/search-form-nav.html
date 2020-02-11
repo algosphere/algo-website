@@ -1,0 +1,11 @@
+<div class="search">
+  <div class="input-group">
+    <label>
+      <span class="icon-search">{{ (resources.Get "icons/search.svg").Content | safeHTML }}</span>
+      <input id="search-input-nav" class="form-control" type="text" placeholder="{{ i18n "search" }}" onkeydown="onkeypressed(event, this);">
+    </label>
+    <div class="input-group-append">
+      <div class="input-group-text icon-clear" aria-label="Clear" role="button" onclick="clearSearchNav()">{{ (resources.Get "icons/x.svg").Content | safeHTML }}</div>
+    </div>
+  </div>
+</div>
