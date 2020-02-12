@@ -1,16 +1,12 @@
 main:
-- identifier: accueil
-  name: Accueil
-  url: /
-  weight: 1
 - identifier: vision
   name: Vision
   url: /vision/
-  weight: 2
+  weight: 1
 - identifier: positions
   name: Positions
   url: /positions/
-  weight: 3
+  weight: 2
 - identifier: positions-structurelles
   name: Structurelles
   url: /positions/structurelles/
@@ -24,19 +20,19 @@ main:
 - identifier: algonews
   name: AlgoNews
   url: /algonews/
-  weight: 4
+  weight: 3
 - identifier: organisations
   name: Organisations
   url: /organisations/
-  weight: 5
+  weight: 4
 - identifier: algoconseil
   name: AlgoConseil
   url: /algoconseil/
-  weight: 6
+  weight: 5
 - identifier: gouvernance
   name: Gouvernance
   url: /gouvernance/
-  weight: 7
+  weight: 6
 - identifier: constitution
   name: Constitution
   url: /gouvernance/constitution/
@@ -50,7 +46,7 @@ main:
 - identifier: l-alliance-en-images
   name: L'Alliance en images
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-  weight: 8
+  weight: 7
 footer:
 - identifier: mentions-legales
   name: Mentions légales

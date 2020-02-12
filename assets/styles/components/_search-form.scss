@@ -1,6 +1,10 @@
 .search {
   position: relative;
 
+  #resultsMenuButton::after {
+    display: none;
+  }
+
   label {
     width: 100%;
     margin-bottom: 0;
@@ -33,22 +37,23 @@
     padding-right: 2em;
   }
 
-  .dropdown-menu {
+  .search-results-header,
+  .search-results-nav {
     display: none;
 
-    .dropdown-item {
+    .result {
       white-space: initial;
-    }
 
-    p {
-      margin-bottom: 0;
+      .result-text:not(:active) {
+        color: #6c757d;
+      }
     }
   }
 }
 
 @include media-breakpoint-up(lg) {
   .search {
-    .dropdown-menu {
+    .search-results-header {
       width: 414px;
     }
   }

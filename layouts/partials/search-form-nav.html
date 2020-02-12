@@ -1,5 +1,5 @@
-<div class="search dropdown" aria-haspopup="true" aria-expanded="false">
-  <div class="input-group">
+<div class="search dropdown">
+  <div class="input-group dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="resultsMenuButton">
     <label>
       <span class="icon-search">{{ (resources.Get "icons/search.svg").Content | safeHTML }}</span>
       <input id="search-input-nav" class="form-control" type="text" placeholder="{{ i18n "search" }}" onkeydown="onkeypressed(event, this);">
@@ -8,14 +8,14 @@
       <div class="input-group-text icon-clear" aria-label="Clear" role="button" onclick="clearSearchNav()">{{ (resources.Get "icons/x.svg").Content | safeHTML }}</div>
     </div>
   </div>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#"><h5>Result 1</h5>
-      <p class="text-muted">Lorem ipsum <mark>dolor</mark> sit amet consectetur adipisicing elit. Libero similique repellat explicabo accusantium atque commodi ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</p></a>
+  <div class="dropdown-menu search-results-nav" aria-labelledby="resultsMenuButton" id="search-results-nav">
+    <a class="dropdown-item result" href="#"><h5 class="result-title">Result 1</h5>
+      <div class="result-text">Lorem ipsum <mark>dolor</mark> sit amet consectetur adipisicing elit. Libero similique repellat explicabo accusantium atque commodi ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</div></a>
     <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#"><h5>Result 2</h5>
-      <p class="text-muted">Libero similique repellat explicabo accusantium atque <mark>dolor</mark> ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</p></a>
+    <a class="dropdown-item result" href="#"><h5 class="result-title">Result 2</h5>
+      <div class="result-text">Libero similique repellat explicabo accusantium atque <mark>dolor</mark> ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</div></a>
     <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#"><h5>Result 3</h5>
-      <p class="text-muted">Lorem ipsum <mark>dolor</mark> sit amet consectetur adipisicing elit. Libero similique repellat explicabo accusantium atque commodi ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</p></a>
+    <a class="dropdown-item result" href="#"><h5 class="result-title">Result 3</h5>
+      <div class="result-text">Lorem ipsum <mark>dolor</mark> sit amet consectetur adipisicing elit. Libero similique repellat explicabo accusantium atque commodi ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</div></a>
   </div>
 </div>

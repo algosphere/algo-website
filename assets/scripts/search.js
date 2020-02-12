@@ -1,35 +1,19 @@
-// TOP BUTTON
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-    document.querySelector(".top-btn").style.display = "flex";
-  } else {
-    document.querySelector(".top-btn").style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-// ENABLE POPOVERS
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
-
-// ENABLE TOOLTIPS
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-
-// SEARCH
+// FRONTEND
 $(document).ready(function() {
   document.getElementById('search-input-header').value = '';
   document.getElementById('search-input-nav').value = '';
   $('.icon-clear').css('display', 'none');
 });
+
+function onkeypressed(evt, input) {
+  var code = evt.charCode || evt.keyCode;
+  if (code == 27) {
+    input.value = '';
+    $('.icon-clear').css('display', 'none');
+    $('#search-results-header').css('display', 'none');
+    $('#search-results-nav').css('display', 'none');
+  }
+}
 
 $('#search-input-header').keyup(function() {
   if ($(this).val().length != 0) {
@@ -51,17 +35,14 @@ function clearSearchHeader() {
   document.getElementById('search-input-header').value = '';
   $('.icon-clear').css('display', 'none');
   $('#search-input-header').focus();
+  $('#search-results-header').css('display', 'none');
 }
 
 function clearSearchNav() {
   document.getElementById('search-input-nav').value = '';
   $('.icon-clear').css('display', 'none');
   $('#search-input-nav').focus();
+  $('#search-results-nav').css('display', 'none');
 }
 
-function onkeypressed(evt, input) {
-  var code = evt.charCode || evt.keyCode;
-  if (code == 27) {
-      input.value = '';
-  }
-}
+// BACKTEND

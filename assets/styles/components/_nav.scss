@@ -52,6 +52,17 @@
           text-decoration: none;
         }
       }
+
+      .home-link:hover,
+      .home-link:focus {
+        color: darken($color: #db8888, $amount: 15);
+      }
+
+      .home-link.active {
+        color: darken($color: #db8888, $amount: 15);
+        // border-bottom: .2em solid rgba(0, 0, 0, 0.1);
+        // outline-offset: -.5em;
+      }
     }
   }
 

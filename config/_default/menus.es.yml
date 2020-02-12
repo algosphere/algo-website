@@ -1,16 +1,12 @@
 main:
-- identifier: inicio
-  name: Inicio
-  url: /
-  weight: 1
 - identifier: vision
   name: Visión
   url: /vision/
-  weight: 2
+  weight: 1
 - identifier: principios
   name: Principios
   url: /principios/
-  weight: 3
+  weight: 2
 - identifier: principios-estructurales
   name: Estructurales
   url: /principios/estructurales/
@@ -24,19 +20,19 @@ main:
 - identifier: algonews
   name: AlgoNews
   url: /algonews/
-  weight: 4
+  weight: 3
 - identifier: organizaciones
   name: Organizaciones
   url: organizaciones
-  weight: 5
+  weight: 4
 - identifier: algoconsulting
   name: AlgoConsulting
   url: /algoconsulting/
-  weight: 6
+  weight: 5
 - identifier: gobernancia
   name: Gobernancia
   url: /gobernancia/
-  weight: 7
+  weight: 6
 - identifier: constitucion
   name: Constitución
   url: /gobernancia/constitucion/
@@ -50,7 +46,7 @@ main:
 - identifier: la-alianza-en-imagenes
   name: La Alianza en imágenes
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-  weight: 8
+  weight: 7
 footer:
 - identifier: notas-legales
   name: Notas legales

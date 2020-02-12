@@ -1,16 +1,12 @@
 main:
-- identifier: startseite
-  name: Startseite
-  url: /
-  weight: 1
 - identifier: vision
   name: Vision
   url: /vision/
-  weight: 2
+  weight: 1
 - identifier: positionen
   name: Positionen
   url: /positionen/
-  weight: 3
+  weight: 2
 - identifier: positionen-grundsaetzliche
   name: Grundsätzliche
   url: /positionen/grundsaetzliche/
@@ -24,19 +20,19 @@ main:
 - identifier: algonews
   name: AlgoNews
   url: /algonews/
-  weight: 4
+  weight: 3
 - identifier: organisationen
   name: Organisationen
   url: /organisationen/
-  weight: 5
+  weight: 4
 - identifier: algoconsulting
   name: AlgoConsulting
   url: /algoconsulting/
-  weight: 6
+  weight: 5
 - identifier: fuehrung
   name: Führung
   url: /fuehrung/
-  weight: 7
+  weight: 6
 - identifier: grundsatzerklaerung
   name: Grundsatzerklärung
   url: /fuehrung/grundsatzerklaerung/
@@ -50,7 +46,7 @@ main:
 - identifier: die-allianz-in-bildern
   name: Die Allianz in Bildern
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-  weight: 8
+  weight: 7
 footer:
 - identifier: rechtliche-hinweise
   name: Rechtliche Hinweise
