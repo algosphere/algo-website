@@ -2,13 +2,13 @@
   <div class="input-group dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="resultsMenuButton">
     <label>
       <span class="icon-search">{{ (resources.Get "icons/search.svg").Content | safeHTML }}</span>
-      <input id="search-input-header" class="form-control" type="text" placeholder="{{ i18n "search" }}" onkeydown="onkeypressed(event, this);">
+      <input id="search-input-header" class="form-control" type="text" placeholder="{{ i18n "search" }}" onkeydown="onkeypressedHeader(event, this);">
     </label>
     <div class="input-group-append">
       <div class="input-group-text icon-clear" aria-label="Clear" role="button" onclick="clearSearchHeader()">{{ (resources.Get "icons/x.svg").Content | safeHTML }}</div>
     </div>
   </div>
-  <div class="dropdown-menu search-results-header" aria-labelledby="resultsMenuButton" id="search-results-header">
+  <div class="dropdown-menu search-results-header" aria-labelledby="resultsMenuButton" id="search-results-header" onkeydown="onkeypressedHeader(event, this);">
     <a class="dropdown-item result" href="#"><h5 class="result-title">Result 1</h5>
       <div class="result-text">Lorem ipsum <mark>dolor</mark> sit amet consectetur adipisicing elit. Libero similique repellat explicabo accusantium atque commodi ratione dolorem magnam voluptate quod! Architecto dolorem eum deserunt accusantium eius. Ex, a necessitatibus. Quas?</div></a>
     <div class="dropdown-divider"></div>

@@ -5,13 +5,23 @@ $(document).ready(function() {
   $('.icon-clear').css('display', 'none');
 });
 
-function onkeypressed(evt, input) {
+function onkeypressedHeader(evt, input) {
   var code = evt.charCode || evt.keyCode;
   if (code == 27) {
     input.value = '';
     $('.icon-clear').css('display', 'none');
     $('#search-results-header').css('display', 'none');
+    $('#search-input-header').focus();
+  }
+}
+
+function onkeypressedNav(evt, input) {
+  var code = evt.charCode || evt.keyCode;
+  if (code == 27) {
+    input.value = '';
+    $('.icon-clear').css('display', 'none');
     $('#search-results-nav').css('display', 'none');
+    $('#search-input-nav').focus();
   }
 }
 
