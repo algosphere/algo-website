@@ -5,7 +5,7 @@
       <input id="search-input-header" class="form-control" type="text" placeholder="{{ i18n "search" }}" onkeydown="onkeypressedHeader(event, this);">
     </label>
     <div class="input-group-append">
-      <div class="input-group-text icon-clear" aria-label="Clear" role="button" onclick="clearSearchHeader()">{{ (resources.Get "icons/x.svg").Content | safeHTML }}</div>
+      <div class="input-group-text icon-clear" aria-label="Clear" role="button" onclick="clearSearchHeader()" tabindex="0">{{ (resources.Get "icons/x.svg").Content | safeHTML }}</div>
     </div>
   </div>
   <div class="dropdown-menu search-results-header" aria-labelledby="resultsMenuButtonHeader" id="search-results-header" onkeydown="onkeypressedHeader(event, this);"></div>

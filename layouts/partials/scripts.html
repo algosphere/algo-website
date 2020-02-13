@@ -1,3 +1,7 @@
+<script>
+  var baseURL = {{ .Site.BaseURL }};
+</script>
+
 {{ $jquery := resources.Get "scripts/jquery.js" }}
 {{ $popper := resources.Get "scripts/popper.js" }}
 {{ $bootstrap := resources.Get "scripts/bootstrap.js" }}
