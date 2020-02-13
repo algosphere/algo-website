@@ -1,7 +1,8 @@
 .search {
   position: relative;
 
-  #resultsMenuButton::after {
+  #resultsMenuButtonHeader::after,
+  #resultsMenuButtonNav::after {
     display: none;
   }
 
@@ -40,6 +41,11 @@
   .search-results-header,
   .search-results-nav {
     display: none;
+
+    .dropdown-divider:only-child,
+    .dropdown-divider:last-child {
+      display: none;
+    }
 
     .result {
       white-space: initial;

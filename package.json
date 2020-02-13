@@ -7,6 +7,7 @@
     "start": "hugo server -DEF --i18n-warnings",
     "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment preview --i18n-warnings && gulp dev",
     "build-prod": "hugo --i18n-warnings && gulp prod",
+    "create-search-index": "hugo-lunr -o static/scripts/search-index.json",
     "deploy": "netlify deploy --prod --dir public"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "gulp-imagemin": "^6.1.0",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^0.6.1",
+    "hugo-lunr": "0.0.4",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-optipng": "^7.0.0",
