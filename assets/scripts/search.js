@@ -82,10 +82,6 @@ function clearSearchNav() {
 }
 
 // BACKTEND
-// var lunrIndex,
-//   $results,
-//   pagesIndex;
-
 // initialize lunrjs and provide index file
 function initLunr() {
   var request = new XMLHttpRequest();
