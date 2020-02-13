@@ -23,7 +23,7 @@ main:
   weight: 3
 - identifier: organizaciones
   name: Organizaciones
-  url: organizaciones
+  url: /organizaciones/
   weight: 4
 - identifier: algoconsulting
   name: AlgoConsulting
