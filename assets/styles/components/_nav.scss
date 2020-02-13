@@ -53,6 +53,10 @@
         }
       }
 
+      .home-link .bi {
+        font-size: 1.5em;
+      }
+
       .home-link:hover,
       .home-link:focus {
         color: darken($color: #db8888, $amount: 15);
