@@ -1,5 +1,5 @@
 <div id="search-header" class="search dropdown">
-  <div class="input-group dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="resultsMenuButtonHeader" >
+  <div class="input-group dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="resultsMenuButtonHeader" data-flip="false">
     <label>
       <span class="icon-search" onclick="$('#search-input-header').focus();">{{ (resources.Get "icons/search.svg").Content | safeHTML }}</span>
       <input id="search-input-header" class="form-control" type="text" placeholder="{{ i18n "search" }}" onkeydown="onkeypressedHeader(event, this);">
