@@ -4,7 +4,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav nav-left">
-        <a class="nav-item nav-link home-link{{ if eq .RelPermalink ("/" | relLangURL | string) }} active{{ end }}" href="{{ "/" | relLangURL }}">{{ (resources.Get "icons/house-fill.svg").Content | safeHTML }}</a>
+        <a class="nav-item nav-link home-link{{ if eq .RelPermalink ("/" | relLangURL | string) }} active{{ end }}" href="{{ "/" | relLangURL }}">{{ (resources.Get "icons/house-fill.svg").Content | safeHTML }}<span class="sr-only">{{ .Site.Home.Title }}</span></a>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ $langURL := .URL | relLangURL | string }}

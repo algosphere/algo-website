@@ -25,6 +25,7 @@
       flex-grow: 1;
       flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
 
       a,
       .dropdown a {
@@ -53,8 +54,13 @@
         }
       }
 
+      .home-link {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
       .home-link .bi {
-        font-size: 1.5em;
+        font-size: 1.8em;
       }
 
       .home-link:hover,
@@ -64,8 +70,6 @@
 
       .home-link.active {
         color: darken($color: #db8888, $amount: 15);
-        // border-bottom: .2em solid rgba(0, 0, 0, 0.1);
-        // outline-offset: -.5em;
       }
     }
   }

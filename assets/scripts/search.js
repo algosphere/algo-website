@@ -82,7 +82,7 @@ function clearSearchNav() {
 }
 
 // BACKTEND
-// initialize lunrjs and provide index file
+// initialize lunrjs and hook up index
 function initLunr() {
   var request = new XMLHttpRequest();
   request.open('GET', baseURL + 'scripts/search-index.json', true);
@@ -91,11 +91,13 @@ function initLunr() {
     if (request.status >= 200 && request.status < 400) {
 
       pagesIndex = JSON.parse(request.responseText);
-      console.log("index:", pagesIndex);
 
       // declare fields
       lunrIndex = lunr(function () {
         this.field("content");
+        this.field("tags", {
+          boost: 5
+        });
         this.ref("uri", {
           boost: 10
         });
@@ -106,7 +108,7 @@ function initLunr() {
       });
     } else {
       var err = textStatus + ", " + error;
-      console.error("Error getting search index file:", err);
+      console.error("Error getting index:", err);
     }
   };
 
