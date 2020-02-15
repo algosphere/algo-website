@@ -65,11 +65,11 @@
 
       .home-link:hover,
       .home-link:focus {
-        color: darken($color: #db8888, $amount: 15);
+        color: darken($color: #db8888, $amount: 10);
       }
 
       .home-link.active {
-        color: darken($color: #db8888, $amount: 15);
+        color: darken($color: #db8888, $amount: 10);
       }
     }
   }
