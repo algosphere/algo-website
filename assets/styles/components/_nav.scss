@@ -25,7 +25,6 @@
       flex-grow: 1;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
 
       a,
       .dropdown a {
@@ -109,6 +108,10 @@
       font-size: 1.05em;
       padding-left: .75em !important;
       padding-right: .75em !important;
+    }
+
+    .nav-left {
+      align-items: center;
     }
 
     .nav-right {
