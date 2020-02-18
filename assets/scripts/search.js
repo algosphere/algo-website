@@ -1,12 +1,13 @@
 // FRONTEND
 // on page load
 $(document).ready(function () {
-  // reset input value
+  // reset input value (header, nav)
   document.getElementById('search-input-header').value = '';
   document.getElementById('search-input-nav').value = '';
   $('.icon-clear').css('display', 'none');
 
   // override bootstrap toggle behavior
+  // (header)
   $('#search-header').on('shown.bs.dropdown', function () {
     this.classList.add('show');
     $('#resultsMenuButtonHeader').attr('aria-expanded', 'true');
@@ -17,9 +18,21 @@ $(document).ready(function () {
   $('#resultsMenuButtonHeader').on('click', function () {
     $(this).attr('aria-expanded', 'false');
   });
+
+  // (nav)
+  $('#search-nav').on('shown.bs.dropdown', function () {
+    this.classList.add('show');
+    $('#resultsMenuButtonNav').attr('aria-expanded', 'true');
+  })
+  $('#search-nav').on('hidden.bs.dropdown', function () {
+    this.classList.add('show');
+  })
+  $('#resultsMenuButtonNav').on('click', function () {
+    $(this).attr('aria-expanded', 'false');
+  });
 });
 
-// outside click
+// outside click (header, nav)
 $(document).on('click', function (event) {
   if (!$(event.target).closest('#search-results-header').length || !$(event.target).closest('#search-results-nav').length) {
     $('#search-results-header').css('display', 'none');
@@ -30,6 +43,7 @@ $(document).on('click', function (event) {
 });
 
 // escape key
+// (header)
 function onkeypressedHeader(evt, input) {
   var code = evt.charCode || evt.keyCode;
   if (code == 27) {
@@ -38,6 +52,7 @@ function onkeypressedHeader(evt, input) {
   }
 }
 
+// (nav)
 function onkeypressedNav(evt, input) {
   var code = evt.charCode || evt.keyCode;
   if (code == 27) {
@@ -48,6 +63,7 @@ function onkeypressedNav(evt, input) {
 }
 
 // clear icon
+// (header)
 $('#search-input-header').keyup(function () {
   if ($(this).val().length != 0) {
     $('.icon-clear').css('display', 'flex');
@@ -56,6 +72,7 @@ $('#search-input-header').keyup(function () {
   }
 }).keyup();
 
+// (nav)
 $('#search-input-nav').keyup(function () {
   if ($(this).val().length != 0) {
     $('.icon-clear').css('display', 'flex');
@@ -65,6 +82,7 @@ $('#search-input-nav').keyup(function () {
 }).keyup();
 
 // clear function
+// (header)
 function clearSearchHeader() {
   document.getElementById('search-input-header').value = '';
   $('.icon-clear').css('display', 'none');
@@ -73,6 +91,7 @@ function clearSearchHeader() {
   $('#resultsMenuButtonHeader').attr('aria-expanded', 'false');
 }
 
+// (nav)
 function clearSearchNav() {
   document.getElementById('search-input-nav').value = '';
   $('.icon-clear').css('display', 'none');
@@ -82,18 +101,18 @@ function clearSearchNav() {
 }
 
 // BACKTEND
-// initialize lunrjs and hook up index
-function initLunr() {
+// initialize search engine (main index)
+function initLunrMain() {
   var request = new XMLHttpRequest();
-  request.open('GET', baseURL + 'scripts/search-index.json', true);
+  request.open('GET', baseURL + 'scripts/search-index-main.json', true);
 
   request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
 
-      pagesIndex = JSON.parse(request.responseText);
+      indexMain = JSON.parse(request.responseText);
 
       // declare fields
-      lunrIndex = lunr(function () {
+      lunrIndexMain = lunr(function () {
         this.field("content");
         this.field("tags", {
           boost: 5
@@ -102,8 +121,8 @@ function initLunr() {
           boost: 10
         });
 
-        for (var i = 0; i < pagesIndex.length; ++i) {
-          this.add(pagesIndex[i]);
+        for (var i = 0; i < indexMain.length; ++i) {
+          this.add(indexMain[i]);
         }
       });
     } else {
@@ -115,7 +134,8 @@ function initLunr() {
   request.send();
 }
 
-// hook up to the UI (header)
+// hook up to the UI
+// (header)
 function initUIHeader() {
   $resultsHeader = document.getElementById("search-results-header");
   $searchHeader = document.getElementById("search-input-header");
@@ -124,7 +144,7 @@ function initUIHeader() {
       $resultsHeader.removeChild($resultsHeader.firstChild);
     }
 
-    // trigger search when at least 2 chars
+    // limit search triggering
     var query = $searchHeader.value;
     if (query.length < 2) {
       $('#search-results-header').css('display', 'none');
@@ -132,7 +152,7 @@ function initUIHeader() {
       return;
     }
 
-    // add some fuzzyness for spelling mistakes tolerance
+    // spelling mistakes tolerance
     var fuzzLength = Math.round(Math.min(Math.max(query.length / 4, 1), 3));
     var fuzzyQuery = query + '~' + fuzzLength;
 
@@ -141,7 +161,7 @@ function initUIHeader() {
   };
 }
 
-// hook up to the UI (nav)
+// (nav)
 function initUINav() {
   $resultsNav = document.getElementById("search-results-nav");
   $searchNav = document.getElementById("search-input-nav");
@@ -150,7 +170,7 @@ function initUINav() {
       $resultsNav.removeChild($resultsNav.firstChild);
     }
 
-    // trigger search when at least 2 chars
+    // limit search triggering
     var query = $searchNav.value;
     if (query.length < 2) {
       $('#search-results-nav').css('display', 'none');
@@ -158,7 +178,7 @@ function initUINav() {
       return;
     }
 
-    // add some fuzzyness for spelling mistakes tolerance
+    // spelling mistakes tolerance
     var fuzzLength = Math.round(Math.min(Math.max(query.length / 4, 1), 3));
     var fuzzyQuery = query + '~' + fuzzLength;
 
@@ -167,21 +187,22 @@ function initUINav() {
   };
 }
 
-// trigger a search and transform the result
+// trigger a search (main index)
 function search(query) {
   // find the item in our index corresponding to the lunr one to have more info
   // Lunr result:
   //  {ref: "/section/page1", score: 0.2725657778206127}
   // our result:
   //  {title:"Page1", href:"/section/page1", ...}
-  return lunrIndex.search(query).map(function (result) {
-    return pagesIndex.filter(function (page) {
+  return lunrIndexMain.search(query).map(function (result) {
+    return indexMain.filter(function (page) {
       return page.uri === result.ref;
     })[0];
   });
 }
 
-// only show ten first results (header)
+// limit results
+// (header)
 function renderResultsHeader(resultsHeader) {
   if (!resultsHeader.length) {
     $('#search-results-header').css('display', 'none');
@@ -213,7 +234,7 @@ function renderResultsHeader(resultsHeader) {
   });
 }
 
-// only show ten first results (nav)
+// (nav)
 function renderResultsNav(resultsNav) {
   if (!resultsNav.length) {
     $('#search-results-nav').css('display', 'none');
@@ -246,7 +267,7 @@ function renderResultsNav(resultsNav) {
 }
 
 // enable search
-initLunr();
+initLunrMain();
 document.addEventListener("DOMContentLoaded", function () {
   initUIHeader();
   initUINav();

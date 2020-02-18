@@ -1,8 +1,7 @@
 .search {
   position: relative;
 
-  #resultsMenuButtonHeader::after,
-  #resultsMenuButtonNav::after {
+  .search-button::after {
     display: none;
   }
 
@@ -45,8 +44,7 @@
     padding-right: 2em;
   }
 
-  .search-results-header,
-  .search-results-nav {
+  .search-results {
     display: none;
 
     .dropdown-divider:only-child,
@@ -66,7 +64,7 @@
 
 @include media-breakpoint-up(lg) {
   .search {
-    .search-results-header {
+    #search-results-header {
       width: 414px;
     }
   }
