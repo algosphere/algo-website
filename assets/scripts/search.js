@@ -15,7 +15,7 @@ $(document).ready(function () {
     this.classList.add('show');
   })
   $('#resultsMenuButtonHeader').on('click', function () {
-    this.attr('aria-expanded', 'false');
+    $(this).attr('aria-expanded', 'false');
   });
 });
 
