@@ -1,7 +1,8 @@
 const { src, dest, series } = require('gulp'),
       replace               = require('gulp-replace'),
       beautify              = require('gulp-pretty-html'),
-      imagemin              = require('gulp-imagemin');
+      imagemin              = require('gulp-imagemin'),
+      svgmin                = require('gulp-svgmin');
 
 function htmlDev() {
   return src('public/**/*.html')
@@ -59,5 +60,22 @@ function imgGlobal() {
     .pipe(dest('public/img'))
 }
 
+function svg() {
+  return src('assets/icons/*.svg')
+  .pipe(svgmin({
+    plugins: [{
+      mergePaths: {
+        noSpaceAfterFlags: false
+      }
+    }, {
+      convertPathData: {
+        noSpaceAfterFlags: false
+      }
+    }]
+  }))
+  .pipe(dest('static/fonts/icons/svg'))
+}
+
 exports.dev = series(htmlDev, imgGlobal);
 exports.prod = series(htmlProd, imgGlobal);
+exports.svg = series(svg);
