@@ -8,7 +8,6 @@
     "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment preview --i18n-warnings && gulp dev",
     "build-prod": "hugo --i18n-warnings && gulp prod",
     "create-search-index": "hugo-lunr -o static/scripts/search-index.json",
-    "bs-icons-font": "icon-font-generator static/fonts/icons/svg/*.svg -o static/fonts/icons",
     "deploy": "netlify deploy --prod --dir public"
   },
   "repository": {
@@ -26,7 +25,6 @@
     "gulp-imagemin": "^6.1.0",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^0.6.1",
-    "gulp-svgmin": "^2.2.0",
     "hugo-lunr": "0.0.4",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-jpegtran": "^6.0.0",
