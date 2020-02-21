@@ -1,6 +1,10 @@
 svg.bi {
   font-size: 1.4em;
   vertical-align: bottom;
+
+  &.bi-box-arrow-up-right {
+    margin-left: .1em;
+  }
 }
 
 h1 a::after,
