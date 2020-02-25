@@ -47,6 +47,9 @@ main:
   name: La Alianza en imágenes
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
   weight: 7
+takePart:
+- name: "Participar"
+  url: "https://portal.algosphere.org"
 footer:
 - identifier: notas-legales
   name: Notas legales

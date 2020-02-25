@@ -47,6 +47,9 @@ main:
   name: L'Alliance en images
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
   weight: 7
+takePart:
+- name: "Participer"
+  url: "https://portal.algosphere.org/fr"
 footer:
 - identifier: mentions-legales
   name: Mentions légales

@@ -16,8 +16,6 @@
   translation: "Support us"
 - id: search
   translation: "Search"
-- id: take-part
-  translation: "Take part"
 - id: 404-title
   translation: "Page not found"
 - id: 404-description
