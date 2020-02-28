@@ -113,14 +113,11 @@ function initLunrMain() {
 
       // declare fields
       lunrIndexMain = lunr(function () {
-        this.field("content");
-        // this.field("title");
-        this.field("tags", {
-          boost: 5
-        });
-        this.ref("url", {
+        this.ref("url");
+        this.field("title", {
           boost: 10
         });
+        this.field("content");
         this.metadataWhitelist = ['position'];
 
         for (var i = 0; i < indexMain.length; ++i) {
@@ -219,10 +216,10 @@ function renderResultsHeader(resultsHeader) {
       ahref.classList.add('result');
     var heading = document.createElement('h5');
       heading.classList.add('result-title');
-      heading.innerText = result.url;
+      heading.innerText = result.title;
     var description = document.createElement('div');
       description.classList.add('result-text');
-      description.innerText = result.url;
+      description.innerText = "... " + result.content.substring(0, 50) + "...";
     var divider = document.createElement('div');
     divider.classList.add('dropdown-divider');
 
@@ -249,12 +246,12 @@ function renderResultsNav(resultsNav) {
     var ahref = document.createElement('a');
       ahref.classList.add('dropdown-item');
       ahref.classList.add('result');
-    var heading = document.createElement('h5');
+      var heading = document.createElement('h5');
       heading.classList.add('result-title');
-      heading.innerText = result.url;
+      heading.innerText = result.title;
     var description = document.createElement('div');
       description.classList.add('result-text');
-      description.innerText = result.url;
+      description.innerText = "... " + result.content.substring(0, 50) + "...";
     var divider = document.createElement('div');
     divider.classList.add('dropdown-divider');
 
