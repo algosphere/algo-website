@@ -1,5 +1,5 @@
 <script>
-  var baseURL = {{ .Site.BaseURL }};
+  var baseURL = {{ .Site.Home.Permalink }};
 </script>
 
 {{ $jquery := resources.Get "scripts/jquery.js" }}

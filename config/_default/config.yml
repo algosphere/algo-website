@@ -35,3 +35,8 @@ markup:
     startLevel: 1
     endLevel: 5
 footnoteReturnLinkContents: "↑"
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON

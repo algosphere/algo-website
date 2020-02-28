@@ -104,7 +104,7 @@ function clearSearchNav() {
 // initialize search engine (main index)
 function initLunrMain() {
   var request = new XMLHttpRequest();
-  request.open('GET', baseURL + 'scripts/search-index-main.json', true);
+  request.open('GET', baseURL + 'index.json', true);
 
   request.onload = function () {
     if (request.status >= 200 && request.status < 400) {
@@ -118,7 +118,7 @@ function initLunrMain() {
         this.field("tags", {
           boost: 5
         });
-        this.ref("uri", {
+        this.ref("url", {
           boost: 10
         });
         this.metadataWhitelist = ['position'];
@@ -198,7 +198,7 @@ function search(query) {
   //  {title:"Page1", href:"/section/page1", ...}
   return lunrIndexMain.search(query).map(function (result) {
     return indexMain.filter(function (page) {
-      return page.uri === result.ref;
+      return page.url === result.ref;
     })[0];
   });
 }
@@ -219,14 +219,14 @@ function renderResultsHeader(resultsHeader) {
       ahref.classList.add('result');
     var heading = document.createElement('h5');
       heading.classList.add('result-title');
-      heading.innerText = result.uri;
+      heading.innerText = result.url;
     var description = document.createElement('div');
       description.classList.add('result-text');
-      description.innerText = result.uri;
+      description.innerText = result.url;
     var divider = document.createElement('div');
     divider.classList.add('dropdown-divider');
 
-    ahref.href = result.uri;
+    ahref.href = result.url;
     ahref.appendChild(heading);
     ahref.appendChild(description);
 
@@ -251,14 +251,14 @@ function renderResultsNav(resultsNav) {
       ahref.classList.add('result');
     var heading = document.createElement('h5');
       heading.classList.add('result-title');
-      heading.innerText = result.uri;
+      heading.innerText = result.url;
     var description = document.createElement('div');
       description.classList.add('result-text');
-      description.innerText = result.uri;
+      description.innerText = result.url;
     var divider = document.createElement('div');
     divider.classList.add('dropdown-divider');
 
-    ahref.href = result.uri;
+    ahref.href = result.url;
     ahref.appendChild(heading);
     ahref.appendChild(description);
 
