@@ -114,12 +114,14 @@ function initLunrMain() {
       // declare fields
       lunrIndexMain = lunr(function () {
         this.field("content");
+        // this.field("title");
         this.field("tags", {
           boost: 5
         });
         this.ref("uri", {
           boost: 10
         });
+        this.metadataWhitelist = ['position'];
 
         for (var i = 0; i < indexMain.length; ++i) {
           this.add(indexMain[i]);
