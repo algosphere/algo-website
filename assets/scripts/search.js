@@ -200,7 +200,7 @@ function search(query) {
   });
 }
 
-// limit results
+// show results
 // (header)
 function renderResultsHeader(resultsHeader) {
   if (!resultsHeader.length) {
