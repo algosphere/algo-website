@@ -1,5 +1,5 @@
 ## To develop locally
-- Install [Hugo](https://gohugo.io/) (see version in [workflow file](/.github/workflows/ci-cd-develop.yml#L10))
+- Install [Hugo](https://gohugo.io/getting-started/installing#binary-cross-platform) (see version in [workflow file](/.github/workflows/ci-cd-develop.yml#L10))
 - Install [Node.js via nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (see version in [workflow file](/.github/workflows/ci-cd-develop.yml#L11))
   - On Windows:
     - Install [nvm-windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
@@ -15,4 +15,4 @@
 
 ## Related documents
 - [Workshop: Algosphere Alliance's website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)
-- [Algosphere Alliance's website: Git & GitHub workflow](https://docs.google.com/presentation/d/1HRAely6PKDnXdPcbMXSpmX0dxytzwtd9ih9-s-rTLLg/)
+- [Algosphere Alliance's website: Git & GitHub workflow](https://docs.google.com/presentation/d/e/2PACX-1vQ8a_SuCwfdwo3vQfkTxA5VQKzUnSrmZOd0PrX_fnK4W7xoKqxdiKmjVs5XXt7hfAsCUtsa2j0F_zZd/pub)

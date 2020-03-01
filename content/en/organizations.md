@@ -13,7 +13,7 @@ draft: false
 {{< toc >}}
 
 # Metta Conseil
-**Website:** [pro.mettaconseil.com](https://pro.mettaconseil.com/)
+**Website:** [mettaconseil.com](https://mettaconseil.com/)
 **Mission:** Aider les organisations progressistes à accomplir leur mission.
 **Zone:** World
 

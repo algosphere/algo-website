@@ -16,4 +16,4 @@ Here is the list of AlgoConsulting service providers:
 
 ---
 
-- [Metta Conseil](https://pro.mettaconseil.fr/)
+- [Metta Conseil](https://mettaconseil.com/)
