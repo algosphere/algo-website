@@ -7,7 +7,6 @@
     "start": "hugo server -DEF --i18n-warnings",
     "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment preview --i18n-warnings && gulp dev",
     "build-prod": "hugo --i18n-warnings && gulp prod",
-    "create-search-index": "hugo-lunr -o static/scripts/search-index-main.json",
     "deploy": "netlify deploy --prod --dir public"
   },
   "repository": {
