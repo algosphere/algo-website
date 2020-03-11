@@ -2,7 +2,6 @@
 title: "AlgoNews"
 description: "A collaborative quarterly on the alleviation of suffering"
 translationKey: "algonews"
-layout: single
 toc: false
 draft: false
 ---
