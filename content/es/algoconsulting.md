@@ -2,6 +2,7 @@
 title: "AlgoConsulting"
 description: "A collaborative quarterly on the alleviation of suffering"
 translationKey: "algoconsulting"
+layout: algoconsulting
 toc: false
 draft: false
 ---
@@ -13,7 +14,3 @@ To be part of the AlgoConsulting branch, it is necessary to be an "ally" of Algo
 
 Here is the list of AlgoConsulting service providers:
 {{< /lead >}}
-
----
-
-- [Metta Conseil](https://pro.mettaconseil.fr/)

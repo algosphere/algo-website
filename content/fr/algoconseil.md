@@ -2,6 +2,7 @@
 title: "AlgoConseil"
 description: "La branche Conseil de l'Alliance Algosphère"
 translationKey: "algoconsulting"
+layout: algoconsulting
 toc: false
 draft: false
 ---
@@ -13,7 +14,3 @@ Pour faire partie de la branche AlgoConseil, il est nécessaire d'être "allié"
 
 Voici la liste des prestataires AlgoConseil :
 {{< /lead >}}
-
----
-
-- [Metta Conseil](https://pro.mettaconseil.fr/)

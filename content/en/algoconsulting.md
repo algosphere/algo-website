@@ -2,6 +2,7 @@
 title: "AlgoConsulting"
 description: "The Consulting branch of the Algosphere Alliance"
 translationKey: "algoconsulting"
+layout: algoconsulting
 toc: false
 draft: false
 ---
@@ -13,7 +14,3 @@ To be part of the AlgoConsulting branch, it is necessary to be an "ally" of Algo
 
 Here is the list of AlgoConsulting service providers:
 {{< /lead >}}
-
----
-
-- [Metta Conseil](https://mettaconseil.com/)
