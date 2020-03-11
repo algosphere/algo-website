@@ -27,4 +27,8 @@
       list-style-type: none;
     }
   }
+
+  li ul:only-child {
+    padding-left: 0;
+  }
 }
