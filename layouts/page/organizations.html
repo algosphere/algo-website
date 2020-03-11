@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="container-fluid">
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      <article class="article">
+        {{ .Content }}
+      </article><br>
+      <div class="table-responsive">
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Mission</th>
+              <th scope="col">Zone</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range .Site.Data.organizations }}
+            <tr>
+              <td><a href="{{ .website }}">{{ .name }}</a></td>
+              <td>{{ .mission }}</td>
+              <td>{{ .zone }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+        </table>
+      </div>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}
