@@ -49,7 +49,7 @@ main:
   weight: 7
 takePart:
 - name: "Teilnehmen"
-  url: "https://portal.algosphere.org"
+  url: "https://portal.algosphere.org/"
 footer:
 - identifier: rechtliche-hinweise
   name: Rechtliche Hinweise

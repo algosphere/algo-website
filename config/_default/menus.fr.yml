@@ -49,7 +49,7 @@ main:
   weight: 7
 takePart:
 - name: "Participer"
-  url: "https://portal.algosphere.org/fr"
+  url: "https://portal.algosphere.org/fr/"
 footer:
 - identifier: mentions-legales
   name: Mentions légales
