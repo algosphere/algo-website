@@ -14,7 +14,7 @@ United States
 
 # Personal data
 ## Contact
-Send an email to <a href="mailto:algosphere@gmail.com" class="no-external-icon">algosphere@gmail.com</a>
+Send an email to <a href="mailto:contact@algosphere.org" class="no-external-icon">contact@algosphere.org</a>
 
 ## Collected data
 The data collected are the e-mails and contact details associated with the use of the contact button, for the purpose of making contact and the resulting communication.
