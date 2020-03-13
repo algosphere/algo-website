@@ -7,6 +7,22 @@
       </article><br>
       <div class="table-responsive">
         <table class="table table-sm">
+          <!-- <thead class="thead-light">
+            <tr>
+              <th>2020</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range where .Site.Data.algonewsold "year" "2020" }}
+            <tr>
+              <td><a href="{{ .url }}">{{ .name }}</a>
+              {{ if .selection1name }}
+                <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1name }}</a>
+              {{ end }}
+              </td>
+            </tr>
+          {{ end }}
+          </tbody> -->
           <thead class="thead-light">
             <tr>
               <th>2019</th>
@@ -22,7 +38,7 @@
               </td>
             </tr>
           {{ end }}
-        </tbody>
+          </tbody>
           <thead class="thead-light">
             <tr>
               <th>2018</th>
@@ -34,7 +50,55 @@
               <td><a href="{{ .url }}">{{ .name }}</a></td>
             </tr>
           {{ end }}
-        </tbody>
+          </tbody>
+          <thead class="thead-light">
+            <tr>
+              <th>2017</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range where .Site.Data.algonewsold "year" "2017" }}
+            <tr>
+              <td><a href="{{ .url }}">{{ .name }}</a></td>
+            </tr>
+          {{ end }}
+          </tbody>
+          <thead class="thead-light">
+            <tr>
+              <th>2016</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range where .Site.Data.algonewsold "year" "2016" }}
+            <tr>
+              <td><a href="{{ .url }}">{{ .name }}</a></td>
+            </tr>
+          {{ end }}
+          </tbody>
+          <thead class="thead-light">
+            <tr>
+              <th>2015</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range where .Site.Data.algonewsold "year" "2015" }}
+            <tr>
+              <td><a href="{{ .url }}">{{ .name }}</a></td>
+            </tr>
+          {{ end }}
+          </tbody>
+          <thead class="thead-light">
+            <tr>
+              <th>2014</th>
+            </tr>
+          </thead>
+          <tbody>
+          {{ range where .Site.Data.algonewsold "year" "2014" }}
+            <tr>
+              <td><a href="{{ .url }}">{{ .name }}</a></td>
+            </tr>
+          {{ end }}
+          </tbody>
         </table>
       </div>
       {{ partial "social-share" . }}
