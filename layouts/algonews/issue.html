@@ -4,12 +4,12 @@
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
         {{ .Content }}
+        <ul>
+          {{ range .Pages }}
+            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+          {{ end }}
+        </ul>
       </article>
-      <ul>
-        {{ range .Pages }}
-          <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-        {{ end }}
-      </ul>
       {{ partial "social-share" . }}
     </div>
   </main>

@@ -4,18 +4,19 @@
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
         {{ .Content }}
-      </article><br>
-      <div class="table-responsive">
-        <table class="table table-striped">
-          <tbody>
-            {{ range .Site.Data.algoconsulting }}
-            <tr>
-              <td><a href="{{ .website }}">{{ .name }}</a></td>
-            </tr>
-            {{ end }}
-        </tbody>
-        </table>
-      </div>
+        <br>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <tbody>
+              {{ range .Site.Data.algoconsulting }}
+              <tr>
+                <td><a href="{{ .website }}">{{ .name }}</a></td>
+              </tr>
+              {{ end }}
+          </tbody>
+          </table>
+        </div>
+      </article>
       {{ partial "social-share" . }}
     </div>
   </main>
