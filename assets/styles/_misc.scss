@@ -40,3 +40,22 @@ a.dropdown-item:active,
 .dropdown-toggle::after {
   vertical-align: 0.15em;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #227dc7;
+}
+
+.nav-positions {
+  margin-bottom: 3.5em;
+}
+
+.accordion {
+  .card-header {
+    padding: 0;
+
+    a {
+      display: block;
+      padding: 0.75rem 1.25rem;
+    }
+  }
+}
