@@ -7,16 +7,6 @@ main:
   name: Principios
   url: /principios/
   weight: 2
-- identifier: principios-estructurales
-  name: Estructurales
-  url: /principios/estructurales/
-  parent: principios
-  weight: 1
-- identifier: principios-especificos
-  name: Específicos
-  url: /principios/especificos/
-  parent: principios
-  weight: 2
 - identifier: algonews
   name: AlgoNews
   url: /algonews/

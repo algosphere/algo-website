@@ -20,3 +20,9 @@
   translation: "Page not found"
 - id: 404-description
   translation: "The page you asked for does not exist"
+- id: positions-fundamental
+  translation: "Fundamental"
+- id: positions-specific
+  translation: "Specific"
+- id: read-more
+  translation: "Read more"

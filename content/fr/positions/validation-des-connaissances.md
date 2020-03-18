@@ -1,16 +1,13 @@
 ---
-title: "Positions structurelles"
-description: "Les Positions structurelles de l'Alliance Algosphère"
-translationKey: "fundamental-positions"
-layout: single
-toc: true
+title: "Validation des connaissances"
+description: "L'Alliance soutient les dispositifs publics et démocratiques de validation des connaissances."
+scope: "fundamental"
+weight: 2
+translationKey: "validation-of-knowledge"
+toc: false
 draft: false
 ---
 
-# Droits fondamentaux
-L'Alliance souhaite une évolution des droits fondamentaux, inspirés par la Déclaration universelle des droits de l'homme de 1948, vers la prise en compte explicite de la "souffrance", en vue de faire de l'allègement de la souffrance la priorité éthique de la communauté internationale.
-
-# Validation des connaissances
 L'Alliance soutient les dispositifs publics et démocratiques de validation des connaissances.
 
 Ces dispositifs ont pour mission d'établir le degré de validité collective des informations : données, propositions, arguments, hypothèses, théories, etc.

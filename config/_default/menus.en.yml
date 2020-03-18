@@ -7,16 +7,6 @@ main:
   name: Positions
   url: /positions/
   weight: 2
-- identifier: positions-fundamental
-  name: Fundamental
-  url: /positions/fundamental/
-  parent: positions
-  weight: 1
-- identifier: positions-specific
-  name: Specific
-  url: positions/specific/
-  parent: positions
-  weight: 2
 - identifier: algonews
   name: AlgoNews
   url: /algonews/

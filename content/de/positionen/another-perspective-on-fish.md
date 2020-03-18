@@ -1,21 +1,12 @@
 ---
-title: "Principios especificos"
-description: "Principios especificos de la Alianza Algosfera"
-translationKey: "specific-positions"
-layout: single
-toc: true
+title: "Another Perspective on Fish"
+description: "The Alliance supports the campaign \"Another Perspective on Fish\", launched internationally in 2017, in its aim to raise awareness of the hidden suffering of the vast populations of aquatic animals."
+scope: "specific"
+weight: 3
+translationKey: "another-perspective-on-fish"
+toc: false
 draft: false
 ---
-
-# Appeal to open a public debate on the conditions for consent to circumcision
-The Alliance supports [this appeal](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) to open the debate.
-
-# Open Letter to the United Nations from Algosphere Alliance
-**Subject:** Alleviation of suffering in the world: global universal income, world peace and a Universal Declaration of Rights expanded to include all sentient beings
-
-[Read](/es/principios/especificos/open-letter-to-the-united-nations)
-
-# Another Perspective on Fish
 
 ![fish-campaign-logo](/images/fish-campaign.png)
 

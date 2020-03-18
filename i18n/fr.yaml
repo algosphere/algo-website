@@ -20,3 +20,9 @@
   translation: "Page non trouvée"
 - id: 404-description
   translation: "La page demandée n'existe pas"
+- id: positions-fundamental
+  translation: "Structurelles"
+- id: positions-specific
+  translation: "Ponctuelles"
+- id: read-more
+  translation: "Lire plus"

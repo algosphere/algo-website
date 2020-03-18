@@ -8,76 +8,50 @@
       <article class="article">
         {{ .Content }}
         <nav class="nav nav-pills nav-justified nav-positions" role="tablist">
-          <a class="nav-item nav-link active" id="fundamental-tab" data-toggle="tab" href="#fundamental" role="tab" aria-controls="fundamental" aria-selected="true">Fundamental</a>
-          <a class="nav-item nav-link" id="specific-tab" data-toggle="tab" href="#specific" role="tab" aria-controls="specific" aria-selected="false">Specific</a>
+          <!-- including fix for german url-id -->
+          <a class="nav-item nav-link active" id="fundamental-tab" data-toggle="tab" href="#{{ replace (i18n "positions-fundamental" | anchorize) "ä" "a" }}" role="tab" aria-controls="{{ i18n "positions-fundamental" | anchorize }}" aria-selected="true">{{ i18n "positions-fundamental" }}</a>
+          <a class="nav-item nav-link" id="specific-tab" data-toggle="tab" href="#{{ i18n "positions-specific" | anchorize }}" role="tab" aria-controls="{{ i18n "positions-specific" | anchorize }}" aria-selected="false">{{ i18n "positions-specific" }}</a>
         </nav>
         <div class="tab-content">
-          <div class="tab-pane active fade show" id="fundamental" role="tabpanel" aria-labelledby="fundamental-tab">
-            <div class="accordion" id="accordionExample">
+          <!-- including fix for german url-id -->
+          <div class="tab-pane active fade show" id="{{ replace (i18n "positions-fundamental" | anchorize) "ä" "a" }}" role="tabpanel" aria-labelledby="fundamental-tab">
+            <div class="accordion" id="accordionsfundamental">
+            {{ range $index, $value := where .Pages ".Params.scope" "fundamental" }}
+            {{ $slug := .Title | anchorize }}
               <div class="card">
-                <div class="card-header" id="headingOne">
-                  <a href="#collapseOne" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Collapsible Group Item 1</a>
+                <div class="card-header" id="heading{{ $slug }}">
+                  <a href="#{{ $slug }}" role="button" data-toggle="collapse" data-target="#accordion{{ $slug }}" aria-expanded="true" aria-controls="accordion{{ $slug }}">{{ .Title }}</a>
                 </div>
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div id="accordion{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsfundamental">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    {{ .Content }}
+                    {{ if .Params.readmorelink }}
+                      <a class="btn btn-primary-alt btn-block" href="{{ .Params.readmorelink }}" role="button">{{ i18n "read-more" }}</a>
+                    {{ end }}
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <a href="#collapseTwo" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Collapsible Group Item 2</a>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <a href="#collapseThree" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Collapsible Group Item 3</a>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
+            {{ end }}
             </div>
           </div>
-          <div class="tab-pane fade" id="specific" role="tabpanel" aria-labelledby="specific-tab">
-            <div class="accordion" id="accordionExample2">
+          <div class="tab-pane fade" id="{{ i18n "positions-specific" | anchorize }}" role="tabpanel" aria-labelledby="specific-tab">
+            <div class="accordion" id="accordionsspecific">
+            {{ range $index, $value := where .Pages ".Params.scope" "specific" }}
+            {{ $slug := .Title | anchorize }}
               <div class="card">
-                <div class="card-header" id="headingFour">
-                  <a href="#collapseFour" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">Collapsible Group Item 4</a>
+                <div class="card-header" id="heading{{ $slug }}">
+                  <a href="#{{ $slug }}" role="button" data-toggle="collapse" data-target="#accordion{{ $slug }}" aria-expanded="true" aria-controls="accordion{{ $slug }}">{{ .Title }}</a>
                 </div>
-                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample2">
+                <div id="accordion{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsspecific">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    {{ .Content }}
+                    {{ if .Params.readmorelink }}
+                      <a class="btn btn-primary-alt btn-block" href="{{ .Params.readmorelink }}" role="button">{{ i18n "read-more" }}</a>
+                    {{ end }}
                   </div>
                 </div>
               </div>
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <a href="#collapseFive" role="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Collapsible Group Item 5</a>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample2">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingSix">
-                  <a href="#collapseSix" role="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">Collapsible Group Item 6</a>
-                </div>
-                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample2">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
+            {{ end }}
             </div>
           </div>
         </div>

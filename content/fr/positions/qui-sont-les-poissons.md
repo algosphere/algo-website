@@ -1,21 +1,12 @@
 ---
-title: "Positions ponctuelles"
-description: "Les Positions ponctuelles de l'Alliance Algosphère"
-translationKey: "specific-positions"
-layout: single
-toc: true
+title: "Qui sont les poissons ?"
+description: "L\'Alliance soutient la campagne \"Qui sont les poissons ?\" lancée internationalement en 2017, sur son volet de sensibilisation aux souffrances invisibilisées des \"sans voix\" que sont les vastes populations aquatiques."
+scope: "specific"
+weight: 3
+translationKey: "another-perspective-on-fish"
+toc: false
 draft: false
 ---
-
-# Ouvrir un débat public sur les conditions du consentement à la circoncision
-L'Alliance soutient [cet appel](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) à ouvrir le débat.
-
-# Lettre ouverte de l'Alliance Algosphère à l'Organisation des Nations unies
-**Objet:** Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles
-
-[Lire plus](/fr/positions/ponctuelles/lettre-ouverte-a-l-organisation-des-nations-unies)
-
-# Qui sont les poissons ?
 
 ![fish-campaign-logo](/images/fish-campaign.png)
 

@@ -7,16 +7,6 @@ main:
   name: Positions
   url: /positions/
   weight: 2
-- identifier: positions-structurelles
-  name: Structurelles
-  url: /positions/structurelles/
-  parent: positions
-  weight: 1
-- identifier: positions-ponctuelles
-  name: Ponctuelles
-  url: /positions/ponctuelles/
-  parent: positions
-  weight: 2
 - identifier: algonews
   name: AlgoNews
   url: /algonews/

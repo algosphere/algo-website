@@ -5,6 +5,8 @@ de:
   title: Bündnis Algosphäre
   params:
     description: "zur linderung des leidens"
+  permalinks:
+    positionen: position-:title/
 en:
   languageName: English
   weight: 2
@@ -12,6 +14,8 @@ en:
   title: Algosphere Alliance
   params:
     description: "for the alleviation of suffering"
+  permalinks:
+    positions: position-:title/
 es:
   languageName: Español
   weight: 3
@@ -19,6 +23,8 @@ es:
   title: Alianza Algosfera
   params:
     description: "para el alivio del sufrimiento"
+  permalinks:
+    principios: principio-:title/
 fr:
   languageName: Français
   weight: 4
@@ -26,3 +32,5 @@ fr:
   title: Alliance Algosphère
   params:
     description: "pour l'allègement de la souffrance"
+  permalinks:
+    positions: position-:title/
