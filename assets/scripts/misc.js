@@ -41,7 +41,7 @@ $(document).ready(() => {
 });
 
 // LINK TO ACCORDION
-$(document).ready(() => {
+/* $(document).ready(() => {
   var url = window.location.href;
   if (url.indexOf("#") > 0){
   var activeAccordion = url.substring(url.indexOf("#") + 1);
@@ -56,7 +56,7 @@ $(document).ready(() => {
       newUrl = url.split("#")[0] + hash;
     history.replaceState(null, null, newUrl);
   });
-});
+}); */
 
 // EXTERNAL LINKS
 var links = $(document.links).filter(function() {
