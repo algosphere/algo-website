@@ -10,7 +10,7 @@ draft: false
 # Appeal to open a public debate on the conditions for consent to circumcision
 The Alliance supports [this appeal](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) to open the debate.
 
-# Open Letter to the United Nations from Algosphere Alliance
+# Open Letter to the United Nations
 **Subject:** Alleviation of suffering in the world: global universal income, world peace and a Universal Declaration of Rights expanded to include all sentient beings
 
 [Read](/positions/specific/open-letter-to-the-united-nations)
