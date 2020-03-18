@@ -20,9 +20,9 @@
             {{ $slug := .Title | anchorize }}
               <div class="card">
                 <div class="card-header" id="heading{{ $slug }}">
-                  <a href="#{{ $slug }}" role="button" data-toggle="collapse" data-target="#accordion{{ $slug }}" aria-expanded="true" aria-controls="accordion{{ $slug }}">{{ .Title }}</a>
+                  <a href="#{{ $slug }}" role="button" data-toggle="collapse" data-target="#{{ $slug }}" aria-expanded="true" aria-controls="{{ $slug }}">{{ .Title }}</a>
                 </div>
-                <div id="accordion{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsfundamental">
+                <div id="{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsfundamental">
                   <div class="card-body">
                     {{ .Content }}
                     {{ if .Params.readmorelink }}
@@ -40,9 +40,9 @@
             {{ $slug := .Title | anchorize }}
               <div class="card">
                 <div class="card-header" id="heading{{ $slug }}">
-                  <a href="#{{ $slug }}" role="button" data-toggle="collapse" data-target="#accordion{{ $slug }}" aria-expanded="true" aria-controls="accordion{{ $slug }}">{{ .Title }}</a>
+                  <a href="#{{ $slug }}" role="button" data-toggle="collapse" data-target="#{{ $slug }}" aria-expanded="true" aria-controls="{{ $slug }}">{{ .Title }}</a>
                 </div>
-                <div id="accordion{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsspecific">
+                <div id="{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsspecific">
                   <div class="card-body">
                     {{ .Content }}
                     {{ if .Params.readmorelink }}
