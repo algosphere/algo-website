@@ -24,5 +24,5 @@
   translation: "Estructurales"
 - id: positions-specific
   translation: "Especificos"
-- id: read-more
-  translation: "Leer mas"
+- id: read
+  translation: "Leer"

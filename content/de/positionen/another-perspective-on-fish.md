@@ -1,11 +1,12 @@
 ---
 title: "Another Perspective on Fish"
 description: "The Alliance supports the campaign \"Another Perspective on Fish\", launched internationally in 2017, in its aim to raise awareness of the hidden suffering of the vast populations of aquatic animals."
+summary: "The Alliance supports the campaign \"Another Perspective on Fish\", launched internationally in 2017, in its aim to raise awareness of the hidden suffering of the vast populations of aquatic animals."
 scope: "specific"
-weight: 3
 translationKey: "another-perspective-on-fish"
 toc: false
 draft: false
+weight: 3
 ---
 
 ![fish-campaign-logo](/images/fish-campaign.png)

@@ -59,7 +59,7 @@ a.dropdown-item:active,
     }
   }
 
-  .card-body *:last-child {
-    margin-bottom: 0;
+  .card-body .btn:last-child {
+    margin-top: 1.25rem;
   }
 }

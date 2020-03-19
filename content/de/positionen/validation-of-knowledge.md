@@ -1,11 +1,12 @@
 ---
 title: "Validation of knowledge"
 description: "The Alliance supports democratic, public institutions that validate knowledge."
+summary: "The Alliance supports democratic, public institutions that validate knowledge."
 scope: "fundamental"
-weight: 2
 translationKey: "validation-of-knowledge"
 toc: false
 draft: false
+weight: 2
 ---
 
 The Alliance supports democratic, public institutions that validate knowledge.

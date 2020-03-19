@@ -1,11 +1,12 @@
 ---
 title: "Qui sont les poissons ?"
 description: "L\'Alliance soutient la campagne \"Qui sont les poissons ?\" lancée internationalement en 2017, sur son volet de sensibilisation aux souffrances invisibilisées des \"sans voix\" que sont les vastes populations aquatiques."
+summary: "L\'Alliance soutient la campagne \"Qui sont les poissons ?\" lancée internationalement en 2017, sur son volet de sensibilisation aux souffrances invisibilisées des \"sans voix\" que sont les vastes populations aquatiques."
 scope: "specific"
-weight: 3
 translationKey: "another-perspective-on-fish"
 toc: false
 draft: false
+weight: 3
 ---
 
 ![fish-campaign-logo](/images/fish-campaign.png)

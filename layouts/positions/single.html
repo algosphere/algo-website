@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="container-fluid">
+      <a class="btn btn-light" href="{{ .Parent.RelPermalink }}" role="button">{{ (resources.Get "icons/chevron-left.svg").Content | safeHTML }} {{ .Parent.Title }}</a><br><br>
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ with .Params.toc }}
+        {{ $.TableOfContents }}<br><br>
+      {{ end }}
+      <article class="article">
+        {{ .Content }}
+      </article>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}

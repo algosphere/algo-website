@@ -1,11 +1,12 @@
 ---
 title: "Validation des connaissances"
 description: "L'Alliance soutient les dispositifs publics et démocratiques de validation des connaissances."
+summary: "L'Alliance soutient les dispositifs publics et démocratiques de validation des connaissances."
 scope: "fundamental"
-weight: 2
 translationKey: "validation-of-knowledge"
 toc: false
 draft: false
+weight: 2
 ---
 
 L'Alliance soutient les dispositifs publics et démocratiques de validation des connaissances.
