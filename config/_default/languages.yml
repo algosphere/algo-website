@@ -6,7 +6,7 @@ de:
   params:
     description: "zur linderung des leidens"
   permalinks:
-    positionen: position-:title/
+    positionen: :section/position-:title/
 en:
   languageName: English
   weight: 2
@@ -15,7 +15,7 @@ en:
   params:
     description: "for the alleviation of suffering"
   permalinks:
-    positions: position-:title/
+    positions: :section/position-:title/
 es:
   languageName: Español
   weight: 3
@@ -24,7 +24,7 @@ es:
   params:
     description: "para el alivio del sufrimiento"
   permalinks:
-    principios: principio-:title/
+    principios: :section/principio-:title/
 fr:
   languageName: Français
   weight: 4
@@ -33,4 +33,4 @@ fr:
   params:
     description: "pour l'allègement de la souffrance"
   permalinks:
-    positions: position-:title/
+    positions: :section/position-:title/
