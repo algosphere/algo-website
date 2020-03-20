@@ -46,5 +46,5 @@ var links = $(document.links).filter(function() {
     && !this.classList.contains('no-external-icon');
 });
 for (var i = 0; i < links.length; i++) {
-  links[i].innerHTML += externalLinkIcon;
+  links[i].innerHTML += "<span style=\"white-space: nowrap;\">" + externalLinkIcon + "</span>";
 }
