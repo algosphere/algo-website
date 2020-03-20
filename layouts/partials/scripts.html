@@ -1,5 +1,6 @@
 <script>
   var baseURL = {{ .Site.Home.Permalink }};
+  var externalLinkIcon = {{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
 </script>
 
 {{ $jquery := resources.Get "scripts/jquery.js" }}

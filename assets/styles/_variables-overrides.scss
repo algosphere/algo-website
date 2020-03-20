@@ -1,5 +1,5 @@
 $body-bg: #f8f9fa; /* $gray-100 */
-$breadcrumb-divider: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmkgYmktY2hldnJvbi1jb21wYWN0LXJpZ2h0IiB3aWR0aD0iMWVtIiBoZWlnaHQ9IjFlbSIgdmlld0JveD0iMCAwIDIwIDIwIiBmaWxsPSJjdXJyZW50Q29sb3IiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTguNzc2IDMuNTUzYS41LjUgMCAwMS42NzEuMjIzbDMgNmEuNS41IDAgMDEwIC40NDhsLTMgNmEuNS41IDAgMTEtLjg5NC0uNDQ4TDExLjQ0IDEwIDguNTUzIDQuMjI0YS41LjUgMCAwMS4yMjMtLjY3MXoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPg0KPC9zdmc+);
+$breadcrumb-divider: var(--breadcrumb-divider);
 $enable-responsive-font-sizes: true;
 $theme-colors: (
   "primary-alt": #3490dc
