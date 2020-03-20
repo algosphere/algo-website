@@ -1,7 +1,7 @@
 ---
 title: "Lettre ouverte à l'Organisation des Nations unies"
 description: "Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles."
-summary: "**Objet:** Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles."
+summary: "**Objet :** Allègement de la souffrance dans le monde : revenu universel, paix mondiale et une Déclaration Universelle des Droits élargie à tous les êtres sensibles."
 scope: "specific"
 translationKey: "open-letter-to-the-united-nations"
 toc: false
