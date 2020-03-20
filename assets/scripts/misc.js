@@ -40,7 +40,7 @@ $(document).ready(() => {
   });
 });
 
-// EXTERNAL LINKS
+// EXTERNAL LINKS ICON
 var links = $(document.links).filter(function() {
   return this.hostname !== location.hostname
     && !this.classList.contains('no-external-icon');

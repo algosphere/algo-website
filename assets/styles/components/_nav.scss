@@ -21,10 +21,17 @@
   .navbar-collapse {
     justify-content: space-between;
 
+    svg.bi {
+      width: initial;
+
+      &.bi-box-arrow-up-right {
+        margin-left: .2em;
+      }
+    }
+
     .nav-left {
       flex-grow: 1;
       flex-wrap: wrap;
-      justify-content: center;
 
       a,
       .dropdown a {
