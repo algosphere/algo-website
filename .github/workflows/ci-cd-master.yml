@@ -44,9 +44,3 @@ jobs:
       with:
         args: "deploy --prod --dir public"
       if: success()
-    - name: Upload site
-      uses: actions/upload-artifact@v1
-      with:
-        name: public
-        path: public
-      if: success()
