@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="container-fluid">
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ with .Params.toc }}
+        {{ $.TableOfContents }}<br><br>
+      {{ end }}
+      <article class="article">
+        {{ .Content }}
+      </article>
+      <div class="alert alert-warning text-center" role="alert">
+        This article does not necessarily reflect the official position of the Algosphere Alliance
+      </div>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}
