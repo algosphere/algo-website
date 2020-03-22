@@ -28,19 +28,6 @@
         padding-top: 0;
       }
     }
-
-    form {
-      display: flex;
-      flex-direction: column;
-
-      .form-group {
-        margin-bottom: .5em;
-      }
-
-      input {
-        text-align: center;
-      }
-    }
   }
 
   .footer-sub {
@@ -74,26 +61,6 @@
       align-items: initial;
       padding-top: 5em;
       padding-bottom: 5em;
-
-      form {
-        flex-direction: row;
-
-        .form-group {
-          margin-bottom: 0;
-        }
-
-        > * + * {
-          margin-left: .5em;
-        }
-
-        #mce-responses {
-          margin-left: 0;
-        }
-
-        input {
-          text-align: initial;
-        }
-      }
 
       > div {
         padding-top: 0;

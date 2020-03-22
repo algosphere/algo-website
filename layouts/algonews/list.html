@@ -1,8 +1,17 @@
 {{ define "main" }}
-  <main class="main">
+  <main class="main algonews">
     <div class="container-fluid">
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
+        <p class="lead text-center"><em>A collaborative quarterly on the alleviation of suffering</em></p>
+        {{ partial "newsletter-form" . }}
+        <hr>
+        <div class="alert alert-warning text-center" role="alert">
+          Its content does not necessarily reflect the official position of the Algosphere Alliance
+        </div>
+        <div class="alert alert-info text-center" role="alert">
+          You may have a look at the <a href="https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit">issue under preparation</a>
+        </div>
         {{ .Content }}
         <br>
         <div class="table-responsive">
