@@ -2,6 +2,7 @@
 title: "Constitución"
 description: "La Constitución de la Alianza Algosfera"
 translationKey: "constitution"
+icon: "book"
 toc: false
 draft: false
 ---

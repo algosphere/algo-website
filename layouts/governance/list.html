@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <main class="main governance">
+    <div class="container-fluid">
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      <div class="cards">
+        {{ .Content }}
+          {{ range .Pages }}
+          {{ $icon := .Params.icon }}
+          {{ $icon = print "icons/" $icon ".svg" }}
+            <div class="card">
+              <a href="{{ .Permalink }}" class="text-dark">
+                <div class="card-body">
+                  {{ with resources.Get $icon }}{{ .Content | safeHTML }}{{ end }}
+                  <h5 class="card-title">{{ .Title }}</h5>
+                </div>
+              </a>
+            </div>
+          {{ end }}
+      </div>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}

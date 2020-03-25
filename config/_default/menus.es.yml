@@ -23,16 +23,6 @@ main:
   name: Gobernancia
   url: /gobernancia/
   weight: 6
-- identifier: constitucion
-  name: Constitución
-  url: /gobernancia/constitucion/
-  parent: gobernancia
-  weight: 1
-- identifier: faq
-  name: FAQ
-  url: /gobernancia/faq/
-  parent: gobernancia
-  weight: 2
 - identifier: la-alianza-en-imagenes
   name: La Alianza en imágenes
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit

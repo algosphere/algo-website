@@ -2,6 +2,7 @@
 title: "Constitution"
 description: "The Alliance's Constitution"
 translationKey: "constitution"
+icon: "book"
 toc: false
 draft: false
 ---

@@ -23,16 +23,6 @@ main:
   name: Führung
   url: /fuehrung/
   weight: 6
-- identifier: grundsatzerklaerung
-  name: Grundsatzerklärung
-  url: /fuehrung/grundsatzerklaerung/
-  parent: fuehrung
-  weight: 1
-- identifier: faq
-  name: FAQ
-  url: /fuehrung/faq/
-  parent: fuehrung
-  weight: 2
 - identifier: die-allianz-in-bildern
   name: Die Allianz in Bildern
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit

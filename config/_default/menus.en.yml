@@ -23,16 +23,6 @@ main:
   name: Governance
   url: /governance/
   weight: 6
-- identifier: constitution
-  name: Constitution
-  url: /governance/constitution/
-  parent: governance
-  weight: 1
-- identifier: faq
-  name: FAQ
-  url: /governance/faq/
-  parent: governance
-  weight: 2
 - identifier: the-alliance-in-images
   name: The Alliance in images
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit

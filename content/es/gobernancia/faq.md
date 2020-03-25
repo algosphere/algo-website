@@ -2,6 +2,7 @@
 title: "Preguntas frecuentes"
 description: "Preguntas frecuentes about the Algosphere Alliance"
 translationKey: "faq"
+icon: "question-square"
 toc: true
 draft: false
 ---
