@@ -71,7 +71,7 @@ a.dropdown-item:active,
     flex-direction: column;
 
     .card {
-      flex-basis: calc(50% - 1em);
+      flex-basis: calc(50% - .5em);
       margin-bottom: 1em;
 
       a {
