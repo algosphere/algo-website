@@ -13,6 +13,7 @@ params:
   author: "Algosphere Alliance"
   twitter: "algosphere"
   facebook: "algosphere"
+  analytics: "UA-148422142-1"
 markup:
   goldmark:
     extensions:

@@ -35,3 +35,7 @@ footer:
   name: Legal notices
   url: /legal-notices/
   weight: 1
+- identifier: cookies
+  name: Cookies
+  url: /#cookies
+  weight: 2
