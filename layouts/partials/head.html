@@ -15,13 +15,6 @@
 {{ partial "styles" . }}
 <link href="{{ (resources.Get "/images/logo.jpg").RelPermalink }}" rel="icon" type="image/x-icon" />
 {{ with getenv "PRODUCTION" }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ .Site.Params.analytics }}');
-  </script>
+  {{ partial "analytics" . }}
 {{ end }}
 <title>{{ if $.IsHome }}{{ $.Site.Title }} | {{ $.Site.Params.description }}{{ else }}{{ $.Title }} | {{ $.Site.Title }}{{ end }}</title>
