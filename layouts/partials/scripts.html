@@ -16,28 +16,31 @@
 {{ end }}
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
 
-<script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
-<script type="text/javascript">
-  tarteaucitron.init({
-    "privacyUrl": "", /* Privacy policy url */
-    "hashtag": "#cookies", /* Open the panel with this hashtag */
-    "cookieName": "tarteaucitron", /* Cookie name */
-    "orientation": "bottom", /* Banner position (top - bottom) */
-    "showAlertSmall": false, /* Show the small banner on bottom right */
-    "cookieslist": true, /* Show the cookie list */
-    "adblocker": false, /* Show a Warning if an adblocker is detected */
-    "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
-    "highPrivacy": true, /* Disable auto consent */
-    "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
-    "removeCredit": true, /* Remove credit link */
-    "moreInfoLink": true, /* Show more info link */
-    "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
-    //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
-    "readmoreLink": "" /* Change the default readmore link */
-  });
-</script>
-<script type="text/javascript">
-  tarteaucitron.user.gtagUa = analyticsID;
-  tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
-  (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
-</script>
+{{ with getenv "PRODUCTION" }}
+  <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
+  <script type="text/javascript">
+    tarteaucitron.init({
+      "privacyUrl": "", /* Privacy policy url */
+      "hashtag": "#cookies", /* Open the panel with this hashtag */
+      "cookieName": "tarteaucitron", /* Cookie name */
+      "orientation": "bottom", /* Banner position (top - bottom) */
+      "showAlertSmall": false, /* Show the small banner on bottom right */
+      "cookieslist": true, /* Show the cookie list */
+      "adblocker": false, /* Show a Warning if an adblocker is detected */
+      "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+      "highPrivacy": true, /* Disable auto consent */
+      "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+      "removeCredit": true, /* Remove credit link */
+      "moreInfoLink": true, /* Show more info link */
+      "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+      //"cookieDomain": ".my-multisite-domaine.fr", /* Shared cookie for multisite */
+      "readmoreLink": "" /* Change the default readmore link */
+    });
+  </script>
+  <script type="text/javascript">
+    tarteaucitron.user.gtagUa = analyticsID;
+    tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+    (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+  </script>
+{{ end }}
+
