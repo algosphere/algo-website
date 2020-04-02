@@ -2,6 +2,7 @@
   var baseURL = {{ .Site.Home.Permalink }};
   var externalLinkIcon = {{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
   var analyticsID = {{ .Site.Params.analytics }};
+  console.log(analyticsID);
 </script>
 
 {{ $jquery := resources.Get "scripts/jquery.js" }}
