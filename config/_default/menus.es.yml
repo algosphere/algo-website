@@ -35,3 +35,7 @@ footer:
   name: Notas legales
   url: /notas-legales/
   weight: 1
+- identifier: cookies
+  name: Cookies
+  url: /#cookies
+  weight: 2

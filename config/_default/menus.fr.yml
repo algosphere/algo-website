@@ -35,3 +35,7 @@ footer:
   name: Mentions légales
   url: /mentions-legales/
   weight: 1
+- identifier: cookies
+  name: Cookies
+  url: /#cookies
+  weight: 2

@@ -35,3 +35,7 @@ footer:
   name: Rechtliche Hinweise
   url: /rechtliche-hinweise/
   weight: 1
+- identifier: cookies
+  name: Cookies
+  url: /#cookies
+  weight: 2
