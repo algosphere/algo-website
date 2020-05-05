@@ -1,25 +1,49 @@
 .nav-main {
-  .navbar-brand {
-    padding: 0;
-    color: #88b1db;
-    font-family: 'Comfortaa', sans-serif;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: rgba(0, 0, 0, 0.1);
-    text-decoration-thickness: .2em;
+  .container-fluid {
+    align-items: stretch;
+  }
 
-    &:hover {
-      color: #88b1db;
+  .navbar-brand {
+    display: flex;
+    color: $body-color;
+
+    .brand-image-link {
+      display: flex;
+      align-items: center;
     }
 
-    img {
-      margin-right: .5rem;
-      vertical-align: top;
+    .brand-image {
+      width: 30px;
+      height: 29px;
+      margin-right: 1rem;
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #88b1db;
+      font-family: 'Comfortaa', sans-serif;
+
+      .brand-title {
+        font-size: 1em;
+        margin-bottom: .2em;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-color: rgba(0, 0, 0, 0.1);
+        text-decoration-thickness: .2em;
+      }
+
+      .brand-subtitle {
+        display: none;
+      }
     }
   }
 
   .navbar-collapse {
     justify-content: space-between;
+    flex-grow: 0;
+    align-items: stretch;
 
     svg.bi {
       width: initial;
@@ -99,19 +123,43 @@
       margin-top: .5rem;
     }
   }
-
-  .dropdown .btn {
-    width: 100%;
-  }
 }
 
 @include media-breakpoint-up(lg) {
   .nav-main {
+    padding: 0;
+
+    .container-fluid {
+      padding: 0;
+    }
+
     .navbar-brand {
-      display: none;
+      padding: 1em;
+
+      .brand-image {
+        width: 68.8px;
+        height: 68.8px;
+        margin-right: 1rem;
+      }
+
+      .brand-text {
+        .brand-title {
+          font-size: 2rem;
+        }
+
+        .brand-subtitle {
+          display: flex;
+          font-size: 1.25rem;
+        }
+      }
     }
 
     .navbar-collapse {
+      .nav-item {
+        display: flex;
+        align-items: center;
+      }
+
       .nav-link {
         font-size: 1.05em;
         padding-left: .75em !important;
@@ -119,8 +167,6 @@
       }
 
       .nav-left {
-        align-items: center;
-
         .home-link {
           padding-top: 0;
           padding-bottom: 0;
@@ -141,6 +187,17 @@
         display: none;
         margin-top: initial;
       }
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      border-radius: 0;
+    }
+
+    .dropdown {
+      display: flex;
+      align-items: stretch;
     }
   }
 }

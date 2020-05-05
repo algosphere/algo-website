@@ -1,6 +1,9 @@
 .header .container-fluid,
 .nav-main .container-fluid,
-nav[aria-label="breadcrumb"] .container-fluid,
+nav[aria-label="breadcrumb"] .container-fluid {
+  max-width: 100%;
+}
+
 .footer .container-fluid {
   max-width: map-get($container-max-widths, "xl");
 }

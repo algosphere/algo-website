@@ -1,32 +1,36 @@
 main:
+- identifier: home
+  name: Home
+  url: /
+  weight: 1
 - identifier: vision
   name: Vision
   url: /vision/
-  weight: 1
+  weight: 2
 - identifier: positions
   name: Positions
   url: /positions/
-  weight: 2
+  weight: 3
 - identifier: algonews
   name: AlgoNews
   url: /algonews/
-  weight: 3
+  weight: 4
 - identifier: organizations
   name: Organizations
   url: organizations/
-  weight: 4
+  weight: 5
 - identifier: algoconsulting
   name: AlgoConsulting
   url: /algoconsulting/
-  weight: 5
+  weight: 6
 - identifier: governance
   name: Governance
   url: /governance/
-  weight: 6
+  weight: 7
 - identifier: the-alliance-in-images
   name: The Alliance in images
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-  weight: 7
+  weight: 8
 takepart:
 - name: "Take part"
   url: "https://portal.algosphere.org/"

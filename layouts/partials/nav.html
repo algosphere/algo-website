@@ -1,10 +1,17 @@
 <nav class="nav-main navbar navbar-expand-lg navbar-light bg-white" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ "/" | relLangURL }}"><img src="{{ (resources.Get "/images/logo.jpg").RelPermalink }}" width="30" height="29" alt="logo">{{ .Site.Title }}</a>
+    <div class="navbar-brand">
+      <a class="brand-image-link" href="{{ "/" | relLangURL }}">
+        <img class="brand-image" src="{{ (resources.Get "/images/logo.jpg").RelPermalink }}" width="68.8" height="68.8" alt="logo">
+        <div class="brand-text">
+          <h2 class="brand-title">{{ .Site.Title }}</h2>
+          <h5 class="brand-subtitle">{{ .Site.Params.description }}</h5>
+        </div>
+      </a>
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav nav-left">
-        <a class="nav-item nav-link home-link{{ if eq .RelPermalink ("/" | relLangURL | string) }} active{{ end }}" href="{{ "/" | relLangURL }}">{{ (resources.Get "icons/house-fill.svg").Content | safeHTML }}<span class="sr-only">{{ .Site.Home.Title }}</span></a>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ $langURL := .URL | relLangURL | string }}
@@ -27,12 +34,12 @@
       </div>
       <div class="navbar-nav nav-right">
         {{ range .Site.Menus.takepart }}
-          <a class="btn btn-primary-alt btn-block no-external-icon" href="{{ .URL }}" role="button">{{ .Name }} {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
+        <a class="btn btn-primary-alt no-external-icon" href="{{ .URL }}" role="button">{{ .Name }} {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
         {{ end }}
-      </div>
-      <div class="navbar-nav meta">
-        {{ partial "search-form-nav" . }}
         {{ partial "language-switcher" . }}
+
+
+
       </div>
     </div>
   </div>
