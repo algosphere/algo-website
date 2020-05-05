@@ -134,7 +134,10 @@
     }
 
     .navbar-brand {
-      padding: 1em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .5em;
+      padding-bottom: .5em;
 
       .brand-image {
         width: 68.8px;
