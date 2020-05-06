@@ -1,5 +1,5 @@
-<div class="dropdown language-switcher">
-  <button class="btn btn-light btn-block dropdown-toggle" id="navbarLanguageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">translate</i> {{ .Language.LanguageName }}</button>
+<div class="btn-group dropdown language-switcher-desktop">
+  <button id="navbarLanguageDropdown" class="btn btn-light btn-block dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">translate</i> {{ .Language.LanguageName }}</button>
   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarLanguageDropdown">
     {{ range .Translations }}
       <a class="dropdown-item" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>

@@ -33,12 +33,19 @@
         {{ end }}
       </div>
       <div class="navbar-nav nav-right">
+        <!-- nav-right mobile -->
         {{ range .Site.Menus.takepart }}
-        <a class="btn btn-primary-alt no-external-icon" href="{{ .URL }}" role="button">{{ .Name }} {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
+          <a class="btn btn-primary-alt no-external-icon" href="{{ .URL }}">{{ .Name }} {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
         {{ end }}
-        {{ partial "language-switcher" . }}
+        {{ partial "language-switcher-mobile" . }}
 
-
+        <!-- nav-right desktop -->
+        <div class="nav-right-desktop btn-group" role="group" aria-label="Language dropdown">
+          {{ range .Site.Menus.takepart }}
+            <a class="btn btn-primary-alt no-external-icon" href="{{ .URL }}">{{ .Name }} {{ ( resources.Get "icons/chevron-right.svg").Content | safeHTML }}</a>
+          {{ end }}
+          {{ partial "language-switcher" . }}
+        </div>
 
       </div>
     </div>
