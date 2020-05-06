@@ -60,11 +60,11 @@
 
       a,
       .dropdown a {
-        color: #db8888;
+        // color: #db8888;
 
         &:hover,
         &:focus {
-          color: darken($color: #db8888, $amount: 15);
+          // color: darken($color: #db8888, $amount: 15);
         }
 
         &.active {
@@ -220,7 +220,6 @@
     .btn {
       display: flex;
       align-items: center;
-      border-radius: 0;
     }
 
     .dropdown {
