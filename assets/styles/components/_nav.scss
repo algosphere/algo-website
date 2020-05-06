@@ -47,10 +47,11 @@
 
     svg.bi {
       width: initial;
+      margin-left: .2em;
+    }
 
-      &.bi-box-arrow-up-right {
-        margin-left: .2em;
-      }
+    i.material-icons {
+      margin-right: .2em;
     }
 
     .nav-left {
@@ -115,6 +116,14 @@
     .nav-right-desktop {
       display: none;
     }
+
+    svg.bi {
+      margin-top: .15em;
+    }
+
+    i.material-icons {
+      margin-top: .15em;
+    }
   }
 
   .meta {
@@ -128,7 +137,7 @@
   }
 }
 
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   .nav-main {
     padding: 0;
 
