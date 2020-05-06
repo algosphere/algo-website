@@ -6,36 +6,38 @@
   .navbar-brand {
     display: flex;
     color: $body-color;
+    padding-top: 0;
+    padding-bottom: 0;
 
     .brand-image-link {
       display: flex;
       align-items: center;
-    }
 
-    .brand-image {
-      width: 30px;
-      height: 29px;
-      margin-right: 1rem;
-    }
-
-    .brand-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: #88b1db;
-      font-family: 'Comfortaa', sans-serif;
-
-      .brand-title {
-        font-size: 1em;
-        margin-bottom: .2em;
-        text-decoration-line: underline;
-        text-decoration-style: solid;
-        text-decoration-color: rgba(0, 0, 0, 0.1);
-        text-decoration-thickness: .2em;
+      .brand-image {
+        width: 30px;
+        height: 29px;
+        margin-right: 1rem;
       }
 
-      .brand-subtitle {
-        display: none;
+      .brand-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #88b1db;
+        font-family: 'Comfortaa', sans-serif;
+
+        .brand-title {
+          font-size: 1em;
+          margin-bottom: .2em;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-color: rgba(0, 0, 0, 0.1);
+          text-decoration-thickness: .2em;
+        }
+
+        .brand-subtitle {
+          display: none;
+        }
       }
     }
   }
@@ -60,15 +62,8 @@
 
       a,
       .dropdown a {
-        // color: #db8888;
-
-        &:hover,
-        &:focus {
-          // color: darken($color: #db8888, $amount: 15);
-        }
-
         &.active {
-          color: #db8888;
+          color: rgba(0, 0, 0, 0.7);
           font-weight: 600;
           text-decoration-line: underline;
           text-decoration-style: solid;
@@ -76,31 +71,19 @@
           text-decoration-thickness: .2em;
         }
 
-        &.dropdown-item.active,
-        &.dropdown-item:active {
-          color: #fff;
-          background-color: #db8888;
+        &.dropdown-item.active {
+          // color: initial;
+          background-color: $light;
           font-weight: initial;
           text-decoration: none;
         }
-      }
 
-      .home-link {
-        padding-top: .5em;
-        padding-bottom: .25em;
-      }
-
-      .home-link .bi {
-        font-size: 1.8em;
-      }
-
-      .home-link:hover,
-      .home-link:focus {
-        color: darken($color: #db8888, $amount: 10);
-      }
-
-      .home-link.active {
-        color: darken($color: #db8888, $amount: 10);
+        &.dropdown-item:active {
+          color: #fff;
+          background-color: #88b1db;
+          font-weight: initial;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -146,25 +129,27 @@
     }
 
     .navbar-brand {
-      padding-left: 1em;
-      padding-right: 1em;
-      padding-top: .5em;
-      padding-bottom: .5em;
+      .brand-image-link {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
 
-      .brand-image {
-        width: 68.8px;
-        height: 68.8px;
-        margin-right: 1rem;
-      }
-
-      .brand-text {
-        .brand-title {
-          font-size: 2rem;
+        .brand-image {
+          width: 68.8px;
+          height: 68.8px;
+          margin-right: 1rem;
         }
 
-        .brand-subtitle {
-          display: flex;
-          font-size: 1.25rem;
+        .brand-text {
+          .brand-title {
+            font-size: 2rem;
+          }
+
+          .brand-subtitle {
+            display: flex;
+            font-size: 1.25rem;
+          }
         }
       }
     }
@@ -182,9 +167,27 @@
       }
 
       .nav-left {
-        .home-link {
-          padding-top: 0;
-          padding-bottom: 0;
+        .nav-link:hover {
+          color: rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-link.active:hover {
+          color: rgba(0, 0, 0, 0.7);
+        }
+
+        a,
+        .dropdown a {
+          &:hover,
+          &:focus {
+            background-color: $light;
+          }
+
+          &.active {
+            color: rgba(0, 0, 0, 0.7);
+            font-weight: 600;
+            text-decoration: none;
+            background-color: $light;
+          }
         }
       }
 

@@ -30,6 +30,10 @@ iframe {
   height: 380px;
 }
 
+.btn-group > .btn:hover, .btn-group-vertical > .btn:hover {
+  z-index: initial;
+}
+
 a.dropdown-item.active,
 a.dropdown-item:active,
 .dropdown a.dropdown-item.active,
@@ -38,7 +42,11 @@ a.dropdown-item:active,
 }
 
 .dropdown-toggle::after {
-  margin-top: 0.15em;
+  vertical-align: .15em;
+}
+
+.nav-main .dropdown-toggle::after {
+  margin-top: .15em;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {

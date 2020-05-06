@@ -30,6 +30,6 @@
     "imagemin-svgo": "^7.1.0"
   },
   "dependencies": {
-    "netlify-cli": "^2.40.0"
+    "netlify-cli": "^2.49.0"
   }
 }
