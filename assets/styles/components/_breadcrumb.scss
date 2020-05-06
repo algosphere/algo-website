@@ -1,4 +1,5 @@
 nav[aria-label="breadcrumb"] {
+  display: none;
   background-color: $gray-200;
 
   .container-fluid {
@@ -19,5 +20,11 @@ nav[aria-label="breadcrumb"] {
         height: 1em;
       }
     }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  nav[aria-label="breadcrumb"] {
+    display: flex;
   }
 }
