@@ -34,82 +34,10 @@ iframe {
   z-index: initial;
 }
 
-a.dropdown-item.active,
-a.dropdown-item:active,
-.dropdown a.dropdown-item.active,
-.dropdown a.dropdown-item:active {
-  background-color: #88b1db;
-}
-
-.dropdown-toggle::after {
-  vertical-align: .15em;
-}
-
-.nav-main .dropdown-toggle::after {
-  margin-top: .15em;
-}
-
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: #227dc7;
 }
 
 .nav-positions {
   margin-bottom: 3.5em;
-}
-
-.accordion {
-  .card-header {
-    padding: 0;
-
-    a {
-      display: block;
-      padding: 0.75rem 1.25rem;
-    }
-  }
-
-  .card-body .btn:last-child {
-    margin-top: 1.25rem;
-  }
-}
-
-.governance {
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-    .card {
-      flex-basis: calc(50% - .5em);
-      margin-bottom: 1em;
-
-      a {
-        .card-body {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-
-          svg.bi {
-            font-size: 1.8em;
-            margin-bottom: .25em;
-          }
-        }
-      }
-    }
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .governance {
-    .cards {
-      flex-direction: row;
-
-      .card {
-        max-width: 50%;
-
-        &:nth-child(even) {
-          margin-left: 1em;
-        }
-      }
-    }
-  }
 }

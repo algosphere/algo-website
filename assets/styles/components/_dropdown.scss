@@ -1,0 +1,14 @@
+a.dropdown-item.active,
+a.dropdown-item:active,
+.dropdown a.dropdown-item.active,
+.dropdown a.dropdown-item:active {
+  background-color: #88b1db;
+}
+
+.dropdown-toggle::after {
+  vertical-align: .15em;
+}
+
+.nav-main .dropdown-toggle::after {
+  margin-top: .15em;
+}

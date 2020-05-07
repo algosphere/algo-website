@@ -1,0 +1,41 @@
+.governance {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .card {
+      flex-basis: calc(50% - .5em);
+      margin-bottom: 1em;
+
+      a {
+        .card-body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          svg.bi {
+            font-size: 1.8em;
+            margin-bottom: .25em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .governance {
+    .cards {
+      flex-direction: row;
+
+      .card {
+        max-width: 50%;
+
+        &:nth-child(even) {
+          margin-left: 1em;
+        }
+      }
+    }
+  }
+}

@@ -7,8 +7,10 @@
 @import "layout";
 @import "misc";
 @import "typography";
+@import "components/accordion";
 @import "components/blockquote";
 @import "components/breadcrumb";
+@import "components/dropdown";
 @import "components/footer";
 @import "components/footnotes";
 @import "components/media";
@@ -19,3 +21,5 @@
 @import "components/social-share";
 @import "components/table-of-content";
 @import "components/top-button";
+@import "pages/gouvernance";
+@import "pages/portal";
