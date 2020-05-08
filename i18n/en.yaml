@@ -10,6 +10,12 @@
   translation: "Donate"
 - id: algonews-slogan
   translation: "A collaborative quarterly on the alleviation of suffering"
+- id: algonews-warning
+  translation: "Its content does not necessarily reflect the official position of the Algosphere Alliance"
+- id: algonews-notice-1
+  translation: "You may have a look at the"
+- id: algonews-notice-2
+  translation: "issue under preparation"
 - id: contact-us
   translation: "Contact us"
 - id: support-us
@@ -26,3 +32,9 @@
   translation: "Specific"
 - id: read
   translation: "Read"
+- id: no-mandate
+  translation: "There is no mandate at this time"
+- id: organizations-guide-1
+  translation: "You may have a look at the"
+- id: organizations-guide-2
+  translation: "Welcome guide for organizations"

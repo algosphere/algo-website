@@ -7,10 +7,10 @@
         {{ partial "newsletter-form" . }}
         <hr style="margin-top: 2rem; margin-bottom: 2rem;">
         <div class="alert alert-warning text-center" role="alert">
-          Its content does not necessarily reflect the official position of the Algosphere Alliance
+          {{ i18n "algonews-warning" }}
         </div>
         <div class="alert alert-info text-center" role="alert">
-          You may have a look at the <a href="https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit">issue under preparation</a>
+          {{ i18n "algonews-notice-1" }} <a href="https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit">{{ i18n "algonews-notice-2" }}</a>
         </div>
         {{ .Content }}
         <br>

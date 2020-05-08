@@ -2,10 +2,8 @@
 title: "Mandats"
 description: "Porte-paroles désignés"
 translationKey: "mandates"
+layout: "mandates"
 toc: false
+nomandate: true
 draft: false
 ---
-
-{{< alert "warning text-center" >}}
-  There is no mandate at this time
-{{< /alert >}}

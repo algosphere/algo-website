@@ -1,5 +1,5 @@
 ---
-title: "Mandates"
+title: "Mandatos"
 description: "Designated spokespeople"
 translationKey: "mandates"
 layout: "mandates"

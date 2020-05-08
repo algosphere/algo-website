@@ -10,6 +10,12 @@
   translation: "Faire un don"
 - id: algonews-slogan
   translation: "Une revue trimestrielle collaborative sur l'allègement de la souffrance"
+- id: algonews-warning
+  translation: "Son contenu ne reflète pas nécessairement la position officielle de l'Alliance Algosphère"
+- id: algonews-notice-1
+  translation: "Vous pouvez consulter le"
+- id: algonews-notice-2
+  translation: "numéro en préparation"
 - id: contact-us
   translation: "Nous contacter"
 - id: support-us
@@ -26,3 +32,9 @@
   translation: "Ponctuelles"
 - id: read
   translation: "Lire"
+- id: no-mandate
+  translation: "Il n'y a pas de mandat pour le moment"
+- id: organizations-guide-1
+  translation: "Vous pouvez consulter le"
+- id: organizations-guide-2
+  translation: "Guide d'accueil des organisations"

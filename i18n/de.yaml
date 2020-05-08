@@ -9,7 +9,13 @@
 - id: donate
   translation: "Spenden"
 - id: algonews-slogan
-  translation: "A collaborative quarterly on the alleviation of suffering"
+  translation: "Eine vierteljährliche Zusammenarbeit zur Linderung von Leiden"
+- id: algonews-warning
+  translation: "Ihr Inhalt gibt nicht unbedingt die offizielle Position der Bündnis Algosphäre wieder"
+- id: algonews-notice-1
+  translation: "Sie können die"
+- id: algonews-notice-2
+  translation: "in Vorbereitung befindliche Ausgabe konsultieren"
 - id: contact-us
   translation: "Kontaktiere uns"
 - id: support-us
@@ -26,3 +32,9 @@
   translation: "Themenbezogene"
 - id: read
   translation: "Lesen"
+- id: no-mandate
+  translation: "Derzeit gibt es kein Mandat"
+- id: organizations-guide-1
+  translation: "Sie können die"
+- id: organizations-guide-2
+  translation: "Willkommensleitfaden für Organisationen konsultieren"

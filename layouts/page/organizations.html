@@ -3,6 +3,9 @@
     <div class="container-fluid">
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
+        <div class="alert alert-info text-center" role="alert">
+          {{ i18n "organizations-guide-1" }} <a href="{{ .Params.guidelink }}">{{ i18n "organizations-guide-2" }}</a>
+        </div>
         {{ .Content }}
         <br>
         <div class="table-responsive">
