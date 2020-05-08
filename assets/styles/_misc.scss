@@ -34,9 +34,18 @@ iframe {
 :target:before {
   content: "";
   display: block;
-  height: 100px;
-  margin: -100px 0 0;
+  height: 56px;
+  margin: -56px 0 0;
 }
+
+  @include media-breakpoint-up(lg) {
+    :target:before {
+      content: "";
+      display: block;
+      height: 100px;
+      margin: -100px 0 0;
+    }
+  }
 
 .btn-group > .btn:hover, .btn-group-vertical > .btn:hover {
   z-index: initial;
