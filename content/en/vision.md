@@ -26,7 +26,7 @@ Any individual who considers the alleviation of suffering in the world to be an 
 
 The welcome and initiation of each new ally are given special attention.
 
-The Alliance's [decision-making procedures](/constitution) are not frozen, but can be modified and adapted over time by the allies themselves, coauthors of the Alliance.
+The Alliance's [decision-making procedures](/governance/constitution) are not frozen, but can be modified and adapted over time by the allies themselves, coauthors of the Alliance.
 
 # Three areas of focus
 ## Culture
