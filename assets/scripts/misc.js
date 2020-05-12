@@ -48,8 +48,3 @@ var links = $(document.links).filter(function() {
 for (var i = 0; i < links.length; i++) {
   links[i].innerHTML += "<span style=\"white-space: nowrap;\">" + externalLinkIcon + "</span>";
 }
-
-// ANIMATE NAVBAR TOGGLER
-function animateNavbarToggler(x) {
-  x.classList.toggle("change");
-}
