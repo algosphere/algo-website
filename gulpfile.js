@@ -10,8 +10,7 @@ function htmlDev() {
     .pipe(replace('« ', '&laquo;&#160;'))
     .pipe(replace(' »', '&#160;&raquo;'))
     .pipe(replace(' :', '&#160;:'))
-    // fix overiding style
-    .pipe(replace('&#160;:root', ' :root'))
+    .pipe(replace('&#160;:root', ' :root')) // fix overiding style
     .pipe(replace(' ;', '&#160;;'))
     .pipe(replace(' !', '&#160;!'))
     .pipe(replace(' ?', '&#160;?'))
@@ -32,8 +31,7 @@ function htmlProd() {
     .pipe(replace('« ', '&laquo;&#160;'))
     .pipe(replace(' »', '&#160;&raquo;'))
     .pipe(replace(' :', '&#160;:'))
-    // fix overiding style
-    .pipe(replace('&#160;:root', ' :root'))
+    .pipe(replace('&#160;:root', ' :root')) // fix overiding style
     .pipe(replace(' ;', '&#160;;'))
     .pipe(replace(' !', '&#160;!'))
     .pipe(replace(' ?', '&#160;?'))
