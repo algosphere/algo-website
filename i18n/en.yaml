@@ -12,6 +12,8 @@
   translation: "A collaborative quarterly on the alleviation of suffering"
 - id: algonews-warning
   translation: "Its content does not necessarily reflect the official position of the Algosphere Alliance"
+- id: algonews-article-warning
+  translation: "This article does not necessarily reflect the official position of the Algosphere Alliance"
 - id: algonews-notice-1
   translation: "You may have a look at the"
 - id: algonews-notice-2

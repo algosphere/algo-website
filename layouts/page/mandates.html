@@ -4,7 +4,7 @@
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
         {{ with .Params.nomandate }}
-          <div class="alert alert-warning text-center" role="alert">
+          <div class="alert alert-warning" role="alert">
             {{ i18n "no-mandate" }}
           </div>
         {{ end }}

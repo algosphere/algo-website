@@ -8,8 +8,8 @@
       <article class="article">
         {{ .Content }}
       </article>
-      <div class="alert alert-warning text-center" role="alert">
-        This article does not necessarily reflect the official position of the Algosphere Alliance
+      <div class="alert alert-warning" role="alert">
+        {{ i18n "algonews-article-warning" }}
       </div>
       {{ partial "social-share" . }}
     </div>

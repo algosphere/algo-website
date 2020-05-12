@@ -1,7 +1,7 @@
 - id: share
   translation: "Teilen"
 - id: subscribe
-  translation: "Abonnieren"
+  translation: "Sich abonnieren"
 - id: your-email
   translation: "Deine E-Mail"
 - id: email-validation
@@ -11,15 +11,17 @@
 - id: algonews-slogan
   translation: "Eine vierteljährliche Zusammenarbeit zur Linderung von Leiden"
 - id: algonews-warning
-  translation: "Ihr Inhalt gibt nicht unbedingt die offizielle Position der Bündnis Algosphäre wieder"
+  translation: "Ihr Inhalt gibt nicht unbedingt die offizielle Position des Bündnis Algosphäre wieder"
+- id: algonews-article-warning
+  translation: "Dieser Beitrag gibt nicht unbedingt die offizielle Position des Bündnis Algosphäre wieder"
 - id: algonews-notice-1
   translation: "Sie können die"
 - id: algonews-notice-2
-  translation: "in Vorbereitung befindliche Ausgabe konsultieren"
+  translation: "in Vorbereitung befindliche Ausgabe einsehen"
 - id: contact-us
-  translation: "Kontaktiere uns"
+  translation: "Kontaktieren Sie uns"
 - id: support-us
-  translation: "Unterstütze uns"
+  translation: "Unterstützen Sie uns"
 - id: search
   translation: "Suche"
 - id: 404-title
@@ -27,14 +29,14 @@
 - id: 404-description
   translation: "Die von Ihnen angeforderte Seite existiert nicht"
 - id: positions-fundamental
-  translation: "Grundsätzliche"
+  translation: "Fundamentale"
 - id: positions-specific
   translation: "Themenbezogene"
 - id: read
-  translation: "Lesen"
+  translation: "Mehr..."
 - id: no-mandate
   translation: "Derzeit gibt es kein Mandat"
 - id: organizations-guide-1
-  translation: "Sie können die"
+  translation: "Sie können den"
 - id: organizations-guide-2
-  translation: "Willkommensleitfaden für Organisationen konsultieren"
+  translation: "Willkommensleitfaden für Organisationen einsehen"

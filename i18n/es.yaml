@@ -12,6 +12,8 @@
   translation: "Una colaboración trimestral sobre el alivio del sufrimiento"
 - id: algonews-warning
   translation: "Su contenido no refleja necesariamente la posición oficial de la Alianza Algosfera"
+- id: algonews-article-warning
+  translation: "Este artículo no refleja necesariamente la posición oficial de la Alianza Algosfera"
 - id: algonews-notice-1
   translation: "Puede consultar el"
 - id: algonews-notice-2

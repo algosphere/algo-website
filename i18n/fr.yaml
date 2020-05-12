@@ -12,6 +12,8 @@
   translation: "Une revue trimestrielle collaborative sur l'allègement de la souffrance"
 - id: algonews-warning
   translation: "Son contenu ne reflète pas nécessairement la position officielle de l'Alliance Algosphère"
+- id: algonews-article-warning
+  translation: "Cet article ne reflète pas nécessairement la position officielle de l'Alliance Algosphère"
 - id: algonews-notice-1
   translation: "Vous pouvez consulter le"
 - id: algonews-notice-2

@@ -9,7 +9,7 @@ draft: false
 weight: 1
 ---
 
-{{< alert "success text-center" >}}
+{{< alert "success" >}}
   If you would like to support this open letter, please [register here](https://portal.algosphere.org/register)
 {{< /alert >}}
 
