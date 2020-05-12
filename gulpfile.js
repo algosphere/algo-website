@@ -32,7 +32,10 @@ function htmlProd() {
 
 function imgGlobal() {
   return src('public/img/**/*.*')
-
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+      imagemin.optipng({optimizationLevel: 3}),
+    ]))
     .pipe(dest('public/img'))
 }
 
