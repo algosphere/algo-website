@@ -9,7 +9,11 @@
         </div>
       </a>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale"><span class="navbar-toggler-icon"></span></button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Ouvre navigation principale" onclick="animateNavbarToggler(this)">
+      <div class="navbar-toggler-bar1"></div>
+      <div class="navbar-toggler-bar2"></div>
+      <div class="navbar-toggler-bar3"></div>
+    </button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <div class="navbar-nav nav-left">
         {{ $currentPage := . }}
