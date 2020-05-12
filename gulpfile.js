@@ -26,6 +26,7 @@ function htmlDev() {
 
 function htmlProd() {
   return src('public/**/*.html')
+    .pipe(replace(' :', '&#160;:'))
     .pipe(replace('&#160;:root', ' :root')) // fix overiding style
     .pipe(replace(' ;', '&#160;;'))
     .pipe(replace(' !', '&#160;!'))
