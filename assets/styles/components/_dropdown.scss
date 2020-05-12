@@ -6,9 +6,12 @@ a.dropdown-item:active,
 }
 
 .dropdown-toggle::after {
-  vertical-align: .15em;
-}
-
-.nav-main .dropdown-toggle::after {
-  margin-top: .15em;
+  content: "";
+  display: inline-block;
+	margin-left: .45em;
+  vertical-align: 0.2em;
+	border: solid $body-color;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
 }
