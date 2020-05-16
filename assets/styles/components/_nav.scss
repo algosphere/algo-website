@@ -23,10 +23,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        color: #88b1db;
         font-family: 'Comfortaa', sans-serif;
+        // color: #88b1db; old
 
         .brand-title {
+          color: #09285D;
           font-size: 1em;
           margin-bottom: .2em;
           text-decoration-line: underline;
@@ -36,6 +37,7 @@
         }
 
         .brand-subtitle {
+          color: $gray-500;
           display: none;
         }
       }
