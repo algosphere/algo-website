@@ -1,13 +1,13 @@
 <footer class="footer">
   <div class="container-fluid footer-main">
     <div>
+      <h3>{{ i18n "support-us" }}</h3>
+      <a class="btn btn-success btn-block no-external-icon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7WH6CJ4LQH4L"target="_blank" role="button">{{ (resources.Get "icons/heart-fill.svg").Content | safeHTML }} {{ i18n "donate" }}</a>
+    </div>
+    <div>
       <h3>AlgoNews</h3>
       <p class="lead">{{ i18n "algonews-slogan" }}</p>
       {{ partial "newsletter-form" . }}
-    </div>
-    <div>
-      <h3>{{ i18n "support-us" }}</h3>
-      <a class="btn btn-success btn-block no-external-icon" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7WH6CJ4LQH4L"target="_blank" role="button">{{ (resources.Get "icons/heart-fill.svg").Content | safeHTML }} {{ i18n "donate" }}</a>
     </div>
     <div>
       <h3>{{ i18n "contact-us" }}</h3>
