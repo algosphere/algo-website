@@ -1,8 +1,13 @@
+# aliases
 /discord    https://discord.gg/uW9X7jC 301!
 /hangouts   https://hangouts.google.com/call/ORvRXc7PfKu3TGRi-ydmAEEE 301!
 
 # moved content
 /es/mandates        /es/mandatos 301!
+/organizations      /allies 301!
+/de/organisationen  /de/alliierten 301!
+/es/organizaciones  /es/aliados 301!
+/fr/organisations   /fr/allies 301!
 
 # old website
 / page_id=925       /vision 301!
