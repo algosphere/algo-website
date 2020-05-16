@@ -13,7 +13,7 @@
     {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 {{ end }}
 {{ partial "styles" . }}
-<link href="{{ (resources.Get "/images/logo.jpg").RelPermalink }}" rel="icon" type="image/x-icon" />
+<link href="{{ (resources.Get "/images/logo-new/logo-new-trans.png").RelPermalink }}" rel="icon" type="image/x-icon" />
 {{ with getenv "PRODUCTION" }}
   {{ partial "analytics" . }}
 {{ end }}
