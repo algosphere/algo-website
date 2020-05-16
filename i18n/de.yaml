@@ -40,3 +40,7 @@
   translation: "Sie können den"
 - id: organizations-guide-2
   translation: "Willkommensleitfaden für Organisationen einsehen"
+- id: organizations
+  translation: "Organisationen"
+- id: individuals
+  translation: "Einzelpersonen"

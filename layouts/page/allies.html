@@ -1,13 +1,15 @@
 {{ define "main" }}
   <main class="main">
     <div class="container-fluid">
-      <h1 class="page-title">{{ .Title }}</h1><br>
+      <h1 class="page-title">{{ .Title }}</h1>
       <article class="article">
+        <h1>{{ i18n "individuals" }}</h1>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1yM7SAcV1zJQe3REhjYTwZcrDT70" width="640" height="480"></iframe>
+        <h1>{{ i18n "organizations" }}</h1>
         <div class="alert alert-info" role="alert">
           {{ i18n "organizations-guide-1" }} <a href="{{ .Params.guidelink }}">{{ i18n "organizations-guide-2" }}</a>
         </div>
         {{ .Content }}
-        <br>
         <div class="table-responsive">
           <table class="table">
             <thead class="thead-light">
