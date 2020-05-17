@@ -1,4 +1,4 @@
-.governance {
+.tiles-2 {
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -18,6 +18,10 @@
             font-size: 1.8em;
             margin-bottom: .25em;
           }
+
+          .card-title {
+            margin-bottom: 0;
+          }
         }
       }
     }
@@ -25,7 +29,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .governance {
+  .tiles-2 {
     .cards {
       flex-direction: row;
 

@@ -1,6 +1,6 @@
 ---
 title: "Preguntas frecuentes"
-description: "Preguntas frecuentes about the Algosphere Alliance"
+description: "Preguntas frecuentes acerca de la Alianza Algosfera"
 translationKey: "faq"
 icon: "question-square"
 toc: true

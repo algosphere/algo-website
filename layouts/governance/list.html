@@ -1,16 +1,18 @@
 {{ define "main" }}
-  <main class="main governance">
+  <main class="main tiles-2">
     <div class="container-fluid">
       <h1 class="page-title">{{ .Title }}</h1><br>
       <div class="cards">
         {{ .Content }}
           {{ range .Pages }}
-          {{ $icon := .Params.icon }}
-          {{ $icon = print "icons/" $icon ".svg" }}
             <div class="card">
               <a href="{{ .Permalink }}" class="text-dark">
                 <div class="card-body">
-                  {{ with resources.Get $icon }}{{ .Content | safeHTML }}{{ end }}
+                  {{ with .Params.icon }}
+                    {{ $icon := . }}
+                    {{ $icon = print "icons/" $icon ".svg" }}
+                    {{ (resources.Get $icon).Content | safeHTML }}
+                  {{ end }}
                   <h5 class="card-title">{{ .Title }}</h5>
                 </div>
               </a>

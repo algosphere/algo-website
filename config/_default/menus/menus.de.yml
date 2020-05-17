@@ -3,37 +3,67 @@ main:
   name: Startseite
   url: /
   weight: 1
+- identifier: uber
+  name: Über
+  url: /uber/
+  weight: 2
 - identifier: vision
   name: Vision
   url: /vision/
-  weight: 2
+  parent: uber
+  weight: 1
 - identifier: positionen
   name: Positionen
   url: /positionen/
-  weight: 3
-- identifier: algonews
-  name: AlgoNews
-  url: /algonews/
-  weight: 4
-- identifier: organisationen
-  name: Organisationen
-  url: /organisationen/
-  weight: 5
-- identifier: algoconsulting
-  name: AlgoConsulting
-  url: /algoconsulting/
-  weight: 6
-- identifier: fuehrung
+  parent: uber
+  weight: 2
+- identifier: fuhrung
   name: Führung
-  url: /fuehrung/
-  weight: 7
+  url: /fuhrung/
+  parent: uber
+  weight: 3
 - identifier: die-allianz-in-bildern
   name: Die Allianz in Bildern
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-  weight: 8
-takePart:
-- name: "Teilnehmen"
+  parent: uber
+  weight: 4
+- identifier: faq
+  name: FAQ
+  url: /faq/
+  parent: uber
+  weight: 5
+- identifier: archiv
+  name: Archiv
+  url: https://docs.google.com/document/d/1O8yNJM5IzMG873rXIqh2SNkTZLlRJUkCX5_3txBepF4/edit
+  parent: uber
+  weight: 6
+- identifier: alliierten
+  name: Alliierten
+  url: /alliierten/
+  weight: 3
+- identifier: ressourcen
+  name: Ressourcen
+  url: /ressourcen/
+  weight: 4
+- identifier: algoconsulting
+  name: AlgoConsulting
+  url: /algoconsulting/
+  parent: ressourcen
+  weight: 1
+- identifier: algonews
+  name: AlgoNews
+  url: /algonews/
+  parent: ressourcen
+  weight: 2
+right:
+- name: "Kollaboratives Portal"
+  pre: "primary-alt"
   url: "https://portal.algosphere.org/"
+  weight: 1
+- name: "Anmelden"
+  pre: "success"
+  url: "https://portal.algosphere.org/register/"
+  weight: 2
 footer:
 - identifier: rechtliche-hinweise
   name: Rechtliche Hinweise
@@ -43,3 +73,7 @@ footer:
   name: Cookies
   url: /#cookies
   weight: 2
+- identifier: designevo
+  name: Logo by DesignEvo
+  url: https://www.designevo.com/"
+  weight: 3

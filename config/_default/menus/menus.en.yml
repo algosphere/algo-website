@@ -3,37 +3,67 @@ main:
   name: Home
   url: /
   weight: 1
+- identifier: about
+  name: About
+  url: /about/
+  weight: 2
 - identifier: vision
   name: Vision
   url: /vision/
-  weight: 2
+  parent: about
+  weight: 1
 - identifier: positions
   name: Positions
   url: /positions/
-  weight: 3
-- identifier: algonews
-  name: AlgoNews
-  url: /algonews/
-  weight: 4
-- identifier: organizations
-  name: Organizations
-  url: organizations/
-  weight: 5
-- identifier: algoconsulting
-  name: AlgoConsulting
-  url: /algoconsulting/
-  weight: 6
+  parent: about
+  weight: 2
 - identifier: governance
   name: Governance
   url: /governance/
-  weight: 7
+  parent: about
+  weight: 3
 - identifier: the-alliance-in-images
   name: The Alliance in images
   url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
-  weight: 8
-takepart:
-- name: "Take part"
+  parent: about
+  weight: 4
+- identifier: faq
+  name: FAQ
+  url: /faq/
+  parent: about
+  weight: 5
+- identifier: archives
+  name: Archives
+  url: https://docs.google.com/document/d/1O8yNJM5IzMG873rXIqh2SNkTZLlRJUkCX5_3txBepF4/edit
+  parent: about
+  weight: 6
+- identifier: allies
+  name: Allies
+  url: /allies/
+  weight: 3
+- identifier: resources
+  name: Resources
+  url: /resources/
+  weight: 4
+- identifier: algoconsulting
+  name: AlgoConsulting
+  url: /algoconsulting/
+  parent: resources
+  weight: 1
+- identifier: algonews
+  name: AlgoNews
+  url: /algonews/
+  parent: resources
+  weight: 2
+right:
+- name: "Collaborative portal"
+  pre: "primary-alt"
   url: "https://portal.algosphere.org/"
+  weight: 1
+- name: "Sign Up"
+  pre: "success"
+  url: "https://portal.algosphere.org/register/"
+  weight: 2
 footer:
 - identifier: legal-notices
   name: Legal notices
@@ -43,3 +73,7 @@ footer:
   name: Cookies
   url: /#cookies
   weight: 2
+- identifier: designevo
+  name: Logo by DesignEvo
+  url: https://www.designevo.com/"
+  weight: 3
