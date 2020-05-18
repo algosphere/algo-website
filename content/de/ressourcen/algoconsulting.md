@@ -1,8 +1,9 @@
 ---
 title: "AlgoConsulting"
-description: "The Consulting branch of the Algosphere Alliance"
+description: "A collaborative quarterly on the alleviation of suffering"
 translationKey: "algoconsulting"
 layout: algoconsulting
+weight: 1
 toc: false
 draft: false
 ---

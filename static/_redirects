@@ -3,12 +3,56 @@
 /hangouts   https://hangouts.google.com/call/ORvRXc7PfKu3TGRi-ydmAEEE 301!
 
 # moved content
-/es/mandates        /es/mandatos 301!
-/de/fuehrung        /de/fuhrung 301!
-/organizations      /allies 301!
-/de/organisationen  /de/alliierten 301!
-/es/organizaciones  /es/aliados 301!
-/fr/organisations   /fr/allies 301!
+# en
+/organizations        /allies 301!
+/vision               /about/vision 301!
+/positions            /about/positions 301!
+/positions/*          /about/positions/:splat 301!
+/governance           /about/governance 301!
+/governance/faq       /about/faq 301!
+/governance/*         /about/governance/:splat 301!
+/algoconsulting       /resources/algoconsulting 301!
+/algonews             /resources/algonews 301!
+/algonews/*           /resources/algonews/:splat 301!
+
+# fr
+/fr/organisations     /fr/allies 301!
+/fr/vision            /fr/a-propos/vision 301!
+/fr/positions         /fr/a-propos/positions 301!
+/fr/positions/*       /fr/a-propos/positions/:splat 301!
+/fr/gouvernance       /fr/a-propos/gouvernance 301!
+/fr/gouvernance/faq   /fr/a-propos/faq 301!
+/fr/gouvernance/*     /fr/a-propos/gouvernance/:splat 301!
+/fr/algoconsulting    /fr/ressources/algoconsulting 301!
+/fr/algonews          /fr/ressources/algonews 301!
+/fr/algonews/*        /fr/ressources/algonews/:splat 301!
+
+# es
+/es/mandates          /es/mandatos 301!
+/es/organizaciones    /es/aliados 301!
+/es/vision            /es/informacion/vision 301!
+/es/principios        /es/informacion/principios 301!
+/es/principios/*      /es/informacion/principios/:splat 301!
+/es/gobernancia       /es/informacion/gobernancia 301!
+/es/gobernancia/faq   /es/informacion/faq 301!
+/es/gobernancia/*     /es/informacion/gobernancia/:splat 301!
+/es/algoconsulting    /es/recursos/algoconsulting 301!
+/es/algonews          /es/recursos/algonews 301!
+/es/algonews/*        /es/recursos/algonews/:splat 301!
+
+# de
+/de/fuehrung          /de/uber/fuhrung 301!
+/de/fuhrung           /de/uber/fuhrung 301!
+/de/organisationen    /de/alliierten 301!
+/de/vision            /de/uber/vision 301!
+/de/positionen        /de/uber/positionen 301!
+/de/positionen/*      /de/uber/positionen/:splat 301!
+/de/fuhrung           /de/uber/fuhrung 301!
+/de/fuhrung/faq       /de/uber/faq 301!
+/de/fuhrung/*         /de/uber/fuhrung/:splat 301!
+/de/algoconsulting    /de/ressourcen/algoconsulting 301!
+/de/algonews          /de/ressourcen/algonews 301!
+/de/algonews/*        /de/ressourcen/algonews/:splat 301!
 
 # old website
 / page_id=925       /vision 301!

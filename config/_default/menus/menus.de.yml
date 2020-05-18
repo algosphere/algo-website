@@ -9,17 +9,17 @@ main:
   weight: 2
 - identifier: vision
   name: Vision
-  url: /vision/
+  url: /uber/vision/
   parent: uber
   weight: 1
 - identifier: positionen
   name: Positionen
-  url: /positionen/
+  url: /uber/positionen/
   parent: uber
   weight: 2
 - identifier: fuhrung
   name: Führung
-  url: /fuhrung/
+  url: /uber/fuhrung/
   parent: uber
   weight: 3
 - identifier: die-allianz-in-bildern
@@ -29,7 +29,7 @@ main:
   weight: 4
 - identifier: faq
   name: FAQ
-  url: /faq/
+  url: /uber/faq/
   parent: uber
   weight: 5
 - identifier: archiv
@@ -47,12 +47,12 @@ main:
   weight: 4
 - identifier: algoconsulting
   name: AlgoConsulting
-  url: /algoconsulting/
+  url: /ressourcen/algoconsulting/
   parent: ressourcen
   weight: 1
 - identifier: algonews
   name: AlgoNews
-  url: /algonews/
+  url: /ressourcen/algonews/
   parent: ressourcen
   weight: 2
 right:

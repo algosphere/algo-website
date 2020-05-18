@@ -9,17 +9,17 @@ main:
   weight: 2
 - identifier: vision
   name: Vision
-  url: /vision/
+  url: /about/vision/
   parent: about
   weight: 1
 - identifier: positions
   name: Positions
-  url: /positions/
+  url: /about/positions/
   parent: about
   weight: 2
 - identifier: governance
   name: Governance
-  url: /governance/
+  url: /about/governance/
   parent: about
   weight: 3
 - identifier: the-alliance-in-images
@@ -29,7 +29,7 @@ main:
   weight: 4
 - identifier: faq
   name: FAQ
-  url: /faq/
+  url: /about/faq/
   parent: about
   weight: 5
 - identifier: archives
@@ -47,12 +47,12 @@ main:
   weight: 4
 - identifier: algoconsulting
   name: AlgoConsulting
-  url: /algoconsulting/
+  url: /resources/algoconsulting/
   parent: resources
   weight: 1
 - identifier: algonews
   name: AlgoNews
-  url: /algonews/
+  url: /resources/algonews/
   parent: resources
   weight: 2
 right:
