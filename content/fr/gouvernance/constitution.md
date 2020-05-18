@@ -3,6 +3,7 @@ title: "Constitution"
 description: "La Constitution de l'Alliance Algosphère"
 translationKey: "constitution"
 icon: "book"
+weight: 1
 toc: false
 draft: false
 ---

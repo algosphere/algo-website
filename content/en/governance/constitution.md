@@ -1,8 +1,9 @@
 ---
 title: "Constitution"
-description: "The Alliance's Constitution"
+description: "The Algosphere Alliance's Constitution"
 translationKey: "constitution"
 icon: "book"
+weight: 1
 toc: false
 draft: false
 ---

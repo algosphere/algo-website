@@ -173,6 +173,7 @@
       }
 
       .nav-left {
+      // à refactoriser
         .nav-link:hover:not(.active) {
           color: rgba(0, 0, 0, 0.5);
         }
@@ -201,7 +202,8 @@
           }
         }
 
-        .dropdown-menu a:hover {
+        .dropdown-menu a:hover,
+        .dropdown-menu a:focus {
           color: rgba(0, 0, 0, 0.9);
         }
       }

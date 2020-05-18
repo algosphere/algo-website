@@ -3,6 +3,7 @@ title: "Grundsatzerklärung"
 description: "Grundsatzerklärung der Bündnis Algosphäre"
 translationKey: "constitution"
 icon: "book"
+weight: 1
 toc: false
 draft: false
 ---
