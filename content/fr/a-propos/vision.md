@@ -2,6 +2,8 @@
 title: "Vision"
 description: "La vision de l'Alliance Algosphère"
 translationKey: "vision"
+weight: 1
+icon: "eye"
 toc: true
 draft: false
 ---

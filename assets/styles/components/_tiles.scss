@@ -1,12 +1,12 @@
-.tiles-2 {
+.tiles {
   .cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
     .card {
-      flex-basis: calc(50% - .5em);
       margin-bottom: 1em;
+      justify-content: center;
 
       a {
         .card-body {
@@ -20,6 +20,7 @@
           }
 
           .card-title {
+            text-align: center;
             margin-bottom: 0;
           }
         }
@@ -28,18 +29,35 @@
   }
 }
 
+.tiles-2 .card {
+  flex-basis: calc(50% - .5em);
+}
+
+.tiles-3 .card {
+  flex-basis: calc(33% - 1em);
+}
+
 @include media-breakpoint-up(lg) {
-  .tiles-2 {
+  .tiles {
     .cards {
       flex-direction: row;
+    }
+  }
 
-      .card {
-        max-width: 50%;
+  .tiles-2 .card {
+    max-width: 50%;
 
-        &:nth-child(even) {
-          margin-left: 1em;
-        }
-      }
+    &:nth-child(even) {
+      margin-left: 1em;
+    }
+  }
+
+  .tiles-3 .card {
+    max-width: 33%;
+    margin-left: 1em;
+
+    &:nth-child(3n-2) {
+      margin-left: 0;
     }
   }
 }

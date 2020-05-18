@@ -1,6 +1,7 @@
 {{ define "main" }}
   <main class="main">
     <div class="container-fluid">
+      {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
         {{ with .Params.nomandate }}

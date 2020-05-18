@@ -1,6 +1,7 @@
 {{ define "main" }}
   <main class="main algonews">
     <div class="container-fluid">
+      {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
         <p class="lead text-center"><em>{{ i18n "algonews-slogan" }}</em></p>
@@ -23,7 +24,9 @@
               <tr>
                 <td><a href="{{ .url }}">{{ .name }}</a>
                 {{ if .selection1name }}
-                  <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1name }}</a>
+
+                    <br><a href="{{ .selection1urlfr }}" style="padding-left: 2rem;">{{ .selection1namefr }}</a>
+
                 {{ end }}
                 </td>
               </tr>

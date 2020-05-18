@@ -2,6 +2,8 @@
 title: "Visión"
 description: "La Visión de la Alianza Algosfera"
 translationKey: "vision"
+weight: 1
+icon: "eye"
 toc: true
 draft: false
 ---

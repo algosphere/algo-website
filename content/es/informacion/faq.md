@@ -1,7 +1,8 @@
 ---
-title: "Preguntas frecuentes"
+title: "FAQ"
 description: "Preguntas frecuentes acerca de la Alianza Algosfera"
 translationKey: "faq"
+weight: 4
 icon: "question-square"
 toc: true
 draft: false
