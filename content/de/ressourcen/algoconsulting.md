@@ -2,7 +2,8 @@
 title: "AlgoConsulting"
 description: "A collaborative quarterly on the alleviation of suffering"
 translationKey: "algoconsulting"
-layout: algoconsulting
+type: "resources"
+layout: "algoconsulting"
 weight: 1
 toc: false
 draft: false
