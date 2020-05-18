@@ -23,11 +23,13 @@
             {{ range where .Site.Data.algonewsold "year" "2020" }}
               <tr>
                 <td><a href="{{ .url }}">{{ .name }}</a>
-                {{ if .selection1name }}
-
-                    <br><a href="{{ .selection1urlfr }}" style="padding-left: 2rem;">{{ .selection1namefr }}</a>
-
-                {{ end }}
+                  {{ if .selection1name }}
+                    {{ if (eq $.Site.Language.Lang "fr") }}
+                      <br><a href="{{ .selection1urlfr }}" style="padding-left: 2rem;">{{ .selection1namefr }}</a>
+                    {{ else }}
+                      <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1name }}</a>
+                    {{ end }}
+                  {{ end }}
                 </td>
               </tr>
             {{ end }}
@@ -42,7 +44,11 @@
               <tr>
                 <td><a href="{{ .url }}">{{ .name }}</a>
                 {{ if .selection1name }}
-                  <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1name }}</a>
+                  {{ if (eq $.Site.Language.Lang "fr") }}
+                    <br><a href="{{ .selection1urlfr }}" style="padding-left: 2rem;">{{ .selection1namefr }}</a>
+                  {{ else }}
+                    <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1name }}</a>
+                  {{ end }}
                 {{ end }}
                 </td>
               </tr>
