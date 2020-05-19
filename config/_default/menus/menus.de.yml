@@ -24,7 +24,7 @@ main:
   weight: 3
 - identifier: die-allianz-in-bildern
   name: Die Allianz in Bildern
-  url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
+  url: /uber/die-allianz-in-bildern
   parent: uber
   weight: 4
 - identifier: faq

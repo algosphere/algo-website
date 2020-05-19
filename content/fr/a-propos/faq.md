@@ -2,7 +2,7 @@
 title: "FAQ"
 description: "Questions fréquentes à propos de l'Alliance Algosphère"
 translationKey: "faq"
-weight: 4
+weight: 5
 icon: "question-square"
 toc: true
 draft: false

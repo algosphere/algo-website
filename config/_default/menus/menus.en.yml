@@ -24,7 +24,7 @@ main:
   weight: 3
 - identifier: the-alliance-in-images
   name: The Alliance in images
-  url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
+  url: /about/the-alliance-in-images
   parent: about
   weight: 4
 - identifier: faq

@@ -24,7 +24,7 @@ main:
   weight: 3
 - identifier: la-alianza-en-imagenes
   name: La Alianza en imágenes
-  url: https://docs.google.com/presentation/d/1Zq0WeUn4Z2uU2GjQDdeP-MXqAONxUg2u0tsfQaLP-p4/edit
+  url: /informacion/la-alianza-en-imagenes
   parent: informacion
   weight: 4
 - identifier: faq
