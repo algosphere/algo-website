@@ -28,7 +28,7 @@ Está invitada a unirse cualquier persona que considere que el alivio del sufrim
 
 La acogida y el acompañamiento de cada nuevo aliado serán objeto de una atención particular.
 
-[Los procesos de decisión de la Alianza](/es/gobernancia/constitucion) no son fijos, sino que los propios aliados, coautores de la Alianza, los elaboran y adaptan con el tiempo.
+[Los procesos de decisión de la Alianza](/es/informacion/gobernancia/constitucion) no son fijos, sino que los propios aliados, coautores de la Alianza, los elaboran y adaptan con el tiempo.
 
 # Tres orientaciones
 ## Cultura

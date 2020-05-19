@@ -23,7 +23,7 @@ Pour les guider dans cet arbitrage, élaboré et rendu en transparence radicale,
 - est irrecevable une objection qui se fonde sur un argumentaire illogique.
 
 ## Processus d'alliance des particuliers
-{{< quote "[Constitution](/fr/gouvernance/constitution)" >}}
+{{< quote "[Constitution](/fr/a-propos/gouvernance/constitution)" >}}
 Une personne physique peut s'allier, la seule condition requise étant qu'elle considère que l'allègement de la souffrance dans le monde est une priorité éthique.
 {{< /quote >}}
 
@@ -43,10 +43,10 @@ Les membres du [Conseil Communication](https://docs.google.com/document/d/1Zm-ME
 ## Communication officielle de l'Alliance Algosphère
 Le seul porte-parole officiel de l'Alliance est son [site internet](https://algosphere.org/fr/). Toute modification de cette parole officielle doit être validée par l'Alliance, via son [Agora](https://docs.google.com/document/d/17zLxF1WO3YTx4l8Qy2aw2lHm6Dn3q0B2wfofp8EfPqY/edit).
 
-Des alliés ne peuvent être considérés comme porteurs officiels de la parole de l'Alliance, à moins qu'ils soient mandatés par l'Alliance pour des objets spécifiques. Ces mandats sont [publiés](/fr/mandats) sur le site public de l'Alliance.
+Des alliés ne peuvent être considérés comme porteurs officiels de la parole de l'Alliance, à moins qu'ils soient mandatés par l'Alliance pour des objets spécifiques. Ces mandats sont [publiés](/fr/a-propos/gouvernance/mandats) sur le site public de l'Alliance.
 
 ## AlgoNews
-L'[AlgoNews](/fr/algonews) est un média collaboratif trimestriel, son contenu n'engage pas l'Alliance Algosphère. Voir son [mode d'emploi](https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit?pli=1#bookmark=id.fg1tgdjp8aox).
+L'[AlgoNews](/fr/ressources/algonews) est un média collaboratif trimestriel, son contenu n'engage pas l'Alliance Algosphère. Voir son [mode d'emploi](https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit?pli=1#bookmark=id.fg1tgdjp8aox).
 
 ## Choix techniques sur les systèmes d'information
 L'Alliance privilégie le recours aux outils qu'elle peut maîtriser et dont le code source est accessible. Elle encourage l'usage et le développement du logiciel libre. Si, de façon transitoire, elle envisage de recourir à un outil propriétaire qui lui semble indispensable, elle s'engage à maintenir une veille éclairée sur les avantages et les risques liés à l'utilisation de cet outil, ainsi que sur les solutions alternatives permettant de le remplacer le plus rapidement possible.

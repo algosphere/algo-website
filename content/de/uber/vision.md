@@ -28,7 +28,7 @@ Jede/r, in deren /dessen Augen die Linderung des Leidens weltweit prioritär ist
 
 Aufnahme und Begleitung jeder/s neuen Verbündeten sind Gegenstand einer besonderen Aufmerksamkeit.
 
-[Die Entscheidungsprozesse des Bündnisses](/de/fuehrung/grundsatzerklaerung)  sind nicht in Stein gemeißelt, sondern werden im Laufe der Zeit von den Verbündeten selber als MitgestalterInnen des Bündnisses ausgearbeitet und dauernd angepasst.
+[Die Entscheidungsprozesse des Bündnisses](/de/uber/fuhrung/grundsatzerklaerung)  sind nicht in Stein gemeißelt, sondern werden im Laufe der Zeit von den Verbündeten selber als MitgestalterInnen des Bündnisses ausgearbeitet und dauernd angepasst.
 
 # Drei Orientierungen
 ## Die Kulturebene

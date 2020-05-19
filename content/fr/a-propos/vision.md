@@ -28,7 +28,7 @@ Est invitée à s'allier toute personne qui considère que l'allègement de la s
 
 L'accueil et l'accompagnement de chaque nouvel allié font l'objet d'un soin particulier.
 
-[Les processus de décision de l'Alliance](/fr/gouvernance/constitution) ne sont pas figés, mais sont élaborés et adaptés au fil du temps par les alliés eux-mêmes, coauteurs de l'Alliance.
+[Les processus de décision de l'Alliance](/fr/a-propos/gouvernance/constitution) ne sont pas figés, mais sont élaborés et adaptés au fil du temps par les alliés eux-mêmes, coauteurs de l'Alliance.
 
 # Trois orientations
 ## Culture

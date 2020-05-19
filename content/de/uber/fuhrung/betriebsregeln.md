@@ -24,7 +24,7 @@ To guide them in the arbitration, to be carried out and delivered in a radically
 - an objection is inadmissible if it is based on an illogical argument.
 
 ## Procedure for an individual to become an ally
-{{< quote "[Constitution](/de/fuhrung/grundsatzerklaerung)" >}}
+{{< quote "[Constitution](/de/uber/fuhrung/grundsatzerklaerung)" >}}
 Any individual can join the Alliance, the sole condition being that they consider the alleviation of suffering in the world to be an ethical priority.
 {{< /quote >}}
 
@@ -44,10 +44,10 @@ From 28 July 2013, only the Communication Committee, which has webmaster respons
 ## Official communication of the Algosphere Alliance
 The only official spokesperson of the Alliance is its [website](https://algosphere.org/de). Any modification of the Alliance's official platform must be validated via the [Agora](https://docs.google.com/document/d/17zLxF1WO3YTx4l8Qy2aw2lHm6Dn3q0B2wfofp8EfPqY/edit).
 
-Allies cannot be considered official spokespersons of the Alliance, unless they have been mandated by the Alliance for specific purposes. These mandates are [published](/de/mandates) on the Alliance's public website.
+Allies cannot be considered official spokespersons of the Alliance, unless they have been mandated by the Alliance for specific purposes. These mandates are [published](/de/uber/fuhrung/mandates) on the Alliance's public website.
 
 ## AlgoNews
-The [AlgoNews](/de/algonews/) is a trimestrial collaborative publication. Its content does not necessarily reflect the official views or positions of the Algosphere Alliance. See its [user's guide](https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit?pli=1#bookmark=id.fg1tgdjp8aox).
+The [AlgoNews](/de/ressourcen/algonews) is a trimestrial collaborative publication. Its content does not necessarily reflect the official views or positions of the Algosphere Alliance. See its [user's guide](https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit?pli=1#bookmark=id.fg1tgdjp8aox).
 
 ## Technical choices concerning IT systems
 The Alliance prefers tools that it can use itself and for which the source code is accessible. It encourages the use and development of open source software. If it temporarily intends to use a proprietary tool that it considers indispensable, it commits to communicating the advantages and risks associated with the use of this tool, as well as alternative solutions that would allow it to be replaced as quickly as possible.
