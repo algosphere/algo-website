@@ -34,7 +34,7 @@ main:
   weight: 5
 - identifier: archivos
   name: Archivos
-  url: https://docs.google.com/document/d/1O8yNJM5IzMG873rXIqh2SNkTZLlRJUkCX5_3txBepF4/edit
+  url: /informacion/archivos
   parent: informacion
   weight: 6
 - identifier: aliados
