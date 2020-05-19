@@ -31,15 +31,8 @@ iframe {
 }
 
 // offset anchor to comply with sticky nav
-:target:before {
-  content: "";
-  display: block;
-  height: 56px;
-  margin: -56px 0 0;
-}
-
   @include media-breakpoint-up(lg) {
-    :target:before {
+    :target::before {
       content: "";
       display: block;
       height: 100px;
