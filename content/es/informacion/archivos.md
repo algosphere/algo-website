@@ -10,43 +10,43 @@ draft: false
 
 ## 2020
 [Agora 2020](https://docs.google.com/document/d/1VrPtHqz6Dqj7rM8M1GwMCG84DUu6QZe2v_tkGRv91io/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Communication Council Meetings - 2020](https://docs.google.com/document/d/1_vlN8mS8S-RP06_KlYIB7KAon07tUCxj6iFJnC7rzqU/edit)
 [Algosphere Agency: Book-keeping 2020](https://docs.google.com/spreadsheets/d/1Du03J48ZMULHE9xBrlSTwRr-PZha-B0giu8RAuSYfgY/edit)
 
 ## 2019
 [Agora 2019](https://docs.google.com/document/d/1v8EQxQfCg-dji860xNbKcKFNRY7VQ617W2twlbj9oIo/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Communication Council Meetings - 2019](https://docs.google.com/document/d/1_Zcbx6KyM0clrZHif60KnYpWSSCyltG1ENXiRvVUCHA/edit)
 [Algosphere Agency: Book-keeping 2019](https://docs.google.com/spreadsheets/d/1ndp6Y9hO_p99fez_BqpxnnK-KqL3-MtCwKeqWggFE7o/edit)
 
 ## 2018
 [Agora 2018](https://docs.google.com/document/d/1PMLaieAkerIVwtxq4Hx31PlT0DhBhZqXnTO9uFZoN-s/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Communication Council Meetings - 2018](https://docs.google.com/document/d/1FdMcGSxFq5t-_JSVzLsS0gJRdfZ4zQg39KL4QnpA2mk/edit)
 [Algosphere Agency: Book-keeping 2018](https://docs.google.com/spreadsheets/d/1oFtZ4R5lbM1oxUdfuldvJdLrt5JsX0uWVkANW7oHEdY/edit)
 
 ## 2017
 [Agora 2017](https://docs.google.com/document/d/1n7aHPmsmsOf3HkqM1D_AigB2I3yp0_EF9XmWuqgTN2I/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Communication Council Meetings - 2017](https://docs.google.com/document/d/1ryxmuUhpWuELu0bGmh76An8-FrJrDXwldYHmqnEAcBo/edit)
 [Algosphere Agency: Book-keeping 2017](https://docs.google.com/spreadsheets/d/133Abk6RTBP-y9T4Nq278KdGsidifp9mV2zAu0sI2qBE/edit)
 
 ## 2016
 [Agora 2016](https://docs.google.com/document/d/100mVbPXeCqpbRX4XpwEf6Pdd3ZoRWODxc98QIyfu2II/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Meetings du Conseil Communication 2016](https://docs.google.com/document/d/1V1ev3TDKseRlbBMvWPXf2-5KArlQtpRjYz9maxbElPA/edit)
 [Algosphere Agency: Book-keeping 2016](https://docs.google.com/spreadsheets/d/18QgNRzw8bVSCeEfz8zaoA94NqaxN6SXvLNWiT49_Gao/edit)
 
 ## 2015
 [Agora 2015](https://docs.google.com/document/d/1s-SbctksqaM7oO4g_yDqBoyCCctEgayB4fkLL2aeU3g/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Meetings du Conseil Communication 2015](https://docs.google.com/document/d/1wAA4c-8h_TYCzzuXDgRGOmAyFjMYV64A3IkN018UN80/edit)
 [Agence Algosphère - Comptabilité 2015](https://docs.google.com/spreadsheets/d/1ZpTq46hmtaJGTZfusTotBZvkJu6p_9l25198_RreE3U/edit)
 
 ## 2014
 [Agora 2014](https://docs.google.com/document/d/1V2FQSzqNoxAw5amGe_6EoTWcUD12Eo4i-JPKTFtoLSI/edit)
-[AlgoNews - Archives](/resources/algonews)
+[AlgoNews - Archives](/es/recursos/algonews)
 [Meetings du Conseil Communication 2014](https://docs.google.com/document/d/1MKsaa261kSfJTsgwEd6mLgIhCobKyzDq-2lu03FKcdk/edit)
 [Agence Algosphère - Comptabilité 2014](https://docs.google.com/spreadsheets/d/1k7spJ6onNNEJjPPpF-EM-ASFJUFcGMyXts65R3L9K0M/edit)
 
