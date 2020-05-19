@@ -41,7 +41,7 @@ Les membres du [Conseil Communication](https://docs.google.com/document/d/1Zm-ME
 À compter du 28 juillet 2013, seul le Conseil Communication, qui a compétence de webmestre, est mandaté pour intégrer les décisions prises par l'Alliance dans la PlateForme Collaborative de l'Alliance.
 
 ## Communication officielle de l'Alliance Algosphère
-Le seul porte-parole officiel de l'Alliance est son [site internet](https://algosphere.org/fr/). Toute modification de cette parole officielle doit être validée par l'Alliance, via son [Agora](https://docs.google.com/document/d/17zLxF1WO3YTx4l8Qy2aw2lHm6Dn3q0B2wfofp8EfPqY/edit).
+Le seul porte-parole officiel de l'Alliance est son [site internet](https://algosphere.org/fr). Toute modification de cette parole officielle doit être validée par l'Alliance, via son [Agora](https://docs.google.com/document/d/17zLxF1WO3YTx4l8Qy2aw2lHm6Dn3q0B2wfofp8EfPqY/edit).
 
 Des alliés ne peuvent être considérés comme porteurs officiels de la parole de l'Alliance, à moins qu'ils soient mandatés par l'Alliance pour des objets spécifiques. Ces mandats sont [publiés](/fr/a-propos/gouvernance/mandats) sur le site public de l'Alliance.
 
