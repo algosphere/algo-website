@@ -1,4 +1,4 @@
 public
 node_modules
-resources
+resources/_gen
 .netlify
