@@ -3,9 +3,9 @@
 /hangouts   https://hangouts.google.com/call/ORvRXc7PfKu3TGRi-ydmAEEE 301!
 
 # languages
-/   /fr   302   Language=fr
-/   /de   302   Language=de
-/   /es   302   Language=es
+/   /fr   302!   Language=fr
+/   /de   302!   Language=de
+/   /es   302!   Language=es
 
 # moved content
 # en
