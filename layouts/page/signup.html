@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="container-fluid">
+      {{ partial "back-btn" . }}
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ with .Params.toc }}
+        {{ $.TableOfContents }}<br><br>
+      {{ end }}
+      <article class="article">
+        {{ .Content }}
+        <a href="" data-toggle="modal" data-target="#modalRegisterMoreInformation"><strong><em>{{ i18n "more-information" }}</em></strong></a>
+        <br><br>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAYmSh-ud_Gbfw0JKrCujHhESBHRFwCPTnd4pwbUnDEFiszA/viewform?embedded=true" style="height: 1300px;" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+      </article>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}

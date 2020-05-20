@@ -62,7 +62,7 @@ right:
   weight: 1
 - name: "Registrarse"
   pre: "success"
-  url: "https://portal.algosphere.org/register/"
+  url: "/registrarse/"
   weight: 2
 footer:
 - identifier: notas-legales

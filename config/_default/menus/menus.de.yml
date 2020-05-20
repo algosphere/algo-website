@@ -62,7 +62,7 @@ right:
   weight: 1
 - name: "Anmelden"
   pre: "success"
-  url: "https://portal.algosphere.org/register/"
+  url: "/anmelden/"
   weight: 2
 footer:
 - identifier: rechtliche-hinweise

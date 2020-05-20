@@ -62,7 +62,7 @@ right:
   weight: 1
 - name: "Sign Up"
   pre: "success"
-  url: "https://portal.algosphere.org/register/"
+  url: "/signup/"
   weight: 2
 footer:
 - identifier: legal-notices

@@ -44,3 +44,5 @@
   translation: "Organizaciones"
 - id: individuals
   translation: "Individuos"
+- id: more-information
+  translation: "Más información"
