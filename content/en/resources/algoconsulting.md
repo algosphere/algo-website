@@ -4,7 +4,7 @@ description: "The Consulting branch of the Algosphere Alliance"
 translationKey: "algoconsulting"
 type: "resources"
 layout: "algoconsulting"
-weight: 1
+weight: 2
 toc: false
 draft: false
 ---

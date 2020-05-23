@@ -4,7 +4,7 @@ description: "La branche Conseil de l'Alliance Algosphère"
 translationKey: "algoconsulting"
 type: "resources"
 layout: "algoconsulting"
-weight: 1
+weight: 2
 toc: false
 draft: false
 ---

@@ -45,14 +45,14 @@ main:
   name: Ressources
   url: /ressources/
   weight: 4
-- identifier: algoconseil
-  name: AlgoConseil
-  url: /ressources/algoconseil/
-  parent: ressources
-  weight: 1
 - identifier: algonews
   name: AlgoNews
   url: /ressources/algonews/
+  parent: ressources
+  weight: 1
+- identifier: algoconseil
+  name: AlgoConseil
+  url: /ressources/algoconseil/
   parent: ressources
   weight: 2
 right:
