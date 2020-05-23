@@ -14,10 +14,6 @@
   translation: "Its content does not necessarily reflect the official position of the Algosphere Alliance"
 - id: algonews-article-warning
   translation: "This article does not necessarily reflect the official position of the Algosphere Alliance"
-- id: algonews-notice-1
-  translation: "You may have a look at the"
-- id: algonews-notice-2
-  translation: "issue under preparation"
 - id: contact-us
   translation: "Contact us"
 - id: support-us
@@ -36,9 +32,7 @@
   translation: "Read"
 - id: no-mandate
   translation: "There is no mandate at this time"
-- id: organizations-guide-1
-  translation: "You may have a look at the"
-- id: organizations-guide-2
+- id: organizations-guide
   translation: "Welcome guide for organizations"
 - id: organizations
   translation: "Organizations"
