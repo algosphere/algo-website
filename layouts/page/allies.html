@@ -15,18 +15,20 @@
           <table class="table">
             <thead class="thead-light">
               <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Mission</th>
-                <th scope="col">Zone</th>
+                <th scope="col">{{ i18n "organizations-name" }}</th>
+                <th scope="col">{{ i18n "organizations-mission" }}</th>
+                <th scope="col">{{ i18n "organizations-zone" }}</th>
               </tr>
             </thead>
             <tbody>
-              {{ range .Site.Data.organizations }}
-              <tr>
-                <td><a href="{{ .website }}">{{ .name }}</a></td>
-                <td>{{ .mission }}</td>
-                <td>{{ .zone }}</td>
-              </tr>
+              {{ with index .Site.Data.organizations .Site.Language.Lang }}
+                {{ range .organizations }}
+                <tr>
+                  <td><a href="{{ .website }}">{{ .name }}</a></td>
+                  <td>{{ .mission }}</td>
+                  <td>{{ .zone }}</td>
+                </tr>
+                {{ end }}
               {{ end }}
           </tbody>
           </table>

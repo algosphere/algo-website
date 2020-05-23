@@ -40,3 +40,9 @@
   translation: "Individuals"
 - id: more-information
   translation: "More information"
+- id: organizations-name
+  translation: "Name"
+- id: organizations-mission
+  translation: "Mission"
+- id: organizations-zone
+  translation: "Zone"
