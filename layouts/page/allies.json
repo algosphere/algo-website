@@ -1,0 +1,19 @@
+{
+  "count": {
+    "people": "{{ index .Site.Data.allies.count 0 "people" }}",
+    "organizations": "{{ index .Site.Data.allies.count 0 "organizations" }}"
+  },
+  "organizations": [
+    {{ with index .Site.Data.allies.organizations .Site.Language.Lang }}
+    {{ range $index, $value := .organizations }}
+    {{ if $index }}, {{ end }}
+    {
+      "name": "{{ .name }}",
+      "website": "{{ .website }}",
+      "mission": "{{ .mission }}",
+      "zone": "{{ .zone }}"
+    }
+    {{ end }}
+    {{ end }}
+  ]
+}

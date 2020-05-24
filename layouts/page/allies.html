@@ -4,9 +4,9 @@
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
       <article class="article">
-        <h1>{{ i18n "individuals" }} <span class="badge badge-pill badge-primary-alt">{{ range .Site.Data.allies }}{{ .people }}{{ end }}</span></h1>
+        <h1>{{ i18n "individuals" }} <span class="badge badge-pill badge-primary-alt">{{ range .Site.Data.allies.count }}{{ .people }}{{ end }}</span></h1>
         <iframe src="https://www.google.com/maps/d/embed?mid=1yM7SAcV1zJQe3REhjYTwZcrDT70" width="640" height="480"></iframe>
-        <h1>{{ i18n "organizations" }} <span class="badge badge-pill badge-primary-alt">{{ range .Site.Data.allies }}{{ .organizations }}{{ end }}</span></h1>
+        <h1>{{ i18n "organizations" }} <span class="badge badge-pill badge-primary-alt">{{ range .Site.Data.allies.count }}{{ .organizations }}{{ end }}</span></h1>
         <div class="alert alert-info" role="alert">
           <a href="{{ .Params.guidelink }}">{{ i18n "organizations-guide" }}</a>
         </div>
@@ -21,7 +21,7 @@
               </tr>
             </thead>
             <tbody>
-              {{ with index .Site.Data.organizations .Site.Language.Lang }}
+              {{ with index .Site.Data.allies.organizations .Site.Language.Lang }}
                 {{ range .organizations }}
                 <tr>
                   <td><a href="{{ .website }}">{{ .name }}</a></td>
