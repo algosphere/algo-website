@@ -36,8 +36,8 @@
   translation: "Welcome guide for organizations"
 - id: organizations
   translation: "Organizations"
-- id: individuals
-  translation: "Individuals"
+- id: people
+  translation: "People"
 - id: more-information
   translation: "More information"
 - id: organizations-name
