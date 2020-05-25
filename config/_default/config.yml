@@ -35,3 +35,19 @@ markup:
   tableOfContents:
     startLevel: 1
     endLevel: 5
+caches:
+  images:
+    dir: ":resourceDir/_gen"
+    maxAge: 24h
+  assets:
+    dir: ":resourceDir/_gen"
+    maxAge: 24h
+  getjson:
+    dir: ":resourceDir/_gen"
+    maxAge: 24h
+  getcsv:
+    dir: ":resourceDir/_gen"
+    maxAge: 24h
+  modules:
+    dir: ":resourceDir/_gen"
+    maxAge: 24h
