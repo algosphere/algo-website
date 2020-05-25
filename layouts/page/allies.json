@@ -1,6 +1,6 @@
 {
   "count": {
-    "people": "{{ .Site.Data.allies.count.people  }}",
+    "people": "{{ index ((getJSON "https://spreadsheets.google.com/feeds/cells/1OZANdaoGva9T4cbXIdSHKnSVrKX2fq-GiA7fFIXCgg4/1/public/full/R2C3?alt=json").entry.content) "$t" }}",
     "organizations": "{{ len (index .Site.Data.allies.organizations .Site.Language.Lang).organizations }}"
   },
   "organizations": [
