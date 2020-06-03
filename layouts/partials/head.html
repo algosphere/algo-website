@@ -12,6 +12,11 @@
 {{ range .AlternativeOutputFormats }}
     {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 {{ end }}
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    <link href="{{ .Permalink }}" hreflang="{{ .Language.Lang }}" rel="alternate" />
+  {{ end }}
+{{ end }}
 {{ partial "styles" . }}
 <link href="{{ (resources.Get "/images/logo-new/logo-new-trans.png").RelPermalink }}" rel="icon" type="image/x-icon" />
 {{ with getenv "PRODUCTION" }}
