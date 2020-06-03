@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - master
+  repository_dispatch:
+    types: ide
+    branches:
+      - master
   schedule:
     - cron:  '10 0 * * *'
 
