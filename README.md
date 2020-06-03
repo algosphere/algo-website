@@ -11,7 +11,7 @@
     - Run `nvm use [Node.js version]`
 - Install dependencies: `npm i`
 - Install [Netlify CLI](https://docs.netlify.com/cli/get-started/), [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g netlify-cli gulp-cli postcss-cli autoprefixer`
-- Clone the repo and run `npm start` from root
+- Clone the repo and run `npm run start` from root
 
 ## Related documents
 - [Workshop: Algosphere Alliance's website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)

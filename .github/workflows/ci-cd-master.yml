@@ -37,7 +37,7 @@ jobs:
         extended: true
       if: success()
     - name: Build site
-      run: npm run build-prod
+      run: npm run build
       if: success()
     - name: Deploy site
       uses: netlify/actions/cli@master

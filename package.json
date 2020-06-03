@@ -5,8 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "hugo server -DEF --i18n-warnings",
-    "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment preview --i18n-warnings && gulp dev",
-    "build-prod": "hugo --i18n-warnings && gulp prod",
+    "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment preview --i18n-warnings && gulp",
+    "build": "hugo --i18n-warnings && gulp",
     "deploy": "netlify deploy --prod --dir public"
   },
   "repository": {
@@ -20,8 +20,9 @@
   },
   "homepage": "https://github.com/algosphere/algo-website",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^6.1.0",
     "gulp-pretty-html": "^2.0.10",
@@ -30,8 +31,5 @@
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-optipng": "^7.0.0",
     "imagemin-svgo": "^7.1.0"
-  },
-  "dependencies": {
-    "netlify-cli": "^2.50.0"
   }
 }
