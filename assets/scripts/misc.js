@@ -48,3 +48,9 @@ var links = $(document.links).filter(function() {
 for (var i = 0; i < links.length; i++) {
   links[i].innerHTML += "<span style=\"white-space: nowrap;\">" + externalLinkIcon + "</span>";
 }
+
+// LANGUAGE SWITCHER
+function languageSwitcherCookie(lang, url) {
+  document.cookie = "nf_lang=" + lang + "; path=/; max-age=31536000";
+  window.location = url;
+}

@@ -205,7 +205,8 @@
         margin-left: 1em;
         margin-top: initial;
 
-        > a {
+        > a,
+        > button, {
           display: none;
         }
 
