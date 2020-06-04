@@ -1,5 +1,6 @@
 // TOP BUTTON
 window.onscroll = function() {scrollFunction()};
+document.getElementById('topBtn').onclick = topFunction;
 
 function scrollFunction() {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
