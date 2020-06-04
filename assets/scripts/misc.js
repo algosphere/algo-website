@@ -52,6 +52,6 @@ for (var i = 0; i < links.length; i++) {
 
 // LANGUAGE SWITCHER
 function languageSwitcherCookie(lang, url) {
-  document.cookie = "nf_lang=" + lang + "; path=/; max-age=31536000";
+  document.cookie = "nf_lang=" + lang + "; path=/; max-age=31536000; SameSite=Lax";
   window.location = url;
 }
