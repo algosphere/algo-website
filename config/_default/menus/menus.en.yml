@@ -58,7 +58,7 @@ main:
 right:
 - name: "Collaborative portal"
   pre: "primary-alt"
-  url: "https://portal.algosphere.org/"
+  url: "/portal/"
   weight: 1
 - name: "Sign Up"
   pre: "success"

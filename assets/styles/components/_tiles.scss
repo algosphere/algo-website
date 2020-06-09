@@ -7,6 +7,7 @@
     .card {
       margin-bottom: 1em;
       justify-content: center;
+      flex-grow: 1;
 
       a {
         .card-body {
@@ -45,15 +46,12 @@
   }
 
   .tiles-2 .card {
-    max-width: 50%;
-
     &:nth-child(even) {
       margin-left: 1em;
     }
   }
 
   .tiles-3 .card {
-    max-width: 33%;
     margin-left: 1em;
 
     &:nth-child(3n-2) {
