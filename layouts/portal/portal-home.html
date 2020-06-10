@@ -3,8 +3,8 @@
     <div class="container-fluid">
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ .Content }}
       <div class="cards">
-        {{ .Content }}
         {{ range .Pages }}
           <div class="card">
             <a href="{{ .Permalink }}" class="text-dark">
@@ -19,18 +19,6 @@
             </a>
           </div>
         {{ end }}
-        <div class="card">
-          <a href="{{ relref . (dict "path" "centers-of-interest.md" "lang" .Language.Lang) }}" class="text-dark">
-            <div class="card-body">
-              {{ with .Params.icon }}
-                {{ $icon := . }}
-                {{ $icon = print "icons/" $icon ".svg" }}
-                {{ (resources.Get $icon).Content | safeHTML }}
-              {{ end }}
-              <h5 class="card-title">{{ .Title }}</h5>
-            </div>
-          </a>
-        </div>
       </div>
       {{ partial "social-share" . }}
     </div>
