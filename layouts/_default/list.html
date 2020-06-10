@@ -1,16 +1,28 @@
 {{ define "main" }}
-  <main class="main">
+  <main class="main tiles">
     <div class="container-fluid">
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
       <article class="article">
         {{ .Content }}
-        <ul>
-          {{ range .Pages }}
-            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-          {{ end }}
-        </ul>
       </article>
+        <div class="cards">
+          {{ range .Pages }}
+            <div class="card card-width-{{ if eq .Params.cardwidth "full" }}full{{ else if eq .Params.cardwidth "half" }}half{{ else if eq .Params.cardwidth "auto" }}auto{{ else }}auto{{ end }}">
+              <a href="{{ .Permalink }}" class="text-dark">
+                <div class="card-body">
+                  {{ with .Params.icon }}
+                    {{ $icon := . }}
+                    {{ $icon = print "icons/" $icon ".svg" }}
+                    {{ (resources.Get $icon).Content | safeHTML }}
+                  {{ end }}
+                  <h5 class="card-title">{{ .Title }}</h5>
+                </div>
+              </a>
+            </div>
+          {{ end }}
+        </div>
       {{ partial "social-share" . }}
     </div>
   </main>

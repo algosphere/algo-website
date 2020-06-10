@@ -3,14 +3,15 @@
     <div class="container-fluid">
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
       <article class="article">
         {{ .Content }}
+      </article>
         <ul>
           {{ range .Pages }}
-            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+            <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
           {{ end }}
         </ul>
-      </article>
       {{ partial "social-share" . }}
     </div>
   </main>

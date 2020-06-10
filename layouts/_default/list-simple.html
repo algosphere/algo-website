@@ -7,6 +7,11 @@
       <article class="article">
         {{ .Content }}
       </article>
+        <ul>
+          {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
+          {{ end }}
+        </ul>
       {{ partial "social-share" . }}
     </div>
   </main>

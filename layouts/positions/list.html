@@ -3,9 +3,7 @@
     <div class="container-fluid">
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
-      {{ with .Params.toc }}
-        {{ $.TableOfContents }}<br><br>
-      {{ end }}
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
       <article class="article">
         {{ .Content }}
         <nav class="nav nav-pills nav-justified nav-positions" role="tablist">
