@@ -74,7 +74,7 @@
         }
 
         &.card-width-auto + .card-width-auto + .card-width-auto + .card-width-auto {
-          &:nth-child(3n-2) {
+          &:nth-child(4) {
             margin-left: 0;
           }
         }
