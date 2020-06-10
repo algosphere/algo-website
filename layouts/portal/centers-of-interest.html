@@ -1,13 +1,11 @@
 {{ define "main" }}
-  <main class="main tiles tiles-3">
+  <main class="main">
     <div class="container-fluid">
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
-      <div class="cards">
         {{ .Content }}
         {{ range .Pages }}
         {{ end }}
-      </div>
       {{ partial "social-share" . }}
     </div>
   </main>

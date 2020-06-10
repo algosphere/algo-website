@@ -1,12 +1,12 @@
 {{ define "main" }}
-  <main class="main tiles tiles-3">
+  <main class="main tiles">
     <div class="container-fluid">
       {{ partial "back-btn" . }}
       <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ .Content }}
       <div class="cards">
-        {{ .Content }}
         {{ range .Pages }}
-          <div class="card">
+          <div class="card card-width-{{ if eq .Params.cardwidth "full" }}full{{ else if eq .Params.cardwidth "half" }}half{{ else if eq .Params.cardwidth "auto" }}auto{{ else }}auto{{ end }}">
             <a href="{{ .Permalink }}" class="text-dark">
               <div class="card-body">
                 {{ with .Params.icon }}

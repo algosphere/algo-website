@@ -4,7 +4,7 @@ description: "The Communication Council of the Algosphere Alliance"
 translationKey: "communication-council"
 icon: "kanban"
 layout: "list"
-fullwidth: false
+cardwidth: auto
 weight: 6
 toc: false
 draft: false
