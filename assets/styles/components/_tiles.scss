@@ -3,11 +3,26 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    // when supported in flexbox on every browser (currently 2020-06 only firefox), set column-gap and remove any margin
+    // column-gap: 1em;
 
     .card {
       margin-bottom: 1em;
       justify-content: center;
       flex-grow: 1;
+      flex-basis: calc(33% - 1em);
+
+      &.card-full-width {
+        flex-basis: initial;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &.card-half-width {
+        flex-basis: calc(50% - .5em);
+        margin-left: 0;
+      }
 
       a {
         .card-body {
@@ -30,32 +45,49 @@
   }
 }
 
-.tiles-2 .card {
-  flex-basis: calc(50% - .5em);
-}
-
-.tiles-3 .card {
-  flex-basis: calc(33% - 1em);
-}
-
 @include media-breakpoint-up(lg) {
   .tiles {
     .cards {
       flex-direction: row;
+
+      // remove these margins when column-gap is used
+      .card {
+        margin-left: 1em;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &.card-half-width {
+          margin-left: 0;
+
+          & + .card-half-width {
+            margin-left: 1em;
+          }
+
+          & + .card:not(.card-half-width) {
+            margin-left: 0;
+          }
+        }
+
+        &.card-full-width + .card {
+          margin-left: 0;
+        }
+      }
     }
   }
 
-  .tiles-2 .card {
-    &:nth-child(even) {
-      margin-left: 1em;
-    }
-  }
+  // .tiles-2 .card {
+  //   &:nth-child(even) {
+  //     margin-left: 1em;
+  //   }
+  // }
 
-  .tiles-3 .card {
-    margin-left: 1em;
+  // .tiles-3 .card {
+  //   margin-left: 1em;
 
-    &:nth-child(3n-2) {
-      margin-left: 0;
-    }
-  }
+  //   &:nth-child(3n-2) {
+  //     margin-left: 0;
+  //   }
+  // }
 }
