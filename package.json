@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/algosphere/algo-website",
   "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^6.1.0",
     "gulp-pretty-html": "^2.0.10",
