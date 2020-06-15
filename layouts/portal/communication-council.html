@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <main class="main tiles">
+    <div class="container-fluid">
+      {{ partial "back-btn" . }}
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
+      <article class="article">
+        {{ .Content }}
+      </article>
+      <div class="cards">
+        {{ with index .Site.Data.portal.communicationcouncil .Site.Language.Lang }}
+          {{ range .feature }}
+          <div class="card card-width-auto">
+            <a href="{{ .URL }}" class="text-dark no-external-icon">
+              <div class="card-body">
+                {{ with .Icon }}
+                  {{ $icon := . }}
+                  {{ $icon = print "icons/" $icon ".svg" }}
+                  {{ (resources.Get $icon).Content | safeHTML }}
+                {{ end }}
+                <h5 class="card-title">{{ .Name }}{{ with .Ext }}{{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML }}{{ end }}</h5>
+              </div>
+            </a>
+          </div>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          {{ with index .Site.Data.portal.communicationcouncil .Site.Language.Lang }}
+            {{ range .other }}
+              <a class="list-group-item list-group-item-action" href="{{ .URL }}">{{ (resources.Get "icons/file-earmark-text.svg").Content | safeHTML }} {{ .Name }}</a>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}

@@ -33,6 +33,11 @@
           svg.bi {
             font-size: 1.8em;
             margin-bottom: .25em;
+
+            &.bi-box-arrow-up-right {
+              font-size: inherit;
+              vertical-align: middle;
+            }
           }
 
           .card-title {
