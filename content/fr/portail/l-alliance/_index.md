@@ -1,6 +1,6 @@
 ---
-title: "The Alliance"
-description: "Centers of interest about the Alliance"
+title: "L'Alliance"
+description: "Centres d'intérêt à propos de l'Alliance"
 translationKey: "portal-the-alliance"
 icon: "people-fill"
 cardwidth: "auto"

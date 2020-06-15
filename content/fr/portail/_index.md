@@ -2,7 +2,8 @@
 title: "Portail collaboratif"
 description: "Le Portail collaboratif de l'Alliance Algosphère"
 translationKey: "portal"
-type: "portal"
+cascade:
+  type: "portal"
 toc: false
 draft: false
 ---

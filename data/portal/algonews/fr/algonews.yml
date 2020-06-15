@@ -1,0 +1,8 @@
+- Name: "Collaborer"
+  URL: "https://docs.google.com/document/d/1DBa1pEdACvb7VH4y945ULfaAWslGkpCQDZjINOb8l6I/edit"
+  Icon: "file-earmark-text"
+  Ext: true
+- Name: "Comité Éditorial"
+  URL: "https://docs.google.com/document/d/17D7yH_HHj_7m0bI-vBQs1LRX98lAM7UIllyAmM2zp2E/edit"
+  Icon: "file-earmark-text"
+  Ext: true
