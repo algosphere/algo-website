@@ -10,7 +10,7 @@ weight: 1
 ---
 
 {{< alert "success" >}}
-  If you would like to support this open letter, please [sign up here](https://portal.algosphere.org/register)
+  If you would like to support this open letter, please [sign up here](/signup/)
 {{< /alert >}}
 
 <p style="text-align: right;"><mark>(Date to come after co-signatures)</mark></p>
