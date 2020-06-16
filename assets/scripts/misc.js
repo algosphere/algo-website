@@ -55,3 +55,26 @@ function languageSwitcherCookie(lang, url) {
   document.cookie = "nf_lang=" + lang + "; path=/; max-age=31536000; SameSite=Lax";
   window.location = url;
 }
+
+// FOOTNOTES BADGE/POPOVERS
+var footnoteRef = document.querySelector('#fnref\\:1')
+var footnoteNumber = footnoteRef.innerText
+var footnoteRefLink = footnoteRef.innerHTML
+var footnoteBackRefLink = '#fn:' + footnoteNumber
+var footnote = document.querySelector('.footnotes li#fn\\:1').innerHTML.trim()
+
+var footnoteBadge = document.createElement("a")
+  footnoteBadge.classList.add("footnote-ref", "badge", "badge-pill", "badge-secondary", "footnote-badge")
+  footnoteBadge.id = "fnref:1"
+  footnoteBadge.setAttribute("role", "doc-noteref")
+  footnoteBadge.setAttribute("type", "button")
+  footnoteBadge.setAttribute("tabindex", "0")
+  footnoteBadge.setAttribute("data-container", "body")
+  footnoteBadge.setAttribute("data-toggle", "popover")
+  footnoteBadge.setAttribute("data-trigger", "focus")
+  footnoteBadge.setAttribute("data-placement", "bottom")
+  footnoteBadge.setAttribute("data-content", footnote)
+  footnoteBadge.innerHTML = footnoteNumber
+
+footnoteRef.insertAdjacentElement("beforebegin", footnoteBadge)
+footnoteRef.remove()

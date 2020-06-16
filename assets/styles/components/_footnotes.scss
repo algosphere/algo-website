@@ -1,13 +1,14 @@
+.footnote-badge {
+  vertical-align: super;
+  margin-left: .3em;
+  font-size: 0.7em;
+  color: #fff !important;
+}
+
 .footnotes {
   font-size: .9em;
 
   .footnote-backref {
     visibility: hidden;
-
-    &::before {
-      content: "↑";
-      font-size: 1.1em;
-      visibility: visible;
-    }
   }
 }
