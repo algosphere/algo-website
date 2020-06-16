@@ -10,7 +10,7 @@ weight: 1
 ---
 
 {{< alert "success" >}}
-  Si vous souhaitez soutenir cette lettre ouverte, [inscrivez-vous ici](https://portal.algosphere.org/register)
+  Si vous souhaitez soutenir cette lettre ouverte, [inscrivez-vous ici](/fr/s-inscrire/)
 {{< /alert >}}
 
 <p style="text-align: right;"><mark>(Date à venir suite à co-signatures)</mark></p>
