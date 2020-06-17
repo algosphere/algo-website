@@ -1,14 +1,22 @@
 .footnote-badge {
   vertical-align: super;
   margin-left: .3em;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   color: #fff !important;
 }
 
-.footnotes {
-  font-size: .9em;
+.footnote-ref .bi-link-45deg {
+  font-size: 1.3rem;
+}
 
-  .footnote-backref {
-    display: none;
-  }
+.footnote-ref:not(.footnote-badge) {
+  content: "";
+}
+
+.footnotes {
+  font-size: .9rem;
+}
+
+.footnote-backref {
+  display: none;
 }

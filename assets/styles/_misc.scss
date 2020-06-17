@@ -52,6 +52,6 @@ iframe {
   margin-bottom: 3.5em;
 }
 
-.popover-body p:last-child {
-  margin-bottom: 0;
+.popover-body p:last-of-type {
+  margin-bottom: .5rem;
 }

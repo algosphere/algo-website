@@ -20,6 +20,14 @@ $(function () {
   $('[data-toggle="popover"]').popover()
 })
 
+// FIX POPOVERS CLOSING WHEN CLICK INSIDE
+$(document).mouseup(function (e) {
+  var container = $(".popover")
+  if (!container.is(e.target)  && container.has(e.target).length === 0)  {
+    container.popover("hide")
+  }
+})
+
 // ENABLE TOOLTIPS
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
@@ -60,15 +68,10 @@ function languageSwitcherCookie(lang, url) {
 var footnoteRef = document.querySelector('#fnref\\:1')
 var footnoteNumber = footnoteRef.innerText
 var footnoteRefLink = footnoteRef.innerHTML
-var footnotePopoverBackRef = document.querySelector('.popover-body .footnote-backref')
-var footnoteBackRefLink = '#fn:' + footnoteNumber
-var footnoteNode = document.querySelector('.footnotes li#fn\\:1')
-
 var footnote = document.querySelector('.footnotes li#fn\\:1').innerHTML.trim()
-  footnote.replace("footnote-backref", "caca")
-
-console.log(footnote);
-
+var footnoteAnchor = footnoteRef
+  footnoteAnchor.lastChild.innerHTML = anchorIcon
+  footnoteAnchor = footnoteAnchor.innerHTML
 
 var footnoteBadge = document.createElement("a")
   footnoteBadge.classList.add("footnote-ref", "badge", "badge-pill", "badge-secondary", "footnote-badge")
@@ -78,11 +81,19 @@ var footnoteBadge = document.createElement("a")
   footnoteBadge.setAttribute("tabindex", "0")
   footnoteBadge.setAttribute("data-container", "body")
   footnoteBadge.setAttribute("data-toggle", "popover")
-  footnoteBadge.setAttribute("data-trigger", "focus")
+  // footnoteBadge.setAttribute("data-trigger", "focus")
   footnoteBadge.setAttribute("data-placement", "bottom")
   footnoteBadge.setAttribute("data-html", "true")
-  footnoteBadge.setAttribute("data-content", footnote + footnoteRefLink)
+  footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
   footnoteBadge.innerHTML = footnoteNumber
 
 footnoteRef.insertAdjacentElement("beforebegin", footnoteBadge)
 footnoteRef.remove()
+
+$(document).mouseup(function (e) {
+  var container = $(".popover");
+
+  if (!container.is(e.target)  && container.has(e.target).length === 0)  {
+      container.popover("hide");
+  }
+})
