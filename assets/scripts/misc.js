@@ -60,8 +60,15 @@ function languageSwitcherCookie(lang, url) {
 var footnoteRef = document.querySelector('#fnref\\:1')
 var footnoteNumber = footnoteRef.innerText
 var footnoteRefLink = footnoteRef.innerHTML
+var footnotePopoverBackRef = document.querySelector('.popover-body .footnote-backref')
 var footnoteBackRefLink = '#fn:' + footnoteNumber
+var footnoteNode = document.querySelector('.footnotes li#fn\\:1')
+
 var footnote = document.querySelector('.footnotes li#fn\\:1').innerHTML.trim()
+  footnote.replace("footnote-backref", "caca")
+
+console.log(footnote);
+
 
 var footnoteBadge = document.createElement("a")
   footnoteBadge.classList.add("footnote-ref", "badge", "badge-pill", "badge-secondary", "footnote-badge")
@@ -73,7 +80,8 @@ var footnoteBadge = document.createElement("a")
   footnoteBadge.setAttribute("data-toggle", "popover")
   footnoteBadge.setAttribute("data-trigger", "focus")
   footnoteBadge.setAttribute("data-placement", "bottom")
-  footnoteBadge.setAttribute("data-content", footnote)
+  footnoteBadge.setAttribute("data-html", "true")
+  footnoteBadge.setAttribute("data-content", footnote + footnoteRefLink)
   footnoteBadge.innerHTML = footnoteNumber
 
 footnoteRef.insertAdjacentElement("beforebegin", footnoteBadge)
