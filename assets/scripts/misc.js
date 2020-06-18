@@ -54,6 +54,7 @@ var links = $(document.links).filter(function() {
   return this.hostname !== location.hostname
     && !this.classList.contains('no-external-icon');
 });
+
 for (var i = 0; i < links.length; i++) {
   links[i].innerHTML += "<span style=\"white-space: nowrap;\">" + externalLinkIcon + "</span>";
 }
@@ -87,13 +88,15 @@ var footnoteBadge = document.createElement("a")
   footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
   footnoteBadge.innerHTML = footnoteNumber
 
-footnoteRef.insertAdjacentElement("beforebegin", footnoteBadge)
+  // footnoteBadgeCopy = footnoteBadge
+  // footnoteBadge = "<span style=\"white-space: nowrap;\">" + footnoteBadgeCopy + "</span>";
+
+  // var footnoteBadgeNoWrap = document.createElement("span")
+  //   footnoteBadgeNoWrap.style.whiteSpace = "nowrap"
+  //   footnoteBadgeNoWrap.innerHTML = footnoteBadge
+
+    // console.log(footnoteBadgeTest)
+    // console.log(footnoteBadge)
+
+footnoteRef.before(footnoteBadge)
 footnoteRef.remove()
-
-$(document).mouseup(function (e) {
-  var container = $(".popover");
-
-  if (!container.is(e.target)  && container.has(e.target).length === 0)  {
-      container.popover("hide");
-  }
-})
