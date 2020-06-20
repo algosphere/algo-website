@@ -27,7 +27,7 @@
       a {
 
         &:hover {
-          color: #3490dc !important;
+          color: map-get($map: $theme-colors, $key: primary-alt) !important;
         }
 
         .card-body {

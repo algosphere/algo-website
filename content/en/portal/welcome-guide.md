@@ -4,7 +4,7 @@ description: "Welcome Guide to the Algosphere Alliance"
 translationKey: "welcome-guide"
 icon: "book-half"
 cardwidth: "half"
-weight: 3
+weight: 2
 toc: false
 draft: false
 ---
