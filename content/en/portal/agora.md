@@ -3,7 +3,7 @@ title: "Agora"
 description: "The cision-making space of the Algosphere Alliance"
 translationKey: "agora"
 icon: "chat-fill"
-cardwidth: "full"
+cardwidth: "auto"
 weight: 4
 toc: false
 draft: false
