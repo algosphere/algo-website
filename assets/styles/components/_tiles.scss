@@ -83,8 +83,10 @@
           margin-left: 0;
         }
 
-        &.card-width-auto + .card-width-auto + .card-width-auto + .card-width-auto {
-          &:nth-child(4) {
+        &.card-width-auto {
+          margin-left: 1em;
+
+          &:nth-child(3n-1) {
             margin-left: 0;
           }
         }
