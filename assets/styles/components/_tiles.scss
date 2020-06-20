@@ -82,13 +82,15 @@
         &.card-width-full + .card {
           margin-left: 0;
         }
+      }
+    }
 
-        &.card-width-auto {
-          margin-left: 1em;
+    &.portal-home .cards .card {
+      &.card-width-auto {
+        margin-left: 1em;
 
-          &:nth-child(3n-1) {
-            margin-left: 0;
-          }
+        &:nth-child(3n+2) {
+          margin-left: 0;
         }
       }
     }
