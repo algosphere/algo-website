@@ -25,6 +25,11 @@
       }
 
       a {
+
+        &:hover {
+          color: #3490dc !important;
+        }
+
         .card-body {
           display: flex;
           flex-direction: column;
