@@ -4,7 +4,7 @@ description: "L'espace décisionnel de l'Alliance Algosphère"
 translationKey: "agora"
 icon: "chat-fill"
 cardwidth: "auto"
-weight: 3
+weight: 4
 toc: false
 draft: false
 ---
