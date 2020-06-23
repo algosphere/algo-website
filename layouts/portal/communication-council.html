@@ -18,7 +18,7 @@
                   {{ $icon = print "icons/" $icon ".svg" }}
                   {{ (resources.Get $icon).Content | safeHTML }}
                 {{ end }}
-                <h5 class="card-title">{{ .Name }}{{ with .Ext }}{{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML }}{{ end }}</h5>
+                <h5 class="card-title">{{ .Name }}</h5>
               </div>
             </a>
           </div>
@@ -29,7 +29,7 @@
         <ul class="list-group list-group-flush">
           {{ with index .Site.Data.portal.communicationcouncil .Site.Language.Lang }}
             {{ range .other }}
-              <a class="list-group-item list-group-item-action" href="{{ .URL }}">{{ (resources.Get "icons/file-earmark-text.svg").Content | safeHTML }} {{ .Name }}</a>
+              <a class="list-group-item list-group-item-action no-external-icon" href="{{ .URL }}">{{ (resources.Get "icons/file-earmark-text.svg").Content | safeHTML }} {{ .Name }}</a>
             {{ end }}
           {{ end }}
         </ul>

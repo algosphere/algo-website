@@ -10,7 +10,7 @@
           <ul class="list-group list-group-flush">
             {{ with index .Site.Data.portal.centersofinterest .Site.Language.Lang }}
               {{ range .centersofinterest }}
-                <a class="list-group-item list-group-item-action" href="{{ .URL }}">{{ (resources.Get "icons/file-earmark-text.svg").Content | safeHTML }} {{ .Name }}</a>
+                <a class="list-group-item list-group-item-action no-external-icon" href="{{ .URL }}">{{ (resources.Get "icons/file-earmark-text.svg").Content | safeHTML }} {{ .Name }}</a>
               {{ end }}
             {{ end }}
           </ul>
