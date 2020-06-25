@@ -10,7 +10,7 @@
         <div class="cards">
           {{ range .Pages }}
             <div class="card card-width-{{ if eq .Params.cardwidth "full" }}full{{ else if eq .Params.cardwidth "half" }}half{{ else if eq .Params.cardwidth "auto" }}auto{{ else }}auto{{ end }}">
-              <a href="{{ .Permalink }}" class="text-dark">
+              <a href="{{ .Permalink }}" class="text-dark no-external-icon">
                 <div class="card-body">
                   {{ with .Params.icon }}
                     {{ $icon := . }}
