@@ -4,7 +4,7 @@ description: "Rejoindre l'Alliance Algosphère"
 translationKey: "become-an-ally"
 icon: "person-plus-fill"
 cardwidth: "auto"
-weight: 1
+weight: 3
 toc: false
 draft: false
 ---

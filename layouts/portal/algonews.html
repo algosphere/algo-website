@@ -18,7 +18,7 @@
                   {{ $icon = print "icons/" $icon ".svg" }}
                   {{ (resources.Get $icon).Content | safeHTML }}
                 {{ end }}
-                <h5 class="card-title">{{ .Name }}{{ with .Ext }}{{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML }}{{ end }}</h5>
+                <h5 class="card-title">{{ .Name }}</h5>
               </div>
             </a>
           </div>

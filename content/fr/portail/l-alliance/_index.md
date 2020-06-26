@@ -5,7 +5,7 @@ translationKey: "portal-the-alliance"
 icon: "people-fill"
 cardwidth: "auto"
 layout: "the-alliance"
-weight: 4
+weight: 6
 toc: false
 draft: false
 ---

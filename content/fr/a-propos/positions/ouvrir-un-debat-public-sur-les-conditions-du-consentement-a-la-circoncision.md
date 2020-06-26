@@ -9,4 +9,4 @@ draft: false
 weight: 2
 ---
 
-L'Alliance soutient [cet appel](https://www.droitaucorps.com/appeal-to-open-a-public-debate-on-the-conditions-for-consent-to-circumcision) à ouvrir le débat.
+L'Alliance soutient [cet appel](https://www.droitaucorps.com/appel-debat-conditions-consentement-circoncision) à ouvrir le débat.

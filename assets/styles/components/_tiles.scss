@@ -25,6 +25,11 @@
       }
 
       a {
+
+        &:hover {
+          color: map-get($map: $theme-colors, $key: primary-alt) !important;
+        }
+
         .card-body {
           display: flex;
           flex-direction: column;
@@ -77,11 +82,15 @@
         &.card-width-full + .card {
           margin-left: 0;
         }
+      }
+    }
 
-        &.card-width-auto + .card-width-auto + .card-width-auto + .card-width-auto {
-          &:nth-child(4) {
-            margin-left: 0;
-          }
+    &.portal-home .cards .card {
+      &.card-width-auto {
+        margin-left: 1em;
+
+        &:nth-child(3n+2) {
+          margin-left: 0;
         }
       }
     }
