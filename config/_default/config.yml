@@ -8,7 +8,7 @@ disableLiveReload: true
 metaDataFormat: yaml
 rssLimit: 10
 enableRobotsTXT: true
-disableKinds: ["taxonomy", "taxonomyTerm"]
+disableKinds: ["term", "taxonomy"]
 params:
   author: "Algosphere Alliance"
   twitter: "algosphere"
