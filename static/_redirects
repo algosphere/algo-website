@@ -7,17 +7,19 @@
 
 # moved content
 # en
-/organizations        /allies 301!
-/vision               /about/vision 301!
-/positions            /about/positions 301!
-/positions/*          /about/positions/:splat 301!
-/governance           /about/governance 301!
-/governance/faq       /about/faq 301!
-/governance/*         /about/governance/:splat 301!
-/algoconsulting       /resources/algoconsulting 301!
-/algonews             /resources/algonews 301!
-/algonews/*           /resources/algonews/:splat 301!
-/mandates             /about/governance/mandates 301!
+/organizations                  /allies 301!
+/vision                         /about/vision 301!
+/positions                      /about/positions 301!
+/positions/*                    /about/positions/:splat 301!
+/governance                     /about/governance 301!
+/governance/faq                 /about/faq 301!
+/governance/*                   /about/governance/:splat 301!
+/algoconsulting                 /resources/algoconsulting 301!
+/algonews                       /resources/algonews 301!
+/algonews/*                     /resources/algonews/:splat 301!
+/mandates                       /about/governance/mandates 301!
+http://portal.algosphere.org    /portal 301!
+https://portal.algosphere.org    /portal 301!
 
 # fr
 /fr/organisations     /fr/allies 301!
@@ -80,7 +82,7 @@
 /fr/ page_id=219    /fr/a-propos/gouvernance/constitution 301!
 /fr/ page_id=390    /fr/a-propos/gouvernance/faq 301!
 /fr/ page_id=1790   /fr/allies 301!
-/fr/ page_id=2500   https://portal.algosphere.org/fr/ 301!
+/fr/ page_id=2500   /fr/portail 301!
 /fr/ p=2836         /fr/ressources/algonews/2019-vol-6-no-3/rebellion-animale-ile-de-la-tortue 301!
 /fr/ page_id=2248   /fr/a-propos/positions/lettre-ouverte-a-l-organisation-des-nations-unies 301!
 /es/ page_id=939    /es/informacion/vision 301!
