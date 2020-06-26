@@ -7,12 +7,16 @@
 
 # moved content
 # old portal
-/fr/ page_id=2500                   https://algosphere.org/fr/portail 301!
-http://portal.algosphere.org        https://algosphere.org/portal 301!
-https://portal.algosphere.org       https://algosphere.org/portal 301!
-http://collab.algosphere.org        https://algosphere.org/portal 301!
-https://collab.algosphere.org       https://algosphere.org/portal 301!
-https://portal.algosphere.org/fr    https://algosphere.org/fr/portail 301!
+/fr/ page_id=2500                             https://algosphere.org/fr/portail 301!
+http://portal.algosphere.org                  https://algosphere.org/portal 301!
+https://portal.algosphere.org                 https://algosphere.org/portal 301!
+http://collab.algosphere.org                  https://algosphere.org/portal 301!
+https://collab.algosphere.org                 https://algosphere.org/portal 301!
+https://portal.algosphere.org/fr              https://algosphere.org/fr/portail 301!
+http://portal.algosphere.org/register         https://algosphere.org/ 301!
+https://portal.algosphere.org/register        https://algosphere.org/ 301!
+http://portal.algosphere.org/fr/register      https://algosphere.org/fr/s-inscrire 301!
+https://portal.algosphere.org/fr/register     https://algosphere.org/fr/s-inscrire 301!
 
 # en
 /organizations                  /allies 301!
