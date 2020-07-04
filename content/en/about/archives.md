@@ -96,7 +96,7 @@ draft: false
 [2011 Groupe de travail Compte rendu](https://drive.google.com/file/d/0B8CCSwW5inUkUndxN1A2bm5CZkU/edit)
 
 **Alliance beginnings**
-[Robert Daoust](http://robert.algosphere.org/) & [Jean-Christophe Lurenbaum](https://jcl.algosphere.org/)
+[Robert Daoust](https://robertdaoust.org/) & [Jean-Christophe Lurenbaum](https://jcl.algosphere.org/)
 
 - (EN) Presented here for historical purposes, these are archives of the two founders of the Alliance: these documents do not represent the official word of the Alliance.
 - (FR) Présentées ici à titre historique, ce sont là des archives des deux fondateurs de l'Alliance : ces documents ne représentent pas la parole officielle de l'Alliance.
