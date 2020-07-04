@@ -19,18 +19,18 @@ http://portal.algosphere.org/fr/register      https://algosphere.org/fr/s-inscri
 https://portal.algosphere.org/fr/register     https://algosphere.org/fr/s-inscrire/ 301!
 
 # en
-/organizations                  /allies 301!
-/vision                         /about/vision 301!
-/positions                      /about/positions 301!
-/positions/*                    /about/positions/:splat 301!
-/governance                     /about/governance 301!
-/governance/faq                 /about/faq 301!
-/governance/*                   /about/governance/:splat 301!
-/algoconsulting                 /resources/algoconsulting 301!
-/algonews                       /resources/algonews 301!
-/algonews/*                     /resources/algonews/:splat 301!
-/mandates                       /about/governance/mandates 301!
-/algoconsulting                 /resources/algoconsulting/ 301!
+/organizations        /allies 301!
+/vision               /about/vision 301!
+/positions            /about/positions 301!
+/positions/*          /about/positions/:splat 301!
+/governance           /about/governance 301!
+/governance/faq       /about/faq 301!
+/governance/*         /about/governance/:splat 301!
+/algoconsulting       /resources/algoconsulting 301!
+/algonews             /resources/algonews 301!
+/algonews/*           /resources/algonews/:splat 301!
+/mandates             /about/governance/mandates 301!
+/algoconsulting       /resources/algoconsulting/ 301!
 
 # fr
 /fr/organisations     /fr/allies 301!
@@ -76,39 +76,39 @@ https://portal.algosphere.org/fr/register     https://algosphere.org/fr/s-inscri
 /de/mandates          /de/uber/fuhrung/mandates 301!
 
 # old website
-/ page_id=925       /about/vision 301!
-/ page_id=1051      /about/governance/mandates 301!
-/ page_id=955       /about/positions/#fundamental 301!
-/ page_id=2031      /about/positions/#specific 301!
-/ page_id=2863      /resources/algonews 301!
-/ page_id=156       /about/governance/constitution 301!
-/ page_id=386       /about/governance/faq 301!
-/ page_id=913       /allies 301!
-/ p=2819            /resources/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island 301!
-/ page_id=2217      /about/positions/open-letter-to-the-united-nations 301!
-/fr/ page_id=929    /fr/a-propos/vision 301!
-/fr/ page_id=1098   /fr/a-propos/gouvernance/mandats 301!
-/fr/ page_id=959    /fr/a-propos/positions/#structurelles 301!
-/fr/ page_id=2020   /fr/a-propos/positions/#ponctuelles 301!
-/fr/ page_id=2875   /fr/ressources/algonews 301!
-/fr/ page_id=219    /fr/a-propos/gouvernance/constitution 301!
-/fr/ page_id=390    /fr/a-propos/gouvernance/faq 301!
-/fr/ page_id=1790   /fr/allies 301!
-/fr/ p=2836         /fr/ressources/algonews/2019-vol-6-no-3/rebellion-animale-ile-de-la-tortue 301!
-/fr/ page_id=2248   /fr/a-propos/positions/lettre-ouverte-a-l-organisation-des-nations-unies 301!
-/es/ page_id=939    /es/informacion/vision 301!
-/es/ page_id=1778   /es/informacion/principios/#estructurales 301!
-/es/ page_id=2116   /es/informacion/principios/#especificos 301!
-/es/ page_id=2879   /es/recursos/algonews 301!
-/es/ page_id=543    /es/informacion/gobernancia/constitucion 301!
-/es/ page_id=545    /es/informacion/gobernancia/faq 301!
-/es/ page_id=1793   /es/aliados 301!
-/es/ p=2916         /es/recursos/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island 301!
-/de/ page_id=944    /de/uber/vision 301!
-/de/ page_id=1777   /de/uber/positionen/#grundsaetzliche 301!
-/de/ page_id=2053   /de/uber/positionen/#themenbezogene 301!
-/de/ page_id=2877   /de/ressourcen/algonews 301!
-/de/ page_id=592    /de/uber/fuehrung/grundsatzerklaerung 301!
-/de/ page_id=594    /de/uber/fuehrung/faq 301!
-/de/ page_id=1792   /de/alliierten 301!
-/de/ p=2915         /de/ressourcen/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island 301!
+/ page_id=925         /about/vision 301!
+/ page_id=1051        /about/governance/mandates 301!
+/ page_id=955         /about/positions/#fundamental 301!
+/ page_id=2031        /about/positions/#specific 301!
+/ page_id=2863        /resources/algonews 301!
+/ page_id=156         /about/governance/constitution 301!
+/ page_id=386         /about/governance/faq 301!
+/ page_id=913         /allies 301!
+/ p=2819              /resources/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island 301!
+/ page_id=2217        /about/positions/open-letter-to-the-united-nations 301!
+/fr/ page_id=929      /fr/a-propos/vision 301!
+/fr/ page_id=1098     /fr/a-propos/gouvernance/mandats 301!
+/fr/ page_id=959      /fr/a-propos/positions/#structurelles 301!
+/fr/ page_id=2020     /fr/a-propos/positions/#ponctuelles 301!
+/fr/ page_id=2875     /fr/ressources/algonews 301!
+/fr/ page_id=219      /fr/a-propos/gouvernance/constitution 301!
+/fr/ page_id=390      /fr/a-propos/gouvernance/faq 301!
+/fr/ page_id=1790     /fr/allies 301!
+/fr/ p=2836           /fr/ressources/algonews/2019-vol-6-no-3/rebellion-animale-ile-de-la-tortue 301!
+/fr/ page_id=2248     /fr/a-propos/positions/lettre-ouverte-a-l-organisation-des-nations-unies 301!
+/es/ page_id=939      /es/informacion/vision 301!
+/es/ page_id=1778     /es/informacion/principios/#estructurales 301!
+/es/ page_id=2116     /es/informacion/principios/#especificos 301!
+/es/ page_id=2879     /es/recursos/algonews 301!
+/es/ page_id=543      /es/informacion/gobernancia/constitucion 301!
+/es/ page_id=545      /es/informacion/gobernancia/faq 301!
+/es/ page_id=1793     /es/aliados 301!
+/es/ p=2916           /es/recursos/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island 301!
+/de/ page_id=944      /de/uber/vision 301!
+/de/ page_id=1777     /de/uber/positionen/#grundsaetzliche 301!
+/de/ page_id=2053     /de/uber/positionen/#themenbezogene 301!
+/de/ page_id=2877     /de/ressourcen/algonews 301!
+/de/ page_id=592      /de/uber/fuehrung/grundsatzerklaerung 301!
+/de/ page_id=594      /de/uber/fuehrung/faq 301!
+/de/ page_id=1792     /de/alliierten 301!
+/de/ p=2915           /de/ressourcen/algonews/2019-vol-6-no-3/animal-rebellion-turtle-island 301!
