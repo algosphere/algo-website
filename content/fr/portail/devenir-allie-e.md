@@ -2,7 +2,7 @@
 title: "Devenir allié·e"
 description: "Rejoindre l'Alliance Algosphère"
 translationKey: "become-an-ally"
-icon: "person-plus-fill"
+icon: "person-bounding-box"
 cardwidth: "auto"
 weight: 3
 toc: false

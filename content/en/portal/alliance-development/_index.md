@@ -1,10 +1,10 @@
 ---
-title: "The Alliance"
+title: "Alliance Development"
 description: "Centers of interest about the Alliance"
 translationKey: "portal-the-alliance"
-icon: "people-fill"
+icon: "graph-up"
 cardwidth: "auto"
-layout: "the-alliance"
+layout: "alliance-development"
 weight: 6
 toc: false
 draft: false

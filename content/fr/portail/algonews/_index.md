@@ -9,3 +9,7 @@ weight: 5
 toc: false
 draft: false
 ---
+
+{{< alert info >}}
+Voir les [numéros publiés](/fr/ressources/algonews/)
+{{< /alert >}}

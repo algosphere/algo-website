@@ -46,3 +46,7 @@
   translation: "Mission"
 - id: organizations-zone
   translation: "Zone"
+- id: cocom-notice
+  translation: "À propos"
+- id: close
+  translation: "Fermer"

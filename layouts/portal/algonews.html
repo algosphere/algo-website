@@ -5,6 +5,7 @@
       <h1 class="page-title">{{ .Title }}</h1><br>
       {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
       <article class="article">
+        <p class="lead text-center"><em>{{ i18n "algonews-slogan" }}</em></p>
         {{ .Content }}
       </article>
       <div class="cards">

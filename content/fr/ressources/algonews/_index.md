@@ -1,6 +1,6 @@
 ---
 title: "AlgoNews"
-description: "A collaborative quarterly on the alleviation of suffering"
+description: "Une revue trimestrielle collaborative sur l'allègement de la souffrance"
 translationKey: "algonews"
 weight: 1
 cascade:

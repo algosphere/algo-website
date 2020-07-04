@@ -8,8 +8,8 @@
         {{ .Content }}
         <div class="card">
           <ul class="list-group list-group-flush">
-            {{ with index .Site.Data.portal.thealliance .Site.Language.Lang }}
-              {{ range .thealliance }}
+            {{ with index .Site.Data.portal.alliancedevelopment .Site.Language.Lang }}
+              {{ range .alliancedevelopment }}
                 <a class="list-group-item list-group-item-action no-external-icon" href="{{ .URL }}">{{ (resources.Get "icons/file-earmark-text.svg").Content | safeHTML }} {{ .Name }}</a>
               {{ end }}
             {{ end }}

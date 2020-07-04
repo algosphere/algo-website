@@ -9,3 +9,7 @@ weight: 1
 toc: false
 draft: false
 ---
+
+{{< alert info >}}
+[Create one from template](https://docs.google.com/document/d/1YArnioq1lIK5rMsIRNC5ets8Bp_HbU5c36Nx-iYY1jk/copy)
+{{< /alert >}}

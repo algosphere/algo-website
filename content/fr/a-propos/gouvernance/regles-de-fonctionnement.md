@@ -36,7 +36,7 @@ Ce témoignage doit comporter les informations suivantes :
 Tout invité est mis en relation, par l'[équipe webmestre](https://docs.google.com/document/d/1ga_n1CG-no3lGgMFyzWsvisUcyWrDGXLANBvhcGfrz8/edit), avec un allié qui, consentant à ce rôle,  l'aide au besoin à s'y retrouver dans le fonctionnement de l'Alliance, notamment par rapport aux textes de base (par exemple page d'accueil, Vision, Constitution, Mode d'emploi de l'Alliance, Règles de fonctionnement) ou aux activités collectives (par exemple meetings, parcours d'accueil des invités, implication dans des *centres d'intérêt*).
 
 ## Conseil Communication
-Les membres du [Conseil Communication](https://docs.google.com/document/d/1Zm-MEz1kDwAdGjfblLv5ARnps3QJ2dlMij_4B-KbH5c/edit#) sont habilités à traiter les propositions qu'ils jugent mineures (à condition d'être au moins 2 par proposition à traiter).
+Les membres du [Conseil Communication](/fr/portail/conseil-communication/) sont habilités à traiter les propositions qu'ils jugent mineures (à condition d'être au moins 2 par proposition à traiter).
 
 À compter du 28 juillet 2013, seul le Conseil Communication, qui a compétence de webmestre, est mandaté pour intégrer les décisions prises par l'Alliance dans la PlateForme Collaborative de l'Alliance.
 

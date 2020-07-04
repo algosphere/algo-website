@@ -9,3 +9,7 @@ weight: 5
 toc: false
 draft: false
 ---
+
+{{< alert info >}}
+View [published issues](/resources/algonews/)
+{{< /alert >}}

@@ -5,7 +5,21 @@
       <h1 class="page-title">{{ .Title }}</h1><br>
       {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
       <article class="article">
-        {{ .Content }}
+        <div class="alert alert-info" role="alert">
+          <a href="" data-toggle="modal" data-target="#modalCommunicationCouncilContext">{{ i18n "cocom-notice" }}</a>
+        </div>
+        <div class="modal fade" id="modalCommunicationCouncilContext" tabindex="-1" role="dialog" aria-labelledby="modalRegisterMoreInformation" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                {{ .Content }}
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ i18n "close" }}</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
       <div class="cards">
         {{ with index .Site.Data.portal.communicationcouncil .Site.Language.Lang }}

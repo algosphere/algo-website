@@ -2,7 +2,7 @@
 title: "Become an ally"
 description: "Join the Algosphere Alliance"
 translationKey: "become-an-ally"
-icon: "person-plus-fill"
+icon: "person-bounding-box"
 cardwidth: "auto"
 weight: 3
 toc: false

@@ -37,7 +37,7 @@ This testimony must include the following information:
 Every invitee is put in contact by the [webmaster team](https://docs.google.com/document/d/1ga_n1CG-no3lGgMFyzWsvisUcyWrDGXLANBvhcGfrz8/edit) with an ally who has agreed to help them as needed to understand how the Alliance functions, in particular with respect to the basic texts (for example, homepage, Vision, Constitution, User's guide to the Alliance, Operating rules) or the collectives activities (for example, meetings, welcoming guide for invitees, involvement in *centers of interest*).
 
 ## Communication Committee
-The members of the [Communication Committee](https://docs.google.com/document/d/1Zm-MEz1kDwAdGjfblLv5ARnps3QJ2dlMij_4B-KbH5c/edit) are authorized to handle proposals that they judge to be minor (on the condition that they are at least 2 to handle each proposal).
+The members of the [Communication Committee](/portal/communication-council/) are authorized to handle proposals that they judge to be minor (on the condition that they are at least 2 to handle each proposal).
 
 From 28 July 2013, only the Communication Committee, which has webmaster responsibilities, is mandated to integrate decisions made by the Alliance into the Collaborative Platform.
 
