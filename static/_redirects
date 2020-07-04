@@ -30,6 +30,7 @@ https://portal.algosphere.org/fr/register     https://algosphere.org/fr/s-inscri
 /algonews                       /resources/algonews 301!
 /algonews/*                     /resources/algonews/:splat 301!
 /mandates                       /about/governance/mandates 301!
+/algoconsulting                 /resources/algoconsulting/ 301!
 
 # fr
 /fr/organisations     /fr/allies 301!
@@ -43,6 +44,7 @@ https://portal.algosphere.org/fr/register     https://algosphere.org/fr/s-inscri
 /fr/algonews          /fr/ressources/algonews 301!
 /fr/algonews/*        /fr/ressources/algonews/:splat 301!
 /mandats              /fr/a-propos/gouvernance/mandats 301!
+/fr/algoconseil       /fr/ressources/algoconseil/ 301!
 
 # es
 /es/organizaciones    /es/aliados 301!
