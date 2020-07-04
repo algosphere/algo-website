@@ -6,6 +6,10 @@
     // when supported on every browser (currently 2020-06 only firefox), set gap and remove workaround/margins
     // gap: 1em;
 
+    & + .card {
+      margin-top: 1em;
+    }
+
     .card {
       justify-content: center;
       flex-grow: 1;
