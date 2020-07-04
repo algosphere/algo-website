@@ -82,6 +82,10 @@
         &.card-width-full + .card {
           margin-left: 0;
         }
+
+        &.card-width-auto:nth-child(4) {
+          margin-left: 0;
+        }
       }
     }
 
