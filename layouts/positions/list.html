@@ -7,13 +7,11 @@
       <article class="article">
         {{ .Content }}
         <nav class="nav nav-pills nav-justified nav-positions" role="tablist">
-          <!-- including fix for german url-id -->
-          <a class="nav-item nav-link active" id="fundamental-tab" data-toggle="tab" href="#{{ replace (i18n "positions-fundamental" | anchorize) "ä" "a" }}" role="tab" aria-controls="{{ i18n "positions-fundamental" | anchorize }}" aria-selected="true">{{ i18n "positions-fundamental" }}</a>
+          <a class="nav-item nav-link active" id="fundamental-tab" data-toggle="tab" href="#{{ i18n "positions-fundamental" | anchorize }}" role="tab" aria-controls="{{ i18n "positions-fundamental" | anchorize }}" aria-selected="true">{{ i18n "positions-fundamental" }}</a>
           <a class="nav-item nav-link" id="specific-tab" data-toggle="tab" href="#{{ i18n "positions-specific" | anchorize }}" role="tab" aria-controls="{{ i18n "positions-specific" | anchorize }}" aria-selected="false">{{ i18n "positions-specific" }}</a>
         </nav>
         <div class="tab-content">
-          <!-- including fix for german url-id -->
-          <div class="tab-pane active fade show" id="{{ replace (i18n "positions-fundamental" | anchorize) "ä" "a" }}" role="tabpanel" aria-labelledby="fundamental-tab">
+          <div class="tab-pane active fade show" id="{{ i18n "positions-fundamental" | anchorize }}" role="tabpanel" aria-labelledby="fundamental-tab">
             <div class="accordion" id="accordionsfundamental">
             {{ range $index, $value := where .Pages ".Params.scope" "fundamental" }}
             {{ $slug := .Title | anchorize }}
