@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         npm ci
-        npm i -g gulp-cli postcss-cli autoprefixer
+        npm i -g gulp-cli postcss-cli autoprefixer netlify-cli
       if: success()
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
@@ -38,7 +38,5 @@ jobs:
       run: npm run build-dev
       if: success()
     - name: Deploy site
-      uses: netlify/actions/cli@master
-      with:
-        args: "deploy --prod --dir public"
+      run: npm run deploy
       if: success()
