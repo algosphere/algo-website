@@ -92,10 +92,6 @@
       margin-top: .5rem;
     }
 
-    .nav-right-desktop {
-      display: none;
-    }
-
     svg.bi {
       margin-top: .15em;
     }
@@ -205,32 +201,18 @@
         margin-left: 1em;
         margin-top: initial;
 
-        > a,
-        > button, {
-          display: none;
+        > .btn-primary-alt {
+          margin-right: 1em;
         }
 
         .btn-primary-alt,
         .btn-success {
           max-width: 125px;
         }
-
-        .language-switcher-mobile {
-          display: none;
-        }
-
-        .nav-right-desktop {
-          display: flex;
-        }
       }
 
       .nav-right > *,
       .meta > * {
-        margin-top: initial;
-      }
-
-      .meta {
-        display: none;
         margin-top: initial;
       }
     }

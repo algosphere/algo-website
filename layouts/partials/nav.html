@@ -33,19 +33,10 @@
         {{ end }}
       </div>
       <div class="navbar-nav nav-right">
-        <!-- nav-right mobile -->
         {{ range .Site.Menus.right }}
           <a class="btn btn-{{ .Pre }} no-external-icon" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
         {{ end }}
         {{ partial "language-switcher" . }}
-
-        <!-- nav-right desktop -->
-        <div class="nav-right-desktop btn-group" role="group" aria-label="Language dropdown">
-          {{ range .Site.Menus.right }}
-            <a class="btn btn-{{ .Pre }} no-external-icon" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-          {{ end }}
-          {{ partial "language-switcher" . }}
-        </div>
       </div>
     </div>
   </div>
