@@ -35,7 +35,7 @@
         align-items: center;
 
         &:hover {
-          color: map-get($map: $theme-colors, $key: primary-alt) !important;
+          color: $primary-alt !important;
         }
 
         .card-body {

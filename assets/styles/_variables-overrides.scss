@@ -4,5 +4,6 @@ $enable-responsive-font-sizes: true;
 $theme-colors: (
   "primary-alt": #3490dc
 );
+$primary-alt: map-get($map: $theme-colors, $key: primary-alt);
 $border-radius: 0;
 $btn-transition: none;
