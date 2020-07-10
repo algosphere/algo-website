@@ -21,12 +21,12 @@ $(function () {
 })
 
 // FIX POPOVERS CLOSING WHEN CLICK INSIDE
-$(document).mouseup(function (e) {
-  var container = $(".popover")
-  if (!container.is(e.target)  && container.has(e.target).length === 0)  {
-    container.popover("hide")
-  }
-})
+// $(document).mouseup(function (e) {
+//   var container = $(".popover")
+//   if (!container.is(e.target)  && container.has(e.target).length === 0)  {
+//     container.popover("hide")
+//   }
+// })
 
 // ENABLE TOOLTIPS
 $(function () {
@@ -82,7 +82,7 @@ var footnoteBadge = document.createElement("a")
   footnoteBadge.setAttribute("tabindex", "0")
   footnoteBadge.setAttribute("data-container", "body")
   footnoteBadge.setAttribute("data-toggle", "popover")
-  // footnoteBadge.setAttribute("data-trigger", "focus")
+  footnoteBadge.setAttribute("data-trigger", "focus")
   footnoteBadge.setAttribute("data-placement", "bottom")
   footnoteBadge.setAttribute("data-html", "true")
   footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
