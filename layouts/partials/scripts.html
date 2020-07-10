@@ -15,7 +15,7 @@
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}" defer></script>
 
 {{ with getenv "PRODUCTION" }}
-  <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js" defer></script>
+  <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
   <script type="text/javascript">
     tarteaucitron.init({
       "privacyUrl": "", /* Privacy policy url */
