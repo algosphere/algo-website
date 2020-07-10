@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="container-fluid">
+      {{ partial "back-btn" . }}
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ with .Params.toc }}{{ $.TableOfContents }}<br><br>{{ end }}
+      <article class="article">
+        {{ .Content }}
+      </article>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}
