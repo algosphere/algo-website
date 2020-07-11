@@ -14,27 +14,29 @@
       <div class="navbar-nav nav-left">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        {{ $langURL := .URL | relLangURL | string }}
-        {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq $langURL $currentPage.RelPermalink) (eq .Identifier $.Section) ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+        {{ $URL := .URL | relLangURL }}
+        {{ $isCurrent := or (eq $URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
         {{ if .HasChildren }}
             <div class="dropdown">
-              <a class="nav-item nav-link dropdown-toggle{{ if $isCurrent }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+              <a class="nav-item nav-link dropdown-toggle{{ if $isCurrent }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   {{ range .Children }}
-                    {{ $langURL := .URL | relLangURL | string }}
-                    {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq $langURL $currentPage.RelPermalink) (eq .Identifier $.Section) ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-                    <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                    {{ $URL := .URL | relLangURL }}
+                    {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
+                    <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
                   {{ end }}
                 </div>
             </div>
           {{ else }}
-            <a class="nav-item nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+            <a class="nav-item nav-link{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
           {{ end }}
         {{ end }}
       </div>
       <div class="navbar-nav nav-right">
         {{ range .Site.Menus.right }}
-          <a class="btn btn-{{ .Pre }} no-external-icon" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+        {{ $URL := .URL | relLangURL }}
+        {{ $isCurrent := or (eq $URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
+          <a class="btn btn-{{ .Pre }} no-external-icon" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
         {{ end }}
         {{ partial "language-switcher" . }}
       </div>
