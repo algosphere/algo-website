@@ -24,7 +24,7 @@ main:
   weight: 3
 - identifier: l-alliance-en-images
   name: L'Alliance en images
-  url: /a-propos/l-alliance-en-images
+  url: /a-propos/l-alliance-en-images/
   parent: a-propos
   weight: 4
 - identifier: faq
@@ -34,7 +34,7 @@ main:
   weight: 5
 - identifier: archives
   name: Archives
-  url: /a-propos/archives
+  url: /a-propos/archives/
   parent: a-propos
   weight: 6
 - identifier: allies
