@@ -79,7 +79,7 @@ for (i = 1; i <= footnotesLength; i++) {
 
   var footnoteBadge = document.createElement("a")
     footnoteBadge.classList.add("footnote-ref", "badge", "badge-pill", "badge-secondary", "footnote-badge")
-    footnoteBadge.id = "fnref:1"
+    footnoteBadge.id = "fnref:"  + i
     footnoteBadge.setAttribute("role", "doc-noteref")
     footnoteBadge.setAttribute("type", "button")
     footnoteBadge.setAttribute("tabindex", "0")
