@@ -70,7 +70,6 @@ var footnotesLength = document.querySelectorAll('[role="doc-endnote"]').length
 
 for (i = 1; i <= footnotesLength; i++) {
   var footnoteRef = document.querySelector('#fnref\\:' + i)
-  var footnoteRefLink = footnoteRef.innerHTML
   var footnote = document.querySelector('.footnotes li#fn\\:' + i).innerHTML.trim()
   var footnoteAnchor = footnoteRef
     footnoteAnchor.lastChild.innerHTML = anchorIcon
@@ -90,17 +89,11 @@ for (i = 1; i <= footnotesLength; i++) {
     footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
     footnoteBadge.innerHTML = i
 
-    // footnoteBadgeCopy = footnoteBadge
-    // footnoteBadge = "<span style=\"white-space: nowrap;\">" + footnoteBadgeCopy + "</span>";
+  var footnoteBadgeNoWrap = document.createElement("span")
+    footnoteBadgeNoWrap.style.whiteSpace = "nowrap"
+    footnoteBadgeNoWrap.insertAdjacentElement('beforeend', footnoteBadge)
 
-    // var footnoteBadgeNoWrap = document.createElement("span")
-    //   footnoteBadgeNoWrap.style.whiteSpace = "nowrap"
-    //   footnoteBadgeNoWrap.innerHTML = footnoteBadge
-
-      // console.log(footnoteBadgeTest)
-      // console.log(footnoteBadge)
-
-    footnoteRef.before(footnoteBadge)
-    footnoteRef.remove()
+  footnoteRef.before(footnoteBadgeNoWrap)
+  footnoteRef.remove()
 }
 
