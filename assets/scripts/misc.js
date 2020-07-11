@@ -66,7 +66,9 @@ function languageSwitcherCookie(lang, url) {
 }
 
 // FOOTNOTES BADGE/POPOVER
-for (i = 1; i < 99; i++) {
+var footnotesLength = document.querySelectorAll('[role="doc-endnote"]').length
+
+for (i = 1; i <= footnotesLength; i++) {
   var footnoteRef = document.querySelector('#fnref\\:' + i)
   var footnoteNumber = footnoteRef.innerText
   var footnoteRefLink = footnoteRef.innerHTML
