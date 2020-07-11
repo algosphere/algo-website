@@ -65,38 +65,41 @@ function languageSwitcherCookie(lang, url) {
   window.location = url;
 }
 
-// FOOTNOTES BADGE/POPOVERS
-var footnoteRef = document.querySelector('#fnref\\:1')
-var footnoteNumber = footnoteRef.innerText
-var footnoteRefLink = footnoteRef.innerHTML
-var footnote = document.querySelector('.footnotes li#fn\\:1').innerHTML.trim()
-var footnoteAnchor = footnoteRef
-  footnoteAnchor.lastChild.innerHTML = anchorIcon
-  footnoteAnchor = footnoteAnchor.innerHTML
+// FOOTNOTES BADGE/POPOVER
+for (i = 1; i < 99; i++) {
+  var footnoteRef = document.querySelector('#fnref\\:' + i)
+  var footnoteNumber = footnoteRef.innerText
+  var footnoteRefLink = footnoteRef.innerHTML
+  var footnote = document.querySelector('.footnotes li#fn\\:' + i).innerHTML.trim()
+  var footnoteAnchor = footnoteRef
+    footnoteAnchor.lastChild.innerHTML = anchorIcon
+    footnoteAnchor = footnoteAnchor.innerHTML
 
-var footnoteBadge = document.createElement("a")
-  footnoteBadge.classList.add("footnote-ref", "badge", "badge-pill", "badge-secondary", "footnote-badge")
-  footnoteBadge.id = "fnref:1"
-  footnoteBadge.setAttribute("role", "doc-noteref")
-  footnoteBadge.setAttribute("type", "button")
-  footnoteBadge.setAttribute("tabindex", "0")
-  footnoteBadge.setAttribute("data-container", "body")
-  footnoteBadge.setAttribute("data-toggle", "popover")
-  footnoteBadge.setAttribute("data-trigger", "focus")
-  footnoteBadge.setAttribute("data-placement", "bottom")
-  footnoteBadge.setAttribute("data-html", "true")
-  footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
-  footnoteBadge.innerHTML = footnoteNumber
+  var footnoteBadge = document.createElement("a")
+    footnoteBadge.classList.add("footnote-ref", "badge", "badge-pill", "badge-secondary", "footnote-badge")
+    footnoteBadge.id = "fnref:1"
+    footnoteBadge.setAttribute("role", "doc-noteref")
+    footnoteBadge.setAttribute("type", "button")
+    footnoteBadge.setAttribute("tabindex", "0")
+    footnoteBadge.setAttribute("data-container", "body")
+    footnoteBadge.setAttribute("data-toggle", "popover")
+    footnoteBadge.setAttribute("data-trigger", "focus")
+    footnoteBadge.setAttribute("data-placement", "bottom")
+    footnoteBadge.setAttribute("data-html", "true")
+    footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
+    footnoteBadge.innerHTML = footnoteNumber
 
-  // footnoteBadgeCopy = footnoteBadge
-  // footnoteBadge = "<span style=\"white-space: nowrap;\">" + footnoteBadgeCopy + "</span>";
+    // footnoteBadgeCopy = footnoteBadge
+    // footnoteBadge = "<span style=\"white-space: nowrap;\">" + footnoteBadgeCopy + "</span>";
 
-  // var footnoteBadgeNoWrap = document.createElement("span")
-  //   footnoteBadgeNoWrap.style.whiteSpace = "nowrap"
-  //   footnoteBadgeNoWrap.innerHTML = footnoteBadge
+    // var footnoteBadgeNoWrap = document.createElement("span")
+    //   footnoteBadgeNoWrap.style.whiteSpace = "nowrap"
+    //   footnoteBadgeNoWrap.innerHTML = footnoteBadge
 
-    // console.log(footnoteBadgeTest)
-    // console.log(footnoteBadge)
+      // console.log(footnoteBadgeTest)
+      // console.log(footnoteBadge)
 
-footnoteRef.before(footnoteBadge)
-footnoteRef.remove()
+    footnoteRef.before(footnoteBadge)
+    footnoteRef.remove()
+}
+
