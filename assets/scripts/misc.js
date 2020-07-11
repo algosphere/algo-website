@@ -70,7 +70,6 @@ var footnotesLength = document.querySelectorAll('[role="doc-endnote"]').length
 
 for (i = 1; i <= footnotesLength; i++) {
   var footnoteRef = document.querySelector('#fnref\\:' + i)
-  var footnoteNumber = footnoteRef.innerText
   var footnoteRefLink = footnoteRef.innerHTML
   var footnote = document.querySelector('.footnotes li#fn\\:' + i).innerHTML.trim()
   var footnoteAnchor = footnoteRef
@@ -89,7 +88,7 @@ for (i = 1; i <= footnotesLength; i++) {
     footnoteBadge.setAttribute("data-placement", "bottom")
     footnoteBadge.setAttribute("data-html", "true")
     footnoteBadge.setAttribute("data-content", footnote + footnoteAnchor)
-    footnoteBadge.innerHTML = footnoteNumber
+    footnoteBadge.innerHTML = i
 
     // footnoteBadgeCopy = footnoteBadge
     // footnoteBadge = "<span style=\"white-space: nowrap;\">" + footnoteBadgeCopy + "</span>";
