@@ -1,13 +1,22 @@
+.footnote-badge {
+  vertical-align: super;
+  margin-left: .3em;
+  font-size: 0.7rem;
+  color: #fff !important; // fix badge link with no href
+}
+
+.footnote-ref .bi-link-45deg {
+  font-size: 1.3rem;
+}
+
+.footnote-ref:not(.footnote-badge) {
+  content: "";
+}
+
 .footnotes {
-  font-size: .9em;
+  font-size: .9rem;
+}
 
-  .footnote-backref {
-    visibility: hidden;
-
-    &::before {
-      content: "↑";
-      font-size: 1.1em;
-      visibility: visible;
-    }
-  }
+.footnote-backref {
+  display: none;
 }

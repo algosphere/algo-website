@@ -1,6 +1,7 @@
 <script>
   var baseURL = {{ .Site.Home.Permalink }};
   var externalLinkIcon = {{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
+  var anchorIcon = {{ (resources.Get "icons/link-45deg.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
   var analyticsID = {{ .Site.Params.analytics }};
 </script>
 
@@ -37,7 +38,7 @@
   </script>
   <script type="text/javascript">
     tarteaucitron.user.gtagUa = analyticsID;
-    tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+    tarteaucitron.user.gtagMore = function () { /* add here your optional gtag() */ };
     (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
   </script>
 {{ end }}
