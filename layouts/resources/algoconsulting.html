@@ -10,10 +10,12 @@
         <div class="table-responsive">
           <table class="table table-striped">
             <tbody>
-              {{ range .Site.Data.algoconsulting }}
-              <tr>
-                <td><a href="{{ .website }}">{{ .name }}</a></td>
-              </tr>
+              {{ with index .Site.Data.algoconsulting .Site.Language.Lang }}
+                {{ range .algoconsulting }}
+                <tr>
+                  <td><a href="{{ .website }}">{{ .name }}</a></td>
+                </tr>
+                {{ end }}
               {{ end }}
           </tbody>
           </table>
