@@ -29,7 +29,12 @@
                 <tr>
                   <td><a href="{{ .website }}">{{ .name }}</a></td>
                   <td>{{ .mission }}</td>
+                  {{ if .zone_link }}
+                  <td><a href="{{ .zone_link }}">{{ .zone }}</a></td>
+                  {{ else }}
                   <td>{{ .zone }}</td>
+                  {{ end }}
+                  auienrst
                 </tr>
                 {{ end }}
               {{ end }}
