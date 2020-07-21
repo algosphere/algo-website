@@ -11,7 +11,8 @@
         "name": "{{ .name }}",
         "website": "{{ .website }}",
         "mission": "{{ .mission }}",
-        "zone": "{{ .zone }}"
+        "zone": "{{ .zone }}",
+        "zone_link" : "{{ .zone_link }}"
       }
       {{ end }}
     {{ end }}
