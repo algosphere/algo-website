@@ -21,6 +21,8 @@ $(function () {
 })
 
 // FIX POPOVERS CLOSING WHEN CLICK INSIDE
+// FIX NOT USED, INSTEAD WAINTING FOR ISSUE BEING SOLVED
+// SEE https://github.com/twbs/bootstrap/issues/31088
 // $(document).mouseup(function (e) {
 //   var container = $(".popover")
 //   if (!container.is(e.target)  && container.has(e.target).length === 0)  {
