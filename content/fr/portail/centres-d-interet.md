@@ -11,5 +11,5 @@ draft: false
 ---
 
 {{< alert info >}}
-[En créer un à partir du modèle](https://docs.google.com/document/d/1YArnioq1lIK5rMsIRNC5ets8Bp_HbU5c36Nx-iYY1jk/copy)
+[En créer un à partir du modèle](https://docs.google.com/document/d/1YArnioq1lIK5rMsIRNC5ets8Bp_HbU5c36Nx-iYY1jk)
 {{< /alert >}}
