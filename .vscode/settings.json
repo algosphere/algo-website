@@ -1,6 +1,6 @@
 {
   "github-actions.workflows.pinned.workflows": [
-    ".github/workflows/ci-cd-master.yml",
+    ".github/workflows/ci-cd-main.yml",
     ".github/workflows/ci-cd-develop.yml"
   ],
 }
