@@ -1,4 +1,4 @@
-name: ci-cd-main
+name: deploy-main
 
 on:
   push:
@@ -15,8 +15,8 @@ env:
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_WEBSITE }}
 
 jobs:
-  build-and-deploy:
-    name: Build & deploy
+  deploy:
+    name: Deploy
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
