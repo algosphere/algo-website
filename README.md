@@ -10,7 +10,7 @@
     - Run `nvm install [Node.js version]`
     - Run `nvm use [Node.js version]`
 - Install dependencies: `npm i`
-- Install [Netlify CLI](https://docs.netlify.com/cli/get-started/), [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g netlify-cli gulp-cli postcss-cli autoprefixer`
+- Install [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS](https://postcss.org/), [PostCSS CLI](https://github.com/postcss/postcss-cli), [Autoprefixer](https://github.com/postcss/autoprefixer) and [Netlify CLI](https://docs.netlify.com/cli/get-started/) globally: `npm i -g postcss postcss-cli autoprefixer gulp-cli netlify-cli`
 - Clone the repo and run `npm run start` from root
 
 ## Related documents
