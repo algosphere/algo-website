@@ -1,9 +1,33 @@
 svg.bi {
-  font-size: 1.1em;
   vertical-align: text-bottom;
 
   &.bi-box-arrow-up-right {
+    vertical-align: baseline;
+    margin-left: .3em;
+    margin-bottom: -.1em;
+  }
+
+  &.bi-file-earmark-text {
     vertical-align: sub;
-    margin-left: .25em;
+  }
+
+  &.bi-chevron-left {
+    margin-bottom: 0.1em;
+  }
+}
+
+.footer-main {
+  svg.bi {
+    &.bi-envelope {
+      font-size: 1.5em;
+      vertical-align: text-top;
+      margin-right: .1em;
+    }
+
+    &.bi-heart-fill {
+      font-size: 1.5em;
+      vertical-align: text-top;
+      margin-right: .1em;
+    }
   }
 }
