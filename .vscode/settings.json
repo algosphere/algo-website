@@ -1,6 +1,6 @@
 {
   "github-actions.workflows.pinned.workflows": [
     ".github/workflows/deploy-main.yml",
-    ".github/workflows/deploy-develop.yml"
+    ".github/workflows/deploy-dev.yml"
   ],
 }
