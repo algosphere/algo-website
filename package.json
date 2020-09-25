@@ -26,7 +26,7 @@
     "gulp-replace": "^0.6.1",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-jpegtran": "^6.0.0",
-    "imagemin-optipng": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^7.1.0"
   }
 }
