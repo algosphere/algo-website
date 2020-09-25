@@ -21,7 +21,7 @@
   "homepage": "https://github.com/algosphere/algo-website",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.1.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^0.6.1",
     "imagemin-gifsicle": "^6.0.1",
