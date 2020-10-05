@@ -1,6 +1,6 @@
 <script>
   var baseURL = {{ .Site.Home.Permalink }};
-  var externalLinkIcon = {{ (resources.Get "icons/custom/arrow-external.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
+  var externalLinkIcon = {{ (resources.Get "icons/box-arrow-up-right.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
   var anchorIcon = {{ (resources.Get "icons/link-45deg.svg").Content | safeHTML | replaceRE "\n\\s*" "" }};
   var analyticsID = {{ .Site.Params.analytics }};
 </script>
