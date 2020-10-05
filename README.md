@@ -1,6 +1,6 @@
 ## To develop locally
-- Install [Hugo](https://gohugo.io/getting-started/installing#binary-cross-platform) (see version in [workflow file](/.github/workflows/ci-cd-develop.yml#L10))
-- Install [Node.js via nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (see version in [workflow file](/.github/workflows/ci-cd-develop.yml#L11))
+- Install [Hugo](https://gohugo.io/getting-started/installing#binary-cross-platform) (see version in [workflow file](/.github/workflows/deploy-main.yml#L12))
+- Install [Node.js via nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (see version in [workflow file](/.github/workflows/deploy-main.yml#L13))
   - On Windows:
     - Install [nvm-windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
     - Run `nvm install [Node.js version]` (in an Admin shell)
