@@ -22,6 +22,6 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-pretty-html": "^2.0.10",
-    "gulp-replace": "^0.6.1"
+    "gulp-replace": "^1.0.0"
   }
 }
