@@ -61,23 +61,18 @@ iframe {
   justify-content: center;
 
   .alert-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
-    min-height: 5em;
+    height: 5em;
     max-width: 600px;
+    margin-top: 5em;
     padding-right: 15px;
     padding-left: 15px;
 
-    p:last-child {
+    .alert-heading {
       margin-bottom: 0;
-    }
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  .container-404 {
-    .alert-404 {
-      margin-top: 5em;
-      margin-bottom: 5em;
     }
   }
 }

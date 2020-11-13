@@ -20,6 +20,8 @@
   translation: "Nous soutenir"
 - id: search
   translation: "Rechercher"
+- id: 404-title
+  translation: "Page non trouvée"
 - id: 404-description
   translation: "La page demandée n'existe pas"
 - id: positions-fundamental

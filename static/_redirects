@@ -5,10 +5,6 @@
 # languages
 /   /fr/   302!   Language=fr
 
-# 404
-/*      /404/ 404
-/fr/*   /fr/404/ 404
-
 # subdomains
 http://portal.algosphere.org                  https://algosphere.org/portal/ 301!
 https://portal.algosphere.org                 https://algosphere.org/portal/ 301!

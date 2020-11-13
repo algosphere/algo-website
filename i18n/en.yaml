@@ -20,8 +20,10 @@
   translation: "Support us"
 - id: search
   translation: "Search"
+- id: 404-title
+  translation: "Page not found"
 - id: 404-description
-  translation: "The page you ask for does not exist"
+  translation: "The page you asked for does not exist"
 - id: positions-fundamental
   translation: "Fundamental"
 - id: positions-specific
