@@ -22,7 +22,7 @@
                 <div id="{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsfundamental">
                   <div class="card-body">
                     {{ .Summary }}
-                    <a class="btn btn-primary-alt btn-block" href="{{ .RelPermalink }}" role="button">{{ i18n "read" }}</a>
+                    <a class="btn btn-primary-alt btn-block" href="{{ .Permalink }}" role="button">{{ i18n "read" }}</a>
                   </div>
                 </div>
               </div>
@@ -40,7 +40,7 @@
                 <div id="{{ $slug }}" class="collapse{{ if (eq $index 0) }} show{{ end }}" aria-labelledby="heading{{ $slug }}" data-parent="#accordionsspecific">
                   <div class="card-body">
                     {{ .Summary }}
-                    <a class="btn btn-primary-alt btn-block" href="{{ .RelPermalink }}" role="button">{{ i18n "read" }}</a>
+                    <a class="btn btn-primary-alt btn-block" href="{{ .Permalink }}" role="button">{{ i18n "read" }}</a>
                   </div>
                 </div>
               </div>

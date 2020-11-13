@@ -18,7 +18,7 @@
   {{ end }}
 {{ end }}
 {{ partial "styles" . }}
-<link href="{{ (resources.Get "/images/logo-trans.png").RelPermalink }}" rel="icon" type="image/x-icon" />
+<link href="{{ (resources.Get "/images/logo-trans.png").Permalink }}" rel="icon" type="image/x-icon" />
 {{ with getenv "PRODUCTION" }}
   {{ partial "analytics" . }}
 {{ end }}

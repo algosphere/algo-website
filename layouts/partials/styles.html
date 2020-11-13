@@ -9,4 +9,4 @@
 {{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
   {{ $mainCSS = $mainCSS | minify }}
 {{ end }}
-<link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+<link rel="stylesheet" href="{{ $mainCSS.Permalink }}">

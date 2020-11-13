@@ -2,7 +2,7 @@ baseURL: "https://algosphere.org/"
 languageCode: "en"
 defaultContentLanguage: "en"
 canonifyURLs: false
-relativeURLs: true
+relativeURLs: false
 disableFastRender: true
 disableLiveReload: true
 metaDataFormat: yaml
