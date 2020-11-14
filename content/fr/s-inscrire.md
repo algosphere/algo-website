@@ -28,7 +28,7 @@ Par la suite, si vous désirez devenir ***allié·e***, votre accompagnant·e vo
         <hr>
         <h2>Puis-je m'inscrire et participer anonymement ?</h2>
         <p>Oui, aucune vérification d'identité n'est faite. Vous pouvez vous inscrire avec l'adresse courriel de votre choix, et demander votre désinscription à tout moment.</p>
-        <p>Participer anonymement à Algosphère est possible, mais sachez que l'Alliance fonctionne en <a href="https://en.wikipedia.org/wiki/Radical_transparency">transparence radicale</a> : il vous appartiendra de donner ou non des informations vous concernant.</p>
+        <p>Participer anonymement à Algosphère est possible, mais sachez que l'Alliance fonctionne en <a href="https://fr.wikipedia.org/wiki/Transparence_radicale">transparence radicale</a> : il vous appartiendra de donner ou non des informations vous concernant.</p>
         <hr>
         <h2>Que se passe-t-il après l'inscription ?</h2>
         <p>Algosphère met à votre disposition un·e allié·e <strong><em>accompagnant·e</em></strong>. Vous pouvez solliciter cet·te allié·e pour faciliter vos premiers pas.</p>
