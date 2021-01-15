@@ -1,3 +1,4 @@
+{{ if ne .IsHome true }}
 <nav aria-label="breadcrumb">
     <div class="container-fluid">
       <ol class="breadcrumb">
@@ -5,6 +6,7 @@
       </ol>
     </div>
 </nav>
+{{ end }}
 
 {{ define "breadcrumbnav" }}
   {{ if .p1.Parent }}
