@@ -10,12 +10,9 @@ a.dropdown-item:active,
 }
 
 .dropdown-toggle::after {
-  content: "";
-  display: inline-block;
-	margin-left: .45em;
-  vertical-align: 0.2em;
-	border: solid $body-color;
-  border-width: 0 2px 2px 0;
-  padding: 3px;
-  transform: rotate(45deg);
+  content: var(--dropdown-toggle-icon);
+  border: none;
+  margin-left: .35em;
+  margin-top: .25em;
+  vertical-align: -.15em;
 }
