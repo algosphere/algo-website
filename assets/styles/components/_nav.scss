@@ -49,6 +49,10 @@
     flex-grow: 0;
     align-items: stretch;
 
+    .nav-item {
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
     svg.bi {
       width: initial;
       margin-left: .2em;
@@ -220,6 +224,7 @@
     .btn {
       display: flex;
       align-items: center;
+      border-radius: 0;
     }
 
     .dropdown {

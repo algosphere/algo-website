@@ -98,4 +98,3 @@ for (i = 1; i <= footnotesLength; i++) {
   footnoteRef.before(footnoteBadgeNoWrap)
   footnoteRef.remove()
 }
-
