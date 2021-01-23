@@ -36,7 +36,7 @@
         {{ range .Site.Menus.right }}
         {{ $URL := .URL | relLangURL }}
         {{ $isCurrent := or (eq $URL $currentPage.Permalink) (eq .Identifier $.Section) }}
-          <a class="btn btn-{{ .Pre }} no-external-icon" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+          <a class="btn btn-{{ .Pre }} nav-item no-external-icon" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
         {{ end }}
         {{ partial "language-switcher" . }}
       </div>

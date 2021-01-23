@@ -10,5 +10,5 @@
 
 <!-- toggle between two languages -->
 {{ range .Translations }}
-  <button class="btn btn-light no-external-icon" onclick="languageSwitcherCookie({{ .Language.Lang }}, {{ .Permalink }})"><i class="material-icons">translate</i> {{ .Language.LanguageName }}</button>
+  <button class="btn btn-light nav-item no-external-icon" onclick="languageSwitcherCookie({{ .Language.Lang }}, {{ .Permalink }})"><i class="material-icons">translate</i> {{ .Language.LanguageName }}</button>
 {{ end }}
