@@ -44,6 +44,10 @@ iframe {
   z-index: initial;
 }
 
+.list-group-item {
+  transition: $btn-transition;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: #227dc7;
 }

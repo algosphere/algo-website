@@ -46,8 +46,11 @@
 
   .navbar-collapse {
     justify-content: space-between;
-    flex-grow: 0;
     align-items: stretch;
+
+    .nav-item {
+      transition: $btn-transition;
+    }
 
     svg.bi {
       width: initial;
@@ -61,6 +64,7 @@
     .nav-left {
       flex-grow: 1;
       flex-wrap: wrap;
+      justify-content: center;
 
       a,
       .dropdown a {
@@ -152,11 +156,8 @@
     .navbar-collapse {
       .nav-item {
         display: flex;
+        font-size: 1.25em;
         align-items: center;
-      }
-
-      .nav-link {
-        font-size: 1.05em;
         padding-left: .75em !important;
         padding-right: .75em !important;
       }
@@ -204,11 +205,6 @@
         > .btn-primary-alt {
           margin-right: 1em;
         }
-
-        .btn-primary-alt,
-        .btn-success {
-          max-width: 125px;
-        }
       }
 
       .nav-right > *,
@@ -220,6 +216,7 @@
     .btn {
       display: flex;
       align-items: center;
+      border-radius: 0;
     }
 
     .dropdown {
