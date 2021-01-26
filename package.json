@@ -23,6 +23,8 @@
     "gulp": "^4.0.2",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^1.0.0",
+    "prettier": "2.2.1",
+    "prettier-plugin-go-template": "0.0.10",
     "yargs-parser": ">=5.0.0-security.0"
   }
 }
