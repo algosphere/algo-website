@@ -5,7 +5,7 @@
   }
 </style>
 
-{{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS (dict "use" "autoprefixer") }}
+{{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS }}
 {{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
 {{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
   {{ $mainCSS = $mainCSS | minify }}
