@@ -16,6 +16,16 @@ svg.bi {
   }
 }
 
+.dropdown-toggle {
+  &::after {
+    transition: transform ease-in-out .15s;
+  }
+
+  &[aria-expanded=true]::after {
+    transform: rotate(-180deg);
+  }
+}
+
 .footer-main {
   svg.bi {
     &.bi-envelope {
