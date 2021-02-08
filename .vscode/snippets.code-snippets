@@ -1,10 +1,8 @@
 {
 	"icon": {
 		"scope": "",
-		"prefix": "@icon",
 		"body": [
 			"{{ (resources.Get \"icons/${1:name}.svg\").Content | safeHTML }}$0",
-		],
-		"description": ""
+		]
 	}
 }
