@@ -61,6 +61,12 @@
       margin-right: .2em;
     }
 
+    .navbar-nav {
+      .nav-link {
+        color: rgba(0, 0, 0, 0.55);
+      }
+    }
+
     .nav-left {
       flex-grow: 1;
       flex-wrap: wrap;
@@ -163,15 +169,15 @@
       .nav-left {
       // à refactoriser
         .nav-link:hover:not(.active) {
-          color: rgba(0, 0, 0, 0.5);
+          color: rgba(0, 0, 0, 0.55);
         }
 
         .dropdown.show .nav-link.active {
-          color: rgba(0, 0, 0, 0.7);
+          color: rgba(0, 0, 0, 0.9);
         }
 
         .dropdown.show .nav-link:not(.active) {
-          color: rgba(0, 0, 0, 0.5);
+          color: rgba(0, 0, 0, 0.55);
         }
 
         a,
@@ -179,11 +185,11 @@
           &:hover,
           &:focus {
             background-color: $light;
-            color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.55);
           }
 
           &.active {
-            color: rgba(0, 0, 0, 0.7);
+            color: rgba(0, 0, 0, 0.9);
             text-decoration: none;
             background-color: $light;
           }
