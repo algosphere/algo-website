@@ -69,8 +69,8 @@
       a,
       .dropdown a {
         &.active {
-          color: rgba(0, 0, 0, 0.7);
-          font-weight: 600;
+          color: rgba(0, 0, 0, 0.9);
+          // font-weight: 600;
           text-decoration-line: underline;
           text-decoration-style: solid;
           text-decoration-color: rgba(0, 0, 0, 0.1);
@@ -79,8 +79,6 @@
 
         &.dropdown-item:active,
         &.dropdown-item.active {
-          color: #fff;
-          background-color: #88b1db;
           font-weight: initial;
           text-decoration: none;
         }
@@ -186,7 +184,6 @@
 
           &.active {
             color: rgba(0, 0, 0, 0.7);
-            font-weight: 600;
             text-decoration: none;
             background-color: $light;
           }

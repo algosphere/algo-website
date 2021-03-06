@@ -6,7 +6,7 @@ a.dropdown-item.active,
 a.dropdown-item:active,
 .dropdown a.dropdown-item.active,
 .dropdown a.dropdown-item:active {
-  background-color: #88b1db;
+  background-color: $light;
 }
 
 .dropdown-toggle::after {
