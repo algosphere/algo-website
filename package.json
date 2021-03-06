@@ -25,6 +25,6 @@
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^1.0.0",
     "postcss": "^8.2.4",
-    "yargs-parser": ">=5.0.0-security.0"
+    "yargs-parser": ">=20.2.6"
   }
 }
