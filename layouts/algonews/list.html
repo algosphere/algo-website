@@ -15,11 +15,7 @@
         <br>
         <div class="table-responsive">
           <table class="table table-sm">
-            {{ $scratch := newScratch }}
-              {{ range .Site.Data.algonewsold }}
-                {{ $scratch.Add "years" (slice .year) }}
-              {{ end }}
-            {{ $years := sort ($scratch.Get "years" | uniq) "value" "desc" }}
+            {{ $years := sort (apply .Site.Data.algonewsold "index" "." "year" | uniq) "value" "desc"  }}
             {{ range $years }}
               <thead class="thead-light">
                 <tr>
