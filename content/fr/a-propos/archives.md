@@ -2,7 +2,7 @@
 title: "Archives"
 description: "Archives de l'Alliance Algosphère"
 translationKey: "archives"
-weight: 6
+weight: 7
 icon: "archive"
 toc: true
 draft: false

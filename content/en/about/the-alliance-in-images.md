@@ -2,7 +2,7 @@
 title: "The Alliance in images"
 description: "Algosphere Alliance slides"
 translationKey: "the-alliance-in-images"
-weight: 4
+weight: 5
 icon: "image"
 toc: false
 draft: false

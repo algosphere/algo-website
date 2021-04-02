@@ -2,7 +2,7 @@
 title: "Governance"
 description: "Governance of the Algosphere Alliance"
 translationKey: "governance"
-weight: 3
+weight: 4
 icon: "building"
 cascade:
   type: "governance"

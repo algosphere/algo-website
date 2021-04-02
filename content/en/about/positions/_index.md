@@ -2,7 +2,7 @@
 title: "Positions"
 description: "Positions of the Algosphere Alliance"
 translationKey: "positions"
-weight: 2
+weight: 3
 icon: "flag"
 cascade:
   type: positions

@@ -7,36 +7,41 @@ main:
   name: About
   url: /about/
   weight: 2
+- identifier: introduction
+  name: Introduction
+  url: /about/introduction/
+  parent: about
+  weight: 1
 - identifier: vision
   name: Vision
   url: /about/vision/
   parent: about
-  weight: 1
+  weight: 2
 - identifier: positions
   name: Positions
   url: /about/positions/
   parent: about
-  weight: 2
+  weight: 3
 - identifier: governance
   name: Governance
   url: /about/governance/
   parent: about
-  weight: 3
+  weight: 4
 - identifier: the-alliance-in-images
   name: The Alliance in images
   url: /about/the-alliance-in-images/
   parent: about
-  weight: 4
+  weight: 5
 - identifier: faq
   name: FAQ
   url: /about/faq/
   parent: about
-  weight: 5
+  weight: 6
 - identifier: archives
   name: Archives
   url: /about/archives/
   parent: about
-  weight: 6
+  weight: 7
 - identifier: allies
   name: Allies
   url: /allies/
