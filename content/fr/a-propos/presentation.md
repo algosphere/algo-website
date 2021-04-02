@@ -8,6 +8,9 @@ toc: true
 draft: false
 ---
 
+# L'Alliance en images
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSRvtH7IpCIIIIjbpXI4ppOP5BUssbA2egBzMrCRAQORTFFeAby7gQIUOjp40q9o4YonSuthinv08gv/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 # Mission
 L'Alliance Algosphère[^1] est un réseau mondial d'individus et d'organisations, ouvert et transparent, dédié à l'allègement de la souffrance par la collaboration et la mobilisation politique. Algosphère a été initiée en 2011 par un petit groupe de personnes convaincues de la nécessité d'une structure nouvelle focalisée sur cet impératif le plus universel qui soit. Elle a été conçue avec un jeu de principes simples, lui permettant de fonctionner de manière non-hiérarchique, en démocratie directe, et de croître en taille et en influence grâce aux connexions humaines, au dialogue et au consentement.
 

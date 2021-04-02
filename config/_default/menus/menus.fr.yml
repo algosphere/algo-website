@@ -27,21 +27,16 @@ main:
   url: /a-propos/gouvernance/
   parent: a-propos
   weight: 4
-- identifier: l-alliance-en-images
-  name: L'Alliance en images
-  url: /a-propos/l-alliance-en-images/
-  parent: a-propos
-  weight: 5
 - identifier: faq
   name: FAQ
   url: /a-propos/faq/
   parent: a-propos
-  weight: 6
+  weight: 5
 - identifier: archives
   name: Archives
   url: /a-propos/archives/
   parent: a-propos
-  weight: 7
+  weight: 6
 - identifier: allies
   name: Alliés
   url: /allies/
