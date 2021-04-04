@@ -23,7 +23,18 @@
                 {{ range .Children }}
                   {{ $URL := .URL | relLangURL }}
                   {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
-                  <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+                  <div class="card card-width-{{ if eq .Post "full" }}full{{ else if eq .Post "half" }}half{{ else if eq .Post "auto" }}auto{{ else }}auto{{ end }}{{ if $isCurrent }} active{{ end }}">
+                    <a href="{{ $URL }}" class="text-dark">
+                      <div class="card-body">
+                        {{ with .Pre }}
+                          {{ $icon := . }}
+                          {{ $icon = print "icons/" $icon ".svg" }}
+                          {{ (resources.Get $icon).Content | safeHTML }}
+                        {{ end }}
+                        <h5 class="card-title">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</h5>
+                      </div>
+                    </a>
+                  </div>
                 {{ end }}
               </div>
           </div>
