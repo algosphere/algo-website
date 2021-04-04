@@ -1,1 +1,3 @@
-<a class="btn btn-light" href="{{ .Parent.Permalink }}" role="button">{{ (resources.Get "icons/chevron-left.svg").Content | safeHTML }} {{ .Parent.Title }}</a><br><br>
+{{ if and (ne .IsHome true) (ne .Parent .Site.Home ) }}
+  <a class="d-none d-xl-block btn btn-light" href="{{ .Parent.Permalink }}" role="button">{{ (resources.Get "icons/chevron-left.svg").Content | safeHTML }} {{ .Parent.Title }}</a><br><br>
+{{ end }}
