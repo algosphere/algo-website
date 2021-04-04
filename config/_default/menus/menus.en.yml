@@ -12,31 +12,37 @@ main:
   url: /about/vision/
   parent: about
   weight: 1
+  icon: "eye"
 - identifier: positions
   name: Positions
   url: /about/positions/
   parent: about
   weight: 2
+  icon: "flag"
 - identifier: governance
   name: Governance
   url: /about/governance/
   parent: about
   weight: 3
+  icon: "building"
 - identifier: the-alliance-in-images
   name: The Alliance in images
   url: /about/the-alliance-in-images/
   parent: about
   weight: 4
+  icon: "image"
 - identifier: faq
   name: FAQ
   url: /about/faq/
   parent: about
   weight: 5
+  icon: "question-square"
 - identifier: archives
   name: Archives
   url: /about/archives/
   parent: about
   weight: 6
+  icon: "archive"
 - identifier: allies
   name: Allies
   url: /allies/
