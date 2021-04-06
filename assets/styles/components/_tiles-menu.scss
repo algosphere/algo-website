@@ -1,75 +1,9 @@
-.tiles-menu {
-  .dropdown-menu.show {
-    display: flex;
-  }
-
-  .cards {
-    flex-wrap: wrap;
-    flex-direction: column;
-    // when supported on every browser (currently 2020-06 only firefox), set gap and remove workaround/margins
-    // gap: 1em;
-
-    & + .card {
-      margin-top: 1em;
-    }
-
-    .card {
-      justify-content: center;
-      flex-grow: 1;
-      flex-basis: calc(33% - 1em);
-      margin-bottom: 1em;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-
-      &.card-width-full {
-        flex-basis: initial;
-        width: 100%;
-      }
-
-      &.card-width-half {
-        flex-basis: calc(50% - .5em);
-      }
-
-      a {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        transition: $btn-transition;
-
-        &:hover,
-        &:focus {
-          color: $primary-alt !important;
-        }
-
-        .card-body {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-
-          svg.bi {
-            font-size: 1.8em;
-            margin-bottom: .25em;
-
-            &.bi-box-arrow-up-right {
-              font-size: inherit;
-              vertical-align: middle;
-            }
-          }
-
-          .card-title {
-            text-align: center;
-            margin-bottom: 0;
-          }
-        }
-      }
-    }
-  }
-}
-
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
   .tiles-menu {
+    .dropdown-menu.show {
+      display: flex;
+    }
+
     .cards {
       flex-direction: row;
       // gap workaround:
@@ -84,6 +18,52 @@
 
       .card {
         margin-bottom: 0;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &.card-width-full {
+          flex-basis: initial;
+          width: 100%;
+        }
+
+        &.card-width-half {
+          flex-basis: calc(50% - .5em);
+        }
+
+        a {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          transition: $btn-transition;
+
+          &:hover,
+          &:focus {
+            color: $primary-alt !important;
+          }
+
+          .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            svg.bi {
+              font-size: 1.8em;
+              margin-bottom: .25em;
+
+              &.bi-box-arrow-up-right {
+                font-size: inherit;
+                vertical-align: middle;
+              }
+            }
+
+            .card-title {
+              text-align: center;
+              margin-bottom: 0;
+            }
+          }
+        }
       }
     }
   }
