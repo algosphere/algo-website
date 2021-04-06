@@ -7,6 +7,7 @@ a.dropdown-item:active,
 .dropdown a.dropdown-item.active,
 .dropdown a.dropdown-item:active {
   background-color: $light;
+  color: inherit;
 }
 
 .dropdown-toggle::after {
