@@ -19,11 +19,31 @@
           {{ if .HasChildren }}
             <div class="dropdown">
               <a class="nav-item nav-link dropdown-toggle{{ if $isCurrent }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  {{ range .Children }}
-                    {{ $URL := .URL | relLangURL }}
-                    {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
-                    <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+                <div class="dropdown-menu{{ if eq .Pre "megamenu" }} megamenu{{ end }}" aria-labelledby="dropdownMenuLink">
+                  {{ if eq .Pre "megamenu" }}
+                  <!-- Megamenu desktop -->
+                    <div class="d-none d-xl-block megamenu-desktop">
+                      {{ range .Children }}
+                        {{ $URL := .URL | relLangURL }}
+                        {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
+                        <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+                      {{ end }}
+                    </div>
+                    <!-- Megamenu mobile -->
+                    <div class="d-xl-none">
+                      {{ range .Children }}
+                        {{ $URL := .URL | relLangURL }}
+                        {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
+                        <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+                      {{ end }}
+                    </div>
+                  {{ else }}
+                  <!-- Standard menu -->
+                    {{ range .Children }}
+                      {{ $URL := .URL | relLangURL }}
+                      {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
+                      <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+                    {{ end }}
                   {{ end }}
                 </div>
             </div>
