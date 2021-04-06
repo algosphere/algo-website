@@ -9,9 +9,7 @@ nav[aria-label="breadcrumb"] {
       margin-bottom: 0;
 
       .breadcrumb-item {
-        a {
-          color: $gray-600;
-        }
+        color: $body-color;
       }
 
       .breadcrumb-item + .breadcrumb-item::before {

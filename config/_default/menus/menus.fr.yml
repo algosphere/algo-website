@@ -12,31 +12,37 @@ main:
   url: /a-propos/vision/
   parent: a-propos
   weight: 1
+  icon: "eye"
 - identifier: positions
   name: Positions
   url: /a-propos/positions/
   parent: a-propos
   weight: 2
+  icon: "flag"
 - identifier: gouvernance
   name: Gouvernance
   url: /a-propos/gouvernance/
   parent: a-propos
   weight: 3
+  icon: "building"
 - identifier: l-alliance-en-images
   name: L'Alliance en images
   url: /a-propos/l-alliance-en-images/
   parent: a-propos
   weight: 4
+  icon: "image"
 - identifier: faq
   name: FAQ
   url: /a-propos/faq/
   parent: a-propos
   weight: 5
+  icon: "question-square"
 - identifier: archives
   name: Archives
   url: /a-propos/archives/
   parent: a-propos
   weight: 6
+  icon: "archive"
 - identifier: allies
   name: Alliés
   url: /allies/
