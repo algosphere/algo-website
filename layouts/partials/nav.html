@@ -22,7 +22,7 @@
                 <div class="dropdown-menu{{ if eq .Pre "megamenu" }} megamenu{{ end }}" aria-labelledby="dropdownMenuLink">
                   {{ if eq .Pre "megamenu" }}
                   <!-- Megamenu desktop -->
-                    <div class="d-none d-xl-block megamenu-desktop">
+                    <div class="megamenu-desktop d-none d-xl-block">
                       {{ range .Children }}
                         {{ $URL := .URL | relLangURL }}
                         {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
@@ -30,7 +30,7 @@
                       {{ end }}
                     </div>
                   <!-- Megamenu mobile -->
-                    <div class="d-xl-none">
+                    <div class="megamenu-mobile d-xl-none">
                       {{ range .Children }}
                         {{ $URL := .URL | relLangURL }}
                         {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
