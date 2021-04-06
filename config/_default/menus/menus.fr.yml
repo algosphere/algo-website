@@ -7,6 +7,7 @@ main:
   name: À propos
   url: /a-propos/
   weight: 2
+  pre: "megamenu"
 - identifier: vision
   name: Vision
   url: /a-propos/vision/
