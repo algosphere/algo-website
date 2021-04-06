@@ -7,6 +7,7 @@ main:
   name: About
   url: /about/
   weight: 2
+  pre: "megamenu"
 - identifier: vision
   name: Vision
   url: /about/vision/
@@ -25,6 +26,24 @@ main:
   parent: about
   weight: 3
   icon: "building"
+- identifier: constitution
+  name: Constitution
+  url: /about/governance/constitution
+  parent: governance
+  weight: 1
+  icon: "book"
+- identifier: operating-rules
+  name: Operating rules
+  url: /about/governance/operating-rules
+  parent: governance
+  weight: 2
+  icon: "gear-wide-connected"
+- identifier: mandates
+  name: Mandates
+  url: /about/governance/mandates
+  parent: governance
+  weight: 2
+  icon: "award"
 - identifier: the-alliance-in-images
   name: The Alliance in images
   url: /about/the-alliance-in-images/

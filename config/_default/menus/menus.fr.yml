@@ -25,6 +25,24 @@ main:
   parent: a-propos
   weight: 3
   icon: "building"
+- identifier: constitution
+  name: Constitution
+  url: /a-propos/gouvernance/constitution
+  parent: governance
+  weight: 1
+  icon: "book"
+- identifier: regles-de-fonctionnement
+  name: Règles de fonctionnement
+  url: /a-propos/gouvernance/regles-de-fonctionnement
+  parent: governance
+  weight: 2
+  icon: "gear-wide-connected"
+- identifier: mandats
+  name: Mandats
+  url: /a-propos/gouvernance/mandats
+  parent: governance
+  weight: 2
+  icon: "award"
 - identifier: l-alliance-en-images
   name: L'Alliance en images
   url: /a-propos/l-alliance-en-images/
