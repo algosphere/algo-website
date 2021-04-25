@@ -9,10 +9,6 @@ draft: false
 weight: 1
 ---
 
-{{< alert "success" >}}
-  If you would like to support this open letter, please [sign up here](/signup/)
-{{< /alert >}}
-
 <p style="text-align: right;">September 2017</p>
 
 From the Algosphere Alliance

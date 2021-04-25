@@ -9,10 +9,6 @@ draft: false
 weight: 1
 ---
 
-{{< alert "success" >}}
-  Si vous souhaitez soutenir cette lettre ouverte, [inscrivez-vous ici](/fr/s-inscrire/)
-{{< /alert >}}
-
 <p style="text-align: right;">Septembre 2017</p>
 
 De l'Alliance Algosphère
