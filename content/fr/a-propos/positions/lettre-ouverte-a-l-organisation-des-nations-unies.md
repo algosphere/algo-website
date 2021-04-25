@@ -13,7 +13,7 @@ weight: 1
   Si vous souhaitez soutenir cette lettre ouverte, [inscrivez-vous ici](/fr/s-inscrire/)
 {{< /alert >}}
 
-<p style="text-align: right;"><mark>(Date à venir suite à co-signatures)</mark></p>
+<p style="text-align: right;">Septembre 2017</p>
 
 De l'Alliance Algosphère
 
@@ -136,16 +136,6 @@ Alliance Algosphère
 **Comité de pilotage**
 [ReCivitas Institute](http://www.recivitas.org/)
 [Organisation for the Prevention of Intense Suffering](http://www.preventsuffering.org/)
-
----
-
-**Cosignataires :**
-
-**Personnalités**
-(À venir)
-
-**Organisations**
-(À venir)
 
 [^1]: URL de la lettre ouverte sur le site Algosphere : [algosphere.org/fr/a-propos/positions/lettre-ouverte-a-l-organisation-des-nations-unies](/fr/a-propos/positions/lettre-ouverte-a-l-organisation-des-nations-unies)
 [^2]: Sur le site de l'ONU, la page [unhcr.org/en-us/cash-based-interventions.html](https://www.unhcr.org/en-us/cash-based-interventions.html) donne accès à une riche documentation.

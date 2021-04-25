@@ -13,7 +13,7 @@ weight: 1
   If you would like to support this open letter, please [sign up here](/signup/)
 {{< /alert >}}
 
-<p style="text-align: right;"><mark>(Date to come after co-signatures)</mark></p>
+<p style="text-align: right;">September 2017</p>
 
 From the Algosphere Alliance
 
@@ -136,16 +136,6 @@ Algosphere Alliance
 **Steering committee**
 [ReCivitas Institute](http://www.recivitas.org/)
 [Organisation for the Prevention of Intense Suffering](http://www.preventsuffering.org/)
-
----
-
-**Co-signatories:**
-
-**Individuals**
-(To come)
-
-**Organizations**
-(To come)
 
 [^1]: URL of the open letter on Algosphere website: [algosphere.org/about/positions/open-letter-to-the-united-nations](/about/positions/open-letter-to-the-united-nations)
 [^2]: On the UN website, the page [unhcr.org/en-us/cash-based-interventions.html](https://www.unhcr.org/en-us/cash-based-interventions.html) provides extensive documentation.
