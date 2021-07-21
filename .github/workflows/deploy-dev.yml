@@ -35,7 +35,7 @@ jobs:
         extended: true
       if: success()
     - name: Build site
-      run: npm run build-dev
+      run: npm run _build-dev
       if: success()
     - name: Deploy site
       run: npm run deploy

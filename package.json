@@ -4,10 +4,10 @@
   "description": "Algosphere website",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "hugo server -DEF --i18n-warnings",
-    "build": "hugo --i18n-warnings && gulp",
-    "build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment dev --i18n-warnings && gulp",
-    "deploy": "netlify deploy --prod --dir public"
+    "dev": "hugo server -DEF --i18n-warnings",
+    "deploy": "netlify deploy --prod --dir public",
+    "_build": "hugo --i18n-warnings && gulp",
+    "_build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment dev --i18n-warnings && gulp"
   },
   "repository": {
     "type": "git",
