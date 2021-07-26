@@ -5,9 +5,9 @@
   "main": "gulpfile.js",
   "scripts": {
     "dev": "hugo server -DEF --i18n-warnings",
-    "deploy": "netlify deploy --prod --dir public",
     "_build": "hugo --i18n-warnings && gulp",
-    "_build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment dev --i18n-warnings && gulp"
+    "_build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment dev --i18n-warnings && gulp",
+    "_deploy": "netlify deploy --prod --dir public"
   },
   "repository": {
     "type": "git",

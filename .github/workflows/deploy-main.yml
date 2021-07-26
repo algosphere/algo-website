@@ -40,5 +40,5 @@ jobs:
       run: npm run _build
       if: success()
     - name: Deploy site
-      run: npm run deploy
+      run: npm run _deploy
       if: success()
