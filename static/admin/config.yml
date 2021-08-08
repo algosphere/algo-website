@@ -16,7 +16,7 @@ collections:
     - label: "Publications"
       name: "publications"
       file: "data/algonewsold.yml"
-      fields:
+      field:
         - label: Publications
           name: publications
           widget: list
