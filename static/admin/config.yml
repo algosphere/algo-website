@@ -4,3 +4,5 @@ backend:
   branch: main
 media_folder: "static/images"
 public_folder: "/images"
+collections:
+  -
