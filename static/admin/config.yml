@@ -2,6 +2,8 @@ backend:
   name: github
   repo: algosphere/algo-website
   branch: main
+site_url: https://algosphere.org/
+logo_url: https://algosphere.org/images/logo-static/logo-trans.png
 locale: 'fr'
 media_folder: "static/images"
 public_folder: "/images"
