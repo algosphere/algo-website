@@ -1,3 +1,6 @@
+// NETLIFY-CMS
+import CMS from 'netlify-cms-app'
+
 // TOP BUTTON
 window.onscroll = function() {scrollFunction()};
 document.getElementById('topBtn').onclick = topFunction;
