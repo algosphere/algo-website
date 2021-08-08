@@ -2,6 +2,7 @@ backend:
   name: github
   repo: algosphere/algo-website
   branch: main
+locale: 'fr'
 media_folder: "static/images"
 public_folder: "/images"
 collections:
