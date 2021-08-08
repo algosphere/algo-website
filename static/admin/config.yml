@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: algosphere/algo-website
+  name: git-gateway
   branch: main
 media_folder: "static/images"
 public_folder: "/images"
