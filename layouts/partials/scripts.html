@@ -41,4 +41,15 @@
     tarteaucitron.user.gtagMore = function () { /* add here your optional gtag() */ }
     (tarteaucitron.job = tarteaucitron.job || []).push('gtag')
   </script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 {{ end }}
