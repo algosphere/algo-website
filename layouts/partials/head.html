@@ -22,5 +22,4 @@
 {{ with getenv "PRODUCTION" }}
   {{ partial "analytics" . }}
 {{ end }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <title>{{ if $.IsHome }}{{ $.Site.Title }} | {{ $.Site.Params.description }}{{ else if eq $.Kind "404" }}{{ i18n "404-title" }} | {{ $.Site.Params.description }}{{ else }}{{ $.Title }} | {{ $.Site.Title }}{{ end }}</title>
