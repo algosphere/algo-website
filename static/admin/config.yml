@@ -16,9 +16,11 @@ collections:
       - label: "Algonews"
         name: "algonews"
         file: "data/algonewsold.yml"
+        preview_path: resources/algonews
         fields:
           - label: Publications
             name: publications
+            identifier_field: name
             widget: list
             add_to_top: true
             fields:
