@@ -22,6 +22,10 @@ collections:
             widget: list
             add_to_top: true
             fields:
-              - {label: Titre, name: title, widget: string}
+              - {label: Titre, name: name, widget: string}
               - {label: Année, name: year, widget: string}
               - {label: URL, name: url, widget: string}
+              - {label: selection1name, name: selection1name, widget: string}
+              - {label: selection1url, name: selection1url, widget: string}
+              - {label: selection1namefr, name: selection1namefr, widget: string}
+              - {label: selection1urlfr, name: selection1urlfr, widget: string}
