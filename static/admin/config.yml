@@ -4,24 +4,24 @@ backend:
   branch: main
 site_url: https://algosphere.org
 logo_url: https://algosphere.org/images/logo-static/logo-trans.png
-locale: 'fr'
+locale: "fr"
 slug:
   clean_accents: true
 media_folder: "static/images"
 public_folder: "/images"
 collections:
-  - label: "Algonews"
-    name: "algonews"
+  - label: "Données"
+    name: "data"
     files:
-    - label: "Publications"
-      name: "publications"
-      file: "data/algonewsold.yml"
-      fields:
-        - label: Publications
-          name: publications
-          widget: list
-          add_to_top: true
-          fields:
-            - {label: Titre, name: titre, widget: string}
-            - {label: Année, name: annee, widget: string}
-            - {label: URL, name: url, widget: string}
+      - label: "Algonews"
+        name: "algonews"
+        file: "data/algonewsold.yml"
+        fields:
+          - label: Publications
+            name: publications
+            widget: list
+            add_to_top: true
+            fields:
+              - {label: Titre, name: title, widget: string}
+              - {label: Année, name: year, widget: string}
+              - {label: URL, name: url, widget: string}
