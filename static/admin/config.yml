@@ -12,11 +12,11 @@ public_folder: "/images"
 collections:
   - label: "Données"
     name: "data"
+    identifier_field: name
     files:
       - label: "Algonews"
         name: "algonews"
         file: "data/algonewsold.yml"
-        identifier_field: name
         preview_path: resources/algonews
         fields:
           - label: Publications
