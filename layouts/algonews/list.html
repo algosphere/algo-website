@@ -15,7 +15,7 @@
         <br>
         <div class="table-responsive">
           <table class="table table-sm">
-            {{ $years := sort (apply .Site.Data.algonewsold "index" "." "year" | uniq) "value" "desc"  }}
+            {{ $years := sort (apply .Site.Data.algonewsold.issues "index" "." "year" | uniq) "value" "desc"  }}
             {{ range $years }}
               <thead class="thead-light">
                 <tr>
@@ -23,7 +23,7 @@
                 </tr>
               </thead>
               <tbody>
-              {{ range where $.Site.Data.algonewsold "year" . }}
+              {{ range where $.Site.Data.algonewsold.issues "year" . }}
                 <tr>
                   <td><a href="{{ .url }}">{{ .name }}</a>
                     {{ if .selection1name }}
