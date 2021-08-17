@@ -19,7 +19,7 @@ collections:
         preview_path: resources/algonews
         fields:
           - label: Publications
-            name: publications
+            name: issues
             widget: list
             add_to_top: true
             fields:
