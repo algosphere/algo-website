@@ -23,7 +23,7 @@ collections:
             widget: list
             add_to_top: true
             fields:
-              - {label: Titre, name: name, widget: string}
+              - {label: Titre, name: title, widget: string}
               - {label: Année, name: year, widget: string}
               - {label: URL, name: url, widget: string}
               - {label: selection1name, name: selection1name, widget: string}
