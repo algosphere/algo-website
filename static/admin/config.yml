@@ -12,6 +12,8 @@ public_folder: "/images"
 collections:
   - label: "Données"
     name: "data"
+    editor:
+     preview: false
     files:
       - label: "Algonews"
         name: "algonews"
@@ -26,7 +28,7 @@ collections:
               - {label: Titre, name: title, widget: string}
               - {label: Année, name: year, widget: string}
               - {label: URL, name: url, widget: string}
-              - {label: Titre extrait (en), name: selection1title, widget: string, required: false}
-              - {label: URL extrait (en), name: selection1url, widget: string, required: false}
-              - {label: Titre extrait (fr), name: selection1titlefr, widget: string, required: false}
-              - {label: URL extrait (fr), name: selection1urlfr, widget: string, required: false}
+              - {label: Titre extrait (en), name: selection1title, widget: hidden, required: false}
+              - {label: URL extrait (en), name: selection1url, widget: hidden, required: false}
+              - {label: Titre extrait (fr), name: selection1titlefr, widget: hidden, required: false}
+              - {label: URL extrait (fr), name: selection1urlfr, widget: hidden, required: false}
