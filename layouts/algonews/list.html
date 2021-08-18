@@ -25,12 +25,12 @@
               <tbody>
               {{ range where $.Site.Data.algonewsold.issues "year" . }}
                 <tr>
-                  <td><a href="{{ .url }}">{{ .name }}</a>
-                    {{ if .selection1name }}
+                  <td><a href="{{ .url }}">{{ .title }}</a>
+                    {{ if .selection1title }}
                       {{ if (eq $.Site.Language.Lang "fr") }}
-                        <br><a href="{{ .selection1urlfr }}" style="padding-left: 2rem;">{{ .selection1namefr }}</a>
+                        <br><a href="{{ .selection1urlfr }}" style="padding-left: 2rem;">{{ .selection1titlefr }}</a>
                       {{ else }}
-                        <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1name }}</a>
+                        <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1title }}</a>
                       {{ end }}
                     {{ end }}
                   </td>
