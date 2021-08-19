@@ -33,3 +33,9 @@ collections:
               - {label: URL extrait (en), name: selection1url, widget: hidden, required: false}
               - {label: Titre extrait (fr), name: selection1titlefr, widget: hidden, required: false}
               - {label: URL extrait (fr), name: selection1urlfr, widget: hidden, required: false}
+      - label: "Alliés (personnes)"
+        name: "allies-people"
+        file: "data/allies/people.yml"
+        preview_path: allies
+        fields:
+          - {label: Compteur, name: counter, widget: number, value_type: "int"}
