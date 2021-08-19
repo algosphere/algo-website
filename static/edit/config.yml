@@ -13,7 +13,7 @@ collections:
   - label: "Données"
     name: "data"
     editor:
-     preview: false
+      preview: false
     files:
       - label: "Algonews"
         name: "algonews"
@@ -21,6 +21,7 @@ collections:
         preview_path: resources/algonews
         fields:
           - label: Publications
+            label_singular: publication
             name: issues
             widget: list
             add_to_top: true
