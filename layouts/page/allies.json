@@ -1,11 +1,11 @@
 {
   "count": {
     "people": "{{ .Site.Data.allies.people.counter }}",
-    "organizations": "{{ len (index .Site.Data.allies.organizations .Site.Language.Lang).organizations }}"
+    "organizations": "{{ len (index .Site.Data.allies.organizations .Site.Language.Lang).organizations.organizations }}"
   },
   "organizations": [
     {{ with index .Site.Data.allies.organizations .Site.Language.Lang }}
-      {{ range $index, $value := .organizations }}
+      {{ range $index, $value := .organizations.organizations }}
         {{ if $index }}, {{ end }}
       {
         "name": "{{ .name }}",

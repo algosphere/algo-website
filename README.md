@@ -13,8 +13,8 @@
 - Install [PostCSS](https://postcss.org/), [PostCSS CLI](https://github.com/postcss/postcss-cli), [Autoprefixer](https://github.com/postcss/autoprefixer), [gulp-cli](https://www.npmjs.com/package/gulp-cli) and [Netlify CLI](https://docs.netlify.com/cli/get-started/) globally: `npm i -g postcss postcss-cli autoprefixer gulp-cli netlify-cli`
 - Clone the repo and run `npm run dev` from root
 
-### To enable local CMS (while developing locally)
-Temporarily (do not commit) put `local_backend` to `true` in `static/edit/config.yml`
+### To enable local CMS
+Change (do not commit) `local_backend` to `true` in `static/edit/config.yml`
 
 ## Related documents
 - [Workshop: Algosphere Alliance's website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)

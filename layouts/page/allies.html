@@ -9,7 +9,7 @@
         <h1>{{ i18n "people" }} <span class="badge badge-pill badge-primary-alt">{{ .Site.Data.allies.people.counter }}</span></h1>
         <iframe src="https://www.google.com/maps/d/embed?mid=1yM7SAcV1zJQe3REhjYTwZcrDT70" width="640" height="480"></iframe>
 
-        <h1>{{ i18n "organizations" }} <span class="badge badge-pill badge-primary-alt">{{ len (index .Site.Data.allies.organizations .Site.Language.Lang).organizations }}</span></h1>
+        <h1>{{ i18n "organizations" }} <span class="badge badge-pill badge-primary-alt">{{ len (index .Site.Data.allies.organizations .Site.Language.Lang).organizations.organizations }}</span></h1>
         <div class="alert alert-info" role="alert">
           <a href="{{ .Params.guidelink }}">{{ i18n "organizations-guide" }}</a>
         </div>
@@ -25,7 +25,7 @@
             </thead>
             <tbody>
               {{ with index .Site.Data.allies.organizations .Site.Language.Lang }}
-                {{ range .organizations }}
+                {{ range .organizations.organizations }}
                 <tr>
                   <td><a href="{{ .website }}">{{ .name }}</a></td>
                   <td>{{ .mission }}</td>
