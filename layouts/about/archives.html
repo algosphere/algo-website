@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="container-fluid">
+      {{ partial "back-btn" . }}
+      <h1 class="page-title">{{ .Title }}</h1><br>
+      <nav id="TableOfContents">
+        <ul>
+          {{ range .Site.Data.archives.years }}
+            <li><a href="#{{ .year }}">{{ .year }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+      <br><br>
+      <article class="article">
+        {{ range .Site.Data.archives.years }}
+          <h2 id="{{ .year }}">{{ .year }}</h2>
+          {{ .archives | markdownify }}
+        {{ end }}
+      </article>
+      {{ partial "social-share" . }}
+    </div>
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}

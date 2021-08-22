@@ -6,16 +6,30 @@ backend:
 site_url: https://algosphere.org
 logo_url: https://algosphere.org/images/logo-static/logo-trans.png
 locale: "fr"
+search: false
 slug:
   clean_accents: true
 media_folder: "static/images"
 public_folder: "/images"
 collections:
-  - label: "Données"
-    name: "data"
+  - label: "Archives"
+    name: "archives"
     editor:
       preview: false
     files:
+      - label: "Générales"
+        name: "general"
+        file: "data/archives.yml"
+        preview_path: about/archives
+        fields:
+          - label: Années
+            label_singular: année
+            name: years
+            widget: list
+            add_to_top: true
+            fields:
+              - {label: Année, name: year, widget: string}
+              - {label: Archives, name: archives, widget: markdown, buttons: ["bold", "italic", "link", "quote", "bulleted-list", "numbered-list"], editor_components: [], modes: ["rich_text"]}
       - label: "Algonews"
         name: "algonews"
         file: "data/algonewsold.yml"
@@ -34,7 +48,12 @@ collections:
               - {label: URL extrait (en), name: selection1url, widget: hidden, required: false}
               - {label: Titre extrait (fr), name: selection1titlefr, widget: hidden, required: false}
               - {label: URL extrait (fr), name: selection1urlfr, widget: hidden, required: false}
-      - label: "Alliés (personnes)"
+  - label: "Alliés"
+    name: "allies"
+    editor:
+      preview: false
+    files:
+      - label: "Personnes (compteur)"
         name: "allies-people"
         file: "data/allies/people.yml"
         preview_path: allies
