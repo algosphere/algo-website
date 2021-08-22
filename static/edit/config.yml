@@ -3,6 +3,12 @@ backend:
   name: github
   repo: algosphere/algo-website
   branch: main
+  commit_messages:
+  create: add {{collection}}/{{slug}}
+  update: update {{collection}}/{{slug}}
+  delete: delete {{collection}}/{{slug}}
+  uploadMedia: upload {{path}}
+  deleteMedia: delete {{path}}
 site_url: https://algosphere.org
 logo_url: https://algosphere.org/images/logo-static/logo-trans.png
 locale: "fr"
