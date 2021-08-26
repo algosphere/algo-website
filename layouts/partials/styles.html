@@ -7,7 +7,7 @@
 
 {{ $mainCSS := resources.Get "styles/index.scss" | resources.ToCSS | resources.PostCSS }}
 {{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
-{{ with or (getenv "PREVIEW") (getenv "PRODUCTION") }}
+{{ with or (getenv "DEV") (getenv "PROD") }}
   {{ $mainCSS = $mainCSS | minify }}
 {{ end }}
 <link rel="stylesheet" href="{{ $mainCSS.Permalink }}">

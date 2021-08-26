@@ -6,7 +6,7 @@ on:
       - dev
 
 env:
-  PREVIEW: true
+  DEV: true
   HUGO_VERSION: '0.74.1'
   NODE_VERSION: '12.14.0'
   NETLIFY_SITE_ID: 'c97298da-938f-4084-9307-c7135a92f98a'

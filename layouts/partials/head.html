@@ -1,5 +1,5 @@
-<meta name="environment" content="{{ with (getenv "PRODUCTION") }}PRODUCTION{{ end }}{{ with (getenv "PREVIEW") }}PREVIEW{{ end }}{{ with .Site.IsServer }}SERVER{{ end }}">
-{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
+<meta name="environment" content="{{ with (getenv "PROD") }}PROD{{ end }}{{ with (getenv "DEV") }}DEV{{ end }}{{ with .Site.IsServer }}SERVER{{ end }}">
+{{ with or (getenv "PROD") (getenv "DEV") }}
 <meta name="version" content="{{ substr (getenv "GITHUB_SHA") 0 7 }}">
 {{ end }}
 {{ hugo.Generator }}
@@ -19,7 +19,7 @@
 {{ end }}
 {{ partial "styles" . }}
 <link href="{{ (resources.Get "/images/logo-trans.png").Permalink }}" rel="icon" type="image/x-icon" />
-{{ with getenv "PRODUCTION" }}
+{{ with getenv "PROD" }}
   {{ partial "analytics" . }}
 {{ end }}
 <title>{{ if $.IsHome }}{{ $.Site.Title }} | {{ $.Site.Params.description }}{{ else if eq $.Kind "404" }}{{ i18n "404-title" }} | {{ $.Site.Params.description }}{{ else }}{{ $.Title }} | {{ $.Site.Title }}{{ end }}</title>

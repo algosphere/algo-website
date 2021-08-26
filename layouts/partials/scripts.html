@@ -10,12 +10,12 @@
 {{ $bootstrap := resources.Get "scripts/bootstrap.js" }}
 {{ $misc := resources.Get "scripts/misc.js" }}
 {{ $mainJS := slice $jquery $popper $bootstrap $misc | resources.Concat "main.js" }}
-{{ with or (getenv "PRODUCTION") (getenv "PREVIEW") }}
+{{ with or (getenv "PROD") (getenv "DEV") }}
   {{ $mainJS = $mainJS | minify | fingerprint }}
 {{ end }}
 <script src="{{ $mainJS.Permalink }}" integrity="{{ $mainJS.Data.Integrity }}" defer></script>
 
-{{ with getenv "PRODUCTION" }}
+{{ with getenv "PROD" }}
   <script type="text/javascript" src="/tarteaucitron/tarteaucitron.js"></script>
   <script type="text/javascript">
     tarteaucitron.init({
