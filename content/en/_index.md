@@ -7,7 +7,9 @@ draft: false
 ---
 
 # Mission
-The Algosphere[^1] Alliance is an open and transparent global network of individuals and organizations, dedicated to alleviating suffering in the world through collaboration and political mobilisation. The Algosphere was created in 2011 by a small group of individuals who recognised the necessity for a new structure focused on this most universal of needs. It was designed according to a simple set of principles, allowing it to function as a strictly non-hierarchical, directly democratic organization and to grow in size and influence through human connections, dialogue and consent.
+The Algosphere[^1] Alliance is a coalition of people and organisations working for a world that prioritises the alleviation of suffering. Suffering is defined as a feeling of unpleasantness and aversion. When suffering is deemed sufficiently light, there may be other priorities than alleviating the suffering. 
+
+The Algosphere Alliance was created in 2011 by a small group of individuals who recognised the necessity for a new structure focused on this most universal of needs, the alleviation of suffering. It was designed according to a simple set of principles, allowing it to function as a strictly non-hierarchical, directly democratic organization and to grow in size and influence through human connections, dialogue and consent.
 
 The only requirement for individuals to join the Alliance is that they consider the alleviation of suffering in the world to be an ethical priority. For organizations, the requirement is stricter: they must view the alleviation of suffering in the world as their highest priority. Organizations interested in joining the Alliance are therefore encouraged to reflect on their underlying ethics and adapt them if necessary. Joining the Alliance gives an individual or organization the status of "ally". There are no dues to be paid or any constraints, and allies are free to leave the Alliance at any time.
 
