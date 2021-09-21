@@ -7,7 +7,9 @@ draft: false
 ---
 
 # Mission
-L'Alliance Algosphère[^1] est un réseau mondial d'individus et d'organisations, ouvert et transparent, dédié à l'allègement de la souffrance par la collaboration et la mobilisation politique. Algosphère a été initiée en 2011 par un petit groupe de personnes convaincues de la nécessité d'une structure nouvelle focalisée sur cet impératif le plus universel qui soit. Elle a été conçue avec un jeu de principes simples, lui permettant de fonctionner de manière non-hiérarchique, en démocratie directe, et de croître en taille et en influence grâce aux connexions humaines, au dialogue et au consentement.
+L'Alliance Algosphère[^1] est un regroupement de personnes et d’organisations œuvrant pour un monde qui donne la priorité à l’allègement de la souffrance. La souffrance est définie comme un ressenti de désagrément et d’aversion. Lorsque des souffrances sont jugées suffisamment légères, il peut y avoir d’autres priorités que d’alléger ces souffrances. 
+
+L’Alliance Algosphère a été initiée en 2011 par un petit groupe de personnes convaincues de la nécessité d’une structure nouvelle focalisée sur cet impératif le plus universel qui soit, l’allègement de la souffrance. Elle a été conçue avec un jeu de principes simples, lui permettant de fonctionner de manière non-hiérarchique, en démocratie directe, et de croître en taille et en influence grâce aux connexions humaines, au dialogue et au consentement.
 
 La seule condition pour rejoindre l'Alliance en tant qu'individu est de considérer que l'allègement de la souffrance dans le monde est une priorité éthique. Pour les organisations la condition est plus stricte : elles doivent faire de l'allègement de la souffrance dans le monde leur plus haute priorité. Les organisations qui souhaitent s'allier sont donc invitées à réfléchir à leur éthique sous-jacente et à l'adapter si nécessaire. Rejoindre l'Alliance donne à un individu ou à une organisation le statut "d'allié". Il n'y a pas de cotisation à payer ni de contrainte particulière, et les alliés sont libres de quitter l'Alliance à tout moment.
 
