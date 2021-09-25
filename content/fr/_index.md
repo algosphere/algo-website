@@ -6,8 +6,12 @@ toc: true
 draft: false
 ---
 
+{{< alert primary-alt >}}
+### L’Alliance Algosphère est un regroupement de personnes et d’organisations œuvrant pour un monde qui donne la priorité à l’allègement de la souffrance.
+{{< /alert >}}
+
 # Mission
-L'Alliance Algosphère[^1] est un regroupement de personnes et d’organisations œuvrant pour un monde qui donne la priorité à l’allègement de la souffrance. La souffrance est définie comme _un ressenti de désagrément et d’aversion_. Lorsque des souffrances sont jugées suffisamment légères, il peut y avoir d’autres priorités que d’alléger ces souffrances. 
+L'Alliance Algosphère[^1] est un regroupement de personnes et d’organisations œuvrant pour un monde qui donne la priorité à l’allègement de la souffrance. La souffrance est définie comme _un ressenti de désagrément et d’aversion_. Lorsque des souffrances sont jugées suffisamment légères, il peut y avoir d’autres priorités que d’alléger ces souffrances.
 
 L’Alliance Algosphère a été initiée en 2011 par un petit groupe de personnes convaincues de la nécessité d’une structure nouvelle focalisée sur cet impératif le plus universel qui soit, l’allègement de la souffrance. Elle a été conçue avec un jeu de principes simples, lui permettant de fonctionner de manière non-hiérarchique, en démocratie directe, et de croître en taille et en influence grâce aux connexions humaines, au dialogue et au consentement.
 
