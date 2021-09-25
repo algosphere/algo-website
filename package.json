@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/algosphere/algo-website",
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
+    "autoprefixer": "^10.3.3",
     "gulp": "^4.0.2",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^1.1.3",
