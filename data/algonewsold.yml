@@ -1,95 +1,98 @@
 issues:
+  - title: "AlgoNews #31 (Autumn 2021)"
+    year: "2021"
+    url: https://docs.google.com/document/d/1nnL-lKjTSQYU6GxSVzZtzFFnzQDqgkQGkmqK_LbYCTE/edit?usp=sharing
   - title: "AlgoNews #30 (Summer 2021)"
     year: "2021"
-    url: "https://docs.google.com/document/d/1La8wo-dc-30SGayVRs3ULXaXHBhvs9rNLU0t8K17HmM/edit?usp=sharing"
+    url: https://docs.google.com/document/d/1La8wo-dc-30SGayVRs3ULXaXHBhvs9rNLU0t8K17HmM/edit?usp=sharing
   - title: "AlgoNews #29 (Spring 2021)"
     year: "2021"
-    url: "https://docs.google.com/document/d/1a_ubch9aXdDjdF7YF37t8c4soM4Ho0eaeJXmFoK-QM0/edit"
-  - title: "AlgoNews - 2020 Vol. 7, No. 4"
+    url: https://docs.google.com/document/d/1a_ubch9aXdDjdF7YF37t8c4soM4Ho0eaeJXmFoK-QM0/edit
+  - title: AlgoNews - 2020 Vol. 7, No. 4
     year: "2020"
-    url: "https://docs.google.com/document/d/1WRP0u9W_9H8T7mB-BhFYye-k2TdolZPOsDhDuiOKEns/edit"
-  - title: "AlgoNews - 2020 Vol. 7, No. 3"
+    url: https://docs.google.com/document/d/1WRP0u9W_9H8T7mB-BhFYye-k2TdolZPOsDhDuiOKEns/edit
+  - title: AlgoNews - 2020 Vol. 7, No. 3
     year: "2020"
-    url: "https://docs.google.com/document/d/1tNsGmGbN7ycR-ogWhCAtrtcR6VTKt7Qr5ywgsw24_oM/edit"
-  - title: "AlgoNews - 2020 Vol. 7, No. 2"
+    url: https://docs.google.com/document/d/1tNsGmGbN7ycR-ogWhCAtrtcR6VTKt7Qr5ywgsw24_oM/edit
+  - title: AlgoNews - 2020 Vol. 7, No. 2
     year: "2020"
-    url: "https://docs.google.com/document/d/1Yojjd10MLQ-9MzrLNVFtxtwr3vLl-pV1L7kEB5qxblM/edit"
-  - title: "AlgoNews - 2020 Vol. 7, No. 1"
+    url: https://docs.google.com/document/d/1Yojjd10MLQ-9MzrLNVFtxtwr3vLl-pV1L7kEB5qxblM/edit
+  - title: AlgoNews - 2020 Vol. 7, No. 1
     year: "2020"
-    url: "https://docs.google.com/document/d/1MCHft3Qs7cxyNRL-sdoINnPNbJSC5NyoJ-Z7vR3_rQ8/edit"
-  - title: "AlgoNews - 2019 Vol. 6, No. 4"
+    url: https://docs.google.com/document/d/1MCHft3Qs7cxyNRL-sdoINnPNbJSC5NyoJ-Z7vR3_rQ8/edit
+  - title: AlgoNews - 2019 Vol. 6, No. 4
     year: "2019"
-    url: "https://docs.google.com/document/d/1qrC8202nwQEGcaT5zj-zsIpvdmCmwME1xIUX3GVEbyU/"
-  - title: "AlgoNews - 2019 Vol. 6, No. 3"
+    url: https://docs.google.com/document/d/1qrC8202nwQEGcaT5zj-zsIpvdmCmwME1xIUX3GVEbyU/
+  - title: AlgoNews - 2019 Vol. 6, No. 3
     year: "2019"
-    url: "https://docs.google.com/document/d/1g_X5EmaY_2ZiA2I9kaob6_abhhMNYezyIMHqr50Wv2U/"
+    url: https://docs.google.com/document/d/1g_X5EmaY_2ZiA2I9kaob6_abhhMNYezyIMHqr50Wv2U/
     selection1title: "SELECTION: Animal Rebellion Turtle Island"
-    selection1url: "2019-vol-6-no-3/animal-rebellion-turtle-island"
+    selection1url: 2019-vol-6-no-3/animal-rebellion-turtle-island
     selection1titlefr: "EXTRAIT: Rébellion Animale Île de la Tortue"
-    selection1urlfr: "2019-vol-6-no-3/rebellion-animale-ile-de-la-tortue"
-  - title: "AlgoNews - 2019 Vol. 6, No. 2"
+    selection1urlfr: 2019-vol-6-no-3/rebellion-animale-ile-de-la-tortue
+  - title: AlgoNews - 2019 Vol. 6, No. 2
     year: "2019"
-    url: "https://docs.google.com/document/d/1uyV1QX3hshRotqi_B3xzo8ilop89hPrvCX2voph6fbo/"
-  - title: "AlgoNews - 2019 Vol. 6, No. 1"
+    url: https://docs.google.com/document/d/1uyV1QX3hshRotqi_B3xzo8ilop89hPrvCX2voph6fbo/
+  - title: AlgoNews - 2019 Vol. 6, No. 1
     year: "2019"
-    url: "https://docs.google.com/document/d/1_H629x9c68vBNV2G6Y96cmCh2toFgBmiOhtoOQHAW0Y/"
-  - title: "AlgoNews - 2018 Vol. 5, No. 4"
+    url: https://docs.google.com/document/d/1_H629x9c68vBNV2G6Y96cmCh2toFgBmiOhtoOQHAW0Y/
+  - title: AlgoNews - 2018 Vol. 5, No. 4
     year: "2018"
-    url: "https://docs.google.com/document/d/19zy-rrkFqhK5hSmAqlunfEQutzDF2o3LCk4hDRtONkc/"
-  - title: "AlgoNews - 2018 Vol. 5, No. 3"
+    url: https://docs.google.com/document/d/19zy-rrkFqhK5hSmAqlunfEQutzDF2o3LCk4hDRtONkc/
+  - title: AlgoNews - 2018 Vol. 5, No. 3
     year: "2018"
-    url: "https://docs.google.com/document/d/1a1sJF_H16eVERmwEnoXryGu5rrUFoUBAF7XLBNo9xp4/"
-  - title: "AlgoNews - 2018 Vol. 5, No. 2"
+    url: https://docs.google.com/document/d/1a1sJF_H16eVERmwEnoXryGu5rrUFoUBAF7XLBNo9xp4/
+  - title: AlgoNews - 2018 Vol. 5, No. 2
     year: "2018"
-    url: "https://docs.google.com/document/d/1S66Xx8bJuQrW1oJiNnaEsiqs27vQ6aGXCV3JdFE995w/"
-  - title: "AlgoNews - 2018 Vol. 5, No. 1"
+    url: https://docs.google.com/document/d/1S66Xx8bJuQrW1oJiNnaEsiqs27vQ6aGXCV3JdFE995w/
+  - title: AlgoNews - 2018 Vol. 5, No. 1
     year: "2018"
-    url: "https://docs.google.com/document/d/1mSb9PmbEhI-iv3vyknwO-u-Y_6XNAST3HYHvvGC4feQ/"
-  - title: "AlgoNews - 2017 Vol. 4, No. 4"
+    url: https://docs.google.com/document/d/1mSb9PmbEhI-iv3vyknwO-u-Y_6XNAST3HYHvvGC4feQ/
+  - title: AlgoNews - 2017 Vol. 4, No. 4
     year: "2017"
-    url: "https://docs.google.com/document/d/14DNfT7ig-J68ioOba8TDzbdU54oZ-RqMw-DDqjq_AuM/"
-  - title: "AlgoNews - 2017 Vol. 4, No. 3"
+    url: https://docs.google.com/document/d/14DNfT7ig-J68ioOba8TDzbdU54oZ-RqMw-DDqjq_AuM/
+  - title: AlgoNews - 2017 Vol. 4, No. 3
     year: "2017"
-    url: "https://docs.google.com/document/d/1DejD0OrXJdA_4lPb8IZ0R2jwrGaK2U7ZpBdOjS2aypA/"
-  - title: "AlgoNews Vol. 4, No. 2, Spring, 2017"
+    url: https://docs.google.com/document/d/1DejD0OrXJdA_4lPb8IZ0R2jwrGaK2U7ZpBdOjS2aypA/
+  - title: AlgoNews Vol. 4, No. 2, Spring, 2017
     year: "2017"
-    url: "https://docs.google.com/document/d/1Mndj06uArohAH46E6v3dG19M0UOvKbAkWgOrKZzm4qw/"
-  - title: "AlgoNews Vol. 4, No. 1, Winter, 2017"
+    url: https://docs.google.com/document/d/1Mndj06uArohAH46E6v3dG19M0UOvKbAkWgOrKZzm4qw/
+  - title: AlgoNews Vol. 4, No. 1, Winter, 2017
     year: "2017"
-    url: "https://docs.google.com/document/d/12iT12asmb3G-Pdeawn3W5Xu6FsH0DqjYFFm_fo0fosI/"
-  - title: "AlgoNews 2016 4/4"
+    url: https://docs.google.com/document/d/12iT12asmb3G-Pdeawn3W5Xu6FsH0DqjYFFm_fo0fosI/
+  - title: AlgoNews 2016 4/4
     year: "2016"
-    url: "https://docs.google.com/document/d/1QtBGyGPto3WhWjvFv_dlk89vWgzfyH_BbRj7ZOOmF5g/"
-  - title: "AlgoNews 2016 3/4"
+    url: https://docs.google.com/document/d/1QtBGyGPto3WhWjvFv_dlk89vWgzfyH_BbRj7ZOOmF5g/
+  - title: AlgoNews 2016 3/4
     year: "2016"
-    url: "https://docs.google.com/document/d/1vDT_ZAudf76t0PjbbS5YxwX-r4gPMNhvAsVZ82zNkn4/"
-  - title: "AlgoNews 2016 2/4"
+    url: https://docs.google.com/document/d/1vDT_ZAudf76t0PjbbS5YxwX-r4gPMNhvAsVZ82zNkn4/
+  - title: AlgoNews 2016 2/4
     year: "2016"
-    url: "https://docs.google.com/document/d/1VvoAJSViVW50y4hoTNYTQITdzDJUki4noZO7P538SfY/"
-  - title: "AlgoNews 2016 1/4"
+    url: https://docs.google.com/document/d/1VvoAJSViVW50y4hoTNYTQITdzDJUki4noZO7P538SfY/
+  - title: AlgoNews 2016 1/4
     year: "2016"
-    url: "https://docs.google.com/document/d/1zPYUVXUKdE0DaxaRir61WhdzZMPV_3WRZiGaD9KqXjk/"
-  - title: "AlgoNews 2015 4/4"
+    url: https://docs.google.com/document/d/1zPYUVXUKdE0DaxaRir61WhdzZMPV_3WRZiGaD9KqXjk/
+  - title: AlgoNews 2015 4/4
     year: "2015"
-    url: "https://docs.google.com/document/d/12yXqtn17XGZUYTrKfuBq5IY1tRz_yuXaIJwOV0zMUR8/"
-  - title: "AlgoNews 2015 3/4"
+    url: https://docs.google.com/document/d/12yXqtn17XGZUYTrKfuBq5IY1tRz_yuXaIJwOV0zMUR8/
+  - title: AlgoNews 2015 3/4
     year: "2015"
-    url: "https://docs.google.com/document/d/1Ft_-h_xtRkYhPpJcyjxROqElxJnyZeyUEyrk_61saqI/"
-  - title: "AlgoNews 2015 2/4"
+    url: https://docs.google.com/document/d/1Ft_-h_xtRkYhPpJcyjxROqElxJnyZeyUEyrk_61saqI/
+  - title: AlgoNews 2015 2/4
     year: "2015"
-    url: "https://docs.google.com/document/d/1nPOeQygNxeqqh4ljc7sGnF0JGu1FSzHO8GkyrEhfYSw/"
-  - title: "AlgoNews 2015 1/4"
+    url: https://docs.google.com/document/d/1nPOeQygNxeqqh4ljc7sGnF0JGu1FSzHO8GkyrEhfYSw/
+  - title: AlgoNews 2015 1/4
     year: "2015"
-    url: "https://docs.google.com/document/d/1ddabtWFAqX0JMle8p-B3QX3C_OocM--83YogKel_yDg/"
-  - title: "AlgoNews 2014-12"
+    url: https://docs.google.com/document/d/1ddabtWFAqX0JMle8p-B3QX3C_OocM--83YogKel_yDg/
+  - title: AlgoNews 2014-12
     year: "2014"
-    url: "https://docs.google.com/document/d/1mp1p-BfBfVOtIQEyRKZQIsKbIWTR6-7emjXZMUTOUNY/"
-  - title: "AlgoNews 2014-09"
+    url: https://docs.google.com/document/d/1mp1p-BfBfVOtIQEyRKZQIsKbIWTR6-7emjXZMUTOUNY/
+  - title: AlgoNews 2014-09
     year: "2014"
-    url: "https://docs.google.com/document/d/1RJXjinyB1oQ-kC0wiAJHvAU4MjT3K29nPe53VClZqM4/"
-  - title: "AlgoNews 2014-06"
+    url: https://docs.google.com/document/d/1RJXjinyB1oQ-kC0wiAJHvAU4MjT3K29nPe53VClZqM4/
+  - title: AlgoNews 2014-06
     year: "2014"
-    url: "https://docs.google.com/document/d/1E3qm7USvl9FmF0F44fpVyI6hvEJERZwJePkvm82ppcQ/"
-  - title: "AlgoNews 2014-03"
+    url: https://docs.google.com/document/d/1E3qm7USvl9FmF0F44fpVyI6hvEJERZwJePkvm82ppcQ/
+  - title: AlgoNews 2014-03
     year: "2014"
-    url: "https://docs.google.com/document/d/1JRo4fGjC7SLQU4796tmF39T1O_mwg8SJ8gZcY9NohqE/"
+    url: https://docs.google.com/document/d/1JRo4fGjC7SLQU4796tmF39T1O_mwg8SJ8gZcY9NohqE/
