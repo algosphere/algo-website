@@ -8,14 +8,14 @@ on:
 env:
   DEV: true
   HUGO_VERSION: '0.74.1'
-  NODE_VERSION: '12.14.0'
+  NODE_VERSION: '14.17.6'
   NETLIFY_SITE_ID: 'c97298da-938f-4084-9307-c7135a92f98a'
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_WEBSITE }}
 
 jobs:
   deploy:
     name: Deploy
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Setup Node.js
