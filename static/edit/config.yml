@@ -17,6 +17,7 @@ slug:
   clean_accents: true
 media_folder: "static/images"
 public_folder: "/images"
+publish_mode: editorial_workflow
 collections:
   - label: "Archives"
     name: "archives"
