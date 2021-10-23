@@ -1,34 +1,44 @@
 organizations:
-  - name: "Algosphere Agency"
-    website: "https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970"
-    mission: "Pay Algosphere's operational costs."
-    zone: "World"
-  - name: "Droit au Corps"
-    website: "http://www.droitaucorps.com/"
-    mission: "Bring an end to all forms of human sexual mutilation."
-    zone: "Francophony"
-  - name: "Organisation for the Prevention of Intense Suffering"
-    website: "http://www.preventsuffering.org/"
-    mission: "Developing new ways of effectively addressing the intense suffering of sentient beings."
-    zone: "World"
-  - name: "Vegan Option Canada"
-    website: "https://veganoptioncanada.org/"
-    mission: "To secure access to vegan options in all of Canada."
-    zone: "Canada"
-  - name: "Metta Consulting"
-    website: "https://mettaconseil.com/"
-    mission: "Help progressivist organizations to fulfill their mission."
-    zone: "World"
-  - name: "Sentience Research"
-    website: "https://sentience-research.org/"
-    mission: "Develop, disseminate and promote research on sentience aimed at a better world."
-    zone: "World"
-  - name: "Foreskin Revolution"
-    website: "https://www.foreskinrevolution.com/"
-    mission: "End circumcision in Australia by 2030, then move focus to Indonesia and the USA."
-    zone: "Australia"
-  - name: "Animal Rebellion Turtle Island"
-    website: "https://animalrebellionturtleisland.org/"
-    mission: "To transition away from animal farming and industrial fishing to a plant based food system, halt mass extinction and minimize the risk of climate breakdown and social collapse."
-    zone: "Turtle Island"
-    zone_link: "https://en.wikipedia.org/wiki/Turtle_Island_(Native_American_folklore)"
+  - name: Algosphere Agency
+    website: https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpDtls.html?corpId=8368970
+    mission: Pay Algosphere's operational costs.
+    zone: World
+  - name: Droit au Corps
+    website: http://www.droitaucorps.com/
+    mission: Bring an end to all forms of human sexual mutilation.
+    zone: Francophony
+  - name: Organisation for the Prevention of Intense Suffering
+    website: http://www.preventsuffering.org/
+    mission: Developing new ways of effectively addressing the intense suffering of
+      sentient beings.
+    zone: World
+  - name: Vegan Option Canada
+    website: https://veganoptioncanada.org/
+    mission: To secure access to vegan options in all of Canada.
+    zone: Canada
+  - name: Metta Consulting
+    website: https://mettaconseil.com/
+    mission: Help progressivist organizations to fulfill their mission.
+    zone: World
+  - name: Sentience Research
+    website: https://sentience-research.org/
+    mission: Develop, disseminate and promote research on sentience aimed at a
+      better world.
+    zone: World
+  - name: Foreskin Revolution
+    website: https://www.foreskinrevolution.com/
+    mission: End circumcision in Australia by 2030, then move focus to Indonesia and
+      the USA.
+    zone: Australia
+  - name: Animal Rebellion Turtle Island
+    website: https://animalrebellionturtleisland.org/
+    mission: To transition away from animal farming and industrial fishing to a
+      plant based food system, halt mass extinction and minimize the risk of
+      climate breakdown and social collapse.
+    zone: Turtle Island
+    zone_link: https://en.wikipedia.org/wiki/Turtle_Island_(Native_American_folklore)
+  - name: United in Heart
+    website: https://unitedinheart.org/
+    mission: Solve climate change through coordinated action on food, trees, and
+      communication.
+    zone: World
