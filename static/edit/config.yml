@@ -4,11 +4,12 @@ backend:
   repo: algosphere/algo-website
   branch: main
   commit_messages:
-  create: add {{collection}}/{{slug}}
-  update: update {{collection}}/{{slug}}
-  delete: delete {{collection}}/{{slug}}
-  uploadMedia: upload {{path}}
-  deleteMedia: delete {{path}}
+    create: (content) Création {{collection}} ({{slug}})
+    update: (content) Mise-à-jour {{collection}} ({{slug}})
+    delete: (content) Suppression {{collection}} ({{slug}})
+    uploadMedia: (content) Téléversement ({{path}})
+    deleteMedia: (content) Suppression ({{path}})
+    openAuthoring: (content) ({{message}})
 site_url: https://algosphere.org
 logo_url: https://algosphere.org/images/logo-static/logo-trans.png
 locale: "fr"
