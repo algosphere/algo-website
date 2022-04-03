@@ -3,3 +3,4 @@ node_modules/
 resources/
 .netlify/
 .faunarc
+/.hugo_build.lock

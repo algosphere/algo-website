@@ -14,6 +14,9 @@ params:
   twitter: "algosphere"
   facebook: "algosphere"
   analytics: "UA-148422142-1"
+security:
+  funcs:
+    getenv: ['^HUGO_', 'DEV', 'PROD', 'PRODUCTION', 'GITHUB_SHA']
 markup:
   goldmark:
     extensions:
