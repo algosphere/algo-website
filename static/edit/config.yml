@@ -3,6 +3,7 @@ backend:
   name: github
   repo: algosphere/algo-website
   branch: main
+  squash_merges: true
   commit_messages:
     create: (content) Création {{collection}} ({{slug}})
     update: (content) Mise-à-jour {{collection}} ({{slug}})
