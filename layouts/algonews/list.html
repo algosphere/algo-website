@@ -33,6 +33,13 @@
                         <br><a href="{{ .selection1url }}" style="padding-left: 2rem;">{{ .selection1title }}</a>
                       {{ end }}
                     {{ end }}
+                    {{ if .weburl }}
+                      {{ if (eq $.Site.Language.Lang "fr") }}
+                        <br><a href="{{ .weburlfr }}" style="padding-left: 2rem;">Version web</a>
+                      {{ else }}
+                        <br><a href="{{ .weburl }}" style="padding-left: 2rem;">Web version</a>
+                      {{ end }}
+                    {{ end }}
                   </td>
                 </tr>
               {{ end }}
