@@ -16,7 +16,7 @@ params:
   analytics: "UA-148422142-1"
 security:
   funcs:
-    getenv: ['^HUGO_', 'DEV', 'PROD', 'PRODUCTION', 'GITHUB_SHA']
+    getenv: ['^HUGO_', 'DEV', 'PROD', 'GITHUB_SHA']
 markup:
   goldmark:
     extensions:
