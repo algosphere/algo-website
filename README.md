@@ -19,3 +19,4 @@ Change (do not commit) `local_backend` to `true` in `static/edit/config.yml`
 ## Related documents
 - [Workshop: Algosphere Alliance's website](https://docs.google.com/document/d/1nXhrGaih0b8pFP8Ucf730qY53uq6WcF2PzS4Bp4ynPM/)
 - [Algosphere Alliance's website: Git & GitHub workflow](https://docs.google.com/presentation/d/e/2PACX-1vQ8a_SuCwfdwo3vQfkTxA5VQKzUnSrmZOd0PrX_fnK4W7xoKqxdiKmjVs5XXt7hfAsCUtsa2j0F_zZd/pub)
+ 
