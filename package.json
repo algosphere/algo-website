@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/algosphere/algo-website",
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.5",
     "gulp": "^4.0.2",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^1.1.3",
-    "netlify-cms-app": "^2.15.70",
-    "netlify-cms-proxy-server": "^1.3.23",
+    "netlify-cms-app": "^2.15.72",
+    "netlify-cms-proxy-server": "^1.3.24",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.12",
     "yargs-parser": ">=21.0.1"
