@@ -25,7 +25,7 @@ jobs:
       if: success()
     - name: Install dependencies
       run: |
-        npm ci --no-optional
+        npm ci
         npm i -g postcss postcss-cli autoprefixer gulp-cli netlify-cli
       if: success()
     - name: Setup Hugo
