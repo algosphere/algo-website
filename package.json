@@ -8,6 +8,7 @@
     "_dev-hugo": "hugo server -DEF --i18n-warnings",
     "_dev-cms": "netlify-cms-proxy-server",
     "_build": "hugo --i18n-warnings && gulp",
+    "_buildNetlify": "npm i -g postcss postcss-cli autoprefixer gulp-cli && hugo --i18n-warnings && gulp",
     "_build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment dev --i18n-warnings && gulp",
     "_deploy": "netlify deploy --prod --dir public"
   },

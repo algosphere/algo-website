@@ -1,0 +1,7 @@
+[build]
+  command = "npm run _buildNetlify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.92.0"
+  PROD = "true"
