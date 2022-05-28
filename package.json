@@ -1,27 +1,10 @@
 {
-  "name": "algosphere.org",
-  "version": "1.0.0",
-  "description": "Algosphere website",
-  "main": "gulpfile.js",
   "scripts": {
     "dev": "run-p _dev-hugo _dev-cms",
     "_dev-hugo": "hugo server -DEF --i18n-warnings",
     "_dev-cms": "netlify-cms-proxy-server",
-    "_build": "hugo --i18n-warnings && gulp",
-    "_buildNetlify": "npm i -g postcss postcss-cli autoprefixer gulp-cli && hugo --i18n-warnings && gulp",
-    "_build-dev": "hugo --buildDrafts --buildExpired --buildFuture --environment dev --i18n-warnings && gulp",
-    "_deploy": "netlify deploy --prod --dir public"
+    "_buildNetlify": "npm i -g postcss postcss-cli autoprefixer gulp-cli && hugo --i18n-warnings && gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/algosphere/algo-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/algosphere/algo-website/issues"
-  },
-  "homepage": "https://github.com/algosphere/algo-website",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "gulp": "^4.0.2",
