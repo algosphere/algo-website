@@ -4,6 +4,3 @@
 - Name: "Next meeting"
   URL: "https://docs.google.com/document/d/1o5Bkcpt3xktgEhzRGiNiCpSoTUsOvbtTl0b2a5myxjE/edit"
   Icon: "file-earmark-text"
-- Name: "Videoconference"
-  URL: "https://algosphere.org/hangouts"
-  Icon: "headset"
