@@ -10,5 +10,5 @@ draft: false
 ---
 
 {{< alert info >}}
-Send "I wish to become an ally" to contact@algosphere.org, with your identifying email address in the Alliance
+Send "I wish to become an ally" to algosphere@gmail.com, with your identifying email address in the Alliance
 {{< /alert >}}

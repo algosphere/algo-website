@@ -10,5 +10,5 @@ draft: false
 ---
 
 {{< alert info >}}
-Envoyez "Je souhaite m'allier" à contact@algosphere.org, avec l'adresse email qui vous identifie auprès de l'Alliance
+Envoyez "Je souhaite m'allier" à algosphere@gmail.com, avec l'adresse email qui vous identifie auprès de l'Alliance
 {{< /alert >}}

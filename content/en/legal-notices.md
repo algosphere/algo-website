@@ -6,6 +6,7 @@ toc: true
 ---
 
 # Hosting
+
 **Netlify**
 2325 3rd St Suite 215
 San Francisco, CA 94107
@@ -13,10 +14,13 @@ United States
 +1 415-691-1573
 
 # Personal data
+
 ## Contact
-Send an email to <a href="mailto:contact@algosphere.org" class="no-external-icon">contact@algosphere.org</a>
+
+Send an email to <a href="mailto:algosphere@gmail.com" class="no-external-icon">algosphere@gmail.com</a>
 
 ## Collected data
+
 The data collected are the e-mails and contact details associated with the use of the contact button, for the purpose of making contact and the resulting communication.
 
 This is compulsory, it constitutes the minimum data required to make contact.
