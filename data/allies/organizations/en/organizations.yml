@@ -9,7 +9,8 @@ organizations:
     zone: Francophony
   - name: Organisation for the Prevention of Intense Suffering
     website: http://www.preventsuffering.org/
-    mission: Developing new ways of effectively addressing the intense suffering of
+    mission:
+      Developing new ways of effectively addressing the intense suffering of
       sentient beings.
     zone: World
   - name: Vegan Option Canada
@@ -23,7 +24,8 @@ organizations:
     zone: World
   - name: Foreskin Revolution
     website: https://www.foreskinrevolution.com/
-    mission: End circumcision in Australia by 2030, then move focus to Indonesia and
+    mission:
+      End circumcision in Australia by 2030, then move focus to Indonesia and
       the USA.
     zone: Australia
   - name: Animal Rebellion Turtle Island
@@ -41,7 +43,8 @@ organizations:
   - zone: World
     website: https://plantbasedtransitioncoalition.org/
     name: Plant Based Transition Coalition
-    mission: To efficiently and sustainably organize food system reform in Canada
+    mission:
+      To efficiently and sustainably organize food system reform in Canada
       for the benefit of all people, all species, the economy, and the planet.
   - name: Umoja Greenlands
     website: https://umojagreenlands.org/
@@ -53,6 +56,5 @@ organizations:
       alleviation of suffering by bringing access to clean water, nutritious
       food, and secure housing—transforming conditions of scarcity into
       abundance across Africa through regenerative and community-centered
-      initiatives. (Algosphere ally status is set to be confirmed on April 21,
-      2025)
+      initiatives.
     zone: Africa

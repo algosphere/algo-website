@@ -9,7 +9,8 @@ organizations:
     zone: Francophonie
   - name: Organisation for the Prevention of Intense Suffering
     website: http://www.preventsuffering.org/
-    mission: Développer de nouvelles façons de répondre efficacement aux souffrances
+    mission:
+      Développer de nouvelles façons de répondre efficacement aux souffrances
       intenses des êtres sentients.
     zone: Monde
   - name: Option Végane Canada
@@ -18,7 +19,8 @@ organizations:
     zone: Canada
   - name: Sentience Research
     website: https://sentience-research.org/
-    mission: Développer, diffuser et promouvoir la recherche sur la sentience en vue
+    mission:
+      Développer, diffuser et promouvoir la recherche sur la sentience en vue
       d'un monde meilleur.
     zone: Monde
   - name: Foreskin Revolution
@@ -28,7 +30,8 @@ organizations:
     zone: Australie
   - name: Animal Rebellion Turtle Island
     website: https://animalrebellionturtleisland.org/
-    mission: Assurer la transition de l’élevage et de la pêche industrielle vers un
+    mission:
+      Assurer la transition de l’élevage et de la pêche industrielle vers un
       système alimentaire basé sur les plantes, mettre fin à l’extinction
       massive et minimiser le risque d’effondrement climatique et social.
     zone: Île de la Tortue
@@ -36,17 +39,20 @@ organizations:
   - name: United in Heart
     website: https://unitedinheart.org/
     zone: Monde
-    mission: Résorber le changement climatique grâce à une action coordonnée sur la
+    mission:
+      Résorber le changement climatique grâce à une action coordonnée sur la
       nourriture, les arbres et la communication.
   - name: Plant Based Transition Coalition
     website: https://plantbasedtransitioncoalition.org/fr/
-    mission: Organiser efficacement et durablement la réforme du système alimentaire
+    mission:
+      Organiser efficacement et durablement la réforme du système alimentaire
       au Canada pour le bénéfice de tous les peuples, de toutes les espèces, de
       l’économie et de la planète.
     zone: Monde
   - name: Umoja Greenlands
     website: https://umojagreenlands.org/
-    mission: Notre mission est d’autonomiser les communautés africaines grâce à des
+    mission:
+      Notre mission est d’autonomiser les communautés africaines grâce à des
       solutions durables dirigées par les communautés. Nous fournissons des
       ressources, des connaissances et un soutien pour restaurer les
       écosystèmes, assurer la sécurité alimentaire et améliorer l’accès à l’eau
